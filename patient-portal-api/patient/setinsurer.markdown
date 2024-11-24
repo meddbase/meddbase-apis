@@ -1,0 +1,8 @@
+---
+layout: page
+title: SetInsurer
+nav_order: 9
+parent: Patient
+---
+
+# SetInsurerSets a patient insurer. Only available for patient portal. Only public companies can be set.## JavaScript library method```patientportal.patient.setInsurer();```## HTTP MethodPOST## ****Url****/patientportalapi/patient/insurer## POST Parameters| insurerData | [InsurerData](#_InsurerData) | Patient’s insurer data to update. || --- | --- | --- |## POST data example```{"insurerData": {{"Key": "1c5aabbdf813ad78c48cc8e6d8584162","MemberNumber": "Test member number"}}}```

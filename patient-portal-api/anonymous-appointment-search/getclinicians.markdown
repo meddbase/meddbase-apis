@@ -1,0 +1,8 @@
+---
+layout: page
+title: GetClinicians
+nav_order: 3
+parent: Anonymous Appointment Search
+---
+
+# GetCliniciansGets possible clinicians/doctors for the specific appointment type.## JavaScript library method```patientportal.anonAppointment.getClinicians({appointmentType: &lt;appointment-type&gt;,sites: &lt;sites&gt;,locations: &lt;locations&gt;,payerType: &lt;payer-type&gt;,patient: &lt;patient&gt;,referral: &lt;referral&gt;,recall: &lt;recall&gt;});```## HTTP MethodPOST## ****Url****/patientportalapi/anon-appointment/clinicians## URL Parameters| appointment-type | string | Type of the appointment provided by the API upon GetAppointmentTypes. || --- | --- | --- || payer-type | string | The signup code of a chargeband, that will provide eligibility and price information for the search. |## POST Parameters| sites | int\[\] (optional) | Sites filter. Array of identifiers provide by the API upon GetSites.<br><br>Null or empty for any sites. || --- | --- | --- || locations | int\[\] (optional) | Locations filter. Array of identifiers provide by the API upon GetSites.<br><br>Null or empty for any locations. || modules | [AppointmentModuleData](#_AppointmentModuleData) \[\] (optional) | Selection of modules and additional services provided by the API upon GetAppointmentTypes. Available clinicians will be filtered according to availability of the specified modules. |## ReturnsClinicianData\[\]
