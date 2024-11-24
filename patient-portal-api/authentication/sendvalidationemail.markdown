@@ -12,7 +12,7 @@ Deprecated
 {: .label .label-red }
 
 {: .deprecated }
-Replaced with [SendActivationEmail](SendActivationEmail)
+Replaced with [SendActivationEmail](sendactivationemail)
 
 Sends the validation email to the patient’s email address. Validation email includes URL to the patient portal website and contains validation key: `http://www.yourportal.com/#/confirm-email?key={key}`
 
