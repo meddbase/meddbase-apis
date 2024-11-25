@@ -1,8 +1,42 @@
 ---
 layout: page
-title: \[DEPRECATED\] AddressLookup
+title: AddressLookup
 nav_order: 22
 parent: Authentication
 ---
 
-# \[DEPRECATED\] AddressLookupThis method has been deprecated, please use the [Address Finder](#_Address_Finder) section instead. Returns a number of possible address for the postcode.## JavaScript library method```patientportal.auth.addressLookup({postcode: &lt;postcode&gt;, house: &lt;house&gt;});```## HTTP MethodGET## ****Url****/patientportalapi/auth/address-lookup## URL Parameters| postcode | string | Case-insensitive postcode without space (e.g. N70NH or n70nh). || --- | --- | --- || house | string (optional) | House name or house number. |## ReturnsAddressData\[\]
+# AddressLookup
+{: .d-inline-block }
+
+Deprecated
+{: .label .label-red }
+
+{: .deprecated }
+See [Address Finder](../address-finder/address-finder) section for more details.
+Returns a number of possible address for the postcode.
+
+## JavaScript Library
+
+```javascript
+patientportal.auth.addressLookup({
+    postcode: 'postcode',
+    house: 'house'
+});
+```
+
+## HTTP Method
+
+| Verb | URL                                    |
+|:-----|:---------------------------------------|
+| GET  | `/patientportalapi/auth/address-lookup`|
+
+## URL Parameters
+
+| Parameter | Type   | Required | Description                                                    |
+|:----------|:-------|:---------|:---------------------------------------------------------------|
+| postcode  | string | Yes      | Case-insensitive postcode without space (e.g. N70NH or n70nh). |
+| house     | string | No       | House name or house number.                                    |
+
+## Returns
+
+AddressData\[\]
