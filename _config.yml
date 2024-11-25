@@ -4,6 +4,10 @@ theme: just-the-docs
 
 url: https://just-the-docs.github.io
 
+logo: "/assets/images/logo.svg"
+favicon_ico: "/assets/images/favicon.ico"
+color_scheme: meddbase-light
+
 # For copy button on code
 enable_copy_code_button: true
 

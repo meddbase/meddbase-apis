@@ -1,0 +1,22 @@
+<script defer>
+    document.addEventListener('DOMContentLoaded', function() {
+        function setTheme(themeToggleState) {
+            const theme = themeToggleState ? 'meddbase-dark' : 'meddbase-light';
+            if (jtd.getTheme() != theme)
+                jtd.setTheme(theme);
+        }
+        const themeToggleState = localStorage.getItem('theme-toggled') == 'true';
+        setTheme(themeToggleState);
+        
+        const holder = document.createElement('div');
+        document.body.append(holder);
+        const checked = themeToggleState ? ' checked="checked"' : '';
+        holder.outerHTML = `<div class="theme-toggle-holder"><input id="theme-toggle" type="checkbox"${checked} title="Toggle dark mode"/</div>`;
+        const themeButton = document.getElementById('theme-toggle');
+        themeButton.addEventListener("change", (event) => {
+            const newToggleState = themeButton.checked;
+            localStorage.setItem('theme-toggled', newToggleState);
+            setTheme(newToggleState);
+        });
+    }, false);
+</script>
