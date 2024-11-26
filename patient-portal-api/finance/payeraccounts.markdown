@@ -25,8 +25,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | invoice-key | int | Encrypted Key of the invoice provided by the API. (Optional). If provided, the payer accounts are filtered by the portal payment type for that invoice. This should always be provided for online payments, and removed for payer account management. |
-| --- | --- | --- |
 
 ## Returns
 

@@ -25,8 +25,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | code | string | Membership scheme code that is provided by Medical Management Systems to the client. |
-| --- | --- | --- |
 
 ## Remarks
 

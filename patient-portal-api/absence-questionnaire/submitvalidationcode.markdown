@@ -28,8 +28,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | key | string | The absence key. |
-| --- | --- | --- |
 | code | string | The code sent to the patient via a SMS message received because of a request sent to the [SendValidationSMS](#_SendValidationSMS) method. |
 
 ## Returned JSON

@@ -28,8 +28,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | case | string | The key of the case. |
-| --- | --- | --- |
 
 ## POST Parameters
 

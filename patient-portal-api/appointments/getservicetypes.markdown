@@ -32,8 +32,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | payer-type | string | Type of the payer provided by the API upon GetPayerTypes. |
-| --- | --- | --- |
 | appointment-type | string | Type of the appointment provided by the API upon [GetAppointmentTypes](#_GetAppointmentTypes) |
 | referral-types | bool (optional) | The key of the referral provided by the API upon GetReferrals.<br><br>Used to get service types for a specific referral. |
 | patient | string (optional) | The key of the patient provided by the API upon section Patients.<br><br>Get the services specific for the patient. Default is the logged in patient. |

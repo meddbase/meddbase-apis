@@ -23,8 +23,9 @@ POST
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | loginToken | guid | Unique login token. This token expires after 20 seconds of creation. |
-| --- | --- | --- |
 
 ## Returns
 

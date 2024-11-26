@@ -27,8 +27,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | absence | string | The key of the absence. |
-| --- | --- | --- |
 
 ## Returned JSON
 

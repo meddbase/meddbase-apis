@@ -33,8 +33,9 @@ POST
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | appointment-type | string | Type of the appointment provided by the API upon GetAppointmentTypes. |
-| --- | --- | --- |
 | payer-type | string | Type of the payer provided by the API upon GetPayerTypes. |
 | patient | string (optional) | The key of the patient provided by the API upon section Patients.<br><br>Used to book an appointment for a different patient within your company. Default is the logged in patient. |
 | referral | string (optional) | The key of the referral provided by the API upon GetReferrals.<br><br>Used to book an appointment for a specific referral. |

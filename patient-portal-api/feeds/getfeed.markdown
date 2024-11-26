@@ -28,8 +28,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | feed | string | Key of the feed provided by the API upon GetFeeds. |
-| --- | --- | --- |
 | referral | string (optional) | The key of the referral provided by the API upon GetReferrals. |
 
 ## Returns

@@ -31,10 +31,11 @@ GET
 | node-path | string | The path of the node provided by the API upon GetMedicalHistoryTreeNode. If the path is specific the requested node is always fully loaded. If the path is empty the server returns root node.<br><br>This parameter is not a query parameter. It is a part of the URL path.<br><br>For example: The URL for the node ‘numeric-data/weight’:<br><br>/patientportalapi/medical-history/node/numeric-data/weight |
 | --- | --- | --- |
 
-## URL parameters
+## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | send-by-email | bool (optional) | If true the server sends the specific medical history item to the patient’s email address.<br><br>The client should show a warning message that sending medical information over email isn't encrypted and that the patient should use this feature at their own risk.<br><br>For example: The URL for the node ‘numeric-data/weight’ where the client wants to send the medical history item to the patient’s email address:<br><br>/patientportalapi/medical-history/node/numeric-data/weight?send-by-email=true |
-| --- | --- | --- |
 
 ## Returns
 

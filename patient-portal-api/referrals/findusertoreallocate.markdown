@@ -27,8 +27,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | employee-number | string | The user’s employee number. |
-| --- | --- | --- |
 
 ## Returned JSON
 

@@ -28,8 +28,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | pathwayDef | string | Pathway Definition key |
-| --- | --- | --- |
 
 ## Returns
 

@@ -29,8 +29,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | key | string | The validation key provided in the URL. |
-| --- | --- | --- |
 
 ## Returns
 

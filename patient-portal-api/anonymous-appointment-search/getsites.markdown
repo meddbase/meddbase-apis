@@ -32,8 +32,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | appointment-type | string | Type of the appointment provided by the API upon GetAppointmentTypes. |
-| --- | --- | --- |
 | lat<br><br>long | decimal (optional) | Latitude and Longitude from GPS so server can sort sites by distance.<br><br>Latitudes and Longitudes are defined using numerals that have a precision to 6 decimal places. For example, “lat=51.541743&long=-0.13715" is a valid value. |
 | payer-type | string | The signup code of a chargeband, that will provide eligibility and price information for the search. |
 

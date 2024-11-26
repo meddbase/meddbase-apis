@@ -27,8 +27,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | company-identifier | String (optional) | Unique ‘api-identifier’ for employer’s single sign on. If the user is not logged in, this returns as a part of configuration, if single sign on is available for the employer corresponding to the unique identifier. If user is logged in, this is ignored and instead the single sign on information for the logged in user is returned. |
-| --- | --- | --- |
 
 ## Returns
 

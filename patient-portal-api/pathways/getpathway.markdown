@@ -27,8 +27,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | pathway | int | Pathway ID |
-| --- | --- | --- |
 
 ## Returns
 

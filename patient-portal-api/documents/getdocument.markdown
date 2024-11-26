@@ -27,8 +27,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | document | document | The key of the document provided by the API. |
-| --- | --- | --- |
 
 ## Returns
 

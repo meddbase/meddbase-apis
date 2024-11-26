@@ -23,8 +23,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | reg-code | string | Online sign up access code that is provided to the patient. |
-| --- | --- | --- |
 | is-oh | bool | True for the referral portal. False for the patient portal. |
 
 ## Returns

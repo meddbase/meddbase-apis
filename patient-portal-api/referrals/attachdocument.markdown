@@ -33,8 +33,9 @@ POST
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | referral | string | The key of the referral provided by the API upon GetReferrals. |
-| --- | --- | --- |
 | document-name | string | The name of the document. |
 | document-comments | string (optional) | The document comments/description. |
 | uploading.file | javascript:<br><br>File | File instance provided by JavaScript input element:<br><br>file:document.getElementById("myFile").files\[0\] |

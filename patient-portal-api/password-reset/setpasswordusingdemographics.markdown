@@ -32,8 +32,9 @@ POST
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Is-oh | bool | True for the referral portal. False for the patient portal. |
-| --- | --- | --- |
 
 ## POST Parameters
 

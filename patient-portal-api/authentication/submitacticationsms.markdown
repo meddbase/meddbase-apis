@@ -25,13 +25,15 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | is-oh | bool | True for the referral portal. False for the patient portal. |
-| --- | --- | --- |
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | code | string | Activation code. |
-| --- | --- | --- |
 
 ## Returns
 

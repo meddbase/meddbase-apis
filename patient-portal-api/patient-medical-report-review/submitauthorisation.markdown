@@ -38,8 +38,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | key | string | The validation key provided in the URL. |
-| --- | --- | --- |
 | authorised | bool | true if the patient releases the medical report, false if the patient refuses it. |
 
 ## POST Parameters

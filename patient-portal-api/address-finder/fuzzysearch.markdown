@@ -25,8 +25,9 @@ GET
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | query | string | Case-insensitive search term query relating to a desired address. |
-| --- | --- | --- |
 
 ## Returned JSON
 
