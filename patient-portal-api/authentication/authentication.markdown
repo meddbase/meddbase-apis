@@ -9,32 +9,3 @@ parent: Patient Portal API
 
 
 This section describes how the client can open and close a security context and how the client can register a new patient on the Meddbase server.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

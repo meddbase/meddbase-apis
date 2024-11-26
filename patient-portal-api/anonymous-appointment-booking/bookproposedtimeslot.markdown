@@ -1,8 +1,8 @@
 ---
 layout: page
 title: BookProposedTimeSlot
-nav_order: 7
-parent: Address Finder
+nav_order: 5
+parent: Anonymous Appointment Booking
 ---
 
 # BookProposedTimeSlot

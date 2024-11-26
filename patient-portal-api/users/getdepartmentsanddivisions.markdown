@@ -11,9 +11,9 @@ Returns the list of employer departments and divisions.
 
 ## JavaScript library method
 
-``
+```javascript
 patientportal.users.getDepartmentsAndDivisions();
-``
+```
 
 ## HTTP Method
 

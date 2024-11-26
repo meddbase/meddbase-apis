@@ -9,15 +9,3 @@ parent: Patient Portal API
 
 
 This section provides services for searching and retrieving address details. Currently, only the UK is supported.
-
-
-
-
-This section provides services for searching and retrieving address details. Currently, only the UK is supported.
-
-
-
-
-
-
-

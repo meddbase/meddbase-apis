@@ -20,9 +20,9 @@ Sends the validation email to the patient’s email address. Validation email in
 
 ```javascript
 patientportal.auth.sendValidationEmail({
-        email: 'email', 
-        isOH: true
-    });
+    email: 'email', 
+    isOH: true
+});
 ```
 
 ## HTTP Method

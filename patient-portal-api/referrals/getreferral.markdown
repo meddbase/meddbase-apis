@@ -12,7 +12,7 @@ Returns the referral full details.
 ## JavaScript library method
 
 ```javascript
-patientportal.referrals.getReferra({
+patientportal.referrals.getReferral({
     referral: <referral>
 });
 ```
