@@ -35,8 +35,9 @@ POST
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | form-keys | string\[\] (optional) | List of form keys returned from [GetQuestionnaireForms](#_GetQuestionnaireForms). |
-| --- | --- | --- |
 
 ## Returned JSON
 

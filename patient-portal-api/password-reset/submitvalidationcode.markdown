@@ -30,8 +30,9 @@ POST
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | key | key | The password reset key. |
-| --- | --- | --- |
 | code | code | The validation code. |
 
 ## Remarks

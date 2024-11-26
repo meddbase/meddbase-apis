@@ -25,5 +25,6 @@ POST
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | password | string | Patient’s plain text password to authenticate the patient. |
-| --- | --- | --- |

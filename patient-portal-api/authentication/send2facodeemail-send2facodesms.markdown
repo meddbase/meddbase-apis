@@ -26,9 +26,9 @@ POST
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | useMobile | boolean | True to send 2FA code via mobile. False to send 2FA code via email. |
-| --- | --- | --- |
-|     |     |     |
 
 ## Returned JSON
 

@@ -30,8 +30,9 @@ POST
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | key | string | Confirmation key that is included in the URL. |
-| --- | --- | --- |
 
 ## Returns
 

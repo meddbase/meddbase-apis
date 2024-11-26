@@ -37,8 +37,9 @@ POST
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | key | string | Reset key that is included in the URL. |
-| --- | --- | --- |
 | name | string | Patient’s name. |
 | surname | string | Patient’s surname. |
 | dateOfBirth | DateTime | Patient’s date of birth. |

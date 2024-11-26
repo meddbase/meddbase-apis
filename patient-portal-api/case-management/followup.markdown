@@ -33,8 +33,9 @@ GET
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | reason | string | The reason why the user sends the follow up referral. |
-| --- | --- | --- |
 
 ## Returned JSON
 

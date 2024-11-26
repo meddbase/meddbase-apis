@@ -42,8 +42,9 @@ POST
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | sites | int\[\] (optional) | Sites filter. Array of identifiers provide by the API upon GetSites.<br><br>Null or empty for any sites. |
-| --- | --- | --- |
 | locations | int\[\] (optional) | Locations filter. Array of identifiers provide by the API upon GetSites.<br><br>Null or empty for any locations. |
 | modules | [AppointmentModuleData](#_AppointmentModuleData) \[\] (optional) | Selection of modules and additional services provided by the API upon GetAppointmentTypes. Available clinicians will be filtered according to availability of the specified modules. |
 

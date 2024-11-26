@@ -37,8 +37,9 @@ POST
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | proposedAppointment | AppointmentData | The proposed appointment provided by the API upon GetProposedAppointments. |
-| --- | --- | --- |
 
 ## Returns
 

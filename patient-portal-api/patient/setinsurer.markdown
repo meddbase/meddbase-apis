@@ -25,8 +25,9 @@ POST
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | insurerData | [InsurerData](#_InsurerData) | Patient’s insurer data to update. |
-| --- | --- | --- |
 
 ## POST data example
 

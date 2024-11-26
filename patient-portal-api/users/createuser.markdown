@@ -27,8 +27,9 @@ POST
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | userData | UserData | Defines user’s details. |
-| --- | --- | --- |
 
 ## Returns
 

@@ -28,8 +28,9 @@ POST
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | username | string | Patient’s email address. |
-| --- | --- | --- |
 | password | string | Patient’s plain text password. |
 
 ## Returns

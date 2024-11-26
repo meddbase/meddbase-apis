@@ -25,8 +25,9 @@ POST
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | code | string | 2FA code. |
-| --- | --- | --- |
 
 ## Returns
 

@@ -25,5 +25,6 @@ POST
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | code | code | The 2FA code. |
-| --- | --- | --- |

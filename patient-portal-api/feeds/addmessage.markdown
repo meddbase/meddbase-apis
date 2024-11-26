@@ -29,7 +29,8 @@ POST
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | feed | string | Key of the feed provided by the API upon GetFeeds. |
-| --- | --- | --- |
 | messageText | string | Text of the new message. Text can be formatted as HTML or plain text. |
 | referral | string (optional) | The key of the referral provided by the API upon GetReferrals. |
