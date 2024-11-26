@@ -42,9 +42,6 @@ patientportal.auth.submitPasswordResetEmail({
 |:----------|:-------|:------------------------------------------------------------|
 | is-oh     | bool   | True for the referral portal. False for the patient portal. |
 
-
-## POST Parameters
-
 ## POST Parameters
 
 | Parameter   | Type     | Description                            |
