@@ -19,11 +19,9 @@ patientportal.rtwQuestionnaire.validateKey({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/rtw-questionnaire/validate-key
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/rtw-questionnaire/validate-key` |
 
 ## URL Parameters
 

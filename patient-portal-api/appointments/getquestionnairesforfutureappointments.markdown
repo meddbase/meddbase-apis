@@ -17,11 +17,9 @@ patientportal.appointment.getQuestionnairesForFutureAppointments();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/appointment/future-questionnaires
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/appointment/future-questionnaires` |
 
 ## Returns
 

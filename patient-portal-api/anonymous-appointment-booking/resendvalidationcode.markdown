@@ -17,8 +17,6 @@ patientportal.anonBooking.resendValidationCode();
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/anon-booking/resend-validation-code
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/anon-booking/resend-validation-code` |

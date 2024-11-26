@@ -17,11 +17,9 @@ patientportal.referrals.getBasicStatistics();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/referrals/basic-statistics
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/referrals/basic-statistics` |
 
 ## Returns JSON
 

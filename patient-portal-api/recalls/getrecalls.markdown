@@ -25,11 +25,9 @@ patientportal.recalls.getRecalls({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/recalls/recalls
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/recalls/recalls` |
 
 ## URL Parameters
 

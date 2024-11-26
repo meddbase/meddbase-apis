@@ -25,11 +25,9 @@ patientportal.referrals.attachDocument({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/referrals/attach-document
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/referrals/attach-document` |
 
 ## URL Parameters
 

@@ -17,11 +17,9 @@ patientportal.auth.submitActivationEmail({isOH: <is-oh>});
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/auth/submit-validation-email
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/auth/submit-validation-email` |
 
 ## GET Parameters
 

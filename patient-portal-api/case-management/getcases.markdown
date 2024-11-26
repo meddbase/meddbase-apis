@@ -30,11 +30,9 @@ patientportal.cases.getCases({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/cases/cases
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/cases/cases` |
 
 ## URL Parameters
 

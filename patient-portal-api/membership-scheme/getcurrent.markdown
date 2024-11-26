@@ -17,11 +17,9 @@ patientportal.membershipScheme.getCurrent();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/membership-scheme/current
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/membership-scheme/current` |
 
 ## Returns
 

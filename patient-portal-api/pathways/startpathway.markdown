@@ -19,11 +19,9 @@ patientportal.pathways.startPathway({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/pathways/start-pathway
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/pathways/start-pathway` |
 
 ## URL Parameters
 

@@ -19,11 +19,9 @@ patientportal.anonBooking.bookProposedAppointment({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/anon-booking/book
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/anon-booking/book` |
 
 ## POST Parameters
 

@@ -21,11 +21,9 @@ patientportal.feed.addMessage({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/feed/add-message
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/feed/add-message` |
 
 ## POST Parameters
 

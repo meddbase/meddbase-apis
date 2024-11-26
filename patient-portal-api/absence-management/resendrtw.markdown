@@ -19,11 +19,9 @@ patientportal.absences.resendRTW({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/absences/resend-rtw
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/absences/resend-rtw` |
 
 ## URL Parameters
 

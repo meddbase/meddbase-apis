@@ -20,11 +20,9 @@ patientportal.referrals.followUp({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/referrals/follow-up
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/referrals/follow-up` |
 
 ## URL Parameters
 

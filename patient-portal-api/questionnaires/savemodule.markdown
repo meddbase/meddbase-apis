@@ -23,11 +23,9 @@ patientportal.questionnaires. saveModule({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/questionnaires/save-module
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/questionnaires/save-module` |
 
 ## URL Parameters
 

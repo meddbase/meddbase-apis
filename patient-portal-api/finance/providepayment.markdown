@@ -32,11 +32,9 @@ patientportal.finance.providePayment({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/payment-gateway/create-payment
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/payment-gateway/create-payment` |
 
 ## URL Parameters
 

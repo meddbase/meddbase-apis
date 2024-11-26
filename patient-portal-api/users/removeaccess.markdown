@@ -19,11 +19,9 @@ patientportal.users.removeAccess({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/users/remove-access
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/users/remove-access` |
 
 ## URL Parameters
 

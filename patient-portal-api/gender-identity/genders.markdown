@@ -17,11 +17,9 @@ patientportal.genderIdentity.getGenders();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/gender-identity/genders
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/gender-identity/genders` |
 
 ## Returns
 

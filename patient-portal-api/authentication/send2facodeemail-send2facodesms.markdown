@@ -18,11 +18,9 @@ patientportal.auth.send2faCodeSMS();
 
 ## HTTP Method
 
-POST
-
-## Url
-
-/patientportalapi/auth/send-2fa-code
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/auth/send-2fa-code` |
 
 ## POST Parameters
 

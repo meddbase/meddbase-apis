@@ -19,11 +19,9 @@ patientportal.referrals.startFromQuestionnaireRequest({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/referrals/start-from-questionnaire-request
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/referrals/start-from-questionnaire-request` |
 
 ## URL Parameters
 

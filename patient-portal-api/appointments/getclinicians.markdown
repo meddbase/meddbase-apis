@@ -25,11 +25,9 @@ patientportal.appointment.getClinicians({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/appointment/clinicians
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/appointment/clinicians` |
 
 ## URL Parameters
 

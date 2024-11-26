@@ -20,11 +20,9 @@ patientportal.feed.getFeed({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/feed/feed
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/feed/feed` |
 
 ## URL Parameters
 

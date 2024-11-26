@@ -17,11 +17,9 @@ patientportal.patient.getInsurer();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/patient/insurer
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/patient/insurer` |
 
 ## Returns
 

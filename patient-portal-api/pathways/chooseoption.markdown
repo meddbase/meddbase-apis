@@ -21,11 +21,9 @@ patientportal.pathways.chooseOption({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/pathways/choose-option
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/pathways/choose-option` |
 
 ## URL Parameters
 

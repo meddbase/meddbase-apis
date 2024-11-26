@@ -17,11 +17,9 @@ patientportal.patient.getDepartmentsAndDivisions();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/patient/departments-divisions
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/patient/departments-divisions` |
 
 ## Returned JSON
 

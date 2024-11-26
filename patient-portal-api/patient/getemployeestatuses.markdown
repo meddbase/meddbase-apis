@@ -17,11 +17,9 @@ patientportal.patient.getEmployeeStatuses();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/patient/employee-statuses
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/patient/employee-statuses` |
 
 ## Returns
 

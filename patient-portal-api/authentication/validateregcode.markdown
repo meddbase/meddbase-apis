@@ -20,11 +20,9 @@ patientportal.auth.validateRegCode({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/auth/validate-reg-code
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/auth/validate-reg-code` |
 
 ## URL Parameters
 

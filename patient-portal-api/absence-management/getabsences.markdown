@@ -29,11 +29,9 @@ patientportal.absences.getAbsences({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/absences/absences
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/absences/absences` |
 
 ## URL Parameters
 

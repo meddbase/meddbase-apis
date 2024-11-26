@@ -18,11 +18,9 @@ patientportal.absences.approveAndClose({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/absences/approve-and-close
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/absences/approve-and-close` |
 
 ## URL Parameters
 
