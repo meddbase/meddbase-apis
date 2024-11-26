@@ -17,9 +17,3 @@ Obvious reviewing process goes through those steps:
 - Validation process through email or phone
 - Reviewing
 - Releasing or refusing the report with/without factual changes or comments
-
-
-
-
-
-

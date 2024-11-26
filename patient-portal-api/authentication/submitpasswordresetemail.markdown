@@ -19,7 +19,14 @@ Submit the password reset key that the client retrieves from the URL and additio
 ## JavaScript Library
 
 ```javascript
-patientportal.auth.submitPasswordResetEmail({   key: 'key',   name: 'name',   surname: 'surname',   dateOfBirth: 'date-of-birth',   postcode: 'postcode',   newPassword: 'new-password',   isOH: true;
+patientportal.auth.submitPasswordResetEmail({
+    key: 'key',
+    name: 'name',
+    surname: 'surname',
+    dateOfBirth: 'date-of-birth',
+    postcode: 'postcode',
+    newPassword: 'new-password',
+    isOH: true
 });
 ```
 

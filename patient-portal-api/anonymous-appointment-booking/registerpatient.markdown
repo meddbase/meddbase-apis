@@ -1,8 +1,8 @@
 ---
 layout: page
 title: RegisterPatient
-nav_order: 3
-parent: Address Finder
+nav_order: 1
+parent: Anonymous Appointment Booking
 ---
 
 # RegisterPatient

@@ -11,7 +11,8 @@ Gets appointment types (e.g. Consultation, Health Screen, etc.) available for bo
 ## JavaScript Library
 
 ```javascript
-patientportal.anonAppointment.getAppointmentTypes({   payerType: 'payer-type';
+patientportal.anonAppointment.getAppointmentTypes({
+    payerType: 'payer-type'
 });
 ```
 

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: ResendValidationCode
-nav_order: 4
-parent: Address Finder
+nav_order: 2
+parent: Anonymous Appointment Booking
 ---
 
 # ResendValidationCode

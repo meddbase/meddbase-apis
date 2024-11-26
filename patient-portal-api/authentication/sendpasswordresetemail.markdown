@@ -21,7 +21,12 @@ Disables patient’s account, sends a password reset request email that includes
 ## JavaScript library method
 
 ```javascript
-patientportal.auth.sendPasswordResetEmail({   'email': 'email',   'name': 'name',   'surname': 'surname',   'dateOfBirth': 'date-of-birth',   'isOH': true
+patientportal.auth.sendPasswordResetEmail({
+    'email': 'email',
+    'name': 'name',
+    'surname': 'surname',
+    'dateOfBirth': 'date-of-birth',
+    'isOH': true
 });
 ```
 

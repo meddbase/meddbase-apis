@@ -11,7 +11,9 @@ Confirms the validity of the current security context. Returns the current valid
 
 ## JavaScript library method
 
+```javascript
 patientportal.auth.validateLogin();
+```
 
 ## HTTP Method
 

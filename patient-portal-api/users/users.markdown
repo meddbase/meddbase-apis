@@ -9,13 +9,3 @@ parent: Patient Portal API
 
 
 This section provides methods for managing users. Only logged-in user which has got CanManageUsers right (see GetConfig) is able to work with this section.
-
-
-
-
-
-
-
-
-
-

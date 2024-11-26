@@ -19,7 +19,10 @@ Submits the confirmation key that the client retrieves from the URL and returns 
 ## JavaScript Library
 
 ```javascript
-patientportal.auth.submitValidationEmail({   key: 'key',    isOH: true   });
+patientportal.auth.submitValidationEmail({
+    key: 'key',
+    isOH: true
+});
 ```
 
 ## HTTP Method

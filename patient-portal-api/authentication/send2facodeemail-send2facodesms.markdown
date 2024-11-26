@@ -13,7 +13,7 @@ Sends generated 2FA code via specified method and returns delivery method.
 
 ```javascript
 patientportal.auth.send2faCodeEmail();
-    patientportal.auth.send2faCodeSMS();
+patientportal.auth.send2faCodeSMS();
 ```
 
 ## HTTP Method

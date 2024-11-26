@@ -19,7 +19,11 @@ Submits the validation number from the validation SMS and returns confirmation.
 ## JavaScript Library
 
 ```javascript
-patientportal.auth.submitValidationSMS({   code: 'code',    mobile: 'mobile',    isOH: true   });
+patientportal.auth.submitValidationSMS({
+    code: 'code',
+    mobile: 'mobile',
+    isOH: true
+});
 ```
 
 ## HTTP Method

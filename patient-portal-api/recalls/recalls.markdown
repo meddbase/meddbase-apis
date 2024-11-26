@@ -9,5 +9,3 @@ parent: Patient Portal API
 
 
 This section provides the ability to work with recalls.
-
-

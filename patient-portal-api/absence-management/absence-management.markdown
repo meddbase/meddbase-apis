@@ -9,10 +9,3 @@ parent: Patient Portal API
 
 
 This section provides methods to work with Absence Management – getting a list of absences, detailed absence information and updating absences in various ways.
-
-
-
-
-
-
-
