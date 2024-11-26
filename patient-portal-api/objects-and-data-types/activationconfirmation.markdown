@@ -11,8 +11,9 @@ Contains the information about the activated account.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | OutstandingInvoice | InvoiceData | The invoice the patient needs to pay. Usually the membership fee. Can be null if there is no outstanding invoice. |
-| --- | --- | --- |
 
 ## JSON Example
 

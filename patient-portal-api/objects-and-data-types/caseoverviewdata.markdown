@@ -11,8 +11,9 @@ A full case data object which includes the patient’s full name.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | The unencrypted case key. |
-| --- | --- | --- |
 | PatientName | string | The name of the patient. |
 | OpenedDate | [DateTime](#_DateTime) | The date the case was opened. |
 | ClosedDate | [DateTime](#_DateTime) (optional) | The date the case was closed, if at all. |

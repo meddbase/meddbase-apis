@@ -11,8 +11,9 @@ Provides information about the recall.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | The key of the recall. |
-| --- | --- | --- |
 | Patient | PersonDemographicData | The patient data. |
 | Reason | string | The reason for the recall. |
 | AppointmentType | AppointmentTypeData | The appointment type. |

@@ -11,8 +11,9 @@ Provides information about the user rights.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string |     |
-| --- | --- | --- |
 | Name | string |     |
 | Description | string |     |
 

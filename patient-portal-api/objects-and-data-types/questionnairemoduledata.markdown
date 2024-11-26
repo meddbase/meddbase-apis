@@ -11,8 +11,9 @@ Provides information about a questionnaire module.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | String | The key of the questionnaire module. |
-| --- | --- | --- |
 | Category | string | Always ‘ppq’. |
 | Name | string | Name. |
 | FormKeys | string \[\] | The keys of questionnaire forms included in the module. |

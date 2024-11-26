@@ -11,8 +11,9 @@ Contains the contact’s demographic information.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Title | string |     |
-| --- | --- | --- |
 | Name | string |     |
 | Details | string |     |
 | Fax | string |     |

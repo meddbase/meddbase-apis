@@ -11,8 +11,9 @@ Provides information about the single sign on
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Identifier | string | Unique api identifier for the employer for single sign on |
-| --- | --- | --- |
 | Enabled | bool | Is enabled |
 | IsOh | bool | Is for referral / managers |
 

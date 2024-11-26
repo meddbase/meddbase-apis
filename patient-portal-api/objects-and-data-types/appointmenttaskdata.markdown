@@ -11,8 +11,9 @@ An additional details for the book/arrive appointment task.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | AppointmentType | string | The type of the appointment that needs to be booked. |
-| --- | --- | --- |
 | AppointmentTypeName | string | The name of the appointment type.. |
 | ServiceId | int | The optional service ID that needs to be included within the booking process. |
 | IsBooked | bool | True if the appointment is already booked. |

@@ -11,8 +11,9 @@ Represents a person’s pronoun preferences.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | The encrypted key of the pronoun. |
-| --- | --- | --- |
 | Name | string | The name of the pronoun. |
 
 ## JSON Example

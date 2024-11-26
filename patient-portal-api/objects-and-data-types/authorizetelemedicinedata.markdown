@@ -11,8 +11,9 @@ Returns authorisation data for a telemedicine connection.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Token | string | Secure token generated for the user joining the telemedicine conference. |
-| --- | --- | --- |
 | Version | int | A version of the telemedicine integration. Currently always version 3 which means Twilio. |
 
 ## JSON Example

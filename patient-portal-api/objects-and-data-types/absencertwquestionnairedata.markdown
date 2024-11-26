@@ -11,8 +11,9 @@ The data returned in the response of a call to the [SubmitValidationCode](#_Subm
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | int | The key of the absence record. |
-| --- | --- | --- |
 | StartDate | [DateTime](#_DateTime) (read-only) | The date that the absence started. |
 | EstimatedEndDate | [DateTime](#_DateTime) (read-only) | The estimated return-to-work date. |
 | EndDate | [DateTime](file:///D:/Documents/Meddbase%20Patient%20Portal%20API.docx#_DateTime) (optional) | The actual return-to-work date. |

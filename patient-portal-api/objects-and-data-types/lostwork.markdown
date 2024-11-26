@@ -11,8 +11,9 @@ A small object used in the [AbsenceData](#_AbsenceData) and [AbsenceOverview](#_
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Hours | decimal (optional) | The number of hours that the patient was absent. |
-| --- | --- | --- |
 | Days | decimal (optional) | The number of days that the patient was absent. |
 
 ## JSON Example

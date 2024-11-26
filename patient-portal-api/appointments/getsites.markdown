@@ -54,8 +54,9 @@ A shallow search result of a patient/company address.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | An encrypted key value containing partial address information used to retrieve complete address details. |
-| --- | --- | --- |
 | Address | string | A single-line search result address. |
 
 ## JSON Example

@@ -9,8 +9,9 @@ parent: Objects and data types
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Start | DateTime | Start time. |
-| --- | --- | --- |
 | Finish | DateTime | Finish time. |
 | SiteKey | int | Key of the site the time slot is placed. |
 | LocationKey | int | Key of the location the time slot is placed. |

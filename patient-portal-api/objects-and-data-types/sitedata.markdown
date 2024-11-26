@@ -11,8 +11,9 @@ Geographic place/residence of the doctor/clinic.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | int | Key of site. |
-| --- | --- | --- |
 | Name | string | Name of the site. |
 | Address | AddressData | Address of the site. |
 | Locations | LocationData\[\] | Possible locations within this site.<br><br>Note: Sometimes the location may be placed on geographically different place than the site. To show the location the client should use the location’s address. |

@@ -11,8 +11,9 @@ Provides information about a questionnaire form.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | The key of the questionnaire form. |
-| --- | --- | --- |
 | Category | string | Always ‘ppq’. |
 | Name | string | Name. |
 | Description | string | Longer description. |

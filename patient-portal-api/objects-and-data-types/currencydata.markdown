@@ -9,8 +9,9 @@ parent: Objects and data types
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Code | string | Three-letter currency code (e.g. "GBP", "EUR", "USD", etc.) |
-| --- | --- | --- |
 | Symbol | string | Symbol for the currency. |
 
 ## JSON Example

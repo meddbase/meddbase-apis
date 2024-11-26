@@ -11,8 +11,9 @@ Arguments for a new payer acccount
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | firstname | string | Billing firstname on the payer card: 20 characters |
-| --- | --- | --- |
 | surname | string | Billing surname on the payer card: 20 characters |
 | address1 | string | Billing address line 1: 100 characters |
 | address2 | string | Billing address line 2: 100 characters (Optional) |

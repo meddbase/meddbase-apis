@@ -11,8 +11,9 @@ Contains the company’s demographic information.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Code | string |     |
-| --- | --- | --- |
 | Name | string |     |
 | VatNo | string |     |
 | Address | AddressData |     |

@@ -11,8 +11,9 @@ Provides full details about the pathway.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | The key of the pathway. |
-| --- | --- | --- |
 | Number | string | The number of the pathway. |
 | Name | string | The name of the pathway. |
 | Patient | string | The name of the patient. |

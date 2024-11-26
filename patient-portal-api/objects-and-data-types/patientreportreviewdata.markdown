@@ -11,8 +11,9 @@ Provides information about the patient medical report review for the patient.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | ReportUrl | string | The URL address of the full medical report. The report is PDF document.<br><br>We recommend to use &lt;object&gt; tag to display embedded PDF:<br><br>&lt;object type="application/pdf" data="<url&gt;">&lt;/object&gt; |
-| --- | --- | --- |
 | ReferredBy | string | The name of the referrer. |
 | AutoReleaseTime | DateTime | Defines the time when the automatic release is scheduled. |
 | PossibleFactualChanges | string\[\] | List of possible factual changes the patient can request. |

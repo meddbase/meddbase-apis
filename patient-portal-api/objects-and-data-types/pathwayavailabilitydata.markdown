@@ -11,8 +11,9 @@ Availability data for a pathway definition
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | IsAvailable | bool | Availability Boolean for the pathway definition |
-| --- | --- | --- |
 | Error | string | Reason for not being available. |
 
 ## JSON Example

@@ -11,8 +11,9 @@ Module of the appointment.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | int | Key of the module. |
-| --- | --- | --- |
 | Name | string | Name of the module. |
 | Notes | string |     |
 | CurrencyCode | string | Three-letter currency code (e.g. "GBP", "EUR", "USD", etc.) |

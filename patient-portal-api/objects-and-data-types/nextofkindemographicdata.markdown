@@ -11,8 +11,9 @@ Contains the person’s next of kin demographic information.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Relationship | string |     |
-| --- | --- | --- |
 | Name | string |     |
 | Surname | string |     |
 | EmailAddress | string |     |

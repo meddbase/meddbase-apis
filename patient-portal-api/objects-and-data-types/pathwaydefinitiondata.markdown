@@ -11,8 +11,9 @@ An overview of a pathway definition
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | The key of the definition. |
-| --- | --- | --- |
 | Name | string | The name of the definition. |
 | Prompt | string | Prompt to show to patient |
 | Description | string | Description for the pathway. |
