@@ -11,25 +11,16 @@ Attaches a document to a pathway task.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.pathways.attachDocument({
-
-pathway: &lt;pathway&gt;,
-
-task: &lt;task&gt;,
-
-documentName: &lt;document-name&gt;,
-
-documentComments: &lt;document-comments&gt;,
-
-uploading: {
-
-file: &lt;file&gt;,
-
-onProgress: &lt;onProgress&gt;,
-
+    pathway: <pathway>,
+    task: <task>,
+    documentName: <document-name>,
+    documentComments: <document-comments>,
+    uploading: {
+    file: <file>,
+    onProgress: <onProgress>,
 }
-
 });
 ```
 

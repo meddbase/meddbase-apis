@@ -11,32 +11,20 @@ Sets up an online recurring payment for the current membership scheme of the pat
 
 ## JavaScript library method
 
-```
-patientportal.membershipScheme.setupOnlinePayment ({
-
-payerAccountId: &lt;payer-accountid&gt;,
-
-saveDetails: &lt;save-payment-details&gt;,
-
-iframeDiv: &lt;iframediv&gt;,
-
-firstname: &lt;firstname&gt;,
-
-surname: &lt;surname&gt;,
-
-address1: &lt;address1&gt;,
-
-address2: &lt;address2&gt;,
-
-city: &lt;city&gt;,
-
-postcode: &lt;postcode&gt;,
-
-country: &lt;country&gt;,
-
-phone: &lt;phone&gt;,
-
-email: &lt;email&gt;});
+```javascript
+patientportal.membershipScheme.setupOnlinePayment({
+    payerAccountId: <payer-accountid>,
+    saveDetails: <save-payment-details>,
+    iframeDiv: <iframediv>,
+    firstname: <firstname>,
+    surname: <surname>,
+    address1: <address1>,
+    address2: <address2>,
+    city: <city>,
+    postcode: <postcode>,
+    country: <country>,
+    phone: <phone>,
+    email: <email>});
 ```
 
 ## HTTP Method

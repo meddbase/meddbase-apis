@@ -11,11 +11,9 @@ Starts and returns a new referral using the patient associated with the specifie
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.referrals.startFromQuestionnaireRequest({
-
-questionnaireRequest: &lt;questionnaire-request&gt;
-
+    questionnaireRequest: <questionnaire-request>
 });
 ```
 

@@ -11,11 +11,9 @@ Updates the user data.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.users.updateUser({
-
-userData: &lt;userData&gt;
-
+    userData: <userData>
 });
 ```
 

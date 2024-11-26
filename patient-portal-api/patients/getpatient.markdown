@@ -11,11 +11,9 @@ Returns the specific patient.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.patients.getPatient({
-
-patient: &lt;patient&gt;
-
+    patient: <patient>
 });
 ```
 

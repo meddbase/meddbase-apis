@@ -11,7 +11,7 @@ Returns the list of possible user rights.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.users.getUserRights();
 ```
 

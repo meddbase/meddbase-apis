@@ -11,11 +11,9 @@ Sends a validation code to the mobile phone number of the patient who is the foc
 
 ## JavaScript library method
 
-```
-patientportal.rtwQuestionnaire.sendValidationSMS ({
-
-key: &lt;key&gt;
-
+```javascript
+patientportal.rtwQuestionnaire.sendValidationSMS({
+    key: <key>
 });
 ```
 

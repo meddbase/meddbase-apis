@@ -11,21 +11,14 @@ Gets service types (except) modules
 
 ## JavaScript library method
 
-```
-patientportal.appointment.getServiceTypes ({
-
-payerType: &lt;payer-type&gt;,
-
-appointmentType: &lt;appointment-type&gt;,
-
-referralTypes: &lt;referral-types&gt;,
-
-patient: &lt;patient&gt;,
-
-referral: &lt;referral&gt;,
-
-recall: &lt;recall&gt;
-
+```javascript
+patientportal.appointment.getServiceTypes({
+    payerType: <payer-type>,
+    appointmentType: <appointment-type>,
+    referralTypes: <referral-types>,
+    patient: <patient>,
+    referral: <referral>,
+    recall: <recall>
 });
 ```
 

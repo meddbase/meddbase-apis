@@ -16,11 +16,9 @@ Saves changes to an absence record. Any of the attributes in the [AbsenceData](#
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.absences.saveAbsence({
-
-absenceData: &lt;absence-data&gt;
-
+    absenceData: <absence-data>
 });
 ```
 

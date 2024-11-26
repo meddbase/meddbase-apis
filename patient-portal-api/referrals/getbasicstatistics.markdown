@@ -11,7 +11,7 @@ Returns the basic referral statistics.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.referrals.getBasicStatistics();
 ```
 

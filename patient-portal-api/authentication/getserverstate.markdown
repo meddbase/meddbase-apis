@@ -11,7 +11,7 @@ Returns information about actual server state.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.auth.getServerState();
 ```
 

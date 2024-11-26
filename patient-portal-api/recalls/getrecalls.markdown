@@ -11,23 +11,15 @@ Returns the list of recalls.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.recalls.getRecalls({
-
-patient: &lt;patient&gt;,
-
-dueFrom: &lt;due-from&gt;,
-
-dueTo: &lt;due-to&gt;,
-
-pageSortColumn: &lt;page-sort-column&gt;,
-
-pageSortDescending: &lt;page-sort-descending&gt;,
-
-pageNumber: &lt;page-number&gt;,
-
-pageSize: &lt;page-size&gt;
-
+    patient: <patient>,
+    dueFrom: <due-from>,
+    dueTo: <due-to>,
+    pageSortColumn: <page-sort-column>,
+    pageSortDescending: <page-sort-descending>,
+    pageNumber: <page-number>,
+    pageSize: <page-size>
 });
 ```
 
@@ -50,7 +42,7 @@ GET
 
 "Items": \[
 
-&lt;list of RecallData&gt;
+<list of RecallData>
 
 \]
 

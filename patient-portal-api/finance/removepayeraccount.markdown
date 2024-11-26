@@ -11,11 +11,9 @@ Removes (disables) an existing stored card for the current logged in person.
 
 ## JavaScript library method
 
-```
-patientportal.finance.prototype.removePayerAccount ({
-
-payerAccountKey: &lt;payer-account-key&gt;
-
+```javascript
+patientportal.finance.prototype.removePayerAccount({
+    payerAccountKey: <payer-account-key>
 })
 ```
 

@@ -13,8 +13,8 @@ Returns a list of the available ethnicities to select from when updating the pat
 
 ## JavaScript library method
 
-```
-patientportal.ethnicities.getEthnicities ();
+```javascript
+patientportal.ethnicities.getEthnicities();
 ```
 
 ## HTTP Method

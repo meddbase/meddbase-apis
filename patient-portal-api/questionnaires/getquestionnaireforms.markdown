@@ -11,19 +11,13 @@ Returns the list of questionnaire forms that can be requested for any patient. I
 
 ## JavaScript library method
 
-```
-patientportal.questionnaires. getQuestionnaireForms ({
-
-moduleKey: &lt;module-key&gt;,
-
-category: &lt;’ppq’&gt;,
-
-formName: &lt;form-name&gt;,
-
-pageNumber: &lt;page-number&gt;,
-
-pageSize: &lt;page-size&gt;
-
+```javascript
+patientportal.questionnaires. getQuestionnaireForms({
+    moduleKey: <module-key>,
+    category: <’ppq’>,
+    formName: <form-name>,
+    pageNumber: <page-number>,
+    pageSize: <page-size>
 });
 ```
 

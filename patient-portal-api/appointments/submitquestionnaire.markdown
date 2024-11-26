@@ -11,8 +11,8 @@ Submits the specific questionnaire.
 
 ## JavaScript library method
 
-```
-patientportal.appointment.submitQuestionnaire({questionnaire: &lt;questionnaire&gt;});
+```javascript
+patientportal.appointment.submitQuestionnaire({questionnaire: <questionnaire>});
 ```
 
 ## HTTP Method

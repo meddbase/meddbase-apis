@@ -11,17 +11,12 @@ Returns the list of questionnaire modules that are visible for the logged in use
 
 ## JavaScript library method
 
-```
-patientportal.questionnaires. getModules ({
-
-category: &lt;’ppq’&gt;,
-
-moduleName: &lt;module-name&gt;,
-
-pageNumber: &lt;page-number&gt;,
-
-pageSize: &lt;page-size&gt;
-
+```javascript
+patientportal.questionnaires. getModules({
+    category: <’ppq’>,
+    moduleName: <module-name>,
+    pageNumber: <page-number>,
+    pageSize: <page-size>
 });
 ```
 

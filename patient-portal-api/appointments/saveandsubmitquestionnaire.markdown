@@ -11,13 +11,10 @@ Combination of SaveQuestionnaire and SubmitQuestionnaire. This method can be use
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.appointment.saveAndSubmitQuestionnaire({
-
-questionnaire: &lt;questionnaire&gt;,
-
-answers: &lt;answers&gt;
-
+    questionnaire: <questionnaire>,
+    answers: <answers>
 });
 ```
 

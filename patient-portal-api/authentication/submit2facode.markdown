@@ -11,8 +11,8 @@ Submits 2FA code and completes profile login.
 
 ## JavaScript library method
 
-```
-patientportal.auth.submit2faCode({code: &lt;code&gt;});
+```javascript
+patientportal.auth.submit2faCode({code: <code>});
 ```
 
 ## HTTP Method

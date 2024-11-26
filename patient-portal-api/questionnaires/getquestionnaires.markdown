@@ -11,23 +11,15 @@ Returns the list of requested questionnaires. Questionnaires requested together 
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.questionnaires.getQuestionnaires({
-
-patient: &lt;patient&gt;,
-
-category: ‘ppq’,
-
-status: &lt;status&gt;,
-
-pageSortColumn: &lt;page-sort-column&gt;,
-
-pageSortDescending: &lt;page-sort-descending&gt;,
-
-pageNumber: &lt;page-number&gt;,
-
-pageSize: &lt;page-size&gt;
-
+    patient: <patient>,
+    category: ‘ppq’,
+    status: <status>,
+    pageSortColumn: <page-sort-column>,
+    pageSortDescending: <page-sort-descending>,
+    pageNumber: <page-number>,
+    pageSize: <page-size>
 });
 ```
 

@@ -13,29 +13,18 @@ The method is only valid if the current temporary security context is valid (see
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.patientReportReview.submitAuthorisation({
-
-key: &lt;key&gt;,
-
-authorised: &lt;authorised&gt;,
-
-comments: &lt;comments&gt;,
-
-factualChanges:\[
-
-{
-
-Subject: &lt;Subject&gt;,
-
-Comments: &lt;Comments&gt;
-
+    key: <key>,
+    authorised: <authorised>,
+    comments: <comments>,
+    factualChanges:\[
+    {
+    Subject: <Subject>,
+    Comments: <Comments>
 },
-
-...
-
-\]
-
+    ...
+    \]
 });
 ```
 

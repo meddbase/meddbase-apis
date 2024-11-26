@@ -11,17 +11,12 @@ Books and returns the new appointment. Returned appointment contains the amount 
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.appointment.bookProposedAppointment({
-
-proposedAppointment: &lt;proposedAppointment&gt; ,
-
-patient: &lt;patient&gt;,
-
-referral: &lt;referral&gt;,
-
-recall: &lt;recall&gt;
-
+    proposedAppointment: <proposedAppointment> ,
+    patient: <patient>,
+    referral: <referral>,
+    recall: <recall>
 });
 ```
 

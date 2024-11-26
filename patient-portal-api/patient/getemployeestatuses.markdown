@@ -11,7 +11,7 @@ Returns a list of employee statuses.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.patient.getEmployeeStatuses();
 ```
 

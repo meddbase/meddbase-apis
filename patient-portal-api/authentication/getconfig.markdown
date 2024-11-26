@@ -11,11 +11,9 @@ Returns the chamber basic information and the permissions of the currently logge
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.auth.getConfig(({
-
-companyIdentifier: &lt;company-identifier&gt;
-
+    companyIdentifier: <company-identifier>
 });
 ```
 

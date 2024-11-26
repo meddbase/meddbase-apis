@@ -11,13 +11,10 @@ Saves partial answers of specific questions in the questionnaire.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.appointment.saveQuestionnaire({
-
-questionnaire: &lt;questionnaire&gt;,
-
-answers: &lt;answers&gt;
-
+    questionnaire: <questionnaire>,
+    answers: <answers>
 });
 ```
 

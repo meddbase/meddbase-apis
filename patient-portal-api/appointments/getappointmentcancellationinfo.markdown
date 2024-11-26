@@ -11,8 +11,8 @@ Returns information about cancellation. The client should call this method when 
 
 ## JavaScript library method
 
-```
-patientportal.appointment.getAppointmentCancellationInfo({appointment: &lt;appointment&gt;});
+```javascript
+patientportal.appointment.getAppointmentCancellationInfo({appointment: <appointment>});
 ```
 
 ## HTTP Method

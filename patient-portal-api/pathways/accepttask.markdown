@@ -11,13 +11,10 @@ Accepts the general task within the pathway.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.pathways.getPathway({
-
-pathway: &lt;pathway&gt;,
-
-task: &lt;task&gt;
-
+    pathway: <pathway>,
+    task: <task>
 });
 ```
 

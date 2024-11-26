@@ -11,23 +11,15 @@ Uploads and attaches a new document to the patient’s records.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.documents.attachDocument({
-
-patient: &lt;patient&gt;,
-
-documentName: &lt;document-name&gt;,
-
-documentComments: &lt;document-comments&gt;,
-
-uploading: {
-
-file: &lt;file&gt;,
-
-onProgress: &lt;onProgress&gt;,
-
+    patient: <patient>,
+    documentName: <document-name>,
+    documentComments: <document-comments>,
+    uploading: {
+    file: <file>,
+    onProgress: <onProgress>,
 }
-
 });
 ```
 

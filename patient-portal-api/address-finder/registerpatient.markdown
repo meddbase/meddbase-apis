@@ -11,13 +11,10 @@ Prepares a new registration. The patient is not fully created within the system 
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.anonBooking.registerPatient({
-
-payerType: &lt;payerType&gt;,
-
-demog: &lt;demog&gt;
-
+    payerType: <payerType>,
+    demog: <demog>
 });
 ```
 

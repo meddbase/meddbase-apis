@@ -11,11 +11,9 @@ Delete the specified module. The user must have the _CanModifyQuestionnaireForms
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.questionnaires.getQuestionnaires({
-
-moduleKey: &lt;module-key&gt;
-
+    moduleKey: <module-key>
 });
 ```
 

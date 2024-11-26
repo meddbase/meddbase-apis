@@ -11,8 +11,8 @@ Returns notifications about appointments, invoices, questionnaires etc.
 
 ## JavaScript library method
 
-```
-patientportal.notification.getNotifications({type: &lt;type&gt;});
+```javascript
+patientportal.notification.getNotifications({type: <type>});
 ```
 
 ## HTTP Method

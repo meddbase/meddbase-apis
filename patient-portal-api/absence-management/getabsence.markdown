@@ -11,11 +11,9 @@ Returns an absence record.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.absences.getAbsence({
-
-absence: &lt;absence&gt;
-
+    absence: <absence>
 });
 ```
 

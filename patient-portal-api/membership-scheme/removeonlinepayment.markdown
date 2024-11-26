@@ -11,7 +11,7 @@ Removes the recurring payment method from patient’s current membership scheme.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.membershipScheme.removeOnlinePayment();
 ```
 

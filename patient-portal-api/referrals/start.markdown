@@ -11,15 +11,11 @@ Starts and returns a new referral.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.referrals.start({
-
-patient: &lt;patient&gt;,
-
-appointmentType: &lt;appointment-type&gt;,
-
-caseTitle: &lt;case-title&gt;
-
+    patient: <patient>,
+    appointmentType: <appointment-type>,
+    caseTitle: <case-title>
 });
 ```
 

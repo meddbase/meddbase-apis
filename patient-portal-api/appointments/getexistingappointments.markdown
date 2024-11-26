@@ -11,7 +11,7 @@ Gets a number of previous and all future logged-in patient appointments.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.appointment.getExistingAppointments();
 ```
 

@@ -11,7 +11,7 @@ Returns a list of the public case titles from the common catalogue.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.cases.defaultTitles();
 ```
 

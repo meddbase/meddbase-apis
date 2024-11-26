@@ -11,11 +11,9 @@ Gets the demographic data of the patient’s managers.
 
 ## JavaScript library method
 
-```
-patientportal.patients.getManagers ({
-
-patient: &lt;patient&gt;
-
+```javascript
+patientportal.patients.getManagers({
+    patient: <patient>
 });
 ```
 

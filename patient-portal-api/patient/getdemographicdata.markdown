@@ -11,7 +11,7 @@ Gets the patient’s demographic data.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.patient.getDemographicData();
 ```
 

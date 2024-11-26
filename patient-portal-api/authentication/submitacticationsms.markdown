@@ -11,8 +11,8 @@ Submits the activation number from the activation SMS and returns confirmation.
 
 ## JavaScript library method
 
-```
-patientportal.auth.submitActivationSMS({code: &lt;code&gt;, isOH: &lt;is-oh&gt;});
+```javascript
+patientportal.auth.submitActivationSMS({code: <code>, isOH: <is-oh>});
 ```
 
 ## HTTP Method

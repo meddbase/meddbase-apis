@@ -11,25 +11,16 @@ Returns the list of document for a specific patient.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.documents.getDocuments({
-
-patient: &lt;patient&gt;,
-
-name: &lt;name&gt;,
-
-createdFrom: &lt;created-from&gt;,
-
-createdTo: &lt;created-to&gt;,
-
-pageSortColumn: &lt;page-sort-column&gt;,
-
-pageSortDescending: &lt;page-sort-descending&gt;,
-
-pageNumber: &lt;page-number&gt;,
-
-pageSize: &lt;page-size&gt;
-
+    patient: <patient>,
+    name: <name>,
+    createdFrom: <created-from>,
+    createdTo: <created-to>,
+    pageSortColumn: <page-sort-column>,
+    pageSortDescending: <page-sort-descending>,
+    pageNumber: <page-number>,
+    pageSize: <page-size>
 });
 ```
 
@@ -52,7 +43,7 @@ GET
 
 "Items": \[
 
-&lt;list of DocumentData&gt;
+<list of DocumentData>
 
 \]
 

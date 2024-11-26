@@ -11,41 +11,24 @@ parent: Appointments
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.appointment.getProposedTimeSlots({
-
-appointmentType: &lt;appointment-type&gt;,
-
-clinician: &lt;clinician&gt;,
-
-clinicianSex: &lt;clinician-sex&gt;,
-
-site: &lt;site&gt;,
-
-location: &lt;location&gt;,
-
-fromDate: &lt;from-date&gt;,
-
-toDate: &lt;to-date&gt;,
-
-timePreference: &lt;time-preference&gt;,
-
-timeFrom: &lt;time-from&gt;,
-
-timeTo: &lt;time-to&gt;,
-
-payerType: &lt;payer-type&gt;,
-
-patient: &lt;patient&gt;,
-
-referral: &lt;referral&gt;,
-
-recall: &lt;recall&gt;,
-
-modules: &lt;modules&gt;,
-
-services: &lt;services&gt;
-
+    appointmentType: <appointment-type>,
+    clinician: <clinician>,
+    clinicianSex: <clinician-sex>,
+    site: <site>,
+    location: <location>,
+    fromDate: <from-date>,
+    toDate: <to-date>,
+    timePreference: <time-preference>,
+    timeFrom: <time-from>,
+    timeTo: <time-to>,
+    payerType: <payer-type>,
+    patient: <patient>,
+    referral: <referral>,
+    recall: <recall>,
+    modules: <modules>,
+    services: <services>
 });
 ```
 

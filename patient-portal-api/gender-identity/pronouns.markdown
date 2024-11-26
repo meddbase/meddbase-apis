@@ -11,7 +11,7 @@ Returns a list of the available pronouns to select from when updating the patien
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.genderIdentity.getPronouns();
 ```
 

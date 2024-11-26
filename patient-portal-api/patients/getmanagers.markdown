@@ -11,11 +11,9 @@ Returns the list of patient managers.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.patients.getManagers({
-
-patient: &lt;patient&gt;
-
+    patient: <patient>
 });
 ```
 

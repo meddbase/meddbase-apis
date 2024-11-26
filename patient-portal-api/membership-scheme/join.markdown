@@ -11,8 +11,8 @@ Joins the patient into the membership scheme.
 
 ## JavaScript library method
 
-```
-patientportal.membershipScheme.join({code: &lt;code&gt;});
+```javascript
+patientportal.membershipScheme.join({code: <code>});
 ```
 
 ## HTTP Method

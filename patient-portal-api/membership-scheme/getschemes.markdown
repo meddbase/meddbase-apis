@@ -11,7 +11,7 @@ Returns list of possible membership schemes the patient can join.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.membershipScheme.getSchemes();
 ```
 

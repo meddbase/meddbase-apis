@@ -11,8 +11,8 @@ Update the patient’s demographic data.
 
 ## JavaScript library method
 
-```
-patientportal.patient.updateDemographicData({password: &lt;password&gt;, demog: &lt;demog&gt;});
+```javascript
+patientportal.patient.updateDemographicData({password: <password>, demog: <demog>});
 ```
 
 ## HTTP Method

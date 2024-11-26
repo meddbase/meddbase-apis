@@ -11,8 +11,8 @@ Returns a number of possible shallow search address results for the postcode.
 
 ## JavaScript library method
 
-```
-patientportal.addressFinder.search ({postcode: &lt;postcode&gt;});
+```javascript
+patientportal.addressFinder.search({postcode: <postcode>});
 ```
 
 ## HTTP Method
@@ -38,8 +38,8 @@ Returns a number of possible shallow search address results for the postcode.
 
 ## JavaScript library method
 
-```
-patientportal.addressFinder.search ({postcode: &lt;postcode&gt;});
+```javascript
+patientportal.addressFinder.search({postcode: <postcode>});
 ```
 
 ## HTTP Method

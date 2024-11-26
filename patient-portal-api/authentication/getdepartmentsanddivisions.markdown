@@ -11,8 +11,8 @@ Returns the list of employer departments and divisions.
 
 ## JavaScript library method
 
-```
-patientportal.auth.getDepartmentsAndDivisions({regCode: &lt;reg-code&gt;, isOH: &lt;is-oh&gt;});
+```javascript
+patientportal.auth.getDepartmentsAndDivisions({regCode: <reg-code>, isOH: <is-oh>});
 ```
 
 ## HTTP Method
@@ -36,13 +36,13 @@ GET
 
 "Departments": \[
 
-&lt;list of DepartmentData&gt;
+<list of DepartmentData>
 
 \]
 
 "Divisions": \[
 
-&lt;list of DivisionData&gt;
+<list of DivisionData>
 
 \]
 

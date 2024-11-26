@@ -11,11 +11,9 @@ Returns a document details.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.documents.getDocument({
-
-document: &lt;document&gt;
-
+    document: <document>
 });
 ```
 

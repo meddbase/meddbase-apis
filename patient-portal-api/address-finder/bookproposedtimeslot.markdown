@@ -11,19 +11,13 @@ Creates the patient in our system and books an appointment from the time slot. R
 
 ## JavaScript library method
 
-```
-patientportal.anonBooking.bookProposedTimeSlot ({
-
-proposedTimeSlot: &lt;proposeTimeSlot&gt;,
-
-clinician: &lt;clinician&gt;,
-
-clinicianSex: &lt;clinicianSex&gt;,
-
-method: &lt;method&gt;,
-
-price: &lt;price&gt;
-
+```javascript
+patientportal.anonBooking.bookProposedTimeSlot({
+    proposedTimeSlot: <proposeTimeSlot>,
+    clinician: <clinician>,
+    clinicianSex: <clinicianSex>,
+    method: <method>,
+    price: <price>
 });
 ```
 

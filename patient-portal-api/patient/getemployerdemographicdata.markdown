@@ -11,7 +11,7 @@ Gets the patient’s employer demographic data.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.patient.getEmployerDemographicData();
 ```
 

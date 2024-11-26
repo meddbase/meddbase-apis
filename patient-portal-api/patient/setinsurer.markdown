@@ -11,7 +11,7 @@ Sets a patient insurer. Only available for patient portal. Only public companies
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.patient.setInsurer();
 ```
 

@@ -11,13 +11,10 @@ Works the same way as the eponymously named endpoint on the referral API. Return
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.cases.followUp({
-
-case: &lt;case&gt;,
-
-reason: &lt;reason&gt;
-
+    case: <case>,
+    reason: <reason>
 });
 ```
 

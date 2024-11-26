@@ -11,11 +11,9 @@ Search for user to re-allocate the referral. The search provides only basic user
 
 ## JavaScript library method
 
-```
-patientportal.referrals.findUserToReallocate ({
-
-employeeNumber: &lt;employee-number&gt;
-
+```javascript
+patientportal.referrals.findUserToReallocate({
+    employeeNumber: <employee-number>
 });
 ```
 

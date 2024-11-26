@@ -11,13 +11,10 @@ Validates the patient using the code sent to them via a SMS message received bec
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.rtwQuestionnaire.submitValidationCode ({
-
-key: &lt;key&gt;.
-
-code: &lt;code&gt;
-
+    key: <key>.
+    code: <code>
 });
 ```
 

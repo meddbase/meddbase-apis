@@ -18,9 +18,7 @@ Returns a number of possible address for the postcode.
 ## JavaScript Library
 
 ```javascript
-patientportal.auth.addressLookup({
-    postcode: 'postcode',
-    house: 'house'
+patientportal.auth.addressLookup({   postcode: 'postcode',   house: 'house'
 });
 ```
 

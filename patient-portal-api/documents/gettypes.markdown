@@ -11,7 +11,7 @@ Returns a document types the user may have an access to. The feature needs to be
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.documents.getTypes();
 ```
 

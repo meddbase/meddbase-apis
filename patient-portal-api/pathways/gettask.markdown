@@ -11,13 +11,10 @@ Returns a full task description.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.pathways.getTask({
-
-pathway: &lt;pathway&gt;,
-
-task: &lt;task&gt;
-
+    pathway: <pathway>,
+    task: <task>
 });
 ```
 

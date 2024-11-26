@@ -11,11 +11,9 @@ Opens a case and returns the newly opened case.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.cases.openCase({
-
-case: &lt;case&gt;
-
+    case: <case>
 });
 ```
 

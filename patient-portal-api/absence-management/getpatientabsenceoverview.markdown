@@ -11,15 +11,11 @@ Returns a patient absence overview, which is limited to whether the patient is c
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.absences.getPatientAbsenceOverview({
-
-patient: &lt;patient&gt;,
-
-from: &lt;date-from&gt;,
-
-to: &lt;date-to&gt;
-
+    patient: <patient>,
+    from: <date-from>,
+    to: <date-to>
 });
 ```
 

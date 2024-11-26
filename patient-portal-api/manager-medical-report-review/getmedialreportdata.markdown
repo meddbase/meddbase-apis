@@ -13,11 +13,9 @@ The method is only valid if the current temporary security context is valid (see
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.managerReportReview.getMedicalReportData({
-
-key: &lt;key&gt;
-
+    key: <key>
 });
 ```
 

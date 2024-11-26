@@ -11,8 +11,8 @@ Sends the activation email to the patient’s email address. The activation emai
 
 ## JavaScript library method
 
-```
-patientportal.auth.sendActivationEmail({isOH: &lt;is-oh&gt;});
+```javascript
+patientportal.auth.sendActivationEmail({isOH: <is-oh>});
 ```
 
 ## HTTP Method

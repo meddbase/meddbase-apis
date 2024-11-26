@@ -11,11 +11,9 @@ Creates the patient in our system and books an appointment. Returns the new appo
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.anonBooking.bookProposedAppointment({
-
-proposedAppointment: &lt;proposedAppointment&gt;
-
+    proposedAppointment: <proposedAppointment>
 });
 ```
 

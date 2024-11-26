@@ -13,17 +13,12 @@ The API will only present you with locations which mean something to a user. So 
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.anonAppointment.getSites({
-
-appointmentType: &lt;appointment-type&gt;,
-
-lat: &lt;lat&gt;,
-
-long: &lt;long&gt;,
-
-payerType: &lt;payer-type&gt;
-
+    appointmentType: <appointment-type>,
+    lat: <lat>,
+    long: <long>,
+    payerType: <payer-type>
 });
 ```
 

@@ -11,11 +11,9 @@ Returns the referral full details.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.referrals.getReferra({
-
-referral: &lt;referral&gt;
-
+    referral: <referral>
 });
 ```
 

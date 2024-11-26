@@ -11,15 +11,11 @@ Adds a new message to the existing feed.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.feed.addMessage({
-
-feed : &lt;feed&gt;,
-
-messageText: &lt;messageText&gt;,
-
-referral:&lt;referral&gt;
-
+    feed : <feed>,
+    messageText: <messageText>,
+    referral:<referral>
 });
 ```
 

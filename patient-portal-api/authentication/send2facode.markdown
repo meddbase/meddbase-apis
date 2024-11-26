@@ -11,7 +11,7 @@ Sends generated 2FA code via SMS or email and returns delivery method used.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.auth.send2faCode();
 ```
 

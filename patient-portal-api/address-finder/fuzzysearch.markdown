@@ -11,8 +11,8 @@ Returns a number of possible shallow search address results for the search term 
 
 ## JavaScript library method
 
-```
-patientportal.addressFinder.fuzzySearch ({query: &lt;query&gt;});
+```javascript
+patientportal.addressFinder.fuzzySearch({query: <query>});
 ```
 
 ## HTTP Method

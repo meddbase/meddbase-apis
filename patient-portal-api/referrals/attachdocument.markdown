@@ -11,23 +11,15 @@ Uploads and attaches a new document to the existing referral.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.referrals.attachDocument({
-
-referral: &lt;referral&gt;,
-
-documentName: &lt;document-name&gt;,
-
-documentComments: &lt;document-comments&gt;,
-
-uploading: {
-
-file: &lt;file&gt;,
-
-onProgress: &lt;onProgress&gt;,
-
+    referral: <referral>,
+    documentName: <document-name>,
+    documentComments: <document-comments>,
+    uploading: {
+    file: <file>,
+    onProgress: <onProgress>,
 }
-
 });
 ```
 

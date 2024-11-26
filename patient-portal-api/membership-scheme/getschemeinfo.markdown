@@ -11,8 +11,8 @@ Returns information for the membership scheme (name, billing frequency, price, e
 
 ## JavaScript library method
 
-```
-patientportal.membershipScheme.getSchemeInfo({code: &lt;code&gt;});
+```javascript
+patientportal.membershipScheme.getSchemeInfo({code: <code>});
 ```
 
 ## HTTP Method

@@ -11,13 +11,10 @@ Sends the follow up referral.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.referrals.followUp({
-
-referral: &lt;referral&gt;,
-
-reason: &lt;reason&gt;
-
+    referral: <referral>,
+    reason: <reason>
 });
 ```
 

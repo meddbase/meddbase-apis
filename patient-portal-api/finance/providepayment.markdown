@@ -11,36 +11,22 @@ Provides online payment for the patient. Loads a payment frame within the provid
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.finance.providePayment({
-
-invoiceKey: &lt;invoice-key&gt;,
-
-payerAccountId: &lt;payer-accountid&gt;,
-
-saveDetails: &lt;save-payment-details&gt;,
-
-description: &lt;description&gt;,
-
-iframeDiv: &lt;iframediv&gt;,
-
-firstname: &lt;firstname&gt;,
-
-surname: &lt;surname&gt;,
-
-address1: &lt;address1&gt;,
-
-address2: &lt;address2&gt;,
-
-city: &lt;city&gt;,
-
-postcode: &lt;postcode&gt;,
-
-country: &lt;country&gt;,
-
-phone: &lt;phone&gt;,
-
-email: &lt;email&gt;});
+    invoiceKey: <invoice-key>,
+    payerAccountId: <payer-accountid>,
+    saveDetails: <save-payment-details>,
+    description: <description>,
+    iframeDiv: <iframediv>,
+    firstname: <firstname>,
+    surname: <surname>,
+    address1: <address1>,
+    address2: <address2>,
+    city: <city>,
+    postcode: <postcode>,
+    country: <country>,
+    phone: <phone>,
+    email: <email>});
 ```
 
 ## HTTP Method

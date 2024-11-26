@@ -11,7 +11,7 @@ Returns a list of the available genders to select from when updating the patient
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.genderIdentity.getGenders();
 ```
 

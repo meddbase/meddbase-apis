@@ -11,7 +11,7 @@ Returns the terms and conditions texts.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.auth.getTermsAndConditions();
 ```
 

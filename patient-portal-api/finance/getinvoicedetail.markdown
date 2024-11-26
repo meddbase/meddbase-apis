@@ -11,13 +11,10 @@ Returns an invoice.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.finance.getInvoiceDetail({
-
-invoice: &lt;invoice&gt;,
-
-invoiceNumber: &lt;invoice-number&gt;
-
+    invoice: <invoice>,
+    invoiceNumber: <invoice-number>
 });
 ```
 

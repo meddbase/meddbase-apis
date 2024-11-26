@@ -11,11 +11,9 @@ Removes the recall.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.recalls.deleteRecall({
-
-recall: &lt;recall&gt;
-
+    recall: <recall>
 });
 ```
 

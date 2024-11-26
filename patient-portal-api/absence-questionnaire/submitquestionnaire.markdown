@@ -11,11 +11,9 @@ Checks whether the code sent to the patient because of a request to the [SendVal
 
 ## JavaScript library method
 
-```
-patientportal.rtwQuestionnaire.submitQuestionnaire ({
-
-rtwQuestionnaireData: &lt;rtw-questionnaire-data&gt;
-
+```javascript
+patientportal.rtwQuestionnaire.submitQuestionnaire({
+    rtwQuestionnaireData: <rtw-questionnaire-data>
 });
 ```
 
