@@ -6,4 +6,13 @@ parent: Patient Portal API
 ---
 
 # Membership scheme
-This section provides methods for working with membership scheme.
+
+
+This section provides methods for working with membership scheme.
+
+
+
+
+
+
+
