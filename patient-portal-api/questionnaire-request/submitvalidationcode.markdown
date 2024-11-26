@@ -5,4 +5,44 @@ nav_order: 3
 parent: Questionnaire Request
 ---
 
-# SubmitValidationCodeSubmits the validation code and returns the questionnaire data. Once the validation code is submitted a temporary security context is created.## JavaScript library method```patientportal.questionnaireRequest.submitValidationCode({key: &lt;key&gt;,code: &lt;code&gt;});```## HTTP MethodGET## ****Url****/patientportalapi/questionnaire-request/submit-validation-code## URL Parameters| key | string | The validation key provided in the URL. || --- | --- | --- || code | string | The validation code the patient gets through the email or text message. |## Returns[QuestionnaireData](#_QuestionnaireData)## RemarksSubmitting the validation code creates a temporary security context which is valid for 30 minutes. Within this time frame the patient needs to complete the questionnaire and save/submit it.The client may use ValidateKey to verify whether the security context runs out and request new validation code to create a new security context.If something goes wrong please check exception (see Error handling).
+# SubmitValidationCode
+
+Submits the validation code and returns the questionnaire data. Once the validation code is submitted a temporary security context is created.
+
+## JavaScript library method
+
+```
+patientportal.questionnaireRequest.submitValidationCode({
+
+key: &lt;key&gt;,
+
+code: &lt;code&gt;
+
+});
+```
+
+## HTTP Method
+
+GET
+
+## ****Url****
+
+/patientportalapi/questionnaire-request/submit-validation-code
+
+## URL Parameters
+
+| key | string | The validation key provided in the URL. |
+| --- | --- | --- |
+| code | string | The validation code the patient gets through the email or text message. |
+
+## Returns
+
+[QuestionnaireData](#_QuestionnaireData)
+
+## Remarks
+
+Submitting the validation code creates a temporary security context which is valid for 30 minutes. Within this time frame the patient needs to complete the questionnaire and save/submit it.
+
+The client may use ValidateKey to verify whether the security context runs out and request new validation code to create a new security context.
+
+If something goes wrong please check exception (see Error handling).

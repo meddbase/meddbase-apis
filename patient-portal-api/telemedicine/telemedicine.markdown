@@ -6,4 +6,7 @@ parent: Patient Portal API
 ---
 
 # Telemedicine
-This section provides methods for Telemedicine video conference integration.
+
+
+This section provides methods for Telemedicine video conference integration.
+

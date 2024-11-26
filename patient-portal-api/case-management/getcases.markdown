@@ -5,4 +5,74 @@ nav_order: 1
 parent: Case Management
 ---
 
-# GetCasesReturns a list of cases filtered by any of the optional parameters specified.## JavaScript library method```patientportal.cases.getCases({patient: &lt;patient&gt;,text: &lt;text&gt;,status: &lt;status&gt;,case: &lt;case&gt;,title: &lt;title&gt;,patientName: &lt;patient-name&gt;,department: &lt;department&gt;,division: &lt;division&gt;,pageSortColumn: &lt;page-sort-column&gt;,pageSortDescending: &lt;page-sort-descending&gt;,pageNumber: &lt;page-number&gt;,pageSize: &lt;page-size&gt;});```## HTTP MethodGET## ****Url****/patientportalapi/cases/cases## URL Parameters<table><tbody><tr><th><p>patient</p></th><th><p>string (optional)</p></th><th><p>The patient’s key id.</p></th></tr><tr><td><p>text</p></td><td><p>string (optional)</p></td><td><p>Checks if any of the attributes of the CaseOverviewData object contain &lt;text&gt;.</p></td></tr><tr><td><p>status</p></td><td><p>int (optional)</p></td><td><ol><li>No filter (Default)</li><li>Open cases</li><li>Closed cases</li></ol></td></tr><tr><td><p>case</p></td><td><p>Int (optional)</p></td><td><p>The case’s key id.</p></td></tr><tr><td><p>title</p></td><td><p>string (optional)</p></td><td><p>The public title of the case.</p></td></tr><tr><td><p>patientName</p></td><td><p>string (optional)</p></td><td><p>The patient’s name.</p></td></tr><tr><td><p>department</p></td><td><p>string (optional)</p></td><td><p>Key of the department provided by the API upon GetDepartments.</p></td></tr><tr><td><p>division</p></td><td><p>string (optional)</p></td><td><p>Key of the division provided by the API upon GetDepartments.</p></td></tr><tr><td><p>page-sort-column</p></td><td><p>int (optional)</p></td><td><p>The column index to sort the result:</p><ol><li>Case Key</li><li>Person Name</li><li>Case Title</li><li>Opened Date</li><li>Closed Date</li><li>Last Updated Date</li></ol><p>By default the result is sorted by last updated date.</p></td></tr><tr><td><p>page-sort-descending</p></td><td><p>int (optional)</p></td><td><p>True to sort result descending.</p></td></tr><tr><td><p>page-number</p></td><td><p>int (optional)</p></td><td><p>Page number. Default 1.</p></td></tr><tr><td><p>page-size</p></td><td><p>int (optional)</p></td><td><p>Page size. Default 5. Minimum 5. Maximum 50.</p></td></tr></tbody></table>## Returned JSON```{"Items": \[&lt;list of CaseOverviewData&gt;\],"TotalCount": 15,"CurrentPage": 1,"PageSize": 10,"SortColumn": 0,"SortDescending": false}```
+# GetCases
+
+Returns a list of cases filtered by any of the optional parameters specified.
+
+## JavaScript library method
+
+```
+patientportal.cases.getCases({
+
+patient: &lt;patient&gt;,
+
+text: &lt;text&gt;,
+
+status: &lt;status&gt;,
+
+case: &lt;case&gt;,
+
+title: &lt;title&gt;,
+
+patientName: &lt;patient-name&gt;,
+
+department: &lt;department&gt;,
+
+division: &lt;division&gt;,
+
+pageSortColumn: &lt;page-sort-column&gt;,
+
+pageSortDescending: &lt;page-sort-descending&gt;,
+
+pageNumber: &lt;page-number&gt;,
+
+pageSize: &lt;page-size&gt;
+
+});
+```
+
+## HTTP Method
+
+GET
+
+## ****Url****
+
+/patientportalapi/cases/cases
+
+## URL Parameters
+
+<table><tbody><tr><th><p>patient</p></th><th><p>string (optional)</p></th><th><p>The patient’s key id.</p></th></tr><tr><td><p>text</p></td><td><p>string (optional)</p></td><td><p>Checks if any of the attributes of the CaseOverviewData object contain &lt;text&gt;.</p></td></tr><tr><td><p>status</p></td><td><p>int (optional)</p></td><td><ol><li>No filter (Default)</li><li>Open cases</li><li>Closed cases</li></ol></td></tr><tr><td><p>case</p></td><td><p>Int (optional)</p></td><td><p>The case’s key id.</p></td></tr><tr><td><p>title</p></td><td><p>string (optional)</p></td><td><p>The public title of the case.</p></td></tr><tr><td><p>patientName</p></td><td><p>string (optional)</p></td><td><p>The patient’s name.</p></td></tr><tr><td><p>department</p></td><td><p>string (optional)</p></td><td><p>Key of the department provided by the API upon GetDepartments.</p></td></tr><tr><td><p>division</p></td><td><p>string (optional)</p></td><td><p>Key of the division provided by the API upon GetDepartments.</p></td></tr><tr><td><p>page-sort-column</p></td><td><p>int (optional)</p></td><td><p>The column index to sort the result:</p><ol><li>Case Key</li><li>Person Name</li><li>Case Title</li><li>Opened Date</li><li>Closed Date</li><li>Last Updated Date</li></ol><p>By default the result is sorted by last updated date.</p></td></tr><tr><td><p>page-sort-descending</p></td><td><p>int (optional)</p></td><td><p>True to sort result descending.</p></td></tr><tr><td><p>page-number</p></td><td><p>int (optional)</p></td><td><p>Page number. Default 1.</p></td></tr><tr><td><p>page-size</p></td><td><p>int (optional)</p></td><td><p>Page size. Default 5. Minimum 5. Maximum 50.</p></td></tr></tbody></table>
+
+## Returned JSON
+
+```
+{
+
+"Items": \[
+
+&lt;list of CaseOverviewData&gt;
+
+\],
+
+"TotalCount": 15,
+
+"CurrentPage": 1,
+
+"PageSize": 10,
+
+"SortColumn": 0,
+
+"SortDescending": false
+
+}
+```
