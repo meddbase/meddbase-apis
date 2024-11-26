@@ -26,8 +26,9 @@ patientportal.appointment.saveAndSubmitQuestionnaire({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | questionnaire |     | string | The key of the questionnaire provided by the API upon GetQuestionnaires. |
-| --- |     | --- | --- |
 | answers | QuestionnaireAnswerData\[\] |     | Collection of answers. |
 
 ## Remarks

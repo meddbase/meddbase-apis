@@ -29,8 +29,9 @@ patientportal.questionnaires. getQuestionnaireForms({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | module-key | string (optional) | The key of the module provided by the API upon GetModules. |
-| --- | --- | --- |
 | category | string (required) | Always ‘ppq’. |
 | form-name | string (optional) | Filter for form name. |
 | page-number | int (optional) | Page number. Default 1. |

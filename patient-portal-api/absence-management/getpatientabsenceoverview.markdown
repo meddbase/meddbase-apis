@@ -27,8 +27,9 @@ patientportal.absences.getPatientAbsenceOverview({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | patient | string | The patient key. |
-| --- | --- | --- |
 | date-from | [DateTime](#_DateTime) (optional) | The beginning date with which to calculate the patient’s Bradford Factor score (defaults to now minus 52 weeks). |
 | date-to | [DateTime](#_DateTime) (optional) | The end date with which to calculate the patient’s Bradford Factor score (defaults to now). |
 

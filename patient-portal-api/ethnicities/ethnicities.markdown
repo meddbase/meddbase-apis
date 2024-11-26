@@ -25,8 +25,9 @@ patientportal.ethnicities.getEthnicities();
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | The absence key. |
-| --- | --- | --- |
 
 ## Returns
 

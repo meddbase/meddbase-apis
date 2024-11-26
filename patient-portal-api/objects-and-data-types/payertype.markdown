@@ -11,8 +11,9 @@ Type of the payer.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string |     |
-| --- | --- | --- |
 | Name | string |     |
 
 ## JSON Example

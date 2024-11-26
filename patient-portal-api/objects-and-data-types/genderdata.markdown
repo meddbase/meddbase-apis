@@ -11,8 +11,9 @@ Represents a person’s gender identity, NOT their sex at birth.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | The encrypted key of the gender. |
-| --- | --- | --- |
 | Name | string | The name of the gender. |
 
 ## JSON Example

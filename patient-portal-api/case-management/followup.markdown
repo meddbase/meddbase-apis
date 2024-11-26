@@ -26,13 +26,15 @@ patientportal.cases.followUp({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | case | string | The key of the case. |
-| --- | --- | --- |
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | reason | string | The reason why the user sends the follow up referral. |
-| --- | --- | --- |
 
 ## Returned JSON
 

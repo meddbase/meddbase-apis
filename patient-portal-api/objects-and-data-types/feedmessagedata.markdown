@@ -11,8 +11,9 @@ One message in the message feed.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | AuthorName | string | Name of the author of this message. |
-| --- | --- | --- |
 | Date | DateTime | Date when the message was created. |
 | Text | string | Text of the message. HTML or plain text. |
 

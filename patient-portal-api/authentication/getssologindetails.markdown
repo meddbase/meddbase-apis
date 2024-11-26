@@ -23,8 +23,9 @@ patientportal.auth. getSSOLoginDetails({companyIdentifier: < company-identifier>
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | company-identifier | string | Unique identifier to identify the employer’s single sign on configuration. |
-| --- | --- | --- |
 
 ## Returned JSON
 

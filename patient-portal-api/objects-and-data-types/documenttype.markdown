@@ -11,8 +11,9 @@ Provides information about the document type.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | The key of the document type. |
-| --- | --- | --- |
 | Name | string | The name of the document type. |
 | AlwaysAccessible | bool | True if the type is built-in and always accessible. This is usually ‘Portal Documents’ because it is used for uploading and all managers has to have access to that type.<br><br>Note this applies if the DocumentTypeSecurityEnable flag is set (see GetConfig) |
 

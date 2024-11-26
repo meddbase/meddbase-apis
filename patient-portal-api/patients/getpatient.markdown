@@ -25,8 +25,9 @@ patientportal.patients.getPatient({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | patient | string | The key of the patient provided by the API upon GetPatients. |
-| --- | --- | --- |
 
 ## Returns
 

@@ -27,8 +27,9 @@ patientportal.patients.quickSearch({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | employee-number | string | The employee number of the patient. |
-| --- | --- | --- |
 | personal-email | string | The patient’s personal email. |
 | work-email | string | The patient’s work email. |
 

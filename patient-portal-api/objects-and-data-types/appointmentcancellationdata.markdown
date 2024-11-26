@@ -11,8 +11,9 @@ Appointment cancellation information.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | AppointmentKey | string | Key of the appointment. |
-| --- | --- | --- |
 | Fee | decimal | Cancellation fee that the patient must pay. |
 | Detail | string | Any information about the cancellation. |
 

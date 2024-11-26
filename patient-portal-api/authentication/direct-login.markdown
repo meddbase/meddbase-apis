@@ -21,8 +21,9 @@ patientportal.auth.directLogin({loginToken: &lt;sslogin-token&gt;,});
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | loginToken | guid | Unique login token. This token expires after 20 seconds of creation. |
-| --- | --- | --- |
 
 ## Returns
 

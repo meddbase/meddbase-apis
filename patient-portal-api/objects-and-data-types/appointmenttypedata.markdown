@@ -11,8 +11,9 @@ Type of the appointment.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string |     |
-| --- | --- | --- |
 | Name | string |     |
 | Notes | string |     |
 | CancellationPolicy | string | The cancellation policy message. This cancellation policy will apply within cancellation the existing appointment.<br><br>Use the GetAppointmentCancellationInfo to retrieve exact cancellation message and fee for the concrete appointment at certain time. |

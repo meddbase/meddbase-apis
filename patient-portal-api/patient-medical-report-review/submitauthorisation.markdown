@@ -36,14 +36,16 @@ patientportal.patientReportReview.submitAuthorisation({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | key | string | The validation key provided in the URL. |
-| --- | --- | --- |
 | authorised | bool | true if the patient releases the medical report, false if the patient refuses it. |
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | comments | string | Comments provided by the patient. |
-| --- | --- | --- |
 | factualChanges | \[<br><br>{<br><br>Subject: string,<br><br>Comments: string<br><br>} ,…<br><br>\] | List of factual changes requested by the patient.<br><br>Subject – Subject of possible factual changes provided by the API (see PatientReportReviewData)<br><br>Comments – Patient’s comments |
 
 ## Returns

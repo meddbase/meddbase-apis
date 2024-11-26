@@ -38,8 +38,9 @@ patientportal.finance.providePayment({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | invoice-key | int | Encrypted Key of the invoice provided by the API. |
-| --- | --- | --- |
 | payer-accountid | int | Id of the existing card details for the patient retrieved using [PayerAccounts](#_PayerAccounts). 0 if new card details are to be used. This is only valid for logged in sessions. |
 | save-payment-details | bool | If the user wants to save the card details for future use, only considered if the user is logged-in. |
 | description | string | Description of the payment: 100 characters |

@@ -27,13 +27,15 @@ patientportal.auth.login({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | is-oh | bool | True for the referral portal. False for the patient portal. |
-| --- | --- | --- |
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | username | string | Patient’s email address. |
-| --- | --- | --- |
 | password | string | Patient’s plain text password. |
 
 ## Returns

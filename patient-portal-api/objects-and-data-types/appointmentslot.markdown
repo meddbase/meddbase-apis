@@ -11,8 +11,9 @@ Information about the appointment slot that the booking system needs to book the
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Type | string | Type of appointment. |
-| --- | --- | --- |
 | Start | DateTime | Start time. |
 | Finish | DateTime | Finish time. |
 | SiteKey | int | Key of the site the appointment is placed. |

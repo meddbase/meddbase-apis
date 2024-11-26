@@ -23,8 +23,9 @@ patientportal.auth.getDepartmentsAndDivisions({regCode: <reg-code>, isOH: <is-oh
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | reg-code | string | Online referral portal sign up access code that is provided to the manager. |
-| --- | --- | --- |
 | is-oh | bool | True for the referral portal. False for the patient portal. |
 
 ## Returned JSON

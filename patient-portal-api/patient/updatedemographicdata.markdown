@@ -23,8 +23,9 @@ patientportal.patient.updateDemographicData({password: <password>, demog: <demog
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | password | string | Patient’s plain text password to authenticate the patient. |
-| --- | --- | --- |
 | demog | PersonDemographicData | Patient’s demographic data to update. If any property is empty (“”), it will be updated. If any property is null (or not defined), it will not be updated. |
 
 ## POST data example

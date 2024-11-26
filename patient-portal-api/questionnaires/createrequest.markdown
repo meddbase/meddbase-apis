@@ -27,14 +27,16 @@ patientportal.questionnaires. createRequest({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | patient | string (optional) | The key of the patient provided by the API upon GetPatients. |
-| --- | --- | --- |
 | module-key | string (optional) | The key of the module provided by the API upon [GetModules](#_GetModules) or a previous call to SaveModule. If not specified, a new module will be created. |
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | form-keys | string\[\] (optional) | List of form keys returned from [GetQuestionnaireForms](#_GetQuestionnaireForms). |
-| --- | --- | --- |
 
 ## Returned JSON
 

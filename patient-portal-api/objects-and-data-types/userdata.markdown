@@ -11,8 +11,9 @@ Provides information about the user. The UserData object inherits the PersonDemo
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | The key of the user. This key doesn’t equal the key of the patient. |
-| --- | --- | --- |
 | &lt;PersonDemographicData properties&gt; |     | The UserData object inherits the PersonDemographicData. |
 | Rights | User\[\] | The list of user rights. |
 | AllPatientsVisible | bool | If True then all patients within the company are visible and the list of accessible departments is ignored. |

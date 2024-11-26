@@ -11,8 +11,9 @@ Provides full information about the referral. Includes all properties of the Ref
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | &lt;ReferralOverviewData properties&gt; |     | The object inherits the ReferralOverviewData |
-| --- | --- | --- |
 | Appointments | AppointmentData\[\] | List of appointments related to the referral. |
 | Questionnaires | QuestionnaireOverviewData\[\] | List of questionnaires related to the referral. |
 | Documents | DocumentData\[\] | List of attached documents. |

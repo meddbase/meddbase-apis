@@ -25,5 +25,6 @@ patientportal.users.removeAccess({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | user | string | The key of the user provided by the API upon GetUsers. |
-| --- | --- | --- |

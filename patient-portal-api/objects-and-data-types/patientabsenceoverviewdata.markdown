@@ -11,8 +11,9 @@ A small overview object containing the patient’s Bradford Factor score and a f
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | The key of the patient. |
-| --- | --- | --- |
 | IsCurrentlyAbsent | bool | A flag indicating whether the patient is currently absent or not. |
 | BradfordFactor | int | The Bradford factor score for the patient for the time-period specified, or if not time-period is specified, the last 52-week period. |
 

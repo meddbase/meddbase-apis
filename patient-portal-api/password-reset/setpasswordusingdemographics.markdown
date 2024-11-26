@@ -30,13 +30,15 @@ patientportal.auth.setPasswordUsingDemographics({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Is-oh | bool | True for the referral portal. False for the patient portal. |
-| --- | --- | --- |
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | key | string | Reset key that is included in the URL. |
-| --- | --- | --- |
 | name | string | Patient’s name. |
 | surname | string | Patient’s surname. |
 | dateOfBirth | DateTime | Patient’s date of birth. |

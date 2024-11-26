@@ -26,8 +26,9 @@ patientportal.anonAppointment.getServiceTypes({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | payer-type | string | Type of the payer provided by the API upon GetPayerTypes. |
-| --- | --- | --- |
 | appointment-type | string | Type of the appointment provided by the API upon [GetAppointmentTypes](#_GetAppointmentTypes) |
 
 ## Returns

@@ -39,8 +39,9 @@ patientportal.appointment.getSites({
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | clinicians | int\[\] (optional) | Clinicians filter. Array of identifiers provide by the API upon GetClinicians. Null or empty for any clinicians. |
-| --- | --- | --- |
 | modules | [AppointmentModuleData](#_AppointmentModuleData) \[\] (optional) | Selection of modules and additional services provided by the API upon GetAppointmentTypes. Available sites will be filtered according to availability of the specified modules. |
 
 ## Returns
@@ -51,8 +52,9 @@ A shallow search result of a patient/company address.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | An encrypted key value containing partial address information used to retrieve complete address details. |
-| --- | --- | --- |
 | Address | string | A single-line search result address. |
 
 ## JSON Example

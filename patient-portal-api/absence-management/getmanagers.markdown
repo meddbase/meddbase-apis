@@ -25,8 +25,9 @@ patientportal.patients.getManagers({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | patient | string | The patient key. |
-| --- | --- | --- |
 
 ## Returned JSON
 

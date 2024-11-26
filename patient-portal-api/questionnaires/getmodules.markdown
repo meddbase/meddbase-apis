@@ -28,8 +28,9 @@ patientportal.questionnaires. getModules({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | category | string (required) | Always ‘ppq’. |
-| --- | --- | --- |
 | module-name | string (optional) | Filter for module name. |
 | page-number | int (optional) | Page number. Default 1. |
 | page-size | int (optional) | Page size. Default 10. Minimum 5. Maximum 50. |

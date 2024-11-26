@@ -23,8 +23,9 @@ patientportal.addressFinder.address({key: <key>});
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | key | string | An encrypted key value containing partial address information. |
-| --- | --- | --- |
 
 ## Returned JSON
 
@@ -48,8 +49,9 @@ patientportal.addressFinder.address({key: <key>});
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | key | string | An encrypted key value containing partial address information. |
-| --- | --- | --- |
 
 ## Returned JSON
 

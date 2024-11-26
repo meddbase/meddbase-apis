@@ -25,8 +25,9 @@ patientportal.patients.updatePatient({
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | demog | PersonDemographicData | Defines person’s details. |
-| --- | --- | --- |
 
 ## Returns
 

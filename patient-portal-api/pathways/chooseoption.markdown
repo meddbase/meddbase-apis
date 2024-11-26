@@ -27,8 +27,9 @@ patientportal.pathways.chooseOption({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | pathway | string | Pathway key |
-| --- | --- | --- |
 | task | string | Task key |
 | index | int | The index of the option. Note that he index starts from 1. |
 

@@ -23,13 +23,15 @@ patientportal.passwordReset.setPassword({ key: <key>, newPassword: <newPassword>
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | is-oh | bool | True for the referral portal. False for the patient portal. |
-| --- | --- | --- |
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | key | key | The password reset key. |
-| --- | --- | --- |
 | newPassword | newPassword | The new password. |
 
 ## Remarks

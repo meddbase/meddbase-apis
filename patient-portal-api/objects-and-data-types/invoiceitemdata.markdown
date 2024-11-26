@@ -11,8 +11,9 @@ Contains information from one row of an invoice.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | Key of the item. |
-| --- | --- | --- |
 | TypeName | string | Full name of the item type (e.g. Appointment, Module, Product, etc.). Item type specify a group that the item belongs to. |
 | Name | string | Name of the item. |
 | Code | string | Code of the item. |

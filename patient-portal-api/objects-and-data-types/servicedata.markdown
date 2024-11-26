@@ -11,8 +11,9 @@ Information about the Service.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | int | Unique key of the service. |
-| --- | --- | --- |
 | Code | string | Code of the service |
 | Name | string | Name of the service |
 | CurrencyCode | string | Code of the currency |

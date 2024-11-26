@@ -11,8 +11,9 @@ The location within the site.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | int |     |
-| --- | --- | --- |
 | Name | string |     |
 | Address | AddressData |     |
 

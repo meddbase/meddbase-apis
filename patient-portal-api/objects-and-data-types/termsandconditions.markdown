@@ -11,8 +11,9 @@ Provides information about the terms and conditions.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | TermsAndConditionsText | string | The text of the terms and conditions. |
-| --- | --- | --- |
 | StatisticalProcessingText | string | The text of the announcement that the patient data will be used for statistical processing. |
 
 ## JSON Example

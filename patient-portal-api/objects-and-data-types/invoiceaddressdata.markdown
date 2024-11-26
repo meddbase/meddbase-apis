@@ -11,8 +11,9 @@ Contains information about the invoice’s creditor or debtor.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Name | string | Name of the account. |
-| --- | --- | --- |
 | IsCompany | bool | True if the account is a company. False if the account is a patient. |
 | Address | AddressData | Account address. |
 | Account | CompanyDemographicData<br><br>PersonDemographicData | A demographic data of the account.<br><br>If the IsCompany is true, the type of this property is CompanyDemographicData, else the type is PersonDemographicData. |

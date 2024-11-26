@@ -23,8 +23,9 @@ patientportal.appointment.cancelExistingAppointment({appointment: <appointment>}
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | appointment | string | The key of the existing appointment provided by the API upon GetExistingAppointments. |
-| --- | --- | --- |
 
 ## Return
 

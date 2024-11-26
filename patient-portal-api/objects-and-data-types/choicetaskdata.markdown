@@ -11,6 +11,7 @@ An additional details for the choice task.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Options | string\[\] | List of options. The index starts from 1. |
-| --- | --- | --- |
 | SelectedIndex | int | The selected option. -1 if not selected. |

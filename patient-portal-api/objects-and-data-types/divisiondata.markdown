@@ -11,8 +11,9 @@ Contains the information about the company division.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string |     |
-| --- | --- | --- |
 | Name | string |     |
 
 ## JSON Example

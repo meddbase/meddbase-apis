@@ -11,8 +11,9 @@ Provides information about the current membership scheme of the patient.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Name | string | Name of the scheme. |
-| --- | --- | --- |
 | Code | string | Membership code of the scheme. |
 | BillingFrequency | string | Billing frequency of current scheme. Weekly, monthly, etc. |
 | CurrencyCode | string | Three-letter currency code (e.g. "GBP", "EUR", "USD", etc.) |

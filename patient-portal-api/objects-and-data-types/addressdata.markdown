@@ -11,8 +11,9 @@ Address of the patient/company.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Address1 | string |     |
-| --- | --- | --- |
 | Address2 | string |     |
 | Address3 | string |     |
 | City | string |     |

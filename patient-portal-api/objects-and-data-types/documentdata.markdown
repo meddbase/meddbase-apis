@@ -11,8 +11,9 @@ Provides information about the document.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Name | string | The name of the document. |
-| --- | --- | --- |
 | Author | User | The type of the user account. |
 | Comments | string | Short description or comment. |
 | DateCreated | DateTime | Created date. |

@@ -43,8 +43,9 @@ patientportal.anonAppointment.getProposedTimeSlots({
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | modules | AppointmentModuleData\[\]<br><br>(optional) | Selection of modules and additional services provided by the API upon GetAppointmentTypes. |
-| --- | --- | --- |
 | services | [ServiceData](#_ServiceData)\[\]<br><br>(optional) | Selection of services provided by [GetServices](#_GetServices) |
 
 ## Returns

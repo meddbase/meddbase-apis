@@ -23,5 +23,6 @@ patientportal.anonBooking.submitValidationCode({ code: <code> });
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | code | code | The 2FA code. |
-| --- | --- | --- |

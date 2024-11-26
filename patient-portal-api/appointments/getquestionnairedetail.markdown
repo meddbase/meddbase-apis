@@ -23,8 +23,9 @@ patientportal.appointment.getQuestionnaireDetail({questionnaire: <questionnaire>
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | questionnaire | string | The key of the questionnaire provided by the API upon GetQuestionnaires. |
-| --- | --- | --- |
 
 ## Returns
 

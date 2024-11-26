@@ -28,8 +28,9 @@ patientportal.auth.registerPatient({
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | regCode | string (partially optional) | Online sign up access code that is provided to the patient. |
-| --- | --- | --- |
 | demog | PersonDemographicData | Defines person’s details. |
 | membershipCode | string (partially optional) | Membership scheme code that is provided by Medical Management Systems to the client.<br><br>See Membership scheme |
 | is-oh | bool | True for the referral portal. False for the patient portal. |

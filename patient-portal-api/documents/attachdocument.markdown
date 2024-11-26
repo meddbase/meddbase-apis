@@ -31,8 +31,9 @@ patientportal.documents.attachDocument({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | patient | string | The key of the patient provided by the API upon GetPatients. |
-| --- | --- | --- |
 | document-name | string | The name of the document. |
 | document-comments | string (optional) | The document comments/description. |
 | uploading.file | javascript:<br><br>File | File instance provided by JavaScript input element:<br><br>file:document.getElementById("myFile").files\[0\] |

@@ -25,5 +25,6 @@ patientportal.recalls.deleteRecall({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | recall | string | The key of the recall provided by the API upon method GetRecalls. |
-| --- | --- | --- |

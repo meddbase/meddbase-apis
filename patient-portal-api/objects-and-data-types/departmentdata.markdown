@@ -11,8 +11,9 @@ Contains the information about the company department.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string |     |
-| --- | --- | --- |
 | Name | string |     |
 | Divisions | DivisionData\[\] |     |
 | ParentKey | int | The ID of the parent department, if it has one |

@@ -23,13 +23,15 @@ patientportal.passwordReset.submitValidationCode({ key: <key>, code: <code> });
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | is-oh | bool | True for the referral portal. False for the patient portal. |
-| --- | --- | --- |
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | key | key | The password reset key. |
-| --- | --- | --- |
 | code | code | The validation code. |
 
 ## Remarks

@@ -30,15 +30,17 @@ patientportal.anonAppointment.getSites({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | appointment-type | string | Type of the appointment provided by the API upon GetAppointmentTypes. |
-| --- | --- | --- |
 | lat<br><br>long | decimal (optional) | Latitude and Longitude from GPS so server can sort sites by distance.<br><br>Latitudes and Longitudes are defined using numerals that have a precision to 6 decimal places. For example, “lat=51.541743&long=-0.13715" is a valid value. |
 | payer-type | string | The signup code of a chargeband, that will provide eligibility and price information for the search. |
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | clinicians | int\[\] (optional) | Clinicians filter. Array of identifiers provide by the API upon GetClinicians. Null or empty for any clinicians. |
-| --- | --- | --- |
 | modules | [AppointmentModuleData](#_AppointmentModuleData) \[\] (optional) | Selection of modules and additional services provided by the API upon GetAppointmentTypes. Available sites will be filtered according to availability of the specified modules. |
 
 ## Returns
@@ -49,8 +51,9 @@ A shallow search result of a patient/company address.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | An encrypted key value containing partial address information used to retrieve complete address details. |
-| --- | --- | --- |
 | Address | string | A single-line search result address. |
 
 ## JSON Example

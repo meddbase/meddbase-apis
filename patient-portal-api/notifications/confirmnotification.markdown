@@ -23,8 +23,9 @@ patientportal.notification.confirm({notification: <notification>});
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | notification | string | Key of the notification provided by the API upon GetNotifications. |
-| --- | --- | --- |
 
 ## Remarks
 

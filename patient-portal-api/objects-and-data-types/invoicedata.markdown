@@ -11,8 +11,9 @@ Contains data of the invoice.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | Key of the invoice. |
-| --- | --- | --- |
 | Date | DateTime | Date when was the invoice raised. |
 | Number | int | Number of the invoice. The client can use it to provide a payment. |
 | CurrencyCode | string | Three-letter currency code (e.g. "GBP", "EUR", "USD", etc.) |

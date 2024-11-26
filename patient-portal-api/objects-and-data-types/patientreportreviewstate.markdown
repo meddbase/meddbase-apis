@@ -11,8 +11,9 @@ Provides information about the state of the patient medical report review.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Required | bool | True if the patient requires the medical report review. |
-| --- | --- | --- |
 | InProgress | bool | True if the review is in progress (i.e. an invitation email has been sent to the patient). |
 | Finished | bool | True if the review has been finished. |
 | State | string | The current state of the review. |

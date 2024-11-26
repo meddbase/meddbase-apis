@@ -11,8 +11,9 @@ Contains ISO 3166 country data.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string |     |
-| --- | --- | --- |
 | Name | string |     |
 
 ## JSON Example

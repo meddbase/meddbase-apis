@@ -23,8 +23,9 @@ patientportal.auth.submit2faCode({code: <code>});
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | code | string | 2FA code. |
-| --- | --- | --- |
 
 ## Returns
 

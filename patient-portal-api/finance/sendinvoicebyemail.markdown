@@ -23,8 +23,9 @@ patientportal.finance.sendInvoiceByEmail({invoiceNumber: <invoice-number>});
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | invoice-number | string | The invoice number provided by the API upon GetInvoices. |
-| --- | --- | --- |
 
 ## Remarks
 

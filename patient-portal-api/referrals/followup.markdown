@@ -26,13 +26,15 @@ patientportal.referrals.followUp({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | referral | string | The key of the referral provided by the API upon GetReferrals. |
-| --- | --- | --- |
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | reason | string | The reason why the user sends the follow up referral. |
-| --- | --- | --- |
 
 ## Returns
 

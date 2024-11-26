@@ -23,8 +23,9 @@ patientportal.telemedicine.authorise({key: <key>});
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | key | string | Key to verify and generate token against. This key is part of the URL provided to access telemedicine conference. |
-| --- | --- | --- |
 | username | string | The name of the participant. |
 
 ## Returns

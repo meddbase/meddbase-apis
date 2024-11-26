@@ -25,8 +25,9 @@ patientportal.referrers.getReferrers();
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | String | The absence key. |
-| --- | --- | --- |
 
 ## Returns
 

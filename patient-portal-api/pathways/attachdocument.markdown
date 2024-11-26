@@ -32,8 +32,9 @@ patientportal.pathways.attachDocument({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | pathway | string | Pathway key |
-| --- | --- | --- |
 | task | string | Task key |
 | document-name | string | The name of the document. |
 | document-comments | string (optional) | The document comments/description. |

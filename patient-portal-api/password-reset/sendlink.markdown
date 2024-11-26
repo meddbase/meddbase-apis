@@ -23,13 +23,15 @@ patientportal.passwordReset.sendLink({ email: <email> });
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | is-oh | bool | True for the referral portal. False for the patient portal. |
-| --- | --- | --- |
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | email | string | Email address. |
-| --- | --- | --- |
 
 ## Remarks
 

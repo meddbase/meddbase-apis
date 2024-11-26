@@ -11,8 +11,9 @@ Feed of the feeds system.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | Key of the feed. |
-| --- | --- | --- |
 | StartDate | DateTime | Day and time when the feed was created. |
 | AuthorName | string | Name of the author who created this feed. |
 | LastMessage | FeedMessageData | The last message only. |

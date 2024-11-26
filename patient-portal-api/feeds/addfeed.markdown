@@ -26,8 +26,9 @@ patientportal.feed.addFeed({
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | messageText | string | Text of the first message within a new feed. Text can be formatted as HTML or plain text. |
-| --- | --- | --- |
 | referral | string (optional) | The key of the referral provided by the API upon GetReferrals. |
 
 ## Returns

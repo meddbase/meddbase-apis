@@ -27,8 +27,9 @@ patientportal.referrals.bulkReallocate({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | from-user | string (optional\*) | The key of the user provided by the API upon FindUserToReallocate. Use this filter to reallocate referrals assigned to a specific user. |
-| --- | --- | --- |
 | patient | string (optional\*) | The key of the patient provided by the API upon section Patients. Use this filter to reallocated referrals of a specific patient. |
 | to-user | string | The key of the user provided by the API upon FindUserToReallocate. |
 

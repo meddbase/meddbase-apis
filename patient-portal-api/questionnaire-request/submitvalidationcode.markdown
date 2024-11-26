@@ -26,8 +26,9 @@ patientportal.questionnaireRequest.submitValidationCode({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | key | string | The validation key provided in the URL. |
-| --- | --- | --- |
 | code | string | The validation code the patient gets through the email or text message. |
 
 ## Returns

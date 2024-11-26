@@ -11,8 +11,9 @@ Contains information from one credit note of an invoice.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | Key | string | Key of the item. |
-| --- | --- | --- |
 | Date | DateTime | When was a credit note raised. |
 | ServiceName | string | Name of the service the credit note was raised for.<br><br>If empty the credit note is raised for whole invoice. |
 | Comments | string | A reason why was this credit note raised. |

@@ -23,8 +23,9 @@ patientportal.addressFinder.search({postcode: <postcode>});
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | postcode | string | Case-insensitive postcode with space (e.g. N7 0NH or n7 0nh). |
-| --- | --- | --- |
 
 ## Returned JSON
 
@@ -48,8 +49,9 @@ patientportal.addressFinder.search({postcode: <postcode>});
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | postcode | string | Case-insensitive postcode with space (e.g. N7 0NH or n7 0nh). |
-| --- | --- | --- |
 
 ## Returned JSON
 

@@ -25,8 +25,9 @@ patientportal.referrals.send({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | referral | string | The key of the referral provided by the API upon GetReferrals. |
-| --- | --- | --- |
 
 ## Returns
 

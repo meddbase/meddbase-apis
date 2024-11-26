@@ -28,8 +28,9 @@ patientportal.auth.submitActivationEmail({isOH: <is-oh>});
 
 ## POST Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | key | string | Confirmation key that is included in the URL. |
-| --- | --- | --- |
 
 ## Returns
 

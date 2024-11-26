@@ -11,8 +11,9 @@ Provides informations about the current session, company and logged-in user.
 
 ## Properties
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | IsLoggedIn | bool | True if the user is logged in. |
-| --- | --- | --- |
 | CompanyName | string | Name of the current company. |
 | Phone | string | Official Company phone number. |
 | Permissions | object | List of patient’s/user’s permissions. |

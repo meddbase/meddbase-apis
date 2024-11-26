@@ -26,8 +26,9 @@ patientportal.pathways.getPathway({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | pathway | string | Pathway key |
-| --- | --- | --- |
 | task | string | Task key |
 
 ## Returns
