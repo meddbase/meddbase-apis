@@ -11,29 +11,18 @@ Gets all questionnaires for future appointments based on filters. Gets complete,
 
 ## JavaScript library method
 
-```
-patientportal.appointment.getQuestionnaires ({
-
-patient: &lt;patient&gt;,
-
-questionnaireTypeName: &lt;questionnaire-type-name&gt;,
-
-expirationFrom: &lt;expiration-from&gt;,
-
-expirationTo: &lt; expiration-to&gt;,
-
-status: &lt;status&gt;,
-
-appointment: &lt;appointmentId&gt;,
-
-pageSortColumn: &lt;page-sort-column&gt;,
-
-pageSortDescending: &lt;page-sort-descending&gt;,
-
-pageNumber: &lt;page-number&gt;,
-
-pageSize: &lt;page-size&gt;
-
+```javascript
+patientportal.appointment.getQuestionnaires({
+    patient: <patient>,
+    questionnaireTypeName: <questionnaire-type-name>,
+    expirationFrom: <expiration-from>,
+    expirationTo: < expiration-to>,
+    status: <status>,
+    appointment: <appointmentId>,
+    pageSortColumn: <page-sort-column>,
+    pageSortDescending: <page-sort-descending>,
+    pageNumber: <page-number>,
+    pageSize: <page-size>
 });
 ```
 
@@ -56,7 +45,7 @@ GET
 
 "Items": \[
 
-&lt;list of QuestionnaireOverviewData&gt;
+<list of QuestionnaireOverviewData>
 
 \]
 

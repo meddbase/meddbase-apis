@@ -11,11 +11,9 @@ Get the results of a questionnaire request. The result of this call is an array 
 
 ## JavaScript library method
 
-```
-patientportal.questionnaires. getQuestionnaireResults ({
-
-questionnaireRequest: &lt;questionnaire-request&gt;
-
+```javascript
+patientportal.questionnaires. getQuestionnaireResults({
+    questionnaireRequest: <questionnaire-request>
 });
 ```
 

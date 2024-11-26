@@ -11,17 +11,12 @@ Returns the list of pathways shared with the currently logged-in patient.
 
 ## JavaScript library method
 
-```
-patientportal.pathways.getPathways ({
-
-pageSortColumn: &lt;page-sort-column&gt;,
-
-pageSortDescending: &lt;page-sort-descending&gt;,
-
-pageNumber: &lt;page-number&gt;,
-
-pageSize: &lt;page-size&gt;
-
+```javascript
+patientportal.pathways.getPathways({
+    pageSortColumn: <page-sort-column>,
+    pageSortDescending: <page-sort-descending>,
+    pageNumber: <page-number>,
+    pageSize: <page-size>
 });
 ```
 
@@ -44,7 +39,7 @@ GET
 
 "Items": \[
 
-&lt;list of PathwayOverviewData&gt;
+<list of PathwayOverviewData>
 
 \]
 

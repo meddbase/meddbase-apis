@@ -11,11 +11,9 @@ Sends the validation code through the text message.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.managerReportReview.sendValidationSMS({
-
-key: &lt;key&gt;
-
+    key: <key>
 });
 ```
 

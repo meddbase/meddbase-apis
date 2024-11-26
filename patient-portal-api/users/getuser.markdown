@@ -11,11 +11,9 @@ Returns the specific user.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.users.getUser({
-
-user: &lt;user&gt;
-
+    user: <user>
 });
 ```
 

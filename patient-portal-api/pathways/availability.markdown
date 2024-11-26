@@ -11,13 +11,10 @@ Returns availability for a particular pathway definition if that pathways can be
 
 ## JavaScript library method
 
-```
-patientportal.pathways.availability ({
-
-pathwayDef: &lt;pathwayDef&gt;
-
+```javascript
+patientportal.pathways.availability({
+    pathwayDef: <pathwayDef>
 }
-
 });
 ```
 

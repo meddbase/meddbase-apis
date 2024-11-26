@@ -11,15 +11,11 @@ Selects an option within the choice task.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.pathways.chooseOption({
-
-pathway: &lt;pathway&gt;,
-
-task: &lt;task&gt;,
-
-index: &lt;index&gt;
-
+    pathway: <pathway>,
+    task: <task>,
+    index: <index>
 });
 ```
 

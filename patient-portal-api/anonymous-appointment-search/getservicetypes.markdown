@@ -11,13 +11,10 @@ Gets service types (except) modules
 
 ## JavaScript library method
 
-```
-patientportal.anonAppointment.getServiceTypes ({
-
-payerType: &lt;payer-type&gt;,
-
-appointmentType: <appointment-type
-
+```javascript
+patientportal.anonAppointment.getServiceTypes({
+    payerType: <payer-type>,
+    appointmentType: <appointment-type
 });
 ```
 

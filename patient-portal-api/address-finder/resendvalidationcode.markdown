@@ -11,7 +11,7 @@ Resends the 2FA email and SMS. Please use the SessionId provide within registrat
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.anonBooking.resendValidationCode();
 ```
 

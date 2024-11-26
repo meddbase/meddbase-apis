@@ -11,8 +11,8 @@ Confirms notification so the notification will not be returned by GetNotificatio
 
 ## JavaScript library method
 
-```
-patientportal.notification.confirm({notification: &lt;notification&gt;});
+```javascript
+patientportal.notification.confirm({notification: <notification>});
 ```
 
 ## HTTP Method

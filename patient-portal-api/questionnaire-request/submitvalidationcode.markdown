@@ -11,13 +11,10 @@ Submits the validation code and returns the questionnaire data. Once the validat
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.questionnaireRequest.submitValidationCode({
-
-key: &lt;key&gt;,
-
-code: &lt;code&gt;
-
+    key: <key>,
+    code: <code>
 });
 ```
 

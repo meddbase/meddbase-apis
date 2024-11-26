@@ -11,8 +11,8 @@ Returns address details for the provided encrypted key.
 
 ## JavaScript library method
 
-```
-patientportal.addressFinder.address ({key: &lt;key&gt;});
+```javascript
+patientportal.addressFinder.address({key: <key>});
 ```
 
 ## HTTP Method
@@ -38,8 +38,8 @@ Returns address details for the provided encrypted key.
 
 ## JavaScript library method
 
-```
-patientportal.addressFinder.address ({key: &lt;key&gt;});
+```javascript
+patientportal.addressFinder.address({key: <key>});
 ```
 
 ## HTTP Method

@@ -11,11 +11,9 @@ Cancels the referral.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.referrals.cancel({
-
-referral: &lt;referral&gt;,
-
+    referral: <referral>,
 });
 ```
 

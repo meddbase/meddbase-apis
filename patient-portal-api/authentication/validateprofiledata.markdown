@@ -11,17 +11,12 @@ Confirms the validity of the current patient’s demographic data.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.auth.validateProfileData({
-
-regCode: &lt;regCode&gt;,
-
-demog: &lt;demog&gt;,
-
-membershipCode: &lt;membership-code&gt;,
-
-isOH: &lt;is-oh&gt;
-
+    regCode: <regCode>,
+    demog: <demog>,
+    membershipCode: <membership-code>,
+    isOH: <is-oh>
 });
 ```
 

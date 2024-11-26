@@ -11,23 +11,15 @@ Gets possible clinicians/doctors for the specific appointment type.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.appointment.getClinicians({
-
-appointmentType: &lt;appointment-type&gt;,
-
-sites: &lt;sites&gt;,
-
-locations: &lt;locations&gt;,
-
-payerType: &lt;payer-type&gt;,
-
-patient: &lt;patient&gt;,
-
-referral: &lt;referral&gt;,
-
-recall: &lt;recall&gt;
-
+    appointmentType: <appointment-type>,
+    sites: <sites>,
+    locations: <locations>,
+    payerType: <payer-type>,
+    patient: <patient>,
+    referral: <referral>,
+    recall: <recall>
 });
 ```
 

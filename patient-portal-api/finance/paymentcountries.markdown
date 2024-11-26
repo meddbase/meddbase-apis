@@ -11,7 +11,7 @@ Returns a list of countries that may be used for the billing address country whe
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.finance.prototype.getPaymentCountries()
 ```
 

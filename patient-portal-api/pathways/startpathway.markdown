@@ -11,13 +11,10 @@ Starts a pathway if allowed.
 
 ## JavaScript library method
 
-```
-patientportal.pathways.startPathway ({
-
-pathwayDef: &lt;pathwayDef&gt;
-
+```javascript
+patientportal.pathways.startPathway({
+    pathwayDef: <pathwayDef>
 }
-
 });
 ```
 

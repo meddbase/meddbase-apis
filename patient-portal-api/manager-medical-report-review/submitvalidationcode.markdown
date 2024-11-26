@@ -11,13 +11,10 @@ Submits the validation code and returns the medical report review data. Once the
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.managerReportReview.submitValidationCode({
-
-key: &lt;key&gt;,
-
-code: &lt;code&gt;
-
+    key: <key>,
+    code: <code>
 });
 ```
 

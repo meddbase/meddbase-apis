@@ -11,7 +11,7 @@ Returns the list of employer departments and divisions.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.patient.getDepartmentsAndDivisions();
 ```
 
@@ -30,13 +30,13 @@ GET
 
 "Departments": \[
 
-&lt;list of DepartmentData&gt;
+<list of DepartmentData>
 
 \]
 
 "Divisions": \[
 
-&lt;list of DivisionData&gt;
+<list of DivisionData>
 
 \]
 

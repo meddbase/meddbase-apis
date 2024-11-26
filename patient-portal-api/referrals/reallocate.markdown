@@ -11,13 +11,10 @@ Re-allocate the referral to another user.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.referrals.reallocate({
-
-referral: &lt;referral&gt;,
-
-user: &lt;user&gt;
-
+    referral: <referral>,
+    user: <user>
 });
 ```
 

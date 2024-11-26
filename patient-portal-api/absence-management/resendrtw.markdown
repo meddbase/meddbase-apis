@@ -11,11 +11,9 @@ Resends the questionnaire request email / SMS for the specified absence record t
 
 ## JavaScript library method
 
-```
-patientportal.absences.resendRTW ({
-
-absence: &lt;absence&gt;
-
+```javascript
+patientportal.absences.resendRTW({
+    absence: <absence>
 });
 ```
 

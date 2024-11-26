@@ -11,8 +11,8 @@ Cancels the existing appointment and returns an invoice if any cancellation fee 
 
 ## JavaScript library method
 
-```
-patientportal.appointment.cancelExistingAppointment({appointment: &lt;appointment&gt;});
+```javascript
+patientportal.appointment.cancelExistingAppointment({appointment: <appointment>});
 ```
 
 ## HTTP Method

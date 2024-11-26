@@ -11,15 +11,11 @@ Returns the patient that meets the search criteria.
 
 ## JavaScript library method
 
-```
-patientportal.patients.quickSearch ({
-
-employeeNumber: &lt;employee-number&gt;,
-
-personalEmail: &lt;personal-email&gt;,
-
-workEmail: &lt;work-email&gt;
-
+```javascript
+patientportal.patients.quickSearch({
+    employeeNumber: <employee-number>,
+    personalEmail: <personal-email>,
+    workEmail: <work-email>
 });
 ```
 

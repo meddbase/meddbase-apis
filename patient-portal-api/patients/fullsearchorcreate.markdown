@@ -11,11 +11,9 @@ Returns the patient that meets the search criteria. If such as patient doesn’t
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.patients.fullSearchOrCreate({
-
-demog: &lt;demog&gt;
-
+    demog: <demog>
 });
 ```
 

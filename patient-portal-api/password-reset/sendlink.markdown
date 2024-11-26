@@ -11,8 +11,8 @@ Sends a password reset link via an email to the patient’s personal email addre
 
 ## JavaScript library method
 
-```
-patientportal.passwordReset.sendLink({ email: &lt;email&gt; });
+```javascript
+patientportal.passwordReset.sendLink({ email: <email> });
 ```
 
 ## HTTP Method

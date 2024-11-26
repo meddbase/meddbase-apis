@@ -11,15 +11,11 @@ Gets payer types (e.g. Patient, Employer, Issuer, School, etc.). This allows the
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.appointment.getPayerTypes({
-
-patient: &lt;patient&gt;,
-
-referral: &lt;referral&gt;,
-
-recall: &lt;recall&gt;
-
+    patient: <patient>,
+    referral: <referral>,
+    recall: <recall>
 });
 ```
 

@@ -11,11 +11,9 @@ Returns a specific pathway.
 
 ## JavaScript library method
 
-```
-patientportal.pathways.getPathway ({
-
-pathway: &lt;pathway&gt;
-
+```javascript
+patientportal.pathways.getPathway({
+    pathway: <pathway>
 });
 ```
 

@@ -11,11 +11,9 @@ Sends the referral.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.referrals.send({
-
-referral: &lt;referral&gt;,
-
+    referral: <referral>,
 });
 ```
 

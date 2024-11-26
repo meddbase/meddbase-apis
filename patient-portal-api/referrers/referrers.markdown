@@ -13,8 +13,8 @@ Returns a list of the available referrers to select from when updating the patie
 
 ## JavaScript library method
 
-```
-patientportal.referrers.getReferrers ();
+```javascript
+patientportal.referrers.getReferrers();
 ```
 
 ## HTTP Method

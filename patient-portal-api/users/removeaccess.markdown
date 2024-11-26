@@ -11,11 +11,9 @@ Removes the manager’s rights so the user will not be able to access the Referr
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.users.removeAccess({
-
-user: &lt;user&gt;
-
+    user: <user>
 });
 ```
 

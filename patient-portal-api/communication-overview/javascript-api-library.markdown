@@ -27,15 +27,11 @@ patientportal = new PatientPortalAPI();
 All function calls follow this form:
 
 ```javascript
-patientportal.SECTION.METHOD_NAME({
-  param1: value1,
-  paramN: valueN
+patientportal.SECTION.METHOD_NAME({ param1: value1, paramN: valueN
 })
-.done(function (receivedData) {
-  // do something
+    .done(function (receivedData) { // do something
 })
-.fail(function (receivedError) {
-  // do something
+    .fail(function (receivedError) { // do something
 });
 ```
 

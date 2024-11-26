@@ -11,8 +11,8 @@ Returns unique URL to initiate a service provider initiated single sign on
 
 ## JavaScript library method
 
-```
-patientportal.auth. getSSOLoginDetails ({companyIdentifier: &lt; company-identifier&gt;});
+```javascript
+patientportal.auth. getSSOLoginDetails({companyIdentifier: < company-identifier>});
 ```
 
 ## HTTP Method

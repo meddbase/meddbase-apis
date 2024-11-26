@@ -11,13 +11,10 @@ Adds a new feed to the patient’s feeds and returns it.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.feed.addFeed({
-
-messageText: &lt;messageText&gt;,
-
-referral:&lt;referral&gt;
-
+    messageText: <messageText>,
+    referral:<referral>
 });
 ```
 

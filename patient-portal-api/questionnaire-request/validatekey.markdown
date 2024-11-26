@@ -11,11 +11,9 @@ Validates whether the security context for the last submitted validation code is
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.questionnaireRequest.validateKey({
-
-key: &lt;key&gt;
-
+    key: <key>
 });
 ```
 

@@ -11,13 +11,10 @@ Gets a number of the newest feeds.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.feed.getFeeds({
-
-toDate: &lt;to-date&gt;,
-
-referral:&lt;referral&gt;
-
+    toDate: <to-date>,
+    referral:<referral>
 });
 ```
 

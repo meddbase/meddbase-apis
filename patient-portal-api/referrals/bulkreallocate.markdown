@@ -11,15 +11,11 @@ Re-allocate all referrals created by one user to a different user. Returns count
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.referrals.bulkReallocate({
-
-fromUser: &lt;from-user&gt;,
-
-patient: &lt;patient&gt;,
-
-toUser: &lt;to-user&gt;
-
+    fromUser: <from-user>,
+    patient: <patient>,
+    toUser: <to-user>
 });
 ```
 

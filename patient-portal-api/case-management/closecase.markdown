@@ -11,11 +11,9 @@ Closes a case and returns the newly closed case.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.cases.closeCase({
-
-case: &lt;case&gt;
-
+    case: <case>
 });
 ```
 

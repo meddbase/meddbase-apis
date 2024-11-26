@@ -11,8 +11,8 @@ Confirms the validity of the membership scheme code.
 
 ## JavaScript library method
 
-```
-patientportal.membershipScheme.validateCode({code: &lt;code&gt;});
+```javascript
+patientportal.membershipScheme.validateCode({code: <code>});
 ```
 
 ## HTTP Method

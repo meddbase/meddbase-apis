@@ -11,17 +11,12 @@ Creates a new patient’s portal profile. If the patient already exists in the M
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.auth.registerPatient({
-
-regCode: &lt;regCode&gt;,
-
-demog: &lt;demog&gt;,
-
-membershipCode: &lt;membership-code&gt;,
-
-isOH: &lt;is-oh&gt;
-
+    regCode: <regCode>,
+    demog: <demog>,
+    membershipCode: <membership-code>,
+    isOH: <is-oh>
 });
 ```
 
@@ -78,7 +73,7 @@ The registration creates a standard session and the activation needs to pass a c
 
 "Password": "jon4535lemon",
 
-... &lt;see PersonDemographicData for all properties&gt;
+... <see PersonDemographicData for all properties>
 
 }
 

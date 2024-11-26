@@ -11,8 +11,8 @@ Validates the password reset key that is included in the URL sent via the email 
 
 ## JavaScript library method
 
-```
-patientportal.passwordReset.validateKey({ key: &lt;key&gt; });
+```javascript
+patientportal.passwordReset.validateKey({ key: <key> });
 ```
 
 ## HTTP Method

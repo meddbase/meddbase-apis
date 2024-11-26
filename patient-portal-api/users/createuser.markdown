@@ -11,11 +11,9 @@ Creates a new patient’s portal profile. If the patient already exists in the M
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.users.createUser({
-
-userData: &lt;userData&gt;
-
+    userData: <userData>
 });
 ```
 

@@ -11,29 +11,18 @@ Returns the list of users.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.users.getUsers({
-
-text: &lt;text&gt;,
-
-name: &lt;name&gt;,
-
-department: &lt;department&gt;,
-
-division: &lt;division&gt;,
-
-email: &lt;email&gt;,
-
-employeeNumber: &lt;employee-number&gt;,
-
-pageSortColumn: &lt;page-sort-column&gt;,
-
-pageSortDescending: &lt;page-sort-descending&gt;,
-
-pageNumber: &lt;page-number&gt;,
-
-pageSize: &lt;page-size&gt;
-
+    text: <text>,
+    name: <name>,
+    department: <department>,
+    division: <division>,
+    email: <email>,
+    employeeNumber: <employee-number>,
+    pageSortColumn: <page-sort-column>,
+    pageSortDescending: <page-sort-descending>,
+    pageNumber: <page-number>,
+    pageSize: <page-size>
 });
 ```
 
@@ -56,7 +45,7 @@ GET
 
 "Items": \[
 
-&lt;list of UserData&gt;
+<list of UserData>
 
 \]
 

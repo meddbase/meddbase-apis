@@ -11,8 +11,8 @@ Sends a validation code for a specific password reset key to the mobile number.
 
 ## JavaScript library method
 
-```
-patientportal.passwordReset.sendValidationSMS({ key: &lt;key&gt; });
+```javascript
+patientportal.passwordReset.sendValidationSMS({ key: <key> });
 ```
 
 ## HTTP Method

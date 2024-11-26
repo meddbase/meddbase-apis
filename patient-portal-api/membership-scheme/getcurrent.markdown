@@ -11,7 +11,7 @@ Returns the current membership scheme data the patient is currently joined into.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.membershipScheme.getCurrent();
 ```
 

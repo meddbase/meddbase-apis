@@ -11,8 +11,8 @@ Gets detail of the specific questionnaire (definitions of questions and saved pa
 
 ## JavaScript library method
 
-```
-patientportal.appointment.getQuestionnaireDetail({questionnaire: &lt;questionnaire&gt;});
+```javascript
+patientportal.appointment.getQuestionnaireDetail({questionnaire: <questionnaire>});
 ```
 
 ## HTTP Method

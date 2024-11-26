@@ -11,15 +11,11 @@ Gets allowed titles (for example: Mr, Mrs, etc.) that can be used within registr
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.auth.getAllowedTitles({
-
-regCode: &lt;reg-code&gt;,
-
-membershipCode: &lt;membership-code&gt;,
-
-isOH: &lt;is-oh&gt;
-
+    regCode: <reg-code>,
+    membershipCode: <membership-code>,
+    isOH: <is-oh>
 });
 ```
 

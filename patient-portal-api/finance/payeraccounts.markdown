@@ -11,8 +11,8 @@ Returns a list of existing stored cards for the current logged in person, which 
 
 ## JavaScript library method
 
-```
-patientportal.finance.prototype.payerAccounts(invoiceKey: &lt;invoice-key&gt;)
+```javascript
+patientportal.finance.prototype.payerAccounts(invoiceKey: <invoice-key>)
 ```
 
 ## HTTP Method

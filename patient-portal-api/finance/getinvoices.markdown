@@ -11,13 +11,10 @@ Returns a number of invoices according given filters.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.finance.getInvoices({
-
-toDate: &lt;to-data&gt;,
-
-paid: &lt;paid&gt;
-
+    toDate: <to-data>,
+    paid: <paid>
 });
 ```
 

@@ -11,25 +11,16 @@ Books and returns the new appointment from the given time slot. Returned appoint
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.appointment.bookProposedTimeSlot({
-
-proposedTimeSlot: &lt;proposedTimeSlot&gt; ,
-
-clinician: &lt;clinician&gt;,
-
-clinicianSex: &lt;clinicianSex&gt;,
-
-method: &lt;method&gt;,
-
-price: &lt;price&gt;,
-
-patient: &lt;patient&gt;,
-
-referral: &lt;referral&gt;,
-
-recall: &lt;recall&gt;
-
+    proposedTimeSlot: <proposedTimeSlot> ,
+    clinician: <clinician>,
+    clinicianSex: <clinicianSex>,
+    method: <method>,
+    price: <price>,
+    patient: <patient>,
+    referral: <referral>,
+    recall: <recall>
 });
 ```
 

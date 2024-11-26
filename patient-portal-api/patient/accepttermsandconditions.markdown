@@ -11,8 +11,8 @@ Accepts both the Terms and conditions and the statistical processing of the pati
 
 ## JavaScript library method
 
-```
-patientportal.patient.acceptTermsAndConditions({password: &lt;password&gt;});
+```javascript
+patientportal.patient.acceptTermsAndConditions({password: <password>});
 ```
 
 ## HTTP Method

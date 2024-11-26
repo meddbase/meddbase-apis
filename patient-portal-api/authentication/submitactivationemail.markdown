@@ -11,8 +11,8 @@ Submits the activation key that the client retrieves from the URL and returns co
 
 ## JavaScript library method
 
-```
-patientportal.auth.submitActivationEmail({isOH: &lt;is-oh&gt;});
+```javascript
+patientportal.auth.submitActivationEmail({isOH: <is-oh>});
 ```
 
 ## HTTP Method

@@ -11,13 +11,10 @@ Return node from the Medical History tree. To understand how to read the patient
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.medicalHistory.getMedicalHistoryTreeNode({
-
-nodePath: &lt;node-path&gt;,
-
-sendByEmail: &lt;send-by-email&gt;
-
+    nodePath: <node-path>,
+    sendByEmail: <send-by-email>
 });
 ```
 

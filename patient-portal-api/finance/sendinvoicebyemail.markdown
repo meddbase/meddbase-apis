@@ -11,8 +11,8 @@ Sends the specific invoice to the patient’s email address.
 
 ## JavaScript library method
 
-```
-patientportal.finance.sendInvoiceByEmail({invoiceNumber: &lt;invoice-number&gt;});
+```javascript
+patientportal.finance.sendInvoiceByEmail({invoiceNumber: <invoice-number>});
 ```
 
 ## HTTP Method

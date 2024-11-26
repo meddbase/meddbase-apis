@@ -11,33 +11,20 @@ Gets available services
 
 ## JavaScript library method
 
-```
-patientportal.appointment.getServices ({
-
-payerType: &lt;payer-type&gt;,
-
-appointmentType: &lt;appointment-type&gt;,
-
-serviceType: &lt;service-type&gt;,
-
-serviceName:&lt;service-name&gt;,
-
-referralTypes: &lt;referral-types&gt;,
-
-patient: &lt;patient&gt;,
-
-referral: &lt;referral&gt;,
-
-recall: &lt;recall&gt;,
-
-pageSortColumn: &lt;page-sort-column&gt;,
-
-pageSortDescending: &lt;page-sort-descending&gt;,
-
-pageNumber: &lt;page-number&gt;,
-
-pageSize: &lt;page-size&gt;
-
+```javascript
+patientportal.appointment.getServices({
+    payerType: <payer-type>,
+    appointmentType: <appointment-type>,
+    serviceType: <service-type>,
+    serviceName:<service-name>,
+    referralTypes: <referral-types>,
+    patient: <patient>,
+    referral: <referral>,
+    recall: <recall>,
+    pageSortColumn: <page-sort-column>,
+    pageSortDescending: <page-sort-descending>,
+    pageNumber: <page-number>,
+    pageSize: <page-size>
 });
 ```
 

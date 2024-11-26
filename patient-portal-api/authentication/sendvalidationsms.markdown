@@ -19,10 +19,7 @@ Sends the validation SMS to the patient’s mobile telephone number.
 ## JavaScript Library
 
 ```javascript
-patientportal.auth.sendValidationSMS({
-    mobile: 'mobile', 
-    isOH: true
-    });
+patientportal.auth.sendValidationSMS({   mobile: 'mobile',    isOH: true   });
 ```
 
 ## HTTP Method

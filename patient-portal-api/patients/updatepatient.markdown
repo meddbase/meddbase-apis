@@ -11,11 +11,9 @@ Updates the patient demographic data.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.patients.updatePatient({
-
-demog: &lt;demog&gt;
-
+    demog: <demog>
 });
 ```
 

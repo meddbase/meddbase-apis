@@ -11,7 +11,7 @@ Gets questionnaires for future appointments for logged in patient. Gets complete
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.appointment.getQuestionnairesForFutureAppointments();
 ```
 

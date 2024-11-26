@@ -11,7 +11,7 @@ Gets allowed titles (for example: Mr, Mrs, etc.).
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.users.getAllowedTitles();
 ```
 

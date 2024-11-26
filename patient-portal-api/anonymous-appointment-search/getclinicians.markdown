@@ -11,14 +11,7 @@ Gets possible clinicians/doctors for the specific appointment type.
 ## JavaScript Library
 
 ```javascript
-patientportal.anonAppointment.getClinicians({
-    appointmentType: 'appointment-type',
-    sites: 'sites',
-    locations: 'locations',
-    payerType: 'payer-type',
-    patient: 'patient',
-    referral: 'referral',
-    recall: 'recall'
+patientportal.anonAppointment.getClinicians({   appointmentType: 'appointment-type',   sites: 'sites',   locations: 'locations',   payerType: 'payer-type',   patient: 'patient',   referral: 'referral',   recall: 'recall'
 });
 ```
 

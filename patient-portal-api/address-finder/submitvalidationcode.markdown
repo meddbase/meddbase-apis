@@ -11,8 +11,8 @@ Submits the 2FA code and allows the booking process to continue.
 
 ## JavaScript library method
 
-```
-patientportal.anonBooking.submitValidationCode({ code: &lt;code&gt; });
+```javascript
+patientportal.anonBooking.submitValidationCode({ code: <code> });
 ```
 
 ## HTTP Method

@@ -11,8 +11,8 @@ Returns a list of insurers available for the current chamber. Only insurers mark
 
 ## JavaScript library method
 
-```
-PatientPortalCompanies.prototype.getInsurers ();
+```javascript
+PatientPortalCompanies.prototype.getInsurers();
 ```
 
 ## HTTP Method

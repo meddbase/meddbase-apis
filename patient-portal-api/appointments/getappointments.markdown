@@ -11,27 +11,17 @@ Gets the patient’s appointments.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.appointment.getAppointments({
-
-patient: &lt;patient&gt;,
-
-appointmentTypeName: &lt;appointment-type-name&gt;,
-
-startFrom: &lt;start-from&gt;,
-
-startTo: &lt;start-to&gt;,
-
-case: &lt;case&gt;,
-
-pageSortColumn: &lt;page-sort-column&gt;,
-
-pageSortDescending: &lt;page-sort-descending&gt;,
-
-pageNumber: &lt;page-number&gt;,
-
-pageSize: &lt;page-size&gt;
-
+    patient: <patient>,
+    appointmentTypeName: <appointment-type-name>,
+    startFrom: <start-from>,
+    startTo: <start-to>,
+    case: <case>,
+    pageSortColumn: <page-sort-column>,
+    pageSortDescending: <page-sort-descending>,
+    pageNumber: <page-number>,
+    pageSize: <page-size>
 });
 ```
 
@@ -54,7 +44,7 @@ GET
 
 "Items": \[
 
-&lt;list of AppointmentData&gt;
+<list of AppointmentData>
 
 \]
 

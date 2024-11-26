@@ -11,8 +11,8 @@ Submits the validation code for a specific password reset key. Returns a new Ses
 
 ## JavaScript library method
 
-```
-patientportal.passwordReset.submitValidationCode({ key: &lt;key&gt;, code: &lt;code&gt; });
+```javascript
+patientportal.passwordReset.submitValidationCode({ key: <key>, code: <code> });
 ```
 
 ## HTTP Method

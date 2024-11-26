@@ -11,8 +11,8 @@ Sets the new password. This is used if the SMS verification method (see previous
 
 ## JavaScript library method
 
-```
-patientportal.passwordReset.setPassword({ key: &lt;key&gt;, newPassword: &lt;newPassword&gt; });
+```javascript
+patientportal.passwordReset.setPassword({ key: <key>, newPassword: <newPassword> });
 ```
 
 ## HTTP Method

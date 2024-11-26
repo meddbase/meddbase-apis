@@ -11,11 +11,9 @@ Returns a case.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.cases.getCase({
-
-case: &lt;case&gt;
-
+    case: <case>
 });
 ```
 

@@ -11,11 +11,9 @@ Sends the validation code through the email.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.patientReportReview.sendValidationEmail({
-
-key: &lt;key&gt;
-
+    key: <key>
 });
 ```
 

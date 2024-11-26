@@ -11,19 +11,13 @@ Gets appointment types (e.g. Consultation, Health Screen, etc.) available for bo
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.appointment.getAppointmentTypes({
-
-payerType: &lt;payer-type&gt;,
-
-referralTypes: &lt;referral-types&gt;,
-
-patient: &lt;patient&gt;,
-
-referral: &lt;referral&gt;,
-
-recall: &lt;recall&gt;
-
+    payerType: <payer-type>,
+    referralTypes: <referral-types>,
+    patient: <patient>,
+    referral: <referral>,
+    recall: <recall>
 });
 ```
 

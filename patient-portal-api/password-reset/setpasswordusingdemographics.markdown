@@ -11,21 +11,14 @@ Sets the new password using the demographics match verification. This method is 
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.auth.setPasswordUsingDemographics({
-
-key: &lt;key&gt;,
-
-name: &lt;name&gt;,
-
-surname: &lt;surname&gt;,
-
-dateOfBirth: &lt;dateOfBirth&gt;,
-
-postcode: &lt;postcode&gt;,
-
-newPassword: &lt;newPassword&gt;
-
+    key: <key>,
+    name: <name>,
+    surname: <surname>,
+    dateOfBirth: <dateOfBirth>,
+    postcode: <postcode>,
+    newPassword: <newPassword>
 });
 ```
 

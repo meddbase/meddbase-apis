@@ -11,7 +11,7 @@ Gets a patient’s insurer. Only available for patient portal. Only public compa
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.patient.getInsurer();
 ```
 

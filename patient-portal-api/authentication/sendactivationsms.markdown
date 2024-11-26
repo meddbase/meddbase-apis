@@ -11,8 +11,8 @@ Sends the activation SMS to the patient’s mobile telephone number.
 
 ## JavaScript library method
 
-```
-patientportal.auth.sendActivationSMS({isOH: &lt;is-oh&gt;});
+```javascript
+patientportal.auth.sendActivationSMS({isOH: <is-oh>});
 ```
 
 ## HTTP Method

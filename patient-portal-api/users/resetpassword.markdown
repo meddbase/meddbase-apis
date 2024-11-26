@@ -11,11 +11,9 @@ Resets user’s current password and sends an email request to reset password.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.users.resetPassword({
-
-user: &lt;user&gt;
-
+    user: <user>
 });
 ```
 

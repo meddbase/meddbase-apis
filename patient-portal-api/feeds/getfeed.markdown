@@ -11,13 +11,10 @@ Gets a specific feed.
 
 ## JavaScript library method
 
-```
+```javascript
 patientportal.feed.getFeed({
-
-feed: &lt;feed&gt;,
-
-referral:&lt;referral&gt;
-
+    feed: <feed>,
+    referral:<referral>
 });
 ```
 

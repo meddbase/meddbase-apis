@@ -11,25 +11,16 @@ Gets available services
 
 ## JavaScript library method
 
-```
-patientportal.anonappointment.getServices ({
-
-payerType: &lt;payer-type&gt;,
-
-appointmentType: &lt;appointment-type&gt;,
-
-serviceType: &lt;service-type&gt;,
-
-serviceName:&lt;service-name&gt;,
-
-pageSortColumn: &lt;page-sort-column&gt;,
-
-pageSortDescending: &lt;page-sort-descending&gt;,
-
-pageNumber: &lt;page-number&gt;,
-
-pageSize: &lt;page-size&gt;
-
+```javascript
+patientportal.anonappointment.getServices({
+    payerType: <payer-type>,
+    appointmentType: <appointment-type>,
+    serviceType: <service-type>,
+    serviceName:<service-name>,
+    pageSortColumn: <page-sort-column>,
+    pageSortDescending: <page-sort-descending>,
+    pageNumber: <page-number>,
+    pageSize: <page-size>
 });
 ```
 

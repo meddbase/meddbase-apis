@@ -11,8 +11,8 @@ Authorises the key and returns the token for the client app to connect to the vi
 
 ## JavaScript library method
 
-```
-patientportal.telemedicine.authorise({key: &lt;key&gt;});
+```javascript
+patientportal.telemedicine.authorise({key: <key>});
 ```
 
 ## HTTP Method
