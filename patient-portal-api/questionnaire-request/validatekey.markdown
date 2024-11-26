@@ -19,11 +19,9 @@ patientportal.questionnaireRequest.validateKey({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/questionnaire-request/validate-key
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/questionnaire-request/validate-key` |
 
 ## URL Parameters
 

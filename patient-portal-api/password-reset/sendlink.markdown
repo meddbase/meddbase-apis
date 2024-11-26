@@ -17,11 +17,9 @@ patientportal.passwordReset.sendLink({ email: <email> });
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/password-reset/send-link
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/password-reset/send-link` |
 
 ## URL Parameters
 

@@ -17,11 +17,9 @@ patientportal.finance.sendInvoiceByEmail({invoiceNumber: <invoice-number>});
 
 ## HTTP Method
 
-GET
-
-## Url
-
-/patientportalapi/finance/send-by-email
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/finance/send-by-email` |
 
 ## URL Parameters
 

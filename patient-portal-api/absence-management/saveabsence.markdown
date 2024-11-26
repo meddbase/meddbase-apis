@@ -24,11 +24,9 @@ patientportal.absences.saveAbsence({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/absences/absence
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/absences/absence` |
 
 ## URL Parameters
 

@@ -19,11 +19,9 @@ patientportal.questionnaires.getQuestionnaires({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/questionnaires/delete-module
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/questionnaires/delete-module` |
 
 ## URL Parameters
 

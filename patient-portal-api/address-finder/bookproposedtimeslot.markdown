@@ -23,11 +23,9 @@ patientportal.anonBooking.bookProposedTimeSlot({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/anon-booking/book-time-slot
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/anon-booking/book-time-slot` |
 
 ## POST Parameters
 

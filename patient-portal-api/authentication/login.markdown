@@ -15,11 +15,9 @@ patientportal.auth.login({username: &lt;username&gt;, password: &lt;password&gt;
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/auth/login
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/auth/login` |
 
 ## URL Parameters
 

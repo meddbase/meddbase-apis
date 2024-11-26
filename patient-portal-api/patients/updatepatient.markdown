@@ -19,11 +19,9 @@ patientportal.patients.updatePatient({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/patients/update-patient
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/patients/update-patient` |
 
 ## POST Parameters
 

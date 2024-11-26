@@ -17,11 +17,9 @@ patientportal.addressFinder.fuzzySearch({query: <query>});
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/address-finder/fuzzy-search
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/address-finder/fuzzy-search` |
 
 ## URL Parameters
 

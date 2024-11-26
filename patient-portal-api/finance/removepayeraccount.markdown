@@ -19,11 +19,9 @@ patientportal.finance.prototype.removePayerAccount({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/payment-gateway/remove-payer-account
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/payment-gateway/remove-payer-account` |
 
 ## URL Parameters
 

@@ -19,11 +19,9 @@ patientportal.cases.openCase({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/cases/open-case
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/cases/open-case` |
 
 ## URL Parameters
 

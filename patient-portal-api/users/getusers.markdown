@@ -28,11 +28,9 @@ patientportal.users.getUsers({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/users/users
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/users/users` |
 
 ## URL Parameters
 

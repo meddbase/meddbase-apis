@@ -20,11 +20,9 @@ patientportal.cases.followUp({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/cases/follow-up
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/cases/follow-up` |
 
 ## URL Parameters
 

@@ -19,11 +19,9 @@ patientportal.cases.closeCase({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/cases/close-case
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/cases/close-case` |
 
 ## URL Parameters
 

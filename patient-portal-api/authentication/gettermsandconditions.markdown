@@ -17,11 +17,9 @@ patientportal.auth.getTermsAndConditions();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/auth/terms-and-conditions
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/auth/terms-and-conditions` |
 
 ## Returns
 

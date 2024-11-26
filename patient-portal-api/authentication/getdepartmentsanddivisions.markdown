@@ -17,11 +17,9 @@ patientportal.auth.getDepartmentsAndDivisions({regCode: <reg-code>, isOH: <is-oh
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/auth/departments-divisions
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/auth/departments-divisions` |
 
 ## URL Parameters
 

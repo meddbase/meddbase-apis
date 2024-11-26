@@ -20,11 +20,9 @@ patientportal.medicalHistory.getMedicalHistoryTreeNode({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/medical-history/node/&lt;node-path&gt;
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/medical-history/node/&lt;node-path&gt;` |
 
 ## URL node path
 

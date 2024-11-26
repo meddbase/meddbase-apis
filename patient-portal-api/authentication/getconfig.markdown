@@ -19,11 +19,9 @@ patientportal.auth.getConfig(({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/auth/config
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/auth/config` |
 
 ## URL Parameters
 
