@@ -17,11 +17,9 @@ patientportal.notification.confirm({notification: <notification>});
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/notification/confirm
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/notification/confirm` |
 
 ## URL Parameters
 

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: ResendValidationCode
-nav_order: 4
-parent: Address Finder
+nav_order: 2
+parent: Anonymous Appointment Booking
 ---
 
 # ResendValidationCode
@@ -17,8 +17,6 @@ patientportal.anonBooking.resendValidationCode();
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/anon-booking/resend-validation-code
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/anon-booking/resend-validation-code` |

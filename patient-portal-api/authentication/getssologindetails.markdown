@@ -17,11 +17,9 @@ patientportal.auth. getSSOLoginDetails({companyIdentifier: < company-identifier>
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/auth/sso-login-details
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/auth/sso-login-details` |
 
 ## URL Parameters
 

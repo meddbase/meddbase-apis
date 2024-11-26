@@ -21,11 +21,9 @@ patientportal.appointment.getPayerTypes({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/appointment/payer-types
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/appointment/payer-types` |
 
 ## URL Parameters
 

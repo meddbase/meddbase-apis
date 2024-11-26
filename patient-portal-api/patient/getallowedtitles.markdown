@@ -12,16 +12,14 @@ Gets allowed titles (for example: Mr, Mrs, etc.) that can be used to update pers
 ## JavaScript library method
 
 ```javascript
-patientportal.patient.getAllpwedTitles();
+patientportal.patient.getAllowedTitles();
 ```
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/patient/allowed-titles
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/patient/allowed-titles` |
 
 ## Returns
 

@@ -34,11 +34,9 @@ patientportal.appointment.getProposedTimeSlots({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/appointment/proposed-time-slots
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/appointment/proposed-time-slots` |
 
 ## URL Parameters
 

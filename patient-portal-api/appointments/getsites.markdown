@@ -29,11 +29,9 @@ patientportal.appointment.getSites({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/appointment/sites
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/appointment/sites` |
 
 ## URL Parameters
 

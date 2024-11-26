@@ -11,15 +11,15 @@ Closes the security context.
 
 ## JavaScript library method
 
+```javascript
 patientportal.auth.logout();
+```
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/auth/logout
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/auth/logout` |
 
 ## Remarks
 

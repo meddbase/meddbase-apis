@@ -17,11 +17,9 @@ patientportal.passwordReset.sendValidationSMS({ key: <key> });
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/password-reset/send-validation-sms
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/password-reset/send-validation-sms` |
 
 ## URL Parameters
 

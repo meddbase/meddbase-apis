@@ -20,11 +20,9 @@ patientportal.rtwQuestionnaire.submitValidationCode ({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/rtw-questionnaire/submit-validation-code
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/rtw-questionnaire/submit-validation-code` |
 
 ## URL Parameters
 

@@ -9,10 +9,3 @@ parent: Patient Portal API
 
 
 This section provides methods for working with membership scheme.
-
-
-
-
-
-
-

@@ -24,11 +24,9 @@ patientportal.auth.setPasswordUsingDemographics({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/auth/set-password-using-demographics
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/auth/set-password-using-demographics` |
 
 ## URL Parameters
 

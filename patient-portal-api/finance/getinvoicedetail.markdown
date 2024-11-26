@@ -20,11 +20,9 @@ patientportal.finance.getInvoiceDetail({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/finance/invoice-detail
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/finance/invoice-detail` |
 
 ## URL Parameters
 

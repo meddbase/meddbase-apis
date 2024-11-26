@@ -18,23 +18,21 @@ patientportal.patientReportReview.submitAuthorisation({
     key: <key>,
     authorised: <authorised>,
     comments: <comments>,
-    factualChanges:\[
-    {
-    Subject: <Subject>,
-    Comments: <Comments>
-},
-    ...
-    \]
+    factualChanges: [
+        {
+            Subject: <Subject>,
+            Comments: <Comments>
+        },
+        ...
+    ]
 });
 ```
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/patient-report-review/review-data
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/patient-report-review/review-data` |
 
 ## URL Parameters
 

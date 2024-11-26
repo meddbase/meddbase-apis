@@ -17,11 +17,9 @@ patientportal.addressFinder.address({key: <key>});
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/address-finder/address
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/address-finder/address` |
 
 ## URL Parameters
 
@@ -45,11 +43,9 @@ patientportal.addressFinder.address({key: <key>});
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/address-finder/address
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/address-finder/address` |
 
 ## URL Parameters
 

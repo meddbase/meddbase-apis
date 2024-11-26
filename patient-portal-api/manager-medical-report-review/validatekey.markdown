@@ -19,11 +19,9 @@ patientportal.managerReportReview.validateKey({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/manager-report-review/validate-key
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/manager-report-review/validate-key` |
 
 ## URL Parameters
 

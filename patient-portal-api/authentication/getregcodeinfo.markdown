@@ -15,11 +15,9 @@ patientportal.auth.getRegCodeInfo({regCode: &lt;reg-code&gt;});
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/auth/reg-code-info
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/auth/reg-code-info` |
 
 ## URL Parameters
 

@@ -17,11 +17,9 @@ patientportal.membershipScheme.getSchemeInfo({code: <code>});
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/membership-scheme/scheme-info
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/membership-scheme/scheme-info` |
 
 ## URL Parameters
 

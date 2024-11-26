@@ -25,11 +25,9 @@ patientportal.questionnaires.getQuestionnaires({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/questionnaires/questionnaires
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/questionnaires/questionnaires` |
 
 ## URL Parameters
 

@@ -17,11 +17,9 @@ patientportal.appointment.getAppointmentCancellationInfo({appointment: <appointm
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/appointment/cancellation-info
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/appointment/cancellation-info` |
 
 ## URL Parameters
 

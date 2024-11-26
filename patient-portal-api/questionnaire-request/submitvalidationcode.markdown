@@ -20,11 +20,9 @@ patientportal.questionnaireRequest.submitValidationCode({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/questionnaire-request/submit-validation-code
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/questionnaire-request/submit-validation-code` |
 
 ## URL Parameters
 

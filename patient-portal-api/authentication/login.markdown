@@ -11,15 +11,19 @@ Allows the client to authenticate login credentials, initiate the 2FA process (i
 
 ## JavaScript library method
 
-patientportal.auth.login({username: &lt;username&gt;, password: &lt;password&gt;, isOH: &lt;is-oh&gt;});
+```javascript
+patientportal.auth.login({
+    username: <username>,
+    password: <password>,
+    isOH: <is-oh>
+});
+```
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/auth/login
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/auth/login` |
 
 ## URL Parameters
 

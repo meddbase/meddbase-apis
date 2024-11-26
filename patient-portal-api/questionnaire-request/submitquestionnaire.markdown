@@ -17,11 +17,9 @@ patientportal.questionnaireRequest.submitQuestionnaire({key: <key>});
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/questionnaire-request/submit-questionnaire
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/questionnaire-request/submit-questionnaire` |
 
 ## URL Parameters
 

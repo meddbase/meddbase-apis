@@ -17,11 +17,9 @@ patientportal.documents.getTypes();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/documents/types
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/documents/types` |
 
 ## Returns
 

@@ -17,11 +17,9 @@ patientportal.appointment.cancelExistingAppointment({appointment: <appointment>}
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/appointment/cancel
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/appointment/cancel` |
 
 ## URL Parameters
 

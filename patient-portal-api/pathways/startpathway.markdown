@@ -14,17 +14,14 @@ Starts a pathway if allowed.
 ```javascript
 patientportal.pathways.startPathway({
     pathwayDef: <pathwayDef>
-}
 });
 ```
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/pathways/start-pathway
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/pathways/start-pathway` |
 
 ## URL Parameters
 

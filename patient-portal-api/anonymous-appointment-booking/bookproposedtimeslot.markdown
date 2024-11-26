@@ -1,8 +1,8 @@
 ---
 layout: page
 title: BookProposedTimeSlot
-nav_order: 7
-parent: Address Finder
+nav_order: 5
+parent: Anonymous Appointment Booking
 ---
 
 # BookProposedTimeSlot
@@ -23,11 +23,9 @@ patientportal.anonBooking.bookProposedTimeSlot({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/anon-booking/book-time-slot
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/anon-booking/book-time-slot` |
 
 ## POST Parameters
 

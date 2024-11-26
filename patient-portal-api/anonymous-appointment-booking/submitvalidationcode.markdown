@@ -1,8 +1,8 @@
 ---
 layout: page
 title: SubmitValidationCode
-nav_order: 5
-parent: Address Finder
+nav_order: 3
+parent: Anonymous Appointment Booking
 ---
 
 # SubmitValidationCode
@@ -17,11 +17,9 @@ patientportal.anonBooking.submitValidationCode({ code: <code> });
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/anon-booking/submit-validation-code
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/anon-booking/submit-validation-code` |
 
 ## POST Parameters
 

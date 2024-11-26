@@ -21,11 +21,9 @@ patientportal.referrals.bulkReallocate({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/referrals/bulk-reallocate
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/referrals/bulk-reallocate` |
 
 ## URL Parameters
 

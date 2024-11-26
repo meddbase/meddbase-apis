@@ -31,11 +31,9 @@ patientportal.referrals.getReferrals({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/referrals/referrals
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/referrals/referrals` |
 
 ## URL Parameters
 

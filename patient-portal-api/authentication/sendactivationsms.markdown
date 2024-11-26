@@ -17,11 +17,9 @@ patientportal.auth.sendActivationSMS({isOH: <is-oh>});
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/auth/send-activation-sms
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/auth/send-activation-sms` |
 
 ## URL Parameters
 

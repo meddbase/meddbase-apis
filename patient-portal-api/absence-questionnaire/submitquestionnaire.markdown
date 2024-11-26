@@ -19,11 +19,9 @@ patientportal.rtwQuestionnaire.submitQuestionnaire({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/rtw-questionnaire/submit-questionnaire
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/rtw-questionnaire/submit-questionnaire` |
 
 ## URL Parameters
 

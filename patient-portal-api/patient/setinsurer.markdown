@@ -17,11 +17,9 @@ patientportal.patient.setInsurer();
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/patient/insurer
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/patient/insurer` |
 
 ## POST Parameters
 

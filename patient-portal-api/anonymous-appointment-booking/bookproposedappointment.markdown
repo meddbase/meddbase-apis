@@ -1,8 +1,8 @@
 ---
 layout: page
 title: BookProposedAppointment
-nav_order: 6
-parent: Address Finder
+nav_order: 4
+parent: Anonymous Appointment Booking
 ---
 
 # BookProposedAppointment
@@ -19,11 +19,9 @@ patientportal.anonBooking.bookProposedAppointment({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/anon-booking/book
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/anon-booking/book` |
 
 ## POST Parameters
 

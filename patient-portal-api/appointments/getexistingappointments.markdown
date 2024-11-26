@@ -17,11 +17,9 @@ patientportal.appointment.getExistingAppointments();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/appointment/existing-appointments
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/appointment/existing-appointments` |
 
 ## Return
 

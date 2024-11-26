@@ -11,15 +11,18 @@ Confirms the validity of the online sign up access code.
 
 ## JavaScript library method
 
-patientportal.auth.validateRegCode({regCode: &lt;reg-code&gt;, isOH: &lt;is-oh&gt;});
+```javascript
+patientportal.auth.validateRegCode({
+    regCode: <reg-code>,
+    isOH: <is-oh>
+});
+```
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/auth/validate-reg-code
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/auth/validate-reg-code` |
 
 ## URL Parameters
 

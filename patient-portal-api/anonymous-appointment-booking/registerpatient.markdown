@@ -1,8 +1,8 @@
 ---
 layout: page
 title: RegisterPatient
-nav_order: 3
-parent: Address Finder
+nav_order: 1
+parent: Anonymous Appointment Booking
 ---
 
 # RegisterPatient
@@ -20,11 +20,9 @@ patientportal.anonBooking.registerPatient({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/anon-booking/register-patient
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/anon-booking/register-patient` |
 
 ## POST Parameters
 

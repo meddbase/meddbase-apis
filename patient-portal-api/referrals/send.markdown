@@ -13,17 +13,15 @@ Sends the referral.
 
 ```javascript
 patientportal.referrals.send({
-    referral: <referral>,
+    referral: <referral>
 });
 ```
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/referrals/send
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/referrals/send` |
 
 ## URL Parameters
 

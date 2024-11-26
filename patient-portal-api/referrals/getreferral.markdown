@@ -12,18 +12,16 @@ Returns the referral full details.
 ## JavaScript library method
 
 ```javascript
-patientportal.referrals.getReferra({
+patientportal.referrals.getReferral({
     referral: <referral>
 });
 ```
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/referrals/referral
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/referrals/referral` |
 
 ## URL Parameters
 

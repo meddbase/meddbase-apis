@@ -17,11 +17,9 @@ patientportal.auth.getServerState();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/auth/server-state
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/auth/server-state` |
 
 ## Returns
 
