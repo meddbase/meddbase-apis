@@ -19,11 +19,9 @@ patientportal.referrers.getReferrers();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/referrers/referrers
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/referrers/referrers` |
 
 ## URL Parameters
 

@@ -17,11 +17,9 @@ patientportal.pathways.getDefinitions();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/pathways/get-definitions
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/pathways/get-definitions` |
 
 ## Returns
 

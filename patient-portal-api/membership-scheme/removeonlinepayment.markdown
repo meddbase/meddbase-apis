@@ -17,8 +17,6 @@ patientportal.membershipScheme.removeOnlinePayment();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/membership-scheme/remove-online-payment
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/membership-scheme/remove-online-payment` |

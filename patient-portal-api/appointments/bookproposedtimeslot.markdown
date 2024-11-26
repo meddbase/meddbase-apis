@@ -26,11 +26,9 @@ patientportal.appointment.bookProposedTimeSlot({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/appointment/book-time-slot
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/appointment/book-time-slot` |
 
 ## URL Parameters
 

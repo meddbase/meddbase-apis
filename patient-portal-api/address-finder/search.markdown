@@ -17,11 +17,9 @@ patientportal.addressFinder.search({postcode: <postcode>});
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/address-finder/search
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/address-finder/search` |
 
 ## URL Parameters
 
@@ -44,11 +42,9 @@ patientportal.addressFinder.search({postcode: <postcode>});
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/address-finder/search
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/address-finder/search` |
 
 ## URL Parameters
 

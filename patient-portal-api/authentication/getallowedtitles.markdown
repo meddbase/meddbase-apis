@@ -21,11 +21,9 @@ patientportal.auth.getAllowedTitles({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/auth/allowed-titles
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/auth/allowed-titles` |
 
 ## URL Parameters
 

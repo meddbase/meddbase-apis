@@ -20,11 +20,9 @@ patientportal.anonBooking.registerPatient({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/anon-booking/register-patient
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/anon-booking/register-patient` |
 
 ## POST Parameters
 

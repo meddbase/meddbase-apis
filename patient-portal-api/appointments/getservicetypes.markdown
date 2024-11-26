@@ -24,11 +24,9 @@ patientportal.appointment.getServiceTypes({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/appointment/service-types
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/appointment/service-types` |
 
 ## URL Parameters
 

@@ -19,11 +19,9 @@ patientportal.documents.getDocument({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/documents/document
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/documents/document` |
 
 ## URL Parameters
 

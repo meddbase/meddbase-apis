@@ -17,11 +17,9 @@ patientportal.appointment.submitQuestionnaire({questionnaire: <questionnaire>});
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/appointment/submit-questionnaire
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/appointment/submit-questionnaire` |
 
 ## URL Parameters
 

@@ -17,11 +17,9 @@ patientportal.finance.prototype.getPaymentCountries()
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/payment-gateway/payment-countries
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/payment-gateway/payment-countries` |
 
 ## Returns
 

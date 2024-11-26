@@ -17,11 +17,9 @@ patientportal.auth.send2faCode();
 
 ## HTTP Method
 
-GET
-
-## Url
-
-/patientportalapi/auth/send-2fa-code
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/auth/send-2fa-code` |
 
 ## Returned JSON
 

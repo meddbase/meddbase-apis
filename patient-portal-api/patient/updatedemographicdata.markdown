@@ -17,11 +17,9 @@ patientportal.patient.updateDemographicData({password: <password>, demog: <demog
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/patient/demographic-data
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/patient/demographic-data` |
 
 ## POST Parameters
 

@@ -20,11 +20,9 @@ patientportal.pathways.availability({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/pathways/availability
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/pathways/availability` |
 
 ## URL Parameters
 

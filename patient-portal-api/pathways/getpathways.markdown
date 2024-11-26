@@ -22,11 +22,9 @@ patientportal.pathways.getPathways({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/pathways/pathways
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/pathways/pathways` |
 
 ## URL Parameters
 

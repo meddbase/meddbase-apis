@@ -24,11 +24,9 @@ patientportal.anonAppointment.getSites({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/anon-appointment/sites
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/anon-appointment/sites` |
 
 ## URL Parameters
 

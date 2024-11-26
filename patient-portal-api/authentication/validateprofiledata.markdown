@@ -22,11 +22,9 @@ patientportal.auth.validateProfileData({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/auth/validate-profile-data
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/auth/validate-profile-data` |
 
 ## POST Parameters
 

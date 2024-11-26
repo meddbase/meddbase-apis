@@ -22,11 +22,9 @@ patientportal.questionnaires. getModules({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/questionnaires/modules
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/questionnaires/modules` |
 
 ## URL Parameters
 

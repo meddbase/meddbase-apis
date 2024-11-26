@@ -17,11 +17,9 @@ patientportal.cases.defaultTitles();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/cases/default-titles
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/cases/default-titles` |
 
 ## Returned JSON
 

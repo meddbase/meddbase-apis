@@ -19,11 +19,9 @@ patientportal.users.updateUser({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/users/user-data
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/users/user-data` |
 
 ## POST Parameters
 

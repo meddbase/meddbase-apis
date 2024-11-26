@@ -15,11 +15,9 @@ patientportal.auth.directLogin({loginToken: &lt;sslogin-token&gt;,});
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/auth/direct-login
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/auth/direct-login` |
 
 ## URL Parameters
 

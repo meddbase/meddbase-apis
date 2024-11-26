@@ -19,11 +19,9 @@ patientportal.referrals.findUserToReallocate({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/referrals/find-user-to-reallocate
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/referrals/find-user-to-reallocate` |
 
 ## URL Parameters
 

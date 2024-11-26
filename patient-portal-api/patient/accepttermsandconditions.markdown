@@ -17,11 +17,9 @@ patientportal.patient.acceptTermsAndConditions({password: <password>});
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/patient/accept-terms-and-conditions
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/patient/accept-terms-and-conditions` |
 
 ## POST Parameters
 

@@ -17,11 +17,9 @@ patientportal.passwordReset.submitValidationCode({ key: <key>, code: <code> });
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/password-reset/submit-validation-code
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/password-reset/submit-validation-code` |
 
 ## URL Parameters
 

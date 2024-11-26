@@ -30,11 +30,9 @@ patientportal.appointment.getServices({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/appointment/services
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/appointment/services` |
 
 ## URL Parameters
 

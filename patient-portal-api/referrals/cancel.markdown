@@ -19,11 +19,9 @@ patientportal.referrals.cancel({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/referrals/cancel
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/referrals/cancel` |
 
 ## URL Parameters
 

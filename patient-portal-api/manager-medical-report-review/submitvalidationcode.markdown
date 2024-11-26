@@ -20,11 +20,9 @@ patientportal.managerReportReview.submitValidationCode({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/manager-report-review/submit-validation-code
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/manager-report-review/submit-validation-code` |
 
 ## URL Parameters
 

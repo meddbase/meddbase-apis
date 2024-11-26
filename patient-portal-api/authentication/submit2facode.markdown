@@ -17,11 +17,9 @@ patientportal.auth.submit2faCode({code: <code>});
 
 ## HTTP Method
 
-POST
-
-## Url
-
-/patientportalapi/auth/submit-2fa-code
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/auth/submit-2fa-code` |
 
 ## POST Parameters
 

@@ -19,11 +19,9 @@ patientportal.recalls.deleteRecall({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/recall/delete
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/recall/delete` |
 
 ## URL Parameters
 

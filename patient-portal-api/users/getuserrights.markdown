@@ -17,11 +17,9 @@ patientportal.users.getUserRights();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/users/user-rights
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/users/user-rights` |
 
 ## Returns
 

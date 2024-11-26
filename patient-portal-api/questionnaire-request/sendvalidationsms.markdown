@@ -19,11 +19,9 @@ patientportal.questionnaireRequest.sendValidationSMS({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/questionnaire-request/send-validation-sms
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/questionnaire-request/send-validation-sms` |
 
 ## URL Parameters
 

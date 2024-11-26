@@ -19,11 +19,9 @@ patientportal.ethnicities.getEthnicities();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/ethnicities/ethnicities
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/ethnicities/ethnicities` |
 
 ## URL Parameters
 

@@ -17,11 +17,9 @@ patientportal.genderIdentity.getPronouns();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/gender-identity/pronouns
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/gender-identity/pronouns` |
 
 ## Returns
 

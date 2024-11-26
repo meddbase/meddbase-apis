@@ -17,11 +17,9 @@ PatientPortalCompanies.prototype.getInsurers();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/companies/insurers
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/companies/insurers` |
 
 ## Returns
 

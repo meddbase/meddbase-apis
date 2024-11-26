@@ -20,11 +20,9 @@ patientportal.feed.addFeed({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/feed/add-feed
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/feed/add-feed` |
 
 ## POST Parameters
 

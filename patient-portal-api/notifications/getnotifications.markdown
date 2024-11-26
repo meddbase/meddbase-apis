@@ -17,11 +17,9 @@ patientportal.notification.getNotifications({type: <type>});
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/notification/notifications
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/notification/notifications` |
 
 ## URL Parameters
 

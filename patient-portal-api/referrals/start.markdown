@@ -21,11 +21,9 @@ patientportal.referrals.start({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/referrals/start
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/referrals/start` |
 
 ## URL Parameters
 

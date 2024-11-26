@@ -19,11 +19,9 @@ patientportal.patients.fullSearchOrCreate({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/patients/create-patient
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/patients/create-patient` |
 
 ## POST Parameters
 

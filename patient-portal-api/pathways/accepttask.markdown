@@ -20,11 +20,9 @@ patientportal.pathways.getPathway({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/pathways/accept-task
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/pathways/accept-task` |
 
 ## URL Parameters
 

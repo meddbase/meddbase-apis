@@ -17,11 +17,9 @@ patientportal.passwordReset.validateKey({ key: <key> });
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/password-reset/validate-key
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/password-reset/validate-key` |
 
 ## URL Parameters
 

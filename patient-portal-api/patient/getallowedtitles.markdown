@@ -17,11 +17,9 @@ patientportal.patient.getAllpwedTitles();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/patient/allowed-titles
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/patient/allowed-titles` |
 
 ## Returns
 

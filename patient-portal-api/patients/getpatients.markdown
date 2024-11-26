@@ -32,11 +32,9 @@ patientportal.patients.getPatients({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/patients/patients
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/patients/patients` |
 
 ## URL Parameters
 

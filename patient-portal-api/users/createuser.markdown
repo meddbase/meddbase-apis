@@ -19,11 +19,9 @@ patientportal.users.createUser({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/users/create-user
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/users/create-user` |
 
 ## POST Parameters
 

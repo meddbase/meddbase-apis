@@ -19,11 +19,9 @@ patientportal.patients.getManagers({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/patients/managers
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/patients/managers` |
 
 ## URL Parameters
 

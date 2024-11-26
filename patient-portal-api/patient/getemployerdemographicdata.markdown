@@ -17,11 +17,9 @@ patientportal.patient.getEmployerDemographicData();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/patient/employer-demographic-data
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/patient/employer-demographic-data` |
 
 ## Returns
 

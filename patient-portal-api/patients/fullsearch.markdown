@@ -19,11 +19,9 @@ patientportal.patients.fullSearch({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/patients/patient
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/patients/patient` |
 
 ## POST Parameters
 

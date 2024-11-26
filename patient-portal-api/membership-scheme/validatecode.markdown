@@ -17,11 +17,9 @@ patientportal.membershipScheme.validateCode({code: <code>});
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/membership-scheme/validate-code
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/membership-scheme/validate-code` |
 
 ## URL Parameters
 

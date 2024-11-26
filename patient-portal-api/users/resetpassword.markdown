@@ -19,11 +19,9 @@ patientportal.users.resetPassword({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/users/reset-password
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/users/reset-password` |
 
 ## URL Parameters
 

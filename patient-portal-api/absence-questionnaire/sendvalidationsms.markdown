@@ -19,11 +19,9 @@ patientportal.rtwQuestionnaire.sendValidationSMS({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/rtw-questionnaire/send-validation-sms
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/rtw-questionnaire/send-validation-sms` |
 
 ## URL Parameters
 

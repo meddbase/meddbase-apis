@@ -17,11 +17,9 @@ patientportal.passwordReset.setPassword({ key: <key>, newPassword: <newPassword>
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/password-reset/set-password
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/password-reset/set-password` |
 
 ## URL Parameters
 

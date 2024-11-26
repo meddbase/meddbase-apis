@@ -20,11 +20,9 @@ patientportal.referrals.reallocate({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/referrals/reallocate
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/referrals/reallocate` |
 
 ## URL Parameters
 

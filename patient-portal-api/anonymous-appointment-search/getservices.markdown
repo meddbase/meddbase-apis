@@ -26,11 +26,9 @@ patientportal.anonappointment.getServices({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/anon-appointment/services
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/anon-appointment/services` |
 
 ## URL Parameters
 

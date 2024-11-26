@@ -17,11 +17,9 @@ patientportal.membershipScheme.join({code: <code>});
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/membership-scheme/join
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/membership-scheme/join` |
 
 ## URL Parameters
 

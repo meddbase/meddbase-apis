@@ -17,11 +17,9 @@ patientportal.patient.getDemographicData();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/patient/demographic-data
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/patient/demographic-data` |
 
 ## Returns
 

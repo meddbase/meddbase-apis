@@ -29,11 +29,9 @@ patientportal.membershipScheme.setupOnlinePayment({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/membership-scheme/setup-online-payment
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/membership-scheme/setup-online-payment` |
 
 ## URL Parameters
 

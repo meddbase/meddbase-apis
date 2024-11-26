@@ -19,11 +19,9 @@ patientportal.questionnaireRequest.sendValidationEmail({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/questionnaire-request/send-validation-email
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/questionnaire-request/send-validation-email` |
 
 ## URL Parameters
 

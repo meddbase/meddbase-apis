@@ -20,11 +20,9 @@ patientportal.questionnaireRequest.saveAndSubmitQuestionnaire({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/questionnaire-request/save-submit-questionnaire
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/questionnaire-request/save-submit-questionnaire` |
 
 ## URL Parameters
 

@@ -33,11 +33,9 @@ patientportal.anonAppointment.getProposedTimeSlots({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/anon-appointment/proposed-time-slots
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/anon-appointment/proposed-time-slots` |
 
 ## URL Parameters
 

@@ -22,11 +22,9 @@ patientportal.auth.registerPatient({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/auth/register-patient
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/auth/register-patient` |
 
 ## POST Parameters
 

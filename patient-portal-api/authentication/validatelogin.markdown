@@ -15,11 +15,9 @@ patientportal.auth.validateLogin();
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/auth/validate
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/auth/validate` |
 
 ## Returned JSON
 

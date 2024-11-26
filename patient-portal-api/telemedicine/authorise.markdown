@@ -17,11 +17,9 @@ patientportal.telemedicine.authorise({key: <key>});
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/telemedicine/authorise
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/telemedicine/authorise` |
 
 ## URL Parameters
 

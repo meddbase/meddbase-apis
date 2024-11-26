@@ -34,11 +34,9 @@ patientportal.appointment.getProposedAppointments({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/appointment/proposed
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/appointment/proposed` |
 
 ## URL Parameters
 

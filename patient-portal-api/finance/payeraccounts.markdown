@@ -17,11 +17,9 @@ patientportal.finance.prototype.payerAccounts(invoiceKey: <invoice-key>)
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/payment-gateway/payer-accounts
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/payment-gateway/payer-accounts` |
 
 ## URL Parameters
 

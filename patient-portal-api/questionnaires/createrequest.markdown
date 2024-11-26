@@ -21,11 +21,9 @@ patientportal.questionnaires. createRequest({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/questionnaires/create-request
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/questionnaires/create-request` |
 
 ## URL Parameters
 

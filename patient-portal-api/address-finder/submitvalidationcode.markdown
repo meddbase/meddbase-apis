@@ -17,11 +17,9 @@ patientportal.anonBooking.submitValidationCode({ code: <code> });
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/anon-booking/submit-validation-code
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/anon-booking/submit-validation-code` |
 
 ## POST Parameters
 

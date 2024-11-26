@@ -19,11 +19,9 @@ patientportal.patientReportReview.sendValidationSMS({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/patient-report-review/send-validation-sms
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/patient-report-review/send-validation-sms` |
 
 ## URL Parameters
 

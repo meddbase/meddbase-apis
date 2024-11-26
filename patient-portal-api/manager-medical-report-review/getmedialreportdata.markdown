@@ -21,11 +21,9 @@ patientportal.managerReportReview.getMedicalReportData({
 
 ## HTTP Method
 
-GET
-
-## ****Url****
-
-/patientportalapi/manager-report-review/review-data
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| GET | `/patientportalapi/manager-report-review/review-data` |
 
 ## URL Parameters
 

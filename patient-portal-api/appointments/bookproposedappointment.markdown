@@ -22,11 +22,9 @@ patientportal.appointment.bookProposedAppointment({
 
 ## HTTP Method
 
-POST
-
-## ****Url****
-
-/patientportalapi/appointment/book
+| Verb | URL                                               |
+|:-----|:--------------------------------------------------|
+| POST | `/patientportalapi/appointment/book` |
 
 ## URL Parameters
 
