@@ -14,7 +14,7 @@ Create or update a module. Modules can only be shared if the logged in user has 
 ```javascript
 patientportal.questionnaires. saveModule({
     moduleKey: <module-key>,
-    category: <’ppq’>,
+    category: ’ppq’,
     moduleName: <module-name>,
     shared: <shared>,
     formKeys: <form-keys>

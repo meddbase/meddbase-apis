@@ -18,13 +18,13 @@ patientportal.patientReportReview.submitAuthorisation({
     key: <key>,
     authorised: <authorised>,
     comments: <comments>,
-    factualChanges:\[
-    {
-    Subject: <Subject>,
-    Comments: <Comments>
-},
-    ...
-    \]
+    factualChanges: [
+        {
+            Subject: <Subject>,
+            Comments: <Comments>
+        },
+        ...
+    ]
 });
 ```
 

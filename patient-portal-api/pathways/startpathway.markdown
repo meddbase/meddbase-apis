@@ -14,7 +14,6 @@ Starts a pathway if allowed.
 ```javascript
 patientportal.pathways.startPathway({
     pathwayDef: <pathwayDef>
-}
 });
 ```
 

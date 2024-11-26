@@ -13,7 +13,7 @@ Sends the referral.
 
 ```javascript
 patientportal.referrals.send({
-    referral: <referral>,
+    referral: <referral>
 });
 ```
 
