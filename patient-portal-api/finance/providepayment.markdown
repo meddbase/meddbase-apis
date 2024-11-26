@@ -26,7 +26,8 @@ patientportal.finance.providePayment({
     postcode: <postcode>,
     country: <country>,
     phone: <phone>,
-    email: <email>});
+    email: <email>
+});
 ```
 
 ## HTTP Method

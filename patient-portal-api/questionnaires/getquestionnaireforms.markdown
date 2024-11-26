@@ -14,7 +14,7 @@ Returns the list of questionnaire forms that can be requested for any patient. I
 ```javascript
 patientportal.questionnaires. getQuestionnaireForms({
     moduleKey: <module-key>,
-    category: <’ppq’>,
+    category: ’ppq’,
     formName: <form-name>,
     pageNumber: <page-number>,
     pageSize: <page-size>
