@@ -35,4 +35,4 @@ patientportal.anonBooking.bookProposedAppointment({
 
 ## Remarks
 
-If the appropriate appointment is taken by another user in a meanwhile the exception is throw. See Error handling.
+If the appropriate appointment is taken by another user in the meantime then an exception is thrown. See Error handling.

@@ -14,7 +14,6 @@ Returns availability for a particular pathway definition if that pathways can be
 ```javascript
 patientportal.pathways.availability({
     pathwayDef: <pathwayDef>
-}
 });
 ```
 

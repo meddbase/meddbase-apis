@@ -22,9 +22,9 @@ All response data is formatted in the JSON data format. The server response is a
 
 The response envelope includes:
 
-- status – 'ok' for successful response or 'error' when an exception throws.
+- status – `ok` for successful response or `error` when an exception throws.
 - result – returns object from the server within successful response.
-- error – a ServiceExceptionData object that provides information about an exception that was thrown.
+- error – a [ServiceExceptionData](../objects-and-data-types/serviceexceptiondata) object that provides information about an exception that was thrown.
 
 {: .note }
 > The JavaScript API library wraps the response envelope into 'done' and 'fail' methods with an appropriate result/error object. Any client that uses the JavaScript API library need not consider this envelope.

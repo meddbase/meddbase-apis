@@ -24,24 +24,15 @@ Provides overview information about the pathway.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "a1d3e2d1",
-
-"Number": "123",
-
-"Name": "Book & Arrive",
-
-"Patient": "Mr. Will Smith",
-
-"State": "In progress",
-
-"CurrentAction": "Book an appointment",
-
-"LastUpdate": "2015-03-13T14:22:12",
-
-"DueDate": "2015-03-13T14:52:30",
-
+    "Key": "a1d3e2d1",
+    "Number": "123",
+    "Name": "Book & Arrive",
+    "Patient": "Mr. Will Smith",
+    "State": "In progress",
+    "CurrentAction": "Book an appointment",
+    "LastUpdate": "2015-03-13T14:22:12",
+    "DueDate": "2015-03-13T14:52:30"
 }
 ```

@@ -20,20 +20,13 @@ parent: Objects and data types
 
 ## JSON Example
 
-```
+```json
 {
-
-"Start": "2025-01-01T09:30:00",
-
-"Finish": "2025-01-01T10:30:00",
-
-"SiteKey": 123,
-
-"LocationKey": 546,
-
-"GrossPrice": 240,
-
-"NetPrice": 200
-
+    "Start": "2025-01-01T09:30:00",
+    "Finish": "2025-01-01T10:30:00",
+    "SiteKey": 123,
+    "LocationKey": 546,
+    "GrossPrice": 240,
+    "NetPrice": 200
 }
 ```

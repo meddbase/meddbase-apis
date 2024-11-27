@@ -20,146 +20,90 @@ parent: Objects and data types
 
 ## JSON Example
 
-```
+```json
 {
-
-"TimeSlots": \[
-
-{
-
-"Start": "2025-01-01T09:30:00",
-
-"Finish": "2025-01-01T10:30:00",
-
-"SiteKey": 1123,
-
-< See [TimeSlotData](../objects-and-data-types/timeslotdata) to see all properties. >
-
-},
-
-{
-
-"Start": "2025-01-01T10:30:00",
-
-"Finish": "2025-01-01T11:30:00",
-
-"SiteKey": 1123,
-
-"LocationKey": 214,
-
-< See [TimeSlotData](../objects-and-data-types/timeslotdata) to see all properties. >
-
-}
-
-\],
-
-"Type": {
-
-"Key": "CN",
-
-"Name": "Consultation"
-
-},
-
-"Sites": \[
-
-{
-
-"Key": 1123,
-
-"Name": "2CP (Eye Room)",
-
-"Address": {
-
-"Address1": "2 Clifton Park Ave",
-
-"Address2": "",
-
-"Address3": "",
-
-"City": "London",
-
-"County": "",
-
-"PostCode": "SW20 8BD",
-
-"Country": "United Kingdom"
-
-},
-
-"Locations": \[
-
-{
-
-"Key": 214,
-
-"Name": "Room 1"
-
-"Address": {
-
-"Address1": "2 Clifton Park Ave",
-
-"Address2": "",
-
-"Address3": "",
-
-"City": "London",
-
-"County": "",
-
-"PostCode": "SW20 8BD",
-
-"Country": "United Kingdom"
-
-}
-
-}
-
-\]
-
-}
-
-\],
-
-"Services": \[
-
-{
-
-< See [ServiceData](../objects-and-data-types/patientabsencedata) to see all properties. >
-
-},
-
-{
-
-< See [ServiceData](../objects-and-data-types/patientabsencedata) to see all properties. >
-
-}
-
-\],
-
-"Modules": \[
-
-{
-
-< See [AppointmentModuleData](../objects-and-data-types/appointmentmoduledata) to see all properties. >
-
-},
-
-{
-
-< See [AppointmentModuleData](../objects-and-data-types/appointmentmoduledata) to see all properties. >
-
-}
-
-\],
-
-"Currency": {
-
-"Code": "GBP",
-
-"Symbol": "£"
-
-}
-
+    "TimeSlots": [
+        {
+            "Start": "2025-01-01T09:30:00",
+            "Finish": "2025-01-01T10:30:00",
+            "SiteKey": 123,
+            "LocationKey": 546,
+            "GrossPrice": 240,
+            "NetPrice": 200
+        },
+        {
+            "Start": "2025-01-01T10:30:00",
+            "Finish": "2025-01-01T11:30:00",
+            "SiteKey": 123,
+            "LocationKey": 546,
+            "GrossPrice": 240,
+            "NetPrice": 200
+        }
+    ],
+    "Type": {
+        "Key": "CN",
+        "Name": "Consultation"
+    },
+    "Sites": [
+        {
+            "Key": 1123,
+            "Name": "2CP (Eye Room)",
+            "Address": {
+                "Address1": "2 Clifton Park Ave",
+                "Address2": "",
+                "Address3": "",
+                "City": "London",
+                "County": "",
+                "PostCode": "SW20 8BD",
+                "Country": "United Kingdom"
+            },
+            "Locations": [
+                {
+                    "Key": 214,
+                    "Name": "Room 1",
+                    "Address": {
+                        "Address1": "2 Clifton Park Ave",
+                        "Address2": "",
+                        "Address3": "",
+                        "City": "London",
+                        "County": "",
+                        "PostCode": "SW20 8BD",
+                        "Country": "United Kingdom"
+                    }
+                }
+            ]
+        }
+    ],
+    "Services": [
+        {
+            "Code": "A1250",
+            "CurrencyCode": "GBP",
+            "CurrencySymbol": "£",
+            "GrossPrice": 0,
+            "Key": 593,
+            "Name": "Creation of subcutaneous cerebrospinal fluid reservoir",
+            "NetPrice": 0,
+            "Tax": 0,
+            "ServiceType": {
+                "Key": 84,
+                "Name": "Blood profile"
+            }
+        }
+    ],
+    "Modules": [
+        {
+            "Key": 5631,
+            "Name": "Short Consult",
+            "CurrencyCode": "GBP",
+            "CurrencySymbol": "£",
+            "NetPrice": 50,
+            "Tax": 10,
+            "GrossPrice": 60
+        }
+    ],
+    "Currency": {
+        "Code": "GBP",
+        "Symbol": "£"
+    }
 }
 ```

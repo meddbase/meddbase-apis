@@ -31,7 +31,7 @@ patientportal.auth.registerPatient({
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
 | regCode | string (partially optional) | Online sign up access code that is provided to the patient. |
-| demog | PersonDemographicData | Defines person’s details. |
+| demog | [PersonDemographicData](../objects-and-data-types/persondemographicdata) | Defines person’s details. |
 | membershipCode | string (partially optional) | Membership scheme code that is provided by Medical Management Systems to the client.<br><br>See Membership scheme |
 | is-oh | bool | True for the referral portal. False for the patient portal. |
 
@@ -53,28 +53,46 @@ The registration creates a standard session and the activation needs to pass a c
 
 ## POST data example
 
-```
+```json
 {
-
-"regCode": "1234",
-
-"demog": {
-
-"Title": "Mr",
-
-"Name": "John",
-
-"Surname": "Lemon",
-
-"DateOfBirth": "1958-08-02T00:00:00",
-
-"EmailAddress": "<john.lemon@test.com>",
-
-"Password": "jon4535lemon",
-
-... <see PersonDemographicData for all properties>
-
-}
-
+    "regCode": "1234",
+    "demog": {
+        "Title": "Mr",
+        "Name": "John",
+        "Surname": "Lemon",
+        "SexType": 1,
+        "Initials": "JL",
+        "DateOfBirth": "1958-08-02T00:00:00",
+        "Mobile": "+444 895 523 411",
+        "Telephone": "+444 525 111 555",
+        "EmailAddress": "<john.lemon@test.com>",
+        "WorkEmailAddress": "<john.lemon@mywork.com>",
+        "Password": "jon4535lemon",
+        "Address": {
+            "Address1": "Studio 99",
+            "Address2": "Backlok Street",
+            "Address3": "Camden",
+            "City": "London",
+            "County": "",
+            "PostCode": "N1 7NK",
+            "Country": "United Kingdom"
+        },
+        "NextOfKin": {
+            "Relationship": "Mam",
+            "Name": "Mariel",
+            "Surname": "Lemon",
+            "Mobile": "+444 895 111 222",
+            "WorkTelephone": "+444 525 111 555",
+            "Address": {
+                "Address1": "Studio 1",
+                "Address2": "Cardwell Roa",
+                "Address3": "Camden",
+                "City": "London",
+                "County": "",
+                "PostCode": "N1 7NK",
+                "Country": "United Kingdom"
+            }
+        }
+    }
 }
 ```

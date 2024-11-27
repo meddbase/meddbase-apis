@@ -7,7 +7,7 @@ parent: Password reset
 
 # SendLink
 
-Sends a password reset link via an email to the patient’s personal email address or to the manager’s work email address. The link includes the portal URL with a password reset key in a format: <http://www.yourportal.com/#/password-reset?key=><key\>
+Sends a password reset link via an email to the patient’s personal email address or to the manager’s work email address. The link includes the portal URL with a password reset key in a format: `http://www.yourportal.com/#/password-reset?key=<key>`
 
 ## JavaScript library method
 

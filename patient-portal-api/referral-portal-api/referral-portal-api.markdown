@@ -7,7 +7,6 @@ parent: Patient Portal API
 
 # Referral Portal API
 
-
 The Referral Portal is a chargeable feature that allows company’s managers to:
 
 - refer patients

@@ -7,8 +7,6 @@ parent: Patient Portal API
 
 # Ethnicities
 
-
-
 Returns a list of the available ethnicities to select from when updating the patient’s details.
 
 ## JavaScript library method

@@ -22,70 +22,38 @@ Feed of the feeds system.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "f562874",
-
-"StartDate": "2013-08-02T14:45:58.9525711+01:00",
-
-"AuthorName": "Dr. Ben",
-
-"LastMessage": {
-
-"AuthorName": "Dr. Ben",
-
-"Date": "2013-08-02T14:55:15.1875264+01:00",
-
-"Text": "&lt;div&gt;Thanks John&lt;/div&gt;"
-
-},
-
-"Messages": \[
-
-{
-
-"AuthorName": "Dr. Ben",
-
-"Date": "2013-08-02T14:55:15.1875264+01:00",
-
-"Text": "&lt;div&gt;Thanks John&lt;/div&gt;"
-
-},
-
-{
-
-"AuthorName": "John",
-
-"Date": "2013-08-02T14:50:05.5684528+01:00",
-
-"Text": "Yes, I can."
-
-},
-
-{
-
-"AuthorName": "Dr. Ben",
-
-"Date": "2013-08-02T14:45:58.9525711+01:00",
-
-"Text": "&lt;div&gt;&lt;b&gt;Hi John, could you...&lt;/b&gt;&lt;/div&gt;"
-
-}
-
-\],
-
-"OutstandingMessageNotification": {
-
-"Key": "f-1548",
-
-"Type": 8,
-
-"Message": "New message from Dr. Ben: &lt;div&gt;Thanks John&lt;/div&gt;",
-
-"ObjectKey": "f562874"
-
-}
-
+    "Key": "f562874",
+    "StartDate": "2013-08-02T14:45:58.9525711+01:00",
+    "AuthorName": "Dr. Ben",
+    "LastMessage": {
+        "AuthorName": "Dr. Ben",
+        "Date": "2013-08-02T14:55:15.1875264+01:00",
+        "Text": "<div>Thanks John</div>"
+    },
+    "Messages": [
+        {
+            "AuthorName": "Dr. Ben",
+            "Date": "2013-08-02T14:55:15.1875264+01:00",
+            "Text": "<div>Thanks John</div>"
+        },
+        {
+            "AuthorName": "John",
+            "Date": "2013-08-02T14:50:05.5684528+01:00",
+            "Text": "Yes, I can."
+        },
+        {
+            "AuthorName": "Dr. Ben",
+            "Date": "2013-08-02T14:45:58.9525711+01:00",
+            "Text": "<div><b>Hi John, could you...</b></div>"
+        }
+    ],
+    "OutstandingMessageNotification": {
+        "Key": "f-1548",
+        "Type": 8,
+        "Message": "New message from Dr. Ben: <div>Thanks John</div>",
+        "ObjectKey": "f562874"
+    }
 }
 ```

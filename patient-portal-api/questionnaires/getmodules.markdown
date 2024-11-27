@@ -35,22 +35,26 @@ patientportal.questionnaires. getModules({
 | page-number | int (optional) | Page number. Default 1. |
 | page-size | int (optional) | Page size. Default 10. Minimum 5. Maximum 50. |
 
+## Returns
+
+[QuestionnaireModuleData](../objects-and-data-types/questionnairemoduledata)[]
+
 ## Returned JSON
 
-```
+```json
 {
-
-"Items": \[
-
-<list of [QuestionnaireModuleData](../objects-and-data-types/questionnairemoduledata)\>
-
-\]
-
-"TotalCount":24,
-
-"CurrentPage":1,
-
-"PageSize":10
-
+    "Items": [
+        {
+            "Key": "3bdd966cf6f9c0c6872ee0551da74c4d",
+            "Category": "ppq",
+            "Name": "Test",
+            "FormKeys": [
+                "4bdd966cf6f9c0c6872ee0551da74c4e"
+            ]
+        }
+    ],
+    "TotalCount":1,
+    "CurrentPage":1,
+    "PageSize":10
 }
 ```

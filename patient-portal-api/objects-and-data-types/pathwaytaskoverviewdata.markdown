@@ -15,22 +15,14 @@ An overview of a single task within a pathway.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Name": "AA",
-
-"ActionType": "AA",
-
-"ActionTypeName": "Arrive an appointment",
-
-"StateType": "FT",
-
-"StateName": "Future task",
-
-"CanProcess": false
-
-"Key": "86149d568252ae476859a3a60835369b",
-
+    "Name": "AA",
+    "ActionType": "AA",
+    "ActionTypeName": "Arrive an appointment",
+    "StateType": "FT",
+    "StateName": "Future task",
+    "CanProcess": false,
+    "Key": "86149d568252ae476859a3a60835369b"
 }
 ```

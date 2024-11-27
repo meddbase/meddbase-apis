@@ -27,31 +27,35 @@ patientportal = new PatientPortalAPI();
 All function calls follow this form:
 
 ```javascript
-patientportal.SECTION.METHOD_NAME({ param1: value1, paramN: valueN
+patientportal.SECTION.METHOD_NAME({
+    param1: value1,
+    paramN: valueN
 })
-    .done(function (receivedData) { // do something
+.done(function (receivedData) {
+    // do something
 })
-    .fail(function (receivedError) { // do something
+.fail(function (receivedError) {
+    // do something
 });
 ```
 
 Where:
 
-- SECTION – The name of the section in the API that the method belongs to (e.g. ‘auth’, ‘patient’, ‘finance’, ‘appointment’, ‘prescription’, ‘feed, ‘medicalHistory’). You can find the section name within the method description.
-- METHOD_NAME – A name of the method as provided by this API in camel-case (e.g. ‘login’, ‘logout’, ‘getAllowedTitles’, etc.). You can find the method name within the method description.
-- paramN: valueN – List of parameters. The list of parameters and their possible values are enumerated within the method description. Certain parameters are required while some are optional. Some methods don’t require any parameters.
-- done(function(receiveData){}) – A callback function that is executed if the request succeeds (ends with a HTTP status code 200).
-  - receivedData – The data that the server returns. You can find the type of the data within the method description.
-- fail(function(receivedError)) – A callback function to be called if the request fails (ends with a HTTP status code other than 200).
-  - receivedError – The ServiceExceptionData that the server throws.
+- `SECTION` – The name of the section in the API that the method belongs to (e.g. ‘auth’, ‘patient’, ‘finance’, ‘appointment’, ‘prescription’, ‘feed, ‘medicalHistory’). You can find the section name within the method description.
+- `METHOD_NAME` – A name of the method as provided by this API in camel-case (e.g. ‘login’, ‘logout’, ‘getAllowedTitles’, etc.). You can find the method name within the method description.
+- `paramN: valueN` – List of parameters. The list of parameters and their possible values are enumerated within the method description. Certain parameters are required while some are optional. Some methods don’t require any parameters.
+- `done(function(receiveData){})` – A callback function that is executed if the request succeeds (ends with a HTTP status code 200).
+  - `receivedData` – The data that the server returns. You can find the type of the data within the method description.
+- `fail(function(receivedError))` – A callback function to be called if the request fails (ends with a HTTP status code other than 200).
+  - `receivedError` – The [ServiceExceptionData](../objects-and-data-types/serviceexceptiondata) that the server throws.
 
 ## Example of using the JavaScript library
 
 This example shows calling of the Login method and the UpdateDemographicData method.
 
 ```html
-<script src="<https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>>
-<script src="<https://api.meddbase.com/scripts/patientportalapi-1.1.js"></script>>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://api.meddbase.com/scripts/patientportalapi-1.1.js"></script>
 <script type="text/javascript">
    // create a new instance of PatientPortalAPI object
    patientportal = new PatientPortalAPI();

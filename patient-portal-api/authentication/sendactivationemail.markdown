@@ -7,7 +7,7 @@ parent: Authentication
 
 # SendActivationEmail
 
-Sends the activation email to the patient’s email address. The activation email includes a link to the patient portal website and contains the activation key: <https://www.yourportal.com/#/confirm-email?key=><key\>
+Sends the activation email to the patient’s email address. The activation email includes a link to the patient portal website and contains the activation key: `https://www.yourportal.com/#/confirm-email?key=<key>`
 
 ## JavaScript library method
 

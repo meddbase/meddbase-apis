@@ -30,11 +30,9 @@ patientportal.anonBooking.registerPatient({
 
 ## Returned JSON
 
-```
+```json
 {
-
-"SessionId": "R9I8Dr8rGQcQ6EOfxVyOBX2r8zt4KTO06vW0O2+GyFc="
-
+    "SessionId": "R9I8Dr8rGQcQ6EOfxVyOBX2r8zt4KTO06vW0O2+GyFc="
 }
 ```
 

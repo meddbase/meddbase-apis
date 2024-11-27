@@ -39,26 +39,42 @@ patientportal.referrals.getReferrals({
 
 <table><tbody><tr><th><p>patient</p></th><th><p>string (optional)</p></th><th><p>The key of the patient provided by the API upon GetPatients.</p></th></tr><tr><td><p>text</p></td><td><p>string (optional)</p></td><td><p>Any text the API will try to filter by patient’s/referrer’s name, email, employee number or by referral number if the text is a number.</p></td></tr><tr><td><p>status</p></td><td><p>int (optional)</p></td><td><p>Status filter:</p><ul><li>0 – <disabled, filter no active></li><li>1 – Questionnaire required</li><li>2 – Documents required</li><li>3 – In progress</li><li>4 – Closed only</li><li>5 – Opened only</li></ul></td></tr><tr><td><p>referral-number</p></td><td><p>string (optional)</p></td><td><p>The number of the referral.</p></td></tr><tr><td><p>patient-name</p></td><td><p>string (optional)</p></td><td><p>The patient name.</p></td></tr><tr><td><p>referrer-name</p></td><td><p>string (optional)</p></td><td><p>The referrer name.</p></td></tr><tr><td><p>department</p></td><td><p>string (optional)</p></td><td><p>Key of the department provided by the API upon GetDepartments.</p></td></tr><tr><td><p>division</p></td><td><p>string (optional)</p></td><td><p>Key of the division provided by the API upon GetDepartments.</p></td></tr><tr><td><p>case</p></td><td><p>int (optional)</p></td><td><p>The case key for the referral.</p></td></tr><tr><td><p>page-sort-column</p></td><td><p>int (optional)</p></td><td><p>The column index to sort the result:</p><ul><li>0 – Last modification date</li><li>1 – Referral number</li><li>2 – Patient name</li><li>3 – Referrer name</li><li>4 – Date created</li></ul><p>By default the result is sorted by last modification date.</p></td></tr><tr><td><p>page-sort-descending</p></td><td><p>int (optional)</p></td><td><p>True to sort result descending. Note that this parameter is ignored for column index 0.</p></td></tr><tr><td><p>page-number</p></td><td><p>int (optional)</p></td><td><p>Required page number. Default 1.</p></td></tr><tr><td><p>page-size</p></td><td><p>int (optional)</p></td><td><p>Required page size. Default 10. Minimum 5. Maximum 50.</p></td></tr></tbody></table>
 
+## Returns
+
+[ReferralOverviewData](../objects-and-data-types/referraloverviewdata)[]
+
 ## Returned JSON
 
-```
+```json
 {
-
-"Items": \[
-
-<list of ReferralOverviewData>
-
-\]
-
-"TotalCount":24,
-
-"CurrentPage":1,
-
-"PageSize":10,
-
-"SortColumn": 0,
-
-"SortDescending": false
-
+    "Items": [
+        {
+            "Key": "R123",
+            "PatientName": "Mr. John Smith",
+            "ReferredBy": "Mr. Will Smith",
+            "CreatedDate": "2015-03-13T14:22:12",
+            "ModifiedDate": "2015-03-13T14:52:30",
+            "State": "InProgress",
+            "StateDisplayName": "In progress",
+            "StateColor": "green",
+            "SLARequired": true,
+            "SLAFailed": true,
+            "SLAFailedReason": "The appointment was not placed within the SLA (5 days): Patient cannot meet SLA.",
+            "ReferralNumber": 13911,
+            "AppointmentType": {
+                "Name": "Referral",
+                "Key": "REF1",
+                "Notes": "",
+                "CanBookAppointment": true,
+                "CanReferPatient": true
+            },
+            "DaysToReviewDischargeLetterByPatient": 3
+        }
+    ],
+    "TotalCount":1,
+    "CurrentPage":1,
+    "PageSize":10,
+    "SortColumn": 0,
+    "SortDescending": false
 }
 ```

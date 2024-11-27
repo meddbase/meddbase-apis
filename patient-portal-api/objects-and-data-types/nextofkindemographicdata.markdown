@@ -24,40 +24,23 @@ Contains the person’s next of kin demographic information.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Relationship": "Mam",
-
-"Name": "Mariel",
-
-"Surname": "Lemon",
-
-"EmailAddress": "<adam.lemon@test.com>",
-
-"Mobile": "+444 895 523 222",
-
-"Telephone": "+444 525 111 333",
-
-"WorkTelephone": "+444 533 234 234",
-
-"Address": {
-
-"Address1": "Studio 99",
-
-"Address2": "Backlok Street",
-
-"Address3": "Camden",
-
-"City": "London",
-
-"County": "",
-
-"PostCode": "N1 7NK",
-
-"Country": "United Kingdom"
-
-}
-
+    "Relationship": "Mam",
+    "Name": "Mariel",
+    "Surname": "Lemon",
+    "EmailAddress": "<adam.lemon@test.com>",
+    "Mobile": "+444 895 523 222",
+    "Telephone": "+444 525 111 333",
+    "WorkTelephone": "+444 533 234 234",
+    "Address": {
+        "Address1": "Studio 99",
+        "Address2": "Backlok Street",
+        "Address3": "Camden",
+        "City": "London",
+        "County": "",
+        "PostCode": "N1 7NK",
+        "Country": "United Kingdom"
+    }
 }
 ```

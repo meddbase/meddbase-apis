@@ -37,19 +37,15 @@ patientportal.passwordReset.validateKey({ key: <key> });
 
 The method either fails with an exception message (e.g. Link expired) or it passes and tells you what method is used to verify the patient/manager.
 
-- SMSVerfication – we verify via a validation code that is sent to the mobile number
+- `SMSVerfication` – we verify via a validation code that is sent to the mobile number
   - Use MobileHint as so the patient can partially verify what mobile number is going to be used.
-- DemographicsVerification – we verify via a full demographics match
+- `DemographicsVerification` – we verify via a full demographics match
   - Note this method is not recommended and will be removed in future. It is supported until all clients move to SMS verification.
 
-```
+```json
 {
-
-"SMSVerification": true,
-
-"DemographicsVerification": false,
-
-"MobileHint": "xxxxxxxx569"
-
+  "SMSVerification": true,
+  "DemographicsVerification": false,
+  "MobileHint": "xxxxxxxx569"
 }
 ```

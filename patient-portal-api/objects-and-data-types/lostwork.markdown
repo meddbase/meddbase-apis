@@ -18,12 +18,9 @@ A small object used in the [AbsenceData](../objects-and-data-types/absencedata) 
 
 ## JSON Example
 
-```
+```json
 {
-
-"Hours": 32,
-
-"Days": 4
-
+    "Hours": 32,
+    "Days": 4
 }
 ```

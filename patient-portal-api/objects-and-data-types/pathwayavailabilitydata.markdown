@@ -18,12 +18,9 @@ Availability data for a pathway definition
 
 ## JSON Example
 
-```
+```json
 {
-
-Error: "Maximum instances of pathways already running."
-
-IsAvailabe: false
-
+    "Error": "Maximum instances of pathways already running.",
+    "IsAvailable": false
 }
 ```

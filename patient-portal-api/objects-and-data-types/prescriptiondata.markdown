@@ -15,30 +15,18 @@ Contains information about the prescription.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "d2546",
-
-"Type": "R",
-
-"DrugKey": "d2546",
-
-"DrugName": "Aspirin Tablets 75 mg",
-
-"Quantity": 28,
-
-"QuantityUnit": "tablets",
-
-"Dosage": "One To Be Taken Each Day",
-
-"Duration": 28,
-
-"Method": "",
-
-"Route": "Oral route",
-
-"PharmacyText": ""
-
+    "Key": "d2546",
+    "Type": "R",
+    "DrugKey": "d2546",
+    "DrugName": "Aspirin Tablets 75 mg",
+    "Quantity": 28,
+    "QuantityUnit": "tablets",
+    "Dosage": "One To Be Taken Each Day",
+    "Duration": 28,
+    "Method": "",
+    "Route": "Oral route",
+    "PharmacyText": ""
 }
 ```

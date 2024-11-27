@@ -5,7 +5,7 @@ nav_order: 6
 parent: Password reset
 ---
 
-# \[OBSOLETE\] SetPasswordUsingDemographics
+# [OBSOLETE] SetPasswordUsingDemographics
 
 Sets the new password using the demographics match verification. This method is supported for legacy reasons and will be removed in the future.
 

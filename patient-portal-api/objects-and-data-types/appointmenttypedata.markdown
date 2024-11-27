@@ -25,22 +25,14 @@ Type of the appointment.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "CN",
-
-"Name": "Consultation"
-
-"CancellationPolicy": "You will be charged at 50% of the full price if you cancel the appointment within 72 hours. You will be charged at 90% of the full price if you do not turn up.",
-
-"CanBookAppointment": true,
-
-"CanReferPatient": false,
-
-"TelemedicineOption": true,
-
-"CanAddServices": false
-
+    "Key": "CN",
+    "Name": "Consultation",
+    "CancellationPolicy": "You will be charged at 50% of the full price if you cancel the appointment within 72 hours. You will be charged at 90% of the full price if you do not turn up.",
+    "CanBookAppointment": true,
+    "CanReferPatient": false,
+    "TelemedicineOption": true,
+    "CanAddServices": false
 }
 ```

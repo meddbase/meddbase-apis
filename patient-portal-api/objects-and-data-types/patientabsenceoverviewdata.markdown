@@ -19,14 +19,10 @@ A small overview object containing the patient’s Bradford Factor score and a f
 
 ## JSON Example
 
-```
+```json
 {
-
-"BradfordFactor": 24,
-
-"IsCurrentlyAbsent": true,
-
-"Key": "83075be08d41fd6096c3c53bc8c4bda7"
-
+    "BradfordFactor": 24,
+    "IsCurrentlyAbsent": true,
+    "Key": "83075be08d41fd6096c3c53bc8c4bda7"
 }
 ```

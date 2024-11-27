@@ -26,28 +26,17 @@ Provides information about a membership scheme.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Name": "Basic Membership Program",
-
-"Code": "ms001",
-
-"BillingFrequency": "Monthly",
-
-"CurrencyCode": "GBP",
-
-"CurrencySymbol": "£",
-
-"NetPrice": 100,
-
-"Tax": 20,
-
-"GrossPrice": 120,
-
-"RequiresOnlinePayment": false,
-
-"OnlinePaymentAllowed": true
-
+    "Name": "Basic Membership Program",
+    "Code": "ms001",
+    "BillingFrequency": "Monthly",
+    "CurrencyCode": "GBP",
+    "CurrencySymbol": "£",
+    "NetPrice": 100,
+    "Tax": 20,
+    "GrossPrice": 120,
+    "RequiresOnlinePayment": false,
+    "OnlinePaymentAllowed": true
 }
 ```

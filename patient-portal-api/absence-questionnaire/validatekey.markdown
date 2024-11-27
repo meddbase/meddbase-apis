@@ -31,32 +31,23 @@ patientportal.rtwQuestionnaire.validateKey({
 
 ## Returned JSON
 
-```
+```json
 {
-
-"status": "ok",
-
-"result": “”
-
+    "status": "ok",
+    "result": “”
 }
+```
 
 or:
 
+```json
 {
-
-"status": "error",
-
-"error": {
-
-"Message": "Validation code has expired. Please re-send new validation code.",
-
-"EventType": 2,
-
-"StatusCode": 500,
-
-"EventCode": 0
-
-}
-
+    "status": "error",
+    "error": {
+        "Message": "Validation code has expired. Please re-send new validation code.",
+        "EventType": 2,
+        "StatusCode": 500,
+        "EventCode": 0
+    }
 }
 ```

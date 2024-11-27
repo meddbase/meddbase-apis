@@ -28,23 +28,27 @@ patientportal.auth.getDepartmentsAndDivisions({regCode: <reg-code>, isOH: <is-oh
 | reg-code | string | Online referral portal sign up access code that is provided to the manager. |
 | is-oh | bool | True for the referral portal. False for the patient portal. |
 
+## Returns
+
+[DepartmentData](../objects-and-data-types/departmentdata)[]
+[DivisionData](../objects-and-data-types/divisiondata)[]
+
 ## Returned JSON
 
-```
+```json
 {
-
-"Departments": \[
-
-<list of DepartmentData>
-
-\]
-
-"Divisions": \[
-
-<list of DivisionData>
-
-\]
-
+    "Departments": [
+        {
+            "Key": "D123",
+            "Name": "HR"
+        }
+    ],
+    "Divisions": [
+        {
+            "Key": "Dv123",
+            "Name": "Division 123"
+        }
+    ]
 }
 ```
 

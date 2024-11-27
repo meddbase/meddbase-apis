@@ -15,18 +15,12 @@ Provides information about an actual server state.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Name": "Meddbase server",
-
-"StateCode": 1,
-
-"State": "Running",
-
-"ServiceVersion": "&lt;deprecated&gt;",
-
-"ProtocolVersion": "1.0.1"
-
+    "Name": "Meddbase server",
+    "StateCode": 1,
+    "State": "Running",
+    "ServiceVersion": "<deprecated>",
+    "ProtocolVersion": "1.0.1"
 }
 ```

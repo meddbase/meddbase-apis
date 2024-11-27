@@ -42,8 +42,8 @@ patientportal.appointment.bookProposedAppointment({
 
 ## Returns
 
-AppointmentData
+[AppointmentData](../objects-and-data-types/appointmentdata)
 
 ## Remarks
 
-If the appropriate appointment is taken by another user in a meanwhile the exception is throw. See Error handling. If the response contains the invoice the client use the invoice number and unpaid part of invoice to provide payment.
+If the appropriate appointment is taken by another user in the meantime then an exception is thrown. See Error handling. If the response contains the invoice the client use the invoice number and unpaid part of invoice to provide payment.

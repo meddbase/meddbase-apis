@@ -38,26 +38,28 @@ patientportal.cases.getCases({
 
 <table><tbody><tr><th><p>patient</p></th><th><p>string (optional)</p></th><th><p>The patient’s key id.</p></th></tr><tr><td><p>text</p></td><td><p>string (optional)</p></td><td><p>Checks if any of the attributes of the CaseOverviewData object contain <text>.</p></td></tr><tr><td><p>status</p></td><td><p>int (optional)</p></td><td><ol><li>No filter (Default)</li><li>Open cases</li><li>Closed cases</li></ol></td></tr><tr><td><p>case</p></td><td><p>Int (optional)</p></td><td><p>The case’s key id.</p></td></tr><tr><td><p>title</p></td><td><p>string (optional)</p></td><td><p>The public title of the case.</p></td></tr><tr><td><p>patientName</p></td><td><p>string (optional)</p></td><td><p>The patient’s name.</p></td></tr><tr><td><p>department</p></td><td><p>string (optional)</p></td><td><p>Key of the department provided by the API upon GetDepartments.</p></td></tr><tr><td><p>division</p></td><td><p>string (optional)</p></td><td><p>Key of the division provided by the API upon GetDepartments.</p></td></tr><tr><td><p>page-sort-column</p></td><td><p>int (optional)</p></td><td><p>The column index to sort the result:</p><ol><li>Case Key</li><li>Person Name</li><li>Case Title</li><li>Opened Date</li><li>Closed Date</li><li>Last Updated Date</li></ol><p>By default the result is sorted by last updated date.</p></td></tr><tr><td><p>page-sort-descending</p></td><td><p>int (optional)</p></td><td><p>True to sort result descending.</p></td></tr><tr><td><p>page-number</p></td><td><p>int (optional)</p></td><td><p>Page number. Default 1.</p></td></tr><tr><td><p>page-size</p></td><td><p>int (optional)</p></td><td><p>Page size. Default 5. Minimum 5. Maximum 50.</p></td></tr></tbody></table>
 
+## Returns
+
+[CaseOverviewData](../objects-and-data-types/caseoverviewdata)[]
+
 ## Returned JSON
 
-```
+```json
 {
-
-"Items": \[
-
-<list of CaseOverviewData>
-
-\],
-
-"TotalCount": 15,
-
-"CurrentPage": 1,
-
-"PageSize": 10,
-
-"SortColumn": 0,
-
-"SortDescending": false
-
+    "Items": [
+        {
+            "Key": 11229,
+            "PatientName": "Lemon, John",
+            "OpenedDate": "2024-01-01T09:30:00",
+            "Title": "1st Case for this Patient",
+            "LastUpdatedDate": "2024-01-01T09:30:00",
+            "IsOpen": true
+        }
+    ],
+    "TotalCount": 15,
+    "CurrentPage": 1,
+    "PageSize": 10,
+    "SortColumn": 0,
+    "SortDescending": false
 }
 ```

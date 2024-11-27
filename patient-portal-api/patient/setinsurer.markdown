@@ -29,20 +29,11 @@ patientportal.patient.setInsurer();
 
 ## POST data example
 
-```
+```json
 {
-
-"insurerData": {
-
-{
-
-"Key": "1c5aabbdf813ad78c48cc8e6d8584162",
-
-"MemberNumber": "Test member number"
-
-}
-
-}
-
+    "insurerData": {
+        "Key": "1c5aabbdf813ad78c48cc8e6d8584162",
+        "MemberNumber": "Test member number"
+    }
 }
 ```

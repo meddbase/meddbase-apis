@@ -18,12 +18,9 @@ Contains ISO 3166 country data.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "GB",
-
-"Name": " United Kingdom of Great Britain and Northern Ireland(the)"
-
+    "Key": "GB",
+    "Name": " United Kingdom of Great Britain and Northern Ireland(the)"
 }
 ```

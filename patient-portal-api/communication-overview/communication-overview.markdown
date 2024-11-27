@@ -7,7 +7,6 @@ parent: Patient Portal API
 
 # Communication overview
 
-
 This section provides basic information how the client communicates with the Meddbase Patient Portal API.
 
 The API provides:
@@ -19,8 +18,3 @@ The API provides:
 - review patient’s medical history
 
 The API is designed as a REST service. The client uses HTTP GET and POST request to communicate with the server. All POST data and all GET response data is formatted in the JSON data format.
-
-
-
-
-

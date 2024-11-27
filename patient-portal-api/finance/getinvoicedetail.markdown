@@ -37,4 +37,4 @@ patientportal.finance.getInvoiceDetail({
 
 ## Remarks
 
-One of optional parameters invoice or invoice-number must be used.
+One of optional parameters `invoice` or `invoice-number` must be used.

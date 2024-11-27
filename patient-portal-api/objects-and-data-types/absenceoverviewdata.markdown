@@ -15,42 +15,25 @@ A full absence record data object which includes the patient’s full name.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "efdc81efac0fd1a7f7b1833697a3ec3b",
-
-"PatientName": "Vercruse, Katarina",
-
-“DepartmentName”, “Support”,
-
-“DivisionName”, “Information Technology”,
-
-"StartDate": "2018-06-11T00:00:00",
-
-"EstimatedEndDate": "2018-06-15T00:00:00",
-
-"EndDate": "2018-06-15T00:00:00",
-
-"AbsenceStatusCode": 2,
-
-"AbsenceStatusName": "Closed",
-
-"QuestionnaireStatusCode": 0,
-
-"QuestionnaireStatusName": "Not sent",
-
-"LostWork": {
-
-<[LostWork](../objects-and-data-types/lostwork)\>
-
-},
-
-"Reason": "Brain Tumour",
-
-"AccidentAtWork": false,
-
-"ReasonSharedWithEmployer": true
-
+    "Key": "efdc81efac0fd1a7f7b1833697a3ec3b",
+    "PatientName": "Vercruse, Katarina",
+    "DepartmentName": "Support",
+    "DivisionName": "Information Technology",
+    "StartDate": "2018-06-11T00:00:00",
+    "EstimatedEndDate": "2018-06-15T00:00:00",
+    "EndDate": "2018-06-15T00:00:00",
+    "AbsenceStatusCode": 2,
+    "AbsenceStatusName": "Closed",
+    "QuestionnaireStatusCode": 0,
+    "QuestionnaireStatusName": "Not sent",
+    "LostWork": {
+        "Hours": 32,
+        "Days": 4
+    },
+    "Reason": "Brain Tumour",
+    "AccidentAtWork": false,
+    "ReasonSharedWithEmployer": true
 }
 ```

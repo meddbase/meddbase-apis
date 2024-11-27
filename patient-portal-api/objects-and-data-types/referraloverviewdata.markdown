@@ -15,48 +15,27 @@ Provides overview information about the referral.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "R123",
-
-"PatientName": "Mr. John Smith",
-
-"ReferredBy": "Mr. Will Smith",
-
-"CreatedDate": "2015-03-13T14:22:12",
-
-"ModifiedDate": "2015-03-13T14:52:30",
-
-"State": "InProgress",
-
-"StateDisplayName": "In progress",
-
-"StateColor": "green",
-
-"SLARequired": true,
-
-"SLAFailed": true,
-
-"SLAFailedReason": "The appointment was not placed within the SLA (5 days): Patient cannot meet SLA.",
-
-"ReferralNumber": 13911,
-
-"AppointmentType": {
-
-"Name": "Referral",
-
-"Key": "REF1",
-
-"Notes": "",
-
-"CanBookAppointment": true,
-
-"CanReferPatient": true
-
-},
-
-"DaysToReviewDischargeLetterByPatient": 3
-
+    "Key": "R123",
+    "PatientName": "Mr. John Smith",
+    "ReferredBy": "Mr. Will Smith",
+    "CreatedDate": "2015-03-13T14:22:12",
+    "ModifiedDate": "2015-03-13T14:52:30",
+    "State": "InProgress",
+    "StateDisplayName": "In progress",
+    "StateColor": "green",
+    "SLARequired": true,
+    "SLAFailed": true,
+    "SLAFailedReason": "The appointment was not placed within the SLA (5 days): Patient cannot meet SLA.",
+    "ReferralNumber": 13911,
+    "AppointmentType": {
+        "Name": "Referral",
+        "Key": "REF1",
+        "Notes": "",
+        "CanBookAppointment": true,
+        "CanReferPatient": true
+    },
+    "DaysToReviewDischargeLetterByPatient": 3
 }
 ```

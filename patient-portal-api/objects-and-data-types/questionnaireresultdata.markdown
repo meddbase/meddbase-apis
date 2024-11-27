@@ -19,14 +19,10 @@ Provides the results of a questionnaire request.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Complete": true,
-
-"Name": "Test",
-
-"Html": "…",
-
+    "Complete": true,
+    "Name": "Test",
+    "Html": "…"
 }
 ```

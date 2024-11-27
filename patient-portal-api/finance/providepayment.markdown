@@ -55,24 +55,28 @@ Following data is included in the call-back:
 
 OnDone:
 
-```
-Sender: “PAYMENT-GATEWAY”,
-
-Status: “OK”,
-
-StatusDetail: Details of the payment status,
-
-TransactionId: Transaction id of the payment - GUID,
-
-ClientPaymentId: Identifier of the payment
+<dl>
+  <dt>Sender</dt>
+  <dd>“PAYMENT-GATEWAY”</dd>
+  <dt>Status</dt>
+  <dd>"OK"</dd>
+  <dt>StatusDetail</dt>
+  <dd>Details of the payment status</dd>
+  <dt>TransactionId</dt>
+  <dd>Transaction id of the payment - GUID</dd>
+  <dt>ClientPaymentId</dt>
+  <dd>Identifier of the payment</dd>
+</dl>
 
 OnFail:
 
-Sender: “PAYMENT-GATEWAY”,
-
-Status: failure status,
-
-StatusDetail: Details of the payment failure,
-
-TransactionId: Transaction id of the payment - GUID,
-```
+<dl>
+  <dt>Sender</dt>
+  <dd>“PAYMENT-GATEWAY”</dd>
+  <dt>Status</dt>
+  <dd>failure status</dd>
+  <dt>StatusDetail</dt>
+  <dd>Details of the payment failure</dd>
+  <dt>TransactionId</dt>
+  <dd>Transaction id of the payment - GUID</dd>
+</dl>

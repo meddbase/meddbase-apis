@@ -20,14 +20,10 @@ Provides information about a chargeband.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Name": "Online chargeband",
-
-"RegCode": "d01m",
-
-"CompanyType" : "M"
-
+    "Name": "Online chargeband",
+    "RegCode": "d01m",
+    "CompanyType" : "M"
 }
 ```

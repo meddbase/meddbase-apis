@@ -15,16 +15,11 @@ Provides information about notification (outstanding invoice or questionnaire, e
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "2-1568",
-
-"Type": 1,
-
-"Message": "You need to complete pre-medical questionnaire.",
-
-"ObjectKey": "1568"
-
+    "Key": "2-1568",
+    "Type": 1,
+    "Message": "You need to complete pre-medical questionnaire.",
+    "ObjectKey": "1568"
 }
 ```

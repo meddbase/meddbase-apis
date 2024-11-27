@@ -20,12 +20,9 @@ Contains the information about the company department.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "D123",
-
-"Name": "HR"
-
+    "Key": "D123",
+    "Name": "HR"
 }
 ```

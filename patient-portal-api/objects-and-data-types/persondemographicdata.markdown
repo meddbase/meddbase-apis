@@ -15,80 +15,43 @@ Contains the person’s demographic information (e.g. patient’s demographic da
 
 ## JSON Example
 
-```
+```json
 {
-
-"Title": "Mr",
-
-"Name": "John",
-
-"Surname": "Lemon",
-
-"SexType": 1,
-
-"Initials": "JL",
-
-"DateOfBirth": "1958-08-02T00:00:00",
-
-"Mobile": "+444 895 523 411",
-
-"Telephone": "+444 525 111 555",
-
-"EmailAddress": "<john.lemon@test.com>",
-
-"WorkEmailAddress": "<john.lemon@mywork.com>",
-
-"Password": "jon4535lemon",
-
-"Address": {
-
-"Address1": "Studio 99",
-
-"Address2": "Backlok Street",
-
-"Address3": "Camden",
-
-"City": "London",
-
-"County": "",
-
-"PostCode": "N1 7NK",
-
-"Country": "United Kingdom"
-
-},
-
-"NextOfKin": {
-
-"Relationship": "Mam",
-
-"Name": "Mariel",
-
-"Surname": "Lemon",
-
-"Mobile": "+444 895 111 222",
-
-"WorkTelephone": "+444 525 111 555",
-
-"Address": {
-
-"Address1": "Studio 1",
-
-"Address2": "Cardwell Roa",
-
-"Address3": "Camden",
-
-"City": "London",
-
-"County": "",
-
-"PostCode": "N1 7NK",
-
-"Country": "United Kingdom"
-
-}
-
-}
-
+    "Title": "Mr",
+    "Name": "John",
+    "Surname": "Lemon",
+    "SexType": 1,
+    "Initials": "JL",
+    "DateOfBirth": "1958-08-02T00:00:00",
+    "Mobile": "+444 895 523 411",
+    "Telephone": "+444 525 111 555",
+    "EmailAddress": "<john.lemon@test.com>",
+    "WorkEmailAddress": "<john.lemon@mywork.com>",
+    "Password": "jon4535lemon",
+    "Address": {
+        "Address1": "Studio 99",
+        "Address2": "Backlok Street",
+        "Address3": "Camden",
+        "City": "London",
+        "County": "",
+        "PostCode": "N1 7NK",
+        "Country": "United Kingdom"
+    },
+    "NextOfKin": {
+        "Relationship": "Mam",
+        "Name": "Mariel",
+        "Surname": "Lemon",
+        "Mobile": "+444 895 111 222",
+        "WorkTelephone": "+444 525 111 555",
+        "Address": {
+            "Address1": "Studio 1",
+            "Address2": "Cardwell Roa",
+            "Address3": "Camden",
+            "City": "London",
+            "County": "",
+            "PostCode": "N1 7NK",
+            "Country": "United Kingdom"
+        }
+    }
 }
 ```

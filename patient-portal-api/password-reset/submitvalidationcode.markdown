@@ -46,10 +46,8 @@ If something goes wrong please check exception (see Error handling).
 
 The SessionId is used to establish a security context via ASP.NET_SessionId cookie parameter.
 
-```
+```json
 {
-
-"SessionId":"R9I8Dr8rGQcQ6EOfxVyOBX2r8zt4KTO06vW0O2+GyFc="
-
+    "SessionId":"R9I8Dr8rGQcQ6EOfxVyOBX2r8zt4KTO06vW0O2+GyFc="
 }
 ```

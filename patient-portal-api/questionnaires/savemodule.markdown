@@ -7,7 +7,7 @@ parent: Questionnaires
 
 # SaveModule
 
-Create or update a module. Modules can only be shared if the logged in user has the _CanModifyQuestionnaireForms_ right. Returns the key of the module created.
+Create or update a module. Modules can only be shared if the logged in user has the `CanModifyQuestionnaireForms` right. Returns the key of the module created.
 
 ## JavaScript library method
 

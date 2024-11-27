@@ -31,18 +31,12 @@ patientportal.referrals.findUserToReallocate({
 
 ## Returned JSON
 
-```
+```json
 {
-
-"Key": "u1324",
-
-"Title": "Mr."
-
-"Name": "John",
-
-"Surname": "Smith",
-
-"EmployeeNumber": "1234"
-
+    "Key": "u1324",
+    "Title": "Mr.",
+    "Name": "John",
+    "Surname": "Smith",
+    "EmployeeNumber": "1234"
 }
 ```

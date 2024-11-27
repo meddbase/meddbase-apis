@@ -25,32 +25,19 @@ Information about the Service.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Code": "A1250",
-
-"CurrencyCode":"GBP",
-
-"CurrencySymbol": "£",
-
-"GrossPrice": 0,
-
-"Key":593,
-
-"Name": "Creation of subcutaneous cerebrospinal fluid reservoir",
-
-"NetPrice": 0,
-
-"Tax": 0,
-
-"ServiceType" : {
-
-"Key": 84,
-
-"Name": "Blood profile"
-
-}
-
+    "Code": "A1250",
+    "CurrencyCode":"GBP",
+    "CurrencySymbol": "£",
+    "GrossPrice": 0,
+    "Key":593,
+    "Name": "Creation of subcutaneous cerebrospinal fluid reservoir",
+    "NetPrice": 0,
+    "Tax": 0,
+    "ServiceType" : {
+        "Key": 84,
+        "Name": "Blood profile"
+    }
 }
 ```

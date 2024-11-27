@@ -22,8 +22,7 @@ patientportal.patientReportReview.submitAuthorisation({
         {
             Subject: <Subject>,
             Comments: <Comments>
-        },
-        ...
+        }
     ]
 });
 ```
@@ -54,4 +53,4 @@ patientportal.patientReportReview.submitAuthorisation({
 
 ## Remarks
 
-Calling this method removes the security context so no another command (GetMedicalReportData, SubmitAuthorisation) is allowed without new validation. If something goes wrong please check exception (see Error handling).
+Calling this method removes the security context so no other command (GetMedicalReportData, SubmitAuthorisation) is allowed without new validation. If something goes wrong please check exception (see Error handling).

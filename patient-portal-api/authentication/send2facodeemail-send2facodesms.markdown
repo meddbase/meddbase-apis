@@ -30,11 +30,9 @@ patientportal.auth.send2faCodeSMS();
 
 ## Returned JSON
 
-```
+```json
 {
-
-"DeliveryMethod": "Mobile"
-
+    "DeliveryMethod": "Mobile"
 }
 ```
 

@@ -18,12 +18,9 @@ Contains the information about the employee status.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "1",
-
-"Name": "Employed"
-
+    "Key": "1",
+    "Name": "Employed"
 }
 ```

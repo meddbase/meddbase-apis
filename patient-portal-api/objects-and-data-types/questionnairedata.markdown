@@ -15,44 +15,25 @@ Contains the information about the questionnaire including questions and answers
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "q13788",
-
-"Name": "Basic questionnaire",
-
-"Description": "",
-
-"StatusCode": 0,
-
-"Status": "Incomplete",
-
-"AppointmentKey": "apt5821",
-
-"Expiration": "2013-08-25",
-
-"Answers": \[
-
-{
-
-"QuestionId": 236,
-
-"Answer": "Yes"
-
-},
-
-{
-
-"QuestionId": 237,
-
-"Answer": "No"
-
-}
-
-\],
-
-Markup = "&lt;?xml version=\\"1.0\\" encoding=\\"utf-8\\"?&gt;&lt;Questionnaire&gt; see Questionnaire markup to see full markup"
-
+    "Key": "q13788",
+    "Name": "Basic questionnaire",
+    "Description": "",
+    "StatusCode": 0,
+    "Status": "Incomplete",
+    "AppointmentKey": "apt5821",
+    "Expiration": "2013-08-25",
+    "Answers": [
+        {
+            "QuestionId": 236,
+            "Answer": "Yes"
+        },
+        {
+            "QuestionId": 237,
+            "Answer": "No"
+        }
+    ],
+    "Markup": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Questionnaire> see Questionnaire markup to see full markup"
 }
 ```

@@ -23,13 +23,10 @@ patientportal.auth.validateLogin();
 
 ## Returned JSON
 
-```
+```json
 {
-
-"Token": "380da8b1-d4ca-4d92-98d2-bbe3ce258a49",
-
-"RemainingTime": 569
-
+    "Token": "380da8b1-d4ca-4d92-98d2-bbe3ce258a49",
+    "RemainingTime": 569
 }
 ```
 

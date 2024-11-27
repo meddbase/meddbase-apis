@@ -29,6 +29,6 @@ patientportal.cases.getCase({
 |:----------|:-------|:------------------------------------------------------------|
 | case | string | The key of the case. |
 
-## Returned JSON
+## Returns
 
 [CaseData](../objects-and-data-types/casedata)

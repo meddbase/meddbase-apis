@@ -15,20 +15,13 @@ Provides information about the exception.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Message": "Password isn't set.",
-
-"EventType": 2,
-
-"EventCode": 0,
-
-"HttpStatusCode": 400,
-
-"Description": null,
-
-"ReferenceNumber": null
-
+    "Message": "Password isn't set.",
+    "EventType": 2,
+    "EventCode": 0,
+    "HttpStatusCode": 400,
+    "Description": null,
+    "ReferenceNumber": null
 }
 ```

@@ -23,42 +23,23 @@ Provides information about the patient medical report review for the patient.
 
 ## JSON Example
 
-```
+```json
 {
-
-"ReportUrl": "<http://api.meddbase.com/patientportalapi/>....",
-
-"ReferredBy": "Mr. John Smith",
-
-"AutoReleaseTime": "2015-05-14T06:00:00",
-
-"PossibleFactualChanges": \[
-
-"DOB incorrect",
-
-"Name incorrect",
-
-"other"
-
-\],
-
-"Submitted": false,
-
-"Comments": "&lt;Patient’s previous comments if submitted&gt;",
-
-"FactualChanges": \[
-
-{
-
-"Subject": "DOB incorrect",
-
-"Comments": "My DOB is 1.1.1985"
-
-},
-
-{...}
-
-\]
-
+    "ReportUrl": "http://api.meddbase.com/patientportalapi/...",
+    "ReferredBy": "Mr. John Smith",
+    "AutoReleaseTime": "2015-05-14T06:00:00",
+    "PossibleFactualChanges": [
+        "DOB incorrect",
+        "Name incorrect",
+        "other"
+    ],
+    "Submitted": false,
+    "Comments": "<Patient’s previous comments if submitted>",
+    "FactualChanges": [
+        {
+            "Subject": "DOB incorrect",
+            "Comments": "My DOB is 1.1.1985"
+        }
+    ]
 }
 ```

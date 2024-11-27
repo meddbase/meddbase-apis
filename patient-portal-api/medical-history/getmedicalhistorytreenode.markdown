@@ -22,12 +22,13 @@ patientportal.medicalHistory.getMedicalHistoryTreeNode({
 
 | Verb | URL                                               |
 |:-----|:--------------------------------------------------|
-| GET | `/patientportalapi/medical-history/node/&lt;node-path&gt;` |
+| GET | `/patientportalapi/medical-history/node/<node-path>` |
 
 ## URL node path
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | node-path | string | The path of the node provided by the API upon GetMedicalHistoryTreeNode. If the path is specific the requested node is always fully loaded. If the path is empty the server returns root node.<br><br>This parameter is not a query parameter. It is a part of the URL path.<br><br>For example: The URL for the node ‘numeric-data/weight’:<br><br>/patientportalapi/medical-history/node/numeric-data/weight |
-| --- | --- | --- |
 
 ## URL Parameters
 

@@ -22,20 +22,13 @@ Information about the appointment slot that the booking system needs to book the
 
 ## JSON Example
 
-```
+```json
 {
-
-"Type": "VC"
-
-"Start": "2013-08-07T09:30:00",
-
-"Finish": "2013-08-07T10:30:00",
-
-"SiteKey": 123,
-
-"LocationKey": 546,
-
-"ResourceKey": 468,
-
+    "Type": "VC",
+    "Start": "2013-08-07T09:30:00",
+    "Finish": "2013-08-07T10:30:00",
+    "SiteKey": 123,
+    "LocationKey": 546,
+    "ResourceKey": 468
 }
 ```

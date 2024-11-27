@@ -29,18 +29,37 @@ patientportal.patients.getManagers({
 |:----------|:-------|:------------------------------------------------------------|
 | patient | string | The patient key. |
 
+## Returns
+
+[PatientDemographicData](../objects-and-data-types/patientdemographicdata)[]
+
 ## Returned JSON
 
-```
+```json
 {
-
-"status": "ok",
-
-"result": {
-
-<list of [PatientDemographicData](../objects-and-data-types/persondemographicdata)\>
-
-}
-
+    "status": "ok",
+    "result": [
+        {
+            "Title": "Mr",
+            "Name": "John",
+            "Surname": "Lemon",
+            "SexType": 1,
+            "Initials": "JL",
+            "DateOfBirth": "1958-08-02T00:00:00",
+            "Mobile": "+444 895 523 411",
+            "Telephone": "+444 525 111 555",
+            "EmailAddress": "<john.lemon@test.com>",
+            "WorkEmailAddress": "<john.lemon@mywork.com>",
+            "Address": {
+                "Address1": "Studio 99",
+                "Address2": "Backlok Street",
+                "Address3": "Camden",
+                "City": "London",
+                "County": "",
+                "PostCode": "N1 7NK",
+                "Country": "United Kingdom"
+            }
+        }
+    ]
 }
 ```

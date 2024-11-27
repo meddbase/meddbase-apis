@@ -9,8 +9,8 @@ parent: Pathways
 
 The pathway is a set of nested tasks. A task could be either a simple action or a container (either serial or parallel). Containers include other nested tasks. An example of a pathway is provided here PathwayData. Below is the list of action types you can receive via API.
 
-| **Type** | **Name** | **Description** |
-| --- | --- | --- |
+| Type | Name | Description |
+|:-----|:-----|:------------|
 | WF  | Workflow | The workflow is a container of tasks that runs in order. The workflow is a logical unit like ‘Book first consultation’ that than includes more task like attach document, book an appointment, pre-appointment questionnaire and arrive appointment. |
 | SQ  | Sequence | The sequence is a container of tasks that runs in order like the workflow but does not represent a big standalone unit like a workflow. The sequence is used for small sequence tasks within a workflow. |
 | ST  | Step | A container of parallel tasks. |

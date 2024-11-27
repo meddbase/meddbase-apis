@@ -18,12 +18,9 @@ Represents a person’s pronoun preferences.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "1c5aabbdf813ad78c48cc8e6d8584162",
-
-"Name": "She/Her/Hers"
-
+    "Key": "1c5aabbdf813ad78c48cc8e6d8584162",
+    "Name": "She/Her/Hers"
 }
 ```

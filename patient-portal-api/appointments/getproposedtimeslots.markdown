@@ -55,4 +55,4 @@ patientportal.appointment.getProposedTimeSlots({
 
 ## Remarks
 
-The server sorts the result by day and time of the appointment (the closer appointment first).
+The server sorts the result by day and time of the appointment (the soonest appointment first).
