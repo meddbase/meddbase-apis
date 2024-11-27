@@ -23,4 +23,4 @@ patientportal.genderIdentity.getPronouns();
 
 ## Returns
 
-PronounData\[\]
+[PronounData](../objects-and-data-types/pronoundata)[]

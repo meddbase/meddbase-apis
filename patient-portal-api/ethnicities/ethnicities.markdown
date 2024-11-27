@@ -31,4 +31,4 @@ patientportal.ethnicities.getEthnicities();
 
 ## Returns
 
-[EthnicityData\[\]](#_EthnicityData)
+[EthnicityData](../objects-and-data-types/ethnicitydata)[]

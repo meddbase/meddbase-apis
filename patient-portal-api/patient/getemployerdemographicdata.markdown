@@ -23,4 +23,4 @@ patientportal.patient.getEmployerDemographicData();
 
 ## Returns
 
-CompanyDemographicData
+[CompanyDemographicData](../objects-and-data-types/companydemographicdata)

@@ -18,7 +18,7 @@ Provides informations about the current session, company and logged-in user.
 | Phone | string | Official Company phone number. |
 | Permissions | object | List of patient’s/user’s permissions. |
 | Configuration | object | General app configuration. |
-| Configuration\\SSOStatus | [SSOStatus](#_SSOStatus) | Optional single sign on configuration |
+| Configuration\\SSOStatus | [SSOStatus](../objects-and-data-types/ssostatus) | Optional single sign on configuration |
 | Configuration\\SessionTimeout | Int | The number of seconds from the last operation the session will be active for. Use ValidateLogin to get remaining time of the session lifetime. |
 | Configuration\\ DateOfBirthRequiredForPatients | bool | True if DOB is mandatory for a patient registration. |
 | ForceContactOptions | bool | Defines that the user should be forced to set up their contact options. |

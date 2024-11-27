@@ -31,7 +31,7 @@ patientportal.patients.fullSearch({
 
 ## Returns
 
-PersonDemographicData
+[PersonDemographicData](../objects-and-data-types/persondemographicdata)
 
 ## Remarks
 

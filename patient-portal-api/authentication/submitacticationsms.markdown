@@ -35,7 +35,7 @@ patientportal.auth.submitActivationSMS({code: <code>, isOH: <is-oh>});
 
 ## Returns
 
-ActivationConfirmation
+[ActivationConfirmation](../objects-and-data-types/activationconfirmation)
 
 ## Remarks
 

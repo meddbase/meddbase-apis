@@ -25,7 +25,7 @@ patientportal.rtwQuestionnaire.submitQuestionnaire({
 
 ## URL Parameters
 
-| rtw-questionnaire-data | [AbsenceRTWQuestionnaireData](#_AbsenceRTWQuestionnaireData) | An [AbsenceRTWQuestionnaireData](#_AbsenceRTWQuestionnaireData) object, as received from the [SubmitValidationCode](#_SubmitValidationCode) method. |
+| rtw-questionnaire-data | [AbsenceRTWQuestionnaireData](../objects-and-data-types/absencertwquestionnairedata) | An [AbsenceRTWQuestionnaireData](../objects-and-data-types/absencertwquestionnairedata) object, as received from the [SubmitValidationCode](#_SubmitValidationCode) method. |
 | --- | --- | --- |
 
 ## Returned JSON

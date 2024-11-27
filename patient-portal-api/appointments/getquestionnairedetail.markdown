@@ -29,4 +29,4 @@ patientportal.appointment.getQuestionnaireDetail({questionnaire: <questionnaire>
 
 ## Returns
 
-QuestionnaireData
+[QuestionnaireData](../objects-and-data-types/questionnairedata)

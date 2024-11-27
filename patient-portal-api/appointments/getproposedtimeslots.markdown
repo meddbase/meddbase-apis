@@ -46,12 +46,12 @@ patientportal.appointment.getProposedTimeSlots({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| modules | AppointmentModuleData\[\]<br><br>(optional) | Selection of modules and additional services provided by the API upon GetAppointmentTypes. |
-| services | [ServiceData](#_ServiceData)\[\]<br><br>(optional) | Selection of services provided by [GetServices](#_GetServices) |
+| modules | [AppointmentModuleData](../objects-and-data-types/appointmentmoduledata)[] (optional) | Selection of modules and additional services provided by the API upon GetAppointmentTypes. |
+| services | [ServiceData](../objects-and-data-types/servicedata)[] (optional) | Selection of services provided by [GetServices](#_GetServices) |
 
 ## Returns
 
-[TimeSlotsData](#_TimeSlotsData)
+[TimeSlotsData](../objects-and-data-types/timeslotsdata)
 
 ## Remarks
 

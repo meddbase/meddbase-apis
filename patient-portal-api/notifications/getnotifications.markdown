@@ -27,4 +27,4 @@ patientportal.notification.getNotifications({type: <type>});
 
 ## Returns
 
-NotificationData\[\]
+[NotificationData](../objects-and-data-types/notificationdata)[]

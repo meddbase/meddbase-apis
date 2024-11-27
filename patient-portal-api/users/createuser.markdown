@@ -27,11 +27,11 @@ patientportal.users.createUser({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| userData | UserData | Defines user’s details. |
+| userData | [UserData](../objects-and-data-types/userdata) | Defines user’s details. |
 
 ## Returns
 
-UserData
+[UserData](../objects-and-data-types/userdata)
 
 ## Remarks
 

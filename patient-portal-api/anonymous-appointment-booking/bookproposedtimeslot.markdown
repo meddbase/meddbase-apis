@@ -56,7 +56,7 @@ patientportal.anonBooking.bookProposedTimeSlot({
 
 "PayerType": "example",
 
-"Services": \[\],
+"Services": [],
 
 "Site": {
 
@@ -85,7 +85,7 @@ patientportal.anonBooking.bookProposedTimeSlot({
 
 ## Returns
 
-AppointmentData
+[AppointmentData](../objects-and-data-types/appointmentdata)
 
 ## Remarks
 

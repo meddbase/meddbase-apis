@@ -37,7 +37,7 @@ patientportal.medicalHistory.getMedicalHistoryTreeNode({
 
 ## Returns
 
-MedicalHistoryNodeData
+[MedicalHistoryNodeData](../objects-and-data-types/medicalhistorynodedata)
 
 ## Remarks
 

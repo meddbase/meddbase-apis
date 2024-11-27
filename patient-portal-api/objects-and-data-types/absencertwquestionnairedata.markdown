@@ -14,10 +14,10 @@ The data returned in the response of a call to the [SubmitValidationCode](#_Subm
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
 | Key | int | The key of the absence record. |
-| StartDate | [DateTime](#_DateTime) (read-only) | The date that the absence started. |
-| EstimatedEndDate | [DateTime](#_DateTime) (read-only) | The estimated return-to-work date. |
-| EndDate | [DateTime](file:///D:/Documents/Meddbase%20Patient%20Portal%20API.docx#_DateTime) (optional) | The actual return-to-work date. |
-| LostWork | [LostWork](file:///D:/Documents/Meddbase%20Patient%20Portal%20API.docx#_LostWork) | The details about the amount of work lost due to the absence. |
+| StartDate | [DateTime](../objects-and-data-types/datetime) (read-only) | The date that the absence started. |
+| EstimatedEndDate | [DateTime](../objects-and-data-types/datetime) (read-only) | The estimated return-to-work date. |
+| EndDate | [DateTime](../objects-and-data-types/datetime) (optional) | The actual return-to-work date. |
+| LostWork | [LostWork](../objects-and-data-types/lostwork) | The details about the amount of work lost due to the absence. |
 | AccidentAtWork | bool | Whether the absence was caused by an accident at work. |
 | IsClosed | bool | Whether the absence has been closed. |
 
@@ -40,7 +40,7 @@ The data returned in the response of a call to the [SubmitValidationCode](#_Subm
 
 "LostWork": {
 
-<[LostWork](#_LostWork)\>
+<[LostWork](../objects-and-data-types/lostwork)\>
 
 },
 

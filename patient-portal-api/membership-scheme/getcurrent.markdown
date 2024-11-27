@@ -23,4 +23,4 @@ patientportal.membershipScheme.getCurrent();
 
 ## Returns
 
-[CurrentMembershipSchemeData](#_CurrentMembershipSchemeData)
+[CurrentMembershipSchemeData](../objects-and-data-types/currentmembershipschemedata)

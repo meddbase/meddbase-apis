@@ -13,5 +13,5 @@ An additional details for the choice task.
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| Options | string\[\] | List of options. The index starts from 1. |
+| Options | string[] | List of options. The index starts from 1. |
 | SelectedIndex | int | The selected option. -1 if not selected. |

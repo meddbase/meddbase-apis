@@ -33,7 +33,7 @@ patientportal.patientReportReview.submitValidationCode({
 
 ## Returns
 
-PatientReportReviewData
+[PatientReportReviewData](../objects-and-data-types/patientreportreviewdata)
 
 ## Remarks
 

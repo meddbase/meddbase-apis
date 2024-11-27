@@ -45,7 +45,7 @@ patientportal.finance.providePayment({
 | save-payment-details | bool | If the user wants to save the card details for future use, only considered if the user is logged-in. |
 | description | string | Description of the payment: 100 characters |
 | iframediv | string | Control id for the div to load iframe in. The javascript will load create the iframe control and append it to the provided div. |
-| PayerAccountData | [PayerAccountInputData](#_PayerAccountData) | This data is not required if the system provides a valid ‘payer-account-id’. These are only used if the ‘payer-account-id’ is ‘0’. |
+| PayerAccountData | [PayerAccountInputData](../objects-and-data-types/payeraccountdata) | This data is not required if the system provides a valid ‘payer-account-id’. These are only used if the ‘payer-account-id’ is ‘0’. |
 
 ## Remarks
 

@@ -40,7 +40,7 @@ patientportal.rtwQuestionnaire.submitValidationCode ({
 
 "result": {
 
-<[AbsenceRTWQuestionnaireData](#_AbsenceRTWQuestionnaireData)\>
+<[AbsenceRTWQuestionnaireData](../objects-and-data-types/absencertwquestionnairedata)\>
 
 }
 

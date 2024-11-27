@@ -43,7 +43,7 @@ patientportal.pathways.attachDocument({
 
 ## Returns
 
-PathwayData
+[PathwayData](../objects-and-data-types/pathwaydata)
 
 ## Remarks
 

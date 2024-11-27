@@ -27,11 +27,11 @@ patientportal.anonBooking.bookProposedAppointment({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| proposedAppointment | AppointmentData | The proposed appointment provided by the API upon GetProposedAppointments |
+| proposedAppointment | [AppointmentData](../objects-and-data-types/appointmentdata) | The proposed appointment provided by the API upon GetProposedAppointments |
 
 ## Returns
 
-AppointmentData
+[AppointmentData](../objects-and-data-types/appointmentdata)
 
 ## Remarks
 

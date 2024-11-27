@@ -31,4 +31,4 @@ patientportal.referrers.getReferrers();
 
 ## Returns
 
-[ReferrerData\[\]](#_ReferrerData)
+[ReferrerData](../objects-and-data-types/referrerdata)[]

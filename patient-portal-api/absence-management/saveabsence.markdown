@@ -7,7 +7,7 @@ parent: Absence Management
 
 # SaveAbsence
 
-Saves changes to an absence record. Any of the attributes in the [AbsenceData](#_AbsenceData) object can be modified and sent back to the API, but the only ones for which changes will be saved to the database are:
+Saves changes to an absence record. Any of the attributes in the [AbsenceData](../objects-and-data-types/absencedata) object can be modified and sent back to the API, but the only ones for which changes will be saved to the database are:
 
 - EndDate
 - LostWork.Days
@@ -30,7 +30,7 @@ patientportal.absences.saveAbsence({
 
 ## URL Parameters
 
-| absence-data | [AbsenceData](#_AbsenceData) | The [AbsenceData](#_AbsenceData) object received from a call to the [GetAbsence](#_GetAbsence) method. |
+| absence-data | [AbsenceData](../objects-and-data-types/absencedata) | The [AbsenceData](../objects-and-data-types/absencedata) object received from a call to the [GetAbsence](#_GetAbsence) method. |
 | --- | --- | --- |
 
 ## Returned JSON
@@ -42,7 +42,7 @@ patientportal.absences.saveAbsence({
 
 "result": {
 
-<[AbsenceData](#_AbsenceData)\>
+<[AbsenceData](../objects-and-data-types/AbsenceData)\>
 
 }
 

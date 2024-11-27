@@ -39,7 +39,7 @@ patientportal.membershipScheme.setupOnlinePayment({
 | --- | --- | --- |
 | save-payment-details | bool | If the user wants to save the card details for future use. |
 | iframediv | string | Control id for the div to load iframe in. The javascript will load create the iframe control and append it to the provided div. |
-| PayerAccountData | [PayerAccountInputData](#_PayerAccountData) | This data is not required if the system provides a valid ‘payer-account-id’. These are only used if the ‘payer-account-id’ is ‘0’. |
+| PayerAccountData | [PayerAccountInputData](../objects-and-data-types/payeraccountdata) | This data is not required if the system provides a valid ‘payer-account-id’. These are only used if the ‘payer-account-id’ is ‘0’. |
 
 ## Remarks
 

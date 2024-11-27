@@ -23,4 +23,4 @@ patientportal.auth.getTermsAndConditions();
 
 ## Returns
 
-TermsAndConditions
+[TermsAndConditions](../objects-and-data-types/termsandconditions)

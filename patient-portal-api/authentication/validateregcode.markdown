@@ -33,7 +33,7 @@ patientportal.auth.validateRegCode({
 
 ## Returns
 
-ChargeBandData
+[ChargeBandData](../objects-and-data-types/chargebanddata)
 
 ## Remarks
 

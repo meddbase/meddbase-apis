@@ -31,4 +31,4 @@ patientportal.referrals.send({
 
 ## Returns
 
-ReferralData
+[ReferralData](../objects-and-data-types/referraldata)

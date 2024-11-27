@@ -38,4 +38,4 @@ patientportal.cases.followUp({
 
 ## Returned JSON
 
-[CaseData](#_CaseData)
+[CaseData](../objects-and-data-types/casedata)

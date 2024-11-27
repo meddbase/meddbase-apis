@@ -31,4 +31,4 @@ patientportal.pathways.getPathway({
 
 ## Returns
 
-PathwayData
+[PathwayData](../objects-and-data-types/pathwaydata)

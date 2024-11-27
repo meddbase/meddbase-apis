@@ -29,4 +29,4 @@ patientportal.finance.prototype.payerAccounts(invoiceKey: <invoice-key>)
 
 ## Returns
 
-[PayerAccountData](#_PayerAccountData_1)\[\]
+[PayerAccountData](../objects-and-data-types/payeraccountdata)[]

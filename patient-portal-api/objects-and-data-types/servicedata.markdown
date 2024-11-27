@@ -21,7 +21,7 @@ Information about the Service.
 | NetPrice | decimal | Net price of the service |
 | Tax | decimal | Tax on the service |
 | GrossPrice | decimal | Gross price |
-| ServiceType | [ServiceTypeData](#_ServiceTypeData) | Type of the service |
+| ServiceType | [ServiceTypeData](../objects-and-data-types/servicetypedata) | Type of the service |
 
 ## JSON Example
 

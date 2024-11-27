@@ -9,13 +9,14 @@ parent: Objects and data types
 
 ## Properties
 
-| TimeSlots | [TimeSlotData](#_TimeSlotData)\[\] | The list of proposed time slots. |
-| --- | --- | --- |
-| Type | [AppointmentTypeData](#_AppointmentTypeData_1) | Appointment type of the proposed time slots. |
-| Sites | [SiteData](#_SiteData)\[\] | The deduplicated list of sites for the found time slots, you can use the SiteKey in a TimeSlotData to find the relevant SiteData, and use the LocationKey to find the relevant LocationData inside the Locations inside a SiteData. Note that the Locations within each Site are only the locations that are relevant to found TimeSlots, not all Locations for the site. |
-| Services | [ServiceData](#_PatientAbsenceData)\[\] | Services related to the appointment. |
-| Modules | [AppointmentModuleData](#_AppointmentModuleData_1)\[\] | Modules related to the appointment. |
-| Currency | [CurrencyData](#_CurrencyData) | The currency data that represents the currency for all prices in the returned time slots. |
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
+| TimeSlots | [TimeSlotData](../objects-and-data-types/timeslotdata)[] | The list of proposed time slots. |
+| Type | [AppointmentTypeData](../objects-and-data-types/appointmenttypedata) | Appointment type of the proposed time slots. |
+| Sites | [SiteData](../objects-and-data-types/sitedata)[] | The deduplicated list of sites for the found time slots, you can use the SiteKey in a TimeSlotData to find the relevant SiteData, and use the LocationKey to find the relevant LocationData inside the Locations inside a SiteData. Note that the Locations within each Site are only the locations that are relevant to found TimeSlots, not all Locations for the site. |
+| Services | [ServiceData](../objects-and-data-types/patientabsencedata)[] | Services related to the appointment. |
+| Modules | [AppointmentModuleData](../objects-and-data-types/appointmentmoduledata)[] | Modules related to the appointment. |
+| Currency | [CurrencyData](../objects-and-data-types/currencydata) | The currency data that represents the currency for all prices in the returned time slots. |
 
 ## JSON Example
 
@@ -32,7 +33,7 @@ parent: Objects and data types
 
 "SiteKey": 1123,
 
-< See [TimeSlotData](#_TimeSlotData) to see all properties. >
+< See [TimeSlotData](../objects-and-data-types/timeslotdata) to see all properties. >
 
 },
 
@@ -46,7 +47,7 @@ parent: Objects and data types
 
 "LocationKey": 214,
 
-< See [TimeSlotData](#_TimeSlotData) to see all properties. >
+< See [TimeSlotData](../objects-and-data-types/timeslotdata) to see all properties. >
 
 }
 
@@ -124,13 +125,13 @@ parent: Objects and data types
 
 {
 
-< See [ServiceData](#_PatientAbsenceData) to see all properties. >
+< See [ServiceData](../objects-and-data-types/patientabsencedata) to see all properties. >
 
 },
 
 {
 
-< See [ServiceData](#_PatientAbsenceData) to see all properties. >
+< See [ServiceData](../objects-and-data-types/patientabsencedata) to see all properties. >
 
 }
 
@@ -140,13 +141,13 @@ parent: Objects and data types
 
 {
 
-< See [AppointmentModuleData](#_AppointmentModuleData_1) to see all properties. >
+< See [AppointmentModuleData](../objects-and-data-types/appointmentmoduledata) to see all properties. >
 
 },
 
 {
 
-< See [AppointmentModuleData](#_AppointmentModuleData_1) to see all properties. >
+< See [AppointmentModuleData](../objects-and-data-types/appointmentmoduledata) to see all properties. >
 
 }
 

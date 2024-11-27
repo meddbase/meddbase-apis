@@ -11,7 +11,9 @@ Allows the client to authenticate their login using a unique token and to create
 
 ## JavaScript library method
 
-patientportal.auth.directLogin({loginToken: &lt;sslogin-token&gt;,});
+```javascript
+patientportal.auth.directLogin({loginToken: <sslogin-token>});
+```
 
 ## HTTP Method
 
@@ -27,7 +29,7 @@ patientportal.auth.directLogin({loginToken: &lt;sslogin-token&gt;,});
 
 ## Returns
 
-AuthenticationData
+[AuthenticationData](../objects-and-data-types/authenticationdata)
 
 ## Remarks
 

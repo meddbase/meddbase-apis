@@ -25,9 +25,10 @@ patientportal.referrals.startFromQuestionnaireRequest({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | questionnaire-request | string | The key of the questionnaire request returned by [CreateRequest](#_CreateRequest) or [GetQuestionnaires](#_GetQuestionnaires) |
-| --- | --- | --- |
 
 ## Returns
 
-ReferralData
+[ReferralData](../objects-and-data-types/referraldata)

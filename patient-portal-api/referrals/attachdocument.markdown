@@ -41,7 +41,7 @@ patientportal.referrals.attachDocument({
 
 ## Returns
 
-ReferralData
+[ReferralData](../objects-and-data-types/referraldata)
 
 ## Remarks
 

@@ -31,7 +31,7 @@ patientportal.patients.updatePatient({
 
 ## Returns
 
-PersonDemographicData
+[PersonDemographicData](../objects-and-data-types/persondemographicdata)
 
 ## Remarks
 

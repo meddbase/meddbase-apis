@@ -32,4 +32,4 @@ patientportal.pathways.availability({
 
 ## Returns
 
-[PathwayAvailabilityData](#_PathwayAvailabilityData)
+[PathwayAvailabilityData](../objects-and-data-types/pathwayavailabilitydata)

@@ -23,4 +23,4 @@ patientportal.genderIdentity.getGenders();
 
 ## Returns
 
-GenderData\[\]
+[GenderData](../objects-and-data-types/genderdata)[]

@@ -23,4 +23,4 @@ patientportal.membershipScheme.getSchemes();
 
 ## Returns
 
-MembershipSchemeData\[\]
+[MembershipSchemeData](../objects-and-data-types/membershipschemedata)[]

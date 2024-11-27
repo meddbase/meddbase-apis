@@ -31,4 +31,4 @@ patientportal.referrals.getReferral({
 
 ## Returns
 
-ReferralData
+[ReferralData](../objects-and-data-types/referraldata)

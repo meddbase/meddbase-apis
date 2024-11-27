@@ -33,4 +33,4 @@ patientportal.pathways.getTask({
 
 ## Returns
 
-PathwayTaskData
+[PathwayTaskData](../objects-and-data-types/pathwaytaskdata)

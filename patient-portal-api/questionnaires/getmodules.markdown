@@ -42,7 +42,7 @@ patientportal.questionnaires. getModules({
 
 "Items": \[
 
-<list of [QuestionnaireModuleData](#_QuestionnaireModuleData)\>
+<list of [QuestionnaireModuleData](../objects-and-data-types/questionnairemoduledata)\>
 
 \]
 

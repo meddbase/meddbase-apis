@@ -13,10 +13,10 @@ Provides full information about the referral. Includes all properties of the Ref
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| &lt;ReferralOverviewData properties&gt; |     | The object inherits the ReferralOverviewData |
-| Appointments | AppointmentData\[\] | List of appointments related to the referral. |
-| Questionnaires | QuestionnaireOverviewData\[\] | List of questionnaires related to the referral. |
-| Documents | DocumentData\[\] | List of attached documents. |
+| <ReferralOverviewData properties> |     | The object inherits the [ReferralOverviewData](../objects-and-data-types/referraloverviewdata) |
+| Appointments | [AppointmentData](../objects-and-data-types/appointmentdata)[] | List of appointments related to the referral. |
+| Questionnaires | [QuestionnaireOverviewData](../objects-and-data-types/questionnaireoverviewdata)[] | List of questionnaires related to the referral. |
+| Documents | [DocumentData](../objects-and-data-types/documentdata)[] | List of attached documents. |
 | CanBookAppointment | bool | Defines whether the user has got right to book an appointment directly. |
 | CanCancel | bool | Defines whether the user has got right to cancel the referral. |
 | CanSend | bool | Defines whether the user has got right to send the referral. |
@@ -24,7 +24,7 @@ Provides full information about the referral. Includes all properties of the Ref
 | CanCollaborate | bool | Defines whether the user has got right to collaborate. |
 | CanAttachDocuments | bool | Defines whether the user has got right to attach documents. |
 | CanFollowUp | bool | Defines whether the user has got right to request the follow up. |
-| PatientReview | PatientReportReviewState (optional) | The state of the patient medical report review.<br><br>Not provided if the referral isn’t in the appropriate state or if the patient doesn’t’ require the review. |
+| PatientReview | [PatientReportReviewState](../objects-and-data-types/patientreportreviewstate) (optional) | The state of the patient medical report review.<br><br>Not provided if the referral isn’t in the appropriate state or if the patient doesn’t’ require the review. |
 | AbsenceRecordKey | string | The key of the absence record the referral is joined to. |
 | RejectionReason | string | The reason that the referral was rejected. |
 | PublicReasonForReferral | string | The public reason for the referral (public = shared with the employer). |
@@ -131,7 +131,7 @@ Provides full information about the referral. Includes all properties of the Ref
 
 “PatientReview”: {
 
-<see [PatientReportReviewState](#_PatientReportReviewState)\>
+<see [PatientReportReviewState](../objects-and-data-types/patientreportreviewstate)\>
 
 },
 

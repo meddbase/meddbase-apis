@@ -29,8 +29,9 @@ patientportal.questionnaires. saveModule({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | module-key | string (optional) | The key of the module provided by the API upon [GetModules](#_GetModules) or a previous call to SaveModule. If not specified, a new module will be created. |
-| --- | --- | --- |
 | category | string (required) | Always ‘ppq’. |
 | module-name | string (required) | Module name. |
 | shared | bool (optional) | Share the module with other users. Default false. |
@@ -39,7 +40,7 @@ patientportal.questionnaires. saveModule({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| form-keys | string\[\] (required) | List of form keys returned from [GetQuestionnaireForms](#_GetQuestionnaireForms). |
+| form-keys | string[] (required) | List of form keys returned from [GetQuestionnaireForms](#_GetQuestionnaireForms). |
 
 ## Returned JSON
 

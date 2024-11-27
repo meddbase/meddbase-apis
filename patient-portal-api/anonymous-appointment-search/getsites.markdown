@@ -40,12 +40,12 @@ patientportal.anonAppointment.getSites({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| clinicians | int\[\] (optional) | Clinicians filter. Array of identifiers provide by the API upon GetClinicians. Null or empty for any clinicians. |
-| modules | [AppointmentModuleData](#_AppointmentModuleData) \[\] (optional) | Selection of modules and additional services provided by the API upon GetAppointmentTypes. Available sites will be filtered according to availability of the specified modules. |
+| clinicians | int[] (optional) | Clinicians filter. Array of identifiers provide by the API upon GetClinicians. Null or empty for any clinicians. |
+| modules | [AppointmentModuleData](../objects-and-data-types/appointmentmoduledata)[] (optional) | Selection of modules and additional services provided by the API upon GetAppointmentTypes. Available sites will be filtered according to availability of the specified modules. |
 
 ## Returns
 
-ShallowSearchResultData
+[ShallowSearchResultData](../objects-and-data-types/shallowsearchresultdata)
 
 A shallow search result of a patient/company address.
 
@@ -70,4 +70,4 @@ A shallow search result of a patient/company address.
 
 ###
 
-SiteData\[\]
+[SiteData](../objects-and-data-types/sitedata)[]

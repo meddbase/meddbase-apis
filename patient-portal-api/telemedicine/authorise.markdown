@@ -30,7 +30,7 @@ patientportal.telemedicine.authorise({key: <key>});
 
 ## Returns
 
-AuthorizeTelemedicineData
+[AuthorizeTelemedicineData](../objects-and-data-types/authorizetelemedicinedata)
 
 ## Remarks
 

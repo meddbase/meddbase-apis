@@ -23,7 +23,7 @@ patientportal.appointment.getQuestionnairesForFutureAppointments();
 
 ## Returns
 
-QuestionnaireOverviewData\[\]
+[QuestionnaireOverviewData](../objects-and-data-types/questionnaireoverviewdata)[]
 
 ## Remarks
 

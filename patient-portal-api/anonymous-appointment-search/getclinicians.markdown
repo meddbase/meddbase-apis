@@ -39,10 +39,10 @@ patientportal.anonAppointment.getClinicians({
 
 | Parameter   | Type                                                 | Required | Description                                                                                                                                                                          |
 |:------------|:-----------------------------------------------------|:---------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| sites       | int\[\]                                              | No       | Sites filter. Array of identifiers provide by the API upon GetSites.<br/><br/>Null or empty for any sites.                                                                             |
-| locations   | int\[\]                                              | No       | Locations filter. Array of identifiers provide by the API upon GetSites.<br/><br/>Null or empty for any locations.                                                                     |
-| modules     | [AppointmentModuleData](#_AppointmentModuleData)\[\] | No       | Selection of modules and additional services provided by the API upon GetAppointmentTypes.<br/><br/>Available clinicians will be filtered according to availability of the specified modules. |
+| sites       | int[]                                                | No       | Sites filter. Array of identifiers provide by the API upon GetSites.<br/><br/>Null or empty for any sites.                                                                             |
+| locations   | int[]                                                | No       | Locations filter. Array of identifiers provide by the API upon GetSites.<br/><br/>Null or empty for any locations.                                                                     |
+| modules     | [AppointmentModuleData](../objects-and-data-types/appointmentmoduledata)[] | No       | Selection of modules and additional services provided by the API upon GetAppointmentTypes.<br/><br/>Available clinicians will be filtered according to availability of the specified modules. |
 
 ## Returns
 
-ClinicianData\[\]
+[ClinicianData](../objects-and-data-types/cliniciandata)[]

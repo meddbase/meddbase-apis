@@ -14,7 +14,7 @@ Contains data of the invoice.
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
 | Key | string | Key of the invoice. |
-| Date | DateTime | Date when was the invoice raised. |
+| Date | [DateTime](../objects-and-data-types/datetime) | Date when was the invoice raised. |
 | Number | int | Number of the invoice. The client can use it to provide a payment. |
 | CurrencyCode | string | Three-letter currency code (e.g. "GBP", "EUR", "USD", etc.) |
 | CurrencySymbol | string | Symbol for the currency |
@@ -22,10 +22,10 @@ Contains data of the invoice.
 | Tax | decimal |     |
 | TotalGross | decimal |     |
 | Paid | decimal | How much is already paid. |
-| Items | InvoiceItemData\[\] | Invoice items. |
-| CreditNotes | InvoiceCreditNoteData\[\] | Credit notes. |
-| Creditor | InvoiceAddressData |     |
-| Debtor | InvoiceAddressData |     |
+| Items | [InvoiceItemData](../objects-and-data-types/invoiceitemdata)[] | Invoice items. |
+| CreditNotes | [InvoiceCreditNoteData](../objects-and-data-types/invoicecreditnotedata)[] | Credit notes. |
+| Creditor | [InvoiceAddressData](../objects-and-data-types/invoiceaddressdata) |     |
+| Debtor | [InvoiceAddressData](../objects-and-data-types/invoiceaddressdata) |     |
 | PayableOnline | bool | If the invoice is payable online (the billing company has an online payment account.) |
 
 ## JSON Example

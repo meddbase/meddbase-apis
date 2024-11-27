@@ -30,7 +30,7 @@ patientportal.anonAppointment.getAppointmentTypes({
 
 ## Returns
 
-AppointmentTypeData\[\]
+[AppointmentTypeData](../objects-and-data-types/appointmenttypedata)[]
 
 {: .note }
 > If no module is returned for the appointment type, it doesn't contain modules and the booking process can continue without selecting the module.
