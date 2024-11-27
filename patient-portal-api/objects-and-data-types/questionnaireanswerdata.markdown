@@ -15,7 +15,7 @@ Answer for the questionnaire question.
 |:----------|:-------|:------------------------------------------------------------|
 | QuestionId | long | Id of the question from the questionnaire markup. |
 | Answer | string | Answer of the question. |
-| Answers | string\[\] | Answers of the question. Used if the answer includes more answers. |
+| Answers | string[] | Answers of the question. Used if the answer includes more answers. |
 
 ## JSON Example
 

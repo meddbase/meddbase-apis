@@ -38,4 +38,4 @@ patientportal.referrals.followUp({
 
 ## Returns
 
-ReferralData
+[ReferralData](../objects-and-data-types/referraldata)

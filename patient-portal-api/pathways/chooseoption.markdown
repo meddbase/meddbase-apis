@@ -35,4 +35,4 @@ patientportal.pathways.chooseOption({
 
 ## Returns
 
-PathwayData
+[PathwayData](../objects-and-data-types/pathwaydata)

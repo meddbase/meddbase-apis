@@ -23,4 +23,4 @@ patientportal.patient.getEmployeeStatuses();
 
 ## Returns
 
-EmployeeStatus\[\]
+[EmployeeStatus](../objects-and-data-types/employeestatus)[]

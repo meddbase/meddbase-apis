@@ -37,7 +37,7 @@ patientportal.auth.registerPatient({
 
 ## Returns
 
-PatientRegistrationResultData
+[PatientRegistrationResultData](../objects-and-data-types/patientregistrationresultdata)
 
 ## Remarks
 

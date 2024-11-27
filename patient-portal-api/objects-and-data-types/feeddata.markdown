@@ -14,11 +14,11 @@ Feed of the feeds system.
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
 | Key | string | Key of the feed. |
-| StartDate | DateTime | Day and time when the feed was created. |
+| StartDate | [DateTime](../objects-and-data-types/datetime) | Day and time when the feed was created. |
 | AuthorName | string | Name of the author who created this feed. |
-| LastMessage | FeedMessageData | The last message only. |
-| Messages | FeedMessageData\[\] | All messages sorted by date descending. The message on the first position is the latest message of the feed. |
-| OutstandingMessageNotification | NotificationData | Outstanding message notification is present if there is a new message in the feed. Property is null or undefined if there is no new message in the feed.<br><br>Use ConfirmNotification provided by the API to confirm this notification. |
+| LastMessage | [FeedMessageData](../objects-and-data-types/feedmessagedata) | The last message only. |
+| Messages | [FeedMessageData](../objects-and-data-types/feedmessagedata)[] | All messages sorted by date descending. The message on the first position is the latest message of the feed. |
+| OutstandingMessageNotification | [NotificationData](../objects-and-data-types/notificationdata) | Outstanding message notification is present if there is a new message in the feed. Property is null or undefined if there is no new message in the feed.<br><br>Use ConfirmNotification provided by the API to confirm this notification. |
 
 ## JSON Example
 

@@ -35,7 +35,7 @@ patientportal.appointment.getPayerTypes({
 
 ## Returns
 
-PayerType\[\]
+[PayerType](../objects-and-data-types/payertype)[]
 
 ## Remarks
 

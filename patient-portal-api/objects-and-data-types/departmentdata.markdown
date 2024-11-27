@@ -15,7 +15,7 @@ Contains the information about the company department.
 |:----------|:-------|:------------------------------------------------------------|
 | Key | string |     |
 | Name | string |     |
-| Divisions | DivisionData\[\] |     |
+| Divisions | [DivisionData](../objects-and-data-types/divisiondata)[] |     |
 | ParentKey | int | The ID of the parent department, if it has one |
 
 ## JSON Example

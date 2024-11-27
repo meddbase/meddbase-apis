@@ -31,4 +31,4 @@ patientportal.patients.getPatient({
 
 ## Returns
 
-PersonDemographicData
+[PersonDemographicData](../objects-and-data-types/persondemographicdata)

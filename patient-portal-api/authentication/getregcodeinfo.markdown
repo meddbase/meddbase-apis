@@ -11,7 +11,9 @@ Returns information for the online sign-up access code (i.e. charge band informa
 
 ## JavaScript library method
 
-patientportal.auth.getRegCodeInfo({regCode: &lt;reg-code&gt;});
+```javascript
+patientportal.auth.getRegCodeInfo({regCode: <reg-code>});
+```
 
 ## HTTP Method
 
@@ -28,4 +30,4 @@ patientportal.auth.getRegCodeInfo({regCode: &lt;reg-code&gt;});
 
 ## Returns
 
-ChargeBandData
+[ChargeBandData](../objects-and-data-types/chargebanddata)

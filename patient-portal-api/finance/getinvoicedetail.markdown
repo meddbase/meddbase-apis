@@ -33,7 +33,7 @@ patientportal.finance.getInvoiceDetail({
 
 ## Returns
 
-InvoiceData\[\]
+[InvoiceData](../objects-and-data-types/invoicedata)[]
 
 ## Remarks
 

@@ -38,7 +38,7 @@ patientportal.patients.getManagers({
 
 "result": {
 
-<list of [PatientDemographicData](#_PersonDemographicData)\>
+<list of [PatientDemographicData](../objects-and-data-types/persondemographicdata)\>
 
 }
 

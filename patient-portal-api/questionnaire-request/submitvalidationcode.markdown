@@ -33,7 +33,7 @@ patientportal.questionnaireRequest.submitValidationCode({
 
 ## Returns
 
-[QuestionnaireData](#_QuestionnaireData)
+[QuestionnaireData](../objects-and-data-types/questionnairedata)
 
 ## Remarks
 

@@ -28,12 +28,12 @@ patientportal.feed.getFeeds({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| to-date | DateTime (optional) | Returns N feeds leading up to this date. N is server defined, but is likely to be between 10 - 20. Use this to implement infinite-scroll behaviour by passing the oldest date in the returned FeedData\[\] to subsequent calls to GetFeeds.<br><br>This also makes it easier to implement classic timeline based features of jumping to years, months, etc. |
+| to-date | DateTime (optional) | Returns N feeds leading up to this date. N is server defined, but is likely to be between 10 - 20. Use this to implement infinite-scroll behaviour by passing the oldest date in the returned FeedData[] to subsequent calls to GetFeeds.<br><br>This also makes it easier to implement classic timeline based features of jumping to years, months, etc. |
 | referral | string (optional) | The key of the referral provided by the API upon GetReferrals. |
 
 ## Returns
 
-FeedData\[\]
+[FeedData](../objects-and-data-types/feeddata)[]
 
 ## Remarks
 

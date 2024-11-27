@@ -31,4 +31,4 @@ patientportal.referrals.cancel({
 
 ## Returns
 
-ReferralData
+[ReferralData](../objects-and-data-types/referraldata)

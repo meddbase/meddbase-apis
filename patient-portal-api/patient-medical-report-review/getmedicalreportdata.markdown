@@ -33,7 +33,7 @@ patientportal.patientReportReview.getMedicalReportData({
 
 ## Returns
 
-PatientReportReviewData
+[PatientReportReviewData](../objects-and-data-types/patientreportreviewdata)
 
 ## Remarks
 

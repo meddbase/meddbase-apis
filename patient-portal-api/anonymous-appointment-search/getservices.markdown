@@ -36,7 +36,7 @@ patientportal.anonappointment.getServices({
 
 ## Returns
 
-[ServiceData](#_ServiceData)\[\]
+[ServiceData](../objects-and-data-types/servicedata)[]
 
 ## Remarks
 

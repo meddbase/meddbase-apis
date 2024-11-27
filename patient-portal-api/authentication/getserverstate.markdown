@@ -23,7 +23,7 @@ patientportal.auth.getServerState();
 
 ## Returns
 
-ServerStateData
+[ServerStateData](../objects-and-data-types/serverstatedata)
 
 ## Remarks
 

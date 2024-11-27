@@ -23,4 +23,4 @@ patientportal.finance.prototype.getPaymentCountries()
 
 ## Returns
 
-[CountryData](#_CountryData)\[\]
+[CountryData](../objects-and-data-types/countrydata)[]

@@ -29,4 +29,4 @@ patientportal.auth.submit2faCode({code: <code>});
 
 ## Returns
 
-AuthenticationData
+[AuthenticationData](../objects-and-data-types/authenticationdata)

@@ -30,7 +30,7 @@ patientportal.addressFinder.address({key: <key>});
 ## Returned JSON
 
 ```
-[AddressData](#_AddressData)
+[AddressData](../objects-and-data-types/addressdata)
 ```
 
 Returns address details for the provided encrypted key.

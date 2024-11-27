@@ -40,7 +40,7 @@ patientportal.questionnaires.getQuestionnaires({
 
 "Items": \[
 
-<list of [QuestionnaireOverviewData](#_QuestionnaireOverviewData)\>
+<list of [QuestionnaireOverviewData](../objects-and-data-types/questionnaireoverviewdata)\>
 
 \]
 

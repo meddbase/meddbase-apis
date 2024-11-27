@@ -25,7 +25,7 @@ patientportal.patient.setInsurer();
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| insurerData | [InsurerData](#_InsurerData) | Patient’s insurer data to update. |
+| insurerData | [InsurerData](../objects-and-data-types/insurerdata) | Patient’s insurer data to update. |
 
 ## POST data example
 

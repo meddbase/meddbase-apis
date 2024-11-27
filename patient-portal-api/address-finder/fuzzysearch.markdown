@@ -30,5 +30,5 @@ patientportal.addressFinder.fuzzySearch({query: <query>});
 ## Returned JSON
 
 ```
-[Shallow Search Result Data](#_ShallowSearchResultData)\[\]
+[Shallow Search Result Data](../objects-and-data-types/shallowsearchresultdata)[]
 ```

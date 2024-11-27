@@ -40,7 +40,7 @@ patientportal.auth.login({
 
 ## Returns
 
-AuthenticationData
+[AuthenticationData](../objects-and-data-types/authenticationdata)
 
 ## Remarks
 

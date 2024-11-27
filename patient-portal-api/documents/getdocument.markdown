@@ -31,4 +31,4 @@ patientportal.documents.getDocument({
 
 ## Returns
 
-DocumentData
+[DocumentData](../objects-and-data-types/documentdata)

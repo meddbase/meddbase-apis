@@ -27,11 +27,11 @@ patientportal.patients.fullSearchOrCreate({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| demog | PersonDemographicData | Defines person’s details. |
+| demog | [PersonDemographicData](../objects-and-data-types/persondemographicdata) | Defines person’s details. |
 
 ## Returns
 
-PersonDemographicData
+[PersonDemographicData](../objects-and-data-types/persondemographicdata)
 
 ## Remarks
 

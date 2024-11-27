@@ -18,7 +18,7 @@ Provides full details about the pathway.
 | Name | string | The name of the pathway. |
 | Patient | string | The name of the patient. |
 | ReadOnly | bool | True if the pathway is currently in a read-only mode. |
-| Tasks | PathwayTaskOverviewData\[\] | The list of pathways tasks. |
+| Tasks | [PathwayTaskOverviewData](../objects-and-data-types/pathwaytaskoverviewdata)[] | The list of pathways tasks. |
 
 ## JSON Example
 

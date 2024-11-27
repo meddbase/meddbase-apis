@@ -23,4 +23,4 @@ patientportal.pathways.getDefinitions();
 
 ## Returns
 
-[PathwayDefinitionData](#_PathwayDefinitionData)
+[PathwayDefinitionData](../objects-and-data-types/pathwaydefinitiondata)

@@ -33,7 +33,7 @@ patientportal.anonAppointment.getServiceTypes({
 
 ## Returns
 
-[ServiceTypeData](#_ServiceTypeData)\[\]
+[ServiceTypeData](../objects-and-data-types/servicetypedata)[]
 
 ## Remarks
 

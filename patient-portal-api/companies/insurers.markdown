@@ -23,4 +23,4 @@ PatientPortalCompanies.prototype.getInsurers();
 
 ## Returns
 
-[CompanyData\[\]](#_CompanyData)
+[CompanyData](../objects-and-data-types/companydata)[]

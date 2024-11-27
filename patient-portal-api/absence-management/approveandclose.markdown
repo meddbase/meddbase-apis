@@ -36,7 +36,7 @@ patientportal.absences.approveAndClose({
 
 "result": {
 
-<[AbsenceData](#_AbsenceData)\>
+<[AbsenceData](../objects-and-data-types/absencedata)\>
 
 }
 

@@ -67,7 +67,7 @@ patientportal.appointment.bookProposedTimeSlot({
 
 "PayerType": "IN",
 
-"Services": \[\],
+"Services": [],
 
 "Site": {
 
@@ -96,7 +96,7 @@ patientportal.appointment.bookProposedTimeSlot({
 
 ## Returns
 
-AppointmentData
+[AppointmentData](../objects-and-data-types/appointmentdata)
 
 ## Remarks
 

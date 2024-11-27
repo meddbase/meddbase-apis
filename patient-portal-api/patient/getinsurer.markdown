@@ -23,4 +23,4 @@ patientportal.patient.getInsurer();
 
 ## Returns
 
-[InsurerData](#_InsurerData)
+[InsurerData](../objects-and-data-types/insurerdata)

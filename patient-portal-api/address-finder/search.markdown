@@ -30,7 +30,7 @@ patientportal.addressFinder.search({postcode: <postcode>});
 ## Returned JSON
 
 ```
-[Shallow Search Result Data](#_ShallowSearchResultData)\[\]
+[Shallow Search Result Data](../objects-and-data-types/shallowsearchresultdata)[]
 ```
 
 Returns a number of possible shallow search address results for the postcode.
@@ -55,4 +55,4 @@ patientportal.addressFinder.search({postcode: <postcode>});
 
 ## Returned JSON
 
-Shallow Search Result Data\[\]
+[Shallow Search Result Data](../objects-and-data-types/shallowsearchresultdata)[]

@@ -23,4 +23,4 @@ patientportal.users.getAllowedTitles();
 
 ## Returns
 
-string\[\]
+string[]

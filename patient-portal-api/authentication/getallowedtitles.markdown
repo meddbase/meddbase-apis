@@ -35,7 +35,7 @@ patientportal.auth.getAllowedTitles({
 
 ## Returns
 
-string\[\]
+string[]
 
 ## Remarks
 

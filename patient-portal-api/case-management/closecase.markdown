@@ -31,4 +31,4 @@ patientportal.cases.closeCase({
 
 ## Returned JSON
 
-[CaseData](#_CaseData)
+[CaseData](../objects-and-data-types/casedata)

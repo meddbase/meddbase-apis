@@ -23,4 +23,4 @@ patientportal.cases.defaultTitles();
 
 ## Returned JSON
 
-string\[\]
+string[]

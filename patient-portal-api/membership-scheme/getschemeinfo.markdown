@@ -29,4 +29,4 @@ patientportal.membershipScheme.getSchemeInfo({code: <code>});
 
 ## Returns
 
-MembershipSchemeData
+[MembershipSchemeData](../objects-and-data-types/membershipschemedata)

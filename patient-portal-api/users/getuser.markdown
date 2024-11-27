@@ -31,4 +31,4 @@ patientportal.users.getUser({
 
 ## Returns
 
-UserData
+[UserData](../objects-and-data-types/userdata)

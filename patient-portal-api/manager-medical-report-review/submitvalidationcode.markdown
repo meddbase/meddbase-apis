@@ -33,7 +33,7 @@ patientportal.managerReportReview.submitValidationCode({
 
 ## Returns
 
-ManagerReportReviewData
+[ManagerReportReviewData](../objects-and-data-types/managerreportreviewdata)
 
 ## Remarks
 

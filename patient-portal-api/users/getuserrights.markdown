@@ -23,4 +23,4 @@ patientportal.users.getUserRights();
 
 ## Returns
 
-User\[\]
+[UserRights](../objects-and-data-types/userrights)[]

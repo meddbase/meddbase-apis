@@ -34,7 +34,7 @@ patientportal.auth.submitActivationEmail({isOH: <is-oh>});
 
 ## Returns
 
-ActivationConfirmation
+[ActivationConfirmation](../objects-and-data-types/activationconfirmation)
 
 ## Remarks
 

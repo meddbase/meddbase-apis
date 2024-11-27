@@ -23,4 +23,4 @@ patientportal.appointment.getExistingAppointments();
 
 ## Return
 
-AppointmentData\[\]
+[AppointmentData](../objects-and-data-types/appointmentdata)[]

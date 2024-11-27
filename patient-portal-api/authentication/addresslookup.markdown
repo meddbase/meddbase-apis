@@ -39,4 +39,4 @@ patientportal.auth.addressLookup({
 
 ## Returns
 
-AddressData\[\]
+[AddressData](../objects-and-data-types/addressdata)[]

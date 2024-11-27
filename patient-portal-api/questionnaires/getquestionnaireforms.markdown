@@ -44,7 +44,7 @@ patientportal.questionnaires. getQuestionnaireForms({
 
 "Items": \[
 
-<list of [QuestionnaireFormData](#_QuestionnaireFormData)\>
+<list of [QuestionnaireFormData](../objects-and-data-types/questionnaireformdata)\>
 
 \]
 

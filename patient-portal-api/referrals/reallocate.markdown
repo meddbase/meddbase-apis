@@ -33,4 +33,4 @@ patientportal.referrals.reallocate({
 
 ## Returns
 
-ReferralData
+[ReferralData](../objects-and-data-types/referraldata)

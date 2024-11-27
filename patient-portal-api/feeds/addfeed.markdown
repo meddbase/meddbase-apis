@@ -33,4 +33,4 @@ patientportal.feed.addFeed({
 
 ## Returns
 
-FeedData
+[FeedData](../objects-and-data-types/feeddata)

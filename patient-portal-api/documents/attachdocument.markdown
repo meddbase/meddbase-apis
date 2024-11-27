@@ -41,7 +41,7 @@ patientportal.documents.attachDocument({
 
 ## Returns
 
-DocumentData
+[DocumentData](../objects-and-data-types/documentdata)
 
 ## Remarks
 
