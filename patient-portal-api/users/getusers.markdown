@@ -36,26 +36,77 @@ patientportal.users.getUsers({
 
 <table><tbody><tr><th><p>text</p></th><th><p>string (optional)</p></th><th><p>Any text the API will try to filter by name, email or employee number.</p></th></tr><tr><td><p>name</p></td><td><p>string (optional)</p></td><td><p>Name filter.</p></td></tr><tr><td><p>department</p></td><td><p>string (optional)</p></td><td><p>Key of the department provided by the API upon GetDepartments.</p></td></tr><tr><td><p>division</p></td><td><p>string (optional)</p></td><td><p>Key of the division provided by the API upon GetDepartments.</p></td></tr><tr><td><p>email</p></td><td><p>string (optional)</p></td><td><p>Email filter.</p></td></tr><tr><td><p>employee-number</p></td><td><p>string (optional)</p></td><td><p>Employee number filter.</p></td></tr><tr><td><p>page-sort-column</p></td><td><p>int (optional)</p></td><td><p>The column index to sort the result:</p><ul><li>0 – User’s name</li><li>1 – Email address</li><li>2 – Account type</li><li>3 – Employee number</li></ul><p>By default the result is sorted by the user name.</p></td></tr><tr><td><p>page-sort-descending</p></td><td><p>int (optional)</p></td><td><p>True to sort result descending.</p></td></tr><tr><td><p>page-number</p></td><td><p>int (optional)</p></td><td><p>Required page number. Default 1.</p></td></tr><tr><td><p>page-size</p></td><td><p>int (optional)</p></td><td><p>Required page size. Default 10. Minimum 5. Maximum 50.</p></td></tr></tbody></table>
 
+## Returns
+
+[UserData](../objects-and-data-types/userdata)[]
+
 ## Returned JSON
 
-```
+```json
 {
-
-"Items": \[
-
-<list of UserData>
-
-\]
-
-"TotalCount":24,
-
-"CurrentPage":1,
-
-"PageSize":10,
-
-"SortColumn": 0,
-
-"SortDescending": false
-
+    "Items": [
+        {
+            "Title": "Mr",
+            "Name": "John",
+            "Surname": "Lemon",
+            "SexType": 1,
+            "Initials": "JL",
+            "DateOfBirth": "1958-08-02T00:00:00",
+            "Mobile": "+444 895 523 411",
+            "Telephone": "+444 525 111 555",
+            "EmailAddress": "<john.lemon@test.com>",
+            "WorkEmailAddress": "<john.lemon@mywork.com>",
+            "Address": {
+                "Address1": "Studio 99",
+                "Address2": "Backlok Street",
+                "Address3": "Camden",
+                "City": "London",
+                "County": "",
+                "PostCode": "N1 7NK",
+                "Country": "United Kingdom"
+            },
+            "NextOfKin": {
+                "Relationship": "Mam",
+                "Name": "Mariel",
+                "Surname": "Lemon",
+                "Mobile": "+444 895 111 222",
+                "WorkTelephone": "+444 525 111 555",
+                "Address": {
+                    "Address1": "Studio 1",
+                    "Address2": "Cardwell Roa",
+                    "Address3": "Camden",
+                    "City": "London",
+                    "County": "",
+                    "PostCode": "N1 7NK",
+                    "Country": "United Kingdom"
+                }
+            },
+            "AllPatientsVisible": false,
+            "AllNonAssignedPatientsVisible": false,
+            "Rights": [
+                {
+                    "Key": "0f0f8997-a161-455e-a498-96138096f539",
+                    "Name": "Case management",
+                    "Description": "The user can refer patients and manage the referrals."
+                }
+            ],
+            "AccessibleDepartments": [
+                {
+                    "Key": "D01",
+                    "Name": "HR"
+                },
+                {
+                    "Key": "D02",
+                    "Name": "Research"
+                }
+            ],
+            "LastLogin": "2015-01-01T10:41:10.547"
+        }
+    ],
+    "TotalCount":1,
+    "CurrentPage":1,
+    "PageSize":10,
+    "SortColumn": 0,
+    "SortDescending": false
 }
 ```

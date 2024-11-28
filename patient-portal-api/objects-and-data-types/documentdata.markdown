@@ -25,26 +25,16 @@ Provides information about the document.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Name": "Referral letter.html",
-
-"Author": "Mr. Will Smith",
-
-"Comments": "I would like to refer Mr. John Smith",
-
-"DateCreated": "2015-03-13T14:22:12.483",
-
-"Url": "<https://api.meddbase.com/referrals/download?d=123>",
-
-"MIMEType": "text/html",
-
-"Size": 20824,
-
-"PatientKey": "iydksy58dujyhiee78",
-
-"DocumentTypeName": "Portal Documents"
-
+    "Name": "Referral letter.html",
+    "Author": "Mr. Will Smith",
+    "Comments": "I would like to refer Mr. John Smith",
+    "DateCreated": "2015-03-13T14:22:12.483",
+    "Url": "https://api.meddbase.com/referrals/download?d=123",
+    "MIMEType": "text/html",
+    "Size": 20824,
+    "PatientKey": "iydksy58dujyhiee78",
+    "DocumentTypeName": "Portal Documents"
 }
 ```

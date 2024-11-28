@@ -12,7 +12,7 @@ Create a new questionnaire request. Either a module or a list of ad-hoc question
 ## JavaScript library method
 
 ```javascript
-patientportal.questionnaires. createRequest({
+patientportal.questionnaires.createRequest({
     patient: <patient>,
     moduleKey: <module-key>,
     formKeys: <form-keys>

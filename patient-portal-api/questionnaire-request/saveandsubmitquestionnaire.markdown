@@ -29,7 +29,7 @@ patientportal.questionnaireRequest.saveAndSubmitQuestionnaire({
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
 | key |     | string | The validation key provided in the URL. |
-| answers | [QuestionnaireAnswerData](../objects-and-data-types/questionnaireanswerdata)[] |     | Collection of answers. |
+| answers | [QuestionnaireAnswerData](../objects-and-data-types/questionnaireanswerdata)[] | Collection of answers. |
 
 ## Remarks
 

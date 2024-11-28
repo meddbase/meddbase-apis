@@ -18,12 +18,9 @@ Represents a person’s gender identity, NOT their sex at birth.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "1c5aabbdf813ad78c48cc8e6d8584162",
-
-"Name": "Female"
-
+    "Key": "1c5aabbdf813ad78c48cc8e6d8584162",
+    "Name": "Female"
 }
 ```

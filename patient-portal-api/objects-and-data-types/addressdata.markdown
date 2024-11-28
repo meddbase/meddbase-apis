@@ -24,22 +24,14 @@ Address of the patient/company.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Address1": "127 Northchurch Rd",
-
-"Address2": "Borough of Islington",
-
-"Address3": "",
-
-"City": "London",
-
-"County": "",
-
-"PostCode": "N1 3PA",
-
-"Country": "United Kingdom",
-
+    "Address1": "127 Northchurch Rd",
+    "Address2": "Borough of Islington",
+    "Address3": "",
+    "City": "London",
+    "County": "",
+    "PostCode": "N1 3PA",
+    "Country": "United Kingdom"
 }
 ```

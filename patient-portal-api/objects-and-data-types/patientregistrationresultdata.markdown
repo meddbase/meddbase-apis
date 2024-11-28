@@ -15,10 +15,8 @@ Contains the details information about successful registration.
 
 ## JSON Example
 
-```
+```json
 {
-
-"ActivationType": 2
-
+    "ActivationType": 2
 }
 ```

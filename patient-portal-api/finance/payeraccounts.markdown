@@ -12,7 +12,7 @@ Returns a list of existing stored cards for the current logged in person, which 
 ## JavaScript library method
 
 ```javascript
-patientportal.finance.prototype.payerAccounts(invoiceKey: <invoice-key>)
+patientportal.finance.payerAccounts({invoiceKey: <invoice-key>})
 ```
 
 ## HTTP Method

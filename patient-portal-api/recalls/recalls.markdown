@@ -7,5 +7,4 @@ parent: Patient Portal API
 
 # Recalls
 
-
 This section provides the ability to work with recalls.

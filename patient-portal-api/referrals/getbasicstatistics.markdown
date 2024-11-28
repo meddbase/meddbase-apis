@@ -23,28 +23,17 @@ patientportal.referrals.getBasicStatistics();
 
 ## Returns JSON
 
-```
-\[
-
-{
-
-"Name": "In progress",
-
-"Count": 21,
-
-"Percent": 47
-
-},
-
-{
-
-"Name": "Discharged",
-
-"Count": 21,
-
-"Percent": 53
-
-}
-
-\]
+```json
+[
+    {
+        "Name": "In progress",
+        "Count": 21,
+        "Percent": 47
+    },
+    {
+        "Name": "Discharged",
+        "Count": 21,
+        "Percent": 53
+    }
+]
 ```

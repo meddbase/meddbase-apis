@@ -15,147 +15,89 @@ Provide information about one node of the Medical History tree.
 
 ## JSON Example for Text data
 
-```
+```json
 {
-
-"DataType": 0,
-
-"Loaded": true,
-
-"Data": "Date: 01/01/2013\\r\\nSubject: Medical Examination\\r\\nRef/nr: ABC-1231243\\r\\n\\r\\nName: Mister X\\r\\nAge: 30\\r\\n\\r\\nGender: Male"
-
+    "DataType": 0,
+    "Loaded": true,
+    "Data": "Date: 01/01/2013\\r\\nSubject: Medical Examination\\r\\nRef/nr: ABC-1231243\\r\\n\\r\\nName: Mister X\\r\\nAge: 30\\r\\n\\r\\nGender: Male"
 }
 ```
 
 ## JSON Example for not fully loaded Group data
 
-```
+```json
 {
-
-"DataType": 1,
-
-"Label": "Full medical test",
-
-"Details": "16/4/2013",
-
-"Path": "/appointment/2756",
-
-"Loaded": false
-
+    "DataType": 1,
+    "Label": "Full medical test",
+    "Details": "16/4/2013",
+    "Path": "/appointment/2756",
+    "Loaded": false
 }
 ```
 
 ## JSON Example for fully loaded Group data
 
-```
+```json
 {
-
-"DataType": 1,
-
-"Label": "Full medical test",
-
-"Details": "16/4/2013",
-
-"Path": "/appointment/2756",
-
-"Loaded": true,
-
-"Children": \[
-
-{
-
-"DataType": 0,
-
-"Loaded": true,
-
-"Data": "Dear John, there is your blood test result."
-
-},
-
-{
-
-"DataType": 3,
-
-"Label": "Blood test result",
-
-"Loaded": true,
-
-"Data": {
-
-"Size": "1256856", &lt; The file size in bytes. &gt;
-
-"MIMEType": "image/jpeg",
-
-"Url": "<https://images.meddbase.com/image.jpg>"
-
-}
-
-},
-
-{
-
-"DataType": 0,
-
-"Loaded": true,
-
-"Data": "And there is your BMI graph."
-
-},
-
-{
-
-"DataType": 4,
-
-"Label": "BMI Graph",
-
-"Details": "",
-
-"Path": "/appointment/2756/bmi-graph",
-
-"Loaded": false
-
-}
-
-\]
-
+    "DataType": 1,
+    "Label": "Full medical test",
+    "Details": "16/4/2013",
+    "Path": "/appointment/2756",
+    "Loaded": true,
+    "Children": [
+        {
+            "DataType": 0,
+            "Loaded": true,
+            "Data": "Dear John, there is your blood test result."
+        },
+        {
+            "DataType": 3,
+            "Label": "Blood test result",
+            "Loaded": true,
+            "Data": {
+                "Size": "1256856", /* The file size in bytes. */
+                "MIMEType": "image/jpeg",
+                "Url": "https://images.meddbase.com/image.jpg"
+            }
+        },
+        {
+            "DataType": 0,
+            "Loaded": true,
+            "Data": "And there is your BMI graph."
+        },
+        {
+            "DataType": 4,
+            "Label": "BMI Graph",
+            "Details": "",
+            "Path": "/appointment/2756/bmi-graph",
+            "Loaded": false
+        }
+    ]
 }
 ```
 
 ## JSON Example for HTML data
 
-```
+```json
 {
-
-"DataType": 2,
-
-"Loaded": true,
-
-"Data": "&lt;p&gt;Date: 01/01/2013&lt;br/&gt;Subject: Medical Examination&lt;br/&gt;Ref/nr: ABC-1231243&lt;br/&gt;&lt;br/&gt;Name: Mister X&lt;br/&gt;Age: 30&lt;br/&gt;Gender: Male&lt;/p&gt;&lt;hr/&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Table&lt;/td&gt;&lt;td&gt;Example&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;"
-
+    "DataType": 2,
+    "Loaded": true,
+    "Data": "<p>Date: 01/01/2013<br/>Subject: Medical Examination<br/>Ref/nr: ABC-1231243<br/><br/>Name: Mister X<br/>Age: 30<br/>Gender: Male</p><hr/><table><tr><td>Table</td><td>Example</td></tr></table>"
 }
 ```
 
 ## JSON Example for Document data
 
-```
+```json
 {
-
-"DataType": 3,
-
-"Label": "Blood test result",
-
-"Loaded": true,
-
-"Data": {
-
-"Size": "48123", &lt; The file size in bytes. &gt;
-
-"MIMEType": "image/jpeg",
-
-"Url": "<https://images.meddbase.com/image.jpg>"
-
-}
-
+    "DataType": 3,
+    "Label": "Blood test result",
+    "Loaded": true,
+    "Data": {
+        "Size": "48123", /* The file size in bytes. */
+        "MIMEType": "image/jpeg",
+        "Url": "https://images.meddbase.com/image.jpg"
+    }
 }
 ```
 
@@ -163,25 +105,16 @@ Note: The client must provide ASP.NET_SessionId key in the cookie to receive the
 
 ## JSON Example for Document data
 
-```
+```json
 {
-
-"DataType": 3,
-
-"Label": "Pathology result",
-
-"Loaded": true,
-
-"Data": {
-
-"Size": "1256856", &lt; The file size in bytes. &gt;
-
-"MIMEType": "application/pdf",
-
-"Url": "<https://docs.meddbase.com/pathology-result.pdf>"
-
-}
-
+    "DataType": 3,
+    "Label": "Pathology result",
+    "Loaded": true,
+    "Data": {
+        "Size": "1256856", /* The file size in bytes. */
+        "MIMEType": "application/pdf",
+        "Url": "https://docs.meddbase.com/pathology-result.pdf"
+    }
 }
 ```
 
@@ -189,44 +122,33 @@ Note: The client must provide ASP.NET_SessionId key in the cookie to receive the
 
 ## JSON Example for Graph data
 
-```
+```json
 {
-
-"DataType": 4,
-
-"Label": "BMI Graph",
-
-"Details": "",
-
-"Path": "/num-data/123",
-
-"Loaded": true,
-
-"Data": {
-
-"XAxis": {
-
-"Title": "Years",
-
-"Data": \[2011, 2012, 2013\]
-
-},
-
-"Series": \[
-
-{
-
-"Title": "John",
-
-"Data": \[25.4, 30.4, 27.6\],
-
-"Color": "Red"
-
-}
-
-\]
-
-}
-
+    "DataType": 4,
+    "Label": "BMI Graph",
+    "Details": "",
+    "Path": "/num-data/123",
+    "Loaded": true,
+    "Data": {
+        "XAxis": {
+            "Title": "Years",
+            "Data": [
+                2011,
+                2012,
+                2013
+            ]
+        },
+        "Series": [
+            {
+                "Title": "John",
+                "Data": [
+                    25.4,
+                    30.4,
+                    27.6
+                ],
+                "Color": "Red"
+            }
+        ]
+    }
 }
 ```

@@ -25,26 +25,16 @@ Contains information from one row of an invoice.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "5642",
-
-"TypeName": "Appointment",
-
-"Name": "Consultation",
-
-"Code": "123",
-
-"CurrencyCode": "GBP",
-
-"CurrencySymbol": "£",
-
-"NetPrice": 100,
-
-"Tax": 20,
-
-"GrossPrice": 120,
-
+    "Key": "5642",
+    "TypeName": "Appointment",
+    "Name": "Consultation",
+    "Code": "123",
+    "CurrencyCode": "GBP",
+    "CurrencySymbol": "£",
+    "NetPrice": 100,
+    "Tax": 20,
+    "GrossPrice": 120
 }
 ```

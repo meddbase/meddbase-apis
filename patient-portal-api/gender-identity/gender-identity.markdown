@@ -6,4 +6,3 @@ parent: Patient Portal API
 ---
 
 # Gender Identity
-

@@ -33,18 +33,19 @@ patientportal.absences.getPatientAbsenceOverview({
 | date-from | [DateTime](../objects-and-data-types/datetime) (optional) | The beginning date with which to calculate the patient’s Bradford Factor score (defaults to now minus 52 weeks). |
 | date-to | [DateTime](../objects-and-data-types/datetime) (optional) | The end date with which to calculate the patient’s Bradford Factor score (defaults to now). |
 
+## Returns
+
+[PatientAbsenceOverviewData](../objects-and-data-types/patientabsenceoverviewdata)
+
 ## Returned JSON
 
-```
+```json
 {
-
-"status": "ok",
-
-"result": {
-
-<[PatientAbsenceData](../objects-and-data-types/patientabsencedata\>
-
-}
-
+    "status": "ok",
+    "result": {
+        "BradfordFactor": 24,
+        "IsCurrentlyAbsent": true,
+        "Key": "83075be08d41fd6096c3c53bc8c4bda7"
+    }
 }
 ```

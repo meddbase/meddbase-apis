@@ -15,34 +15,22 @@ The location within the site.
 |:----------|:-------|:------------------------------------------------------------|
 | Key | int |     |
 | Name | string |     |
-| Address | AddressData |     |
+| Address | [AddressData](../objects-and-data-types/addressdata) |     |
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": 214,
-
-"Name": "Room 1"
-
-"Address":{
-
-"Address1": "2 Clifton Park Ave",
-
-"Address2": "",
-
-"Address3": "",
-
-"City": "London",
-
-"County": "",
-
-"PostCode": "SW20 8BD",
-
-"Country": "United Kingdom"
-
-}
-
+    "Key": 214,
+    "Name": "Room 1",
+    "Address": {
+        "Address1": "2 Clifton Park Ave",
+        "Address2": "",
+        "Address3": "",
+        "City": "London",
+        "County": "",
+        "PostCode": "SW20 8BD",
+        "Country": "United Kingdom"
+    }
 }
 ```

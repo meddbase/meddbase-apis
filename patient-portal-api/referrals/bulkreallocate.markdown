@@ -35,14 +35,12 @@ patientportal.referrals.bulkReallocate({
 
 ## Remarks
 
-\* Either from-user or patient parameter must be provided.
+\* Either `from-user` or `patient` parameter must be provided.
 
 ## Returned JSON
 
-```
+```json
 {
-
-"Referrals": 18
-
+    "Referrals": 18
 }
 ```

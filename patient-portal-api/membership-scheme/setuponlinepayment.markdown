@@ -24,7 +24,8 @@ patientportal.membershipScheme.setupOnlinePayment({
     postcode: <postcode>,
     country: <country>,
     phone: <phone>,
-    email: <email>});
+    email: <email>
+});
 ```
 
 ## HTTP Method
@@ -43,32 +44,34 @@ patientportal.membershipScheme.setupOnlinePayment({
 
 ## Remarks
 
-The server validates all the input parameters and if any of the validation fails, an error is returned in the ‘on fail’ call-back. On successful validation, an iframe is loaded in the provided iframediv control to process the payment, and a new callback is returned in the OnDone callback. Once the user has processed the iframe, result of payment is returned via the OnDone (if payment success) or OnFail(if payment failed) of the new callback:
+The server validates all the input parameters and if any of the validation fails, an error is returned in the ‘on fail’ call-back. On successful validation, an iframe is loaded in the provided iframediv control to process the payment, and a new callback is returned in the OnDone callback. Once the user has processed the iframe, result of payment is returned via the OnDone (if payment success) or OnFail (if payment failed) of the new callback:
 
 Following data is included in the call-back:
 
 OnDone:
 
-```
-Sender: “PAYMENT-GATEWAY”,
-
-Status: “OK”,
-
-StatusDetail: Details of the payment status,
-
-TransactionId: Transaction id of the payment - GUID,
-
-ClientPaymentId: Identifier of the payment
-```
+<dl>
+  <dt>Sender</dt>
+  <dd>“PAYMENT-GATEWAY”</dd>
+  <dt>Status</dt>
+  <dd>"OK"</dd>
+  <dt>StatusDetail</dt>
+  <dd>Details of the payment status</dd>
+  <dt>TransactionId</dt>
+  <dd>Transaction id of the payment - GUID</dd>
+  <dt>ClientPaymentId</dt>
+  <dd>Identifier of the payment</dd>
+</dl>
 
 OnFail:
 
-```
-Sender: “PAYMENT-GATEWAY”,
-
-Status: failure status,
-
-StatusDetail: Details of the payment failure,
-
-TransactionId: Transaction id of the payment – GUID
-```
+<dl>
+  <dt>Sender</dt>
+  <dd>“PAYMENT-GATEWAY”</dd>
+  <dt>Status</dt>
+  <dd>failure status</dd>
+  <dt>StatusDetail</dt>
+  <dd>Details of the payment failure</dd>
+  <dt>TransactionId</dt>
+  <dd>Transaction id of the payment - GUID</dd>
+</dl>

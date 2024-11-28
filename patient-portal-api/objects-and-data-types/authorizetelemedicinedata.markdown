@@ -18,12 +18,9 @@ Returns authorisation data for a telemedicine connection.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Version": "3",
-
-"Token": "ZS1Q8LUazO3Q2fRI...",
-
+    "Version": "3",
+    "Token": "ZS1Q8LUazO3Q2fRI...",
 }
 ```

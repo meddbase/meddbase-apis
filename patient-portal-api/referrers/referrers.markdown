@@ -7,8 +7,6 @@ parent: Patient Portal API
 
 # Referrers
 
-
-
 Returns a list of the available referrers to select from when updating the patient’s details.
 
 ## JavaScript library method

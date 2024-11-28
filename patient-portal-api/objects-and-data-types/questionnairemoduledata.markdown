@@ -20,16 +20,13 @@ Provides information about a questionnaire module.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "3bdd966cf6f9c0c6872ee0551da74c4d",
-
-"Category": "ppq",
-
-"Name": "Test",
-
-"FormKeys": \[“4bdd966cf6f9c0c6872ee0551da74c4e”\],
-
+    "Key": "3bdd966cf6f9c0c6872ee0551da74c4d",
+    "Category": "ppq",
+    "Name": "Test",
+    "FormKeys": [
+        "4bdd966cf6f9c0c6872ee0551da74c4e"
+    ]
 }
 ```

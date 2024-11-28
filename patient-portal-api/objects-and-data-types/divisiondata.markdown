@@ -18,12 +18,9 @@ Contains the information about the company division.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "Dv123",
-
-"Name": "Division 123"
-
+    "Key": "Dv123",
+    "Name": "Division 123"
 }
 ```

@@ -36,6 +36,6 @@ patientportal.cases.followUp({
 |:----------|:-------|:------------------------------------------------------------|
 | reason | string | The reason why the user sends the follow up referral. |
 
-## Returned JSON
+## Returns
 
 [CaseData](../objects-and-data-types/casedata)

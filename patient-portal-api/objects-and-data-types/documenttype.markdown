@@ -19,14 +19,10 @@ Provides information about the document type.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "22c45458525be86005e08d219b79c5d7",
-
-"Author": "Portal Documents",
-
-"AlwaysAccessible": true
-
+    "Key": "22c45458525be86005e08d219b79c5d7",
+    "Author": "Portal Documents",
+    "AlwaysAccessible": true
 }
 ```

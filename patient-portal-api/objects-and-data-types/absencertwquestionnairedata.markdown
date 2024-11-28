@@ -23,32 +23,20 @@ The data returned in the response of a call to the [SubmitValidationCode](#_Subm
 
 ## JSON Example
 
-```
+```json
 {
-
-"status": "ok",
-
-"result": {
-
-"Key": "fc89c03626ab7f45ed3cf410ef1318b0",
-
-"StartDate": "2018-11-16T00:00:00",
-
-"EstimatedEndDate": "2018-11-19T00:00:00",
-
-"EndDate": "2018-11-26T00:00:00",
-
-"LostWork": {
-
-<[LostWork](../objects-and-data-types/lostwork)\>
-
-},
-
-"AccidentAtWork": true,
-
-"IsClosed": false
-
-}
-
+    "status": "ok",
+    "result": {
+        "Key": "fc89c03626ab7f45ed3cf410ef1318b0",
+        "StartDate": "2018-11-16T00:00:00",
+        "EstimatedEndDate": "2018-11-19T00:00:00",
+        "EndDate": "2018-11-26T00:00:00",
+        "LostWork": {
+            "Hours": 32,
+            "Days": 4
+        },
+        "AccidentAtWork": true,
+        "IsClosed": false
+    }
 }
 ```

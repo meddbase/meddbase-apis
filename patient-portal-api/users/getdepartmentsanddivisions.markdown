@@ -21,22 +21,26 @@ patientportal.users.getDepartmentsAndDivisions();
 |:-----|:--------------------------------------------------|
 | GET | `/patientportalapi/users/departments-divisions` |
 
+## Returns
+
+[DepartmentData](../objects-and-data-types/departmentdata)[]
+[DivisionData](../objects-and-data-types/divisiondata)[]
+
 ## Returned JSON
 
-```
+```json
 {
-
-"Departments": \[
-
-&lt;list of DepartmentData&gt;
-
-\]
-
-"Divisions": \[
-
-&lt;list of DivisionData&gt;
-
-\]
-
+    "Departments": [
+        {
+            "Key": "D123",
+            "Name": "HR"
+        }
+    ],
+    "Divisions": [
+        {
+            "Key": "Dv123",
+            "Name": "Division 123"
+        }
+    ]
 }
 ```

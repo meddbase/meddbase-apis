@@ -15,24 +15,18 @@ Data returned in response to call to Insurers. Only companies marked as ‘Publi
 |:----------|:-------|:------------------------------------------------------------|
 | Key | string | Encrypted key of the company |
 | Name | string | Public name of the company (empty if company is private) |
-| Type | String | Type of the company: Insurer, etc. |
-| IsPublic | Bool | Company is public or private |
-| MemberNumber | String | Member number of the patient |
+| Type | string | Type of the company: Insurer, etc. |
+| IsPublic | bool | Company is public or private |
+| MemberNumber | string | Member number of the patient |
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "1c5aabbdf813ad78c48cc8e6d8584162",
-
-"Name": "Public Insurance",
-
-"Type": "Insurer",
-
-"IsPublic": true,
-
-"MemberNumber": "Test member number"
-
+    "Key": "1c5aabbdf813ad78c48cc8e6d8584162",
+    "Name": "Public Insurance",
+    "Type": "Insurer",
+    "IsPublic": true,
+    "MemberNumber": "Test member number"
 }
 ```

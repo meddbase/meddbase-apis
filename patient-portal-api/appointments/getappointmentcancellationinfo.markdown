@@ -29,4 +29,4 @@ patientportal.appointment.getAppointmentCancellationInfo({appointment: <appointm
 
 ## Return
 
-AppointmentCancellationData
+[AppointmentCancellationData](../objects-and-data-types/appointmentcancellationdata)

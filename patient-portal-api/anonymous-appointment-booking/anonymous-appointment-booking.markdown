@@ -7,7 +7,6 @@ parent: Patient Portal API
 
 # Anonymous Appointment Booking
 
-
 The previous section Anonymous Appointment Search is used to find an available slot. This section allows the patient to book an appointment quickly without dealing with the standard 5.10 RegisterPatient process.
 
 The workflow is:

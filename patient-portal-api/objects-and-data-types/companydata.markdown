@@ -20,16 +20,11 @@ Data returned in response to call to Insurers. Only companies marked as ‘Publi
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "1c5aabbdf813ad78c48cc8e6d8584162",
-
-"Name": "Public Insurance",
-
-"Type": "Insurer",
-
-"IsPublic": true
-
+    "Key": "1c5aabbdf813ad78c48cc8e6d8584162",
+    "Name": "Public Insurance",
+    "Type": "Insurer",
+    "IsPublic": true
 }
 ```

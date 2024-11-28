@@ -15,12 +15,9 @@ Information about the clinician.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": 84,
-
-"FullName": "Dr. House"
-
+    "Key": 84,
+    "FullName": "Dr. House"
 }
 ```

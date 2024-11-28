@@ -5,6 +5,7 @@ nav_order: 1
 ---
 
 # Intro
+
 Welcome to the Meddbase API's documentation site.
 
 Here you will find details of all of the publicly available API endpoints for the Meddbase application.

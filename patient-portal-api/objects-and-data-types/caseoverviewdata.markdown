@@ -20,3 +20,15 @@ A full case data object which includes the patient’s full name.
 | LastUpdatedDate | [DateTime](../objects-and-data-types/datetime) (optional) | The date that the latest change was made to any of the referrals on the case. If there are no referrals on the case, this date is null. |
 | Title | string | The public case title. |
 | IsOpen | bool | Whether the case is still open or not. |
+
+
+```json
+{
+  "Key": 11229,
+  "PatientName": "Lemon, John",
+  "OpenedDate": "2024-01-01T09:30:00",
+  "Title": "1st Case for this Patient",
+  "LastUpdatedDate": "2024-01-01T09:30:00",
+  "IsOpen": true
+}
+```

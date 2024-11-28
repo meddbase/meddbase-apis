@@ -7,7 +7,6 @@ parent: Patient Portal API
 
 # Single sign-on
 
-
 Meddbase system provides integration with SAML2 based single sign on providers.
 
 For identity provider initiated single sign on, the SAML request is sent to the API Gateway as a POST. The request is sent to following URL:

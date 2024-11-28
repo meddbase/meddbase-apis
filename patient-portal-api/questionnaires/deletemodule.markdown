@@ -25,5 +25,6 @@ patientportal.questionnaires.getQuestionnaires({
 
 ## URL Parameters
 
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | module-key | string (required) | The key of the patient provided by the API upon [GetModules](#_GetModules). |
-| --- | --- | --- |

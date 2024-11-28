@@ -12,7 +12,7 @@ Returns unique URL to initiate a service provider initiated single sign on
 ## JavaScript library method
 
 ```javascript
-patientportal.auth. getSSOLoginDetails({companyIdentifier: < company-identifier>});
+patientportal.auth. getSSOLoginDetails({companyIdentifier: <company-identifier>});
 ```
 
 ## HTTP Method

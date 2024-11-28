@@ -20,50 +20,28 @@ Geographic place/residence of the doctor/clinic.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": 1123,
-
-"Name": "2CP (Eye Room)",
-
-"Address":{
-
-"Address1": "2 Clifton Park Ave",
-
-"Address2": "",
-
-"Address3": "",
-
-"City": "London",
-
-"County": "",
-
-"PostCode": "SW20 8BD",
-
-"Country": "United Kingdom"
-
-},
-
-"Locations": \[
-
-{
-
-"Key": 45,
-
-"Name": "Surgery"
-
-},
-
-{
-
-"Key": 214,
-
-"Name": "Room 1"
-
-}
-
-\]
-
+    "Key": 1123,
+    "Name": "2CP (Eye Room)",
+    "Address": {
+        "Address1": "2 Clifton Park Ave",
+        "Address2": "",
+        "Address3": "",
+        "City": "London",
+        "County": "",
+        "PostCode": "SW20 8BD",
+        "Country": "United Kingdom"
+    },
+    "Locations": [
+        {
+            "Key": 45,
+            "Name": "Surgery"
+        },
+        {
+            "Key": 214,
+            "Name": "Room 1"
+        }
+    ]
 }
 ```

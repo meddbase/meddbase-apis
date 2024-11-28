@@ -24,22 +24,14 @@ Module of the appointment.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": 5631,
-
-"Name": "Short Consult",
-
-"CurrencyCode": "GBP",
-
-"CurrencySymbol": "£",
-
-"NetPrice": 50,
-
-"Tax": 10,
-
-"GrossPrice": 60
-
+    "Key": 5631,
+    "Name": "Short Consult",
+    "CurrencyCode": "GBP",
+    "CurrencySymbol": "£",
+    "NetPrice": 50,
+    "Tax": 10,
+    "GrossPrice": 60
 }
 ```

@@ -17,9 +17,9 @@ patientportal.documents.attachDocument({
     documentName: <document-name>,
     documentComments: <document-comments>,
     uploading: {
-    file: <file>,
-    onProgress: <onProgress>,
-}
+        file: <file>,
+        onProgress: <onProgress>,
+    }
 });
 ```
 

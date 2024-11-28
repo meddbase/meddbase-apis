@@ -31,12 +31,9 @@ patientportal.rtwQuestionnaire.sendValidationSMS({
 
 ## Returned JSON
 
-```
+```json
 {
-
-"status": "ok",
-
-"result": “”
-
+    "status": "ok",
+    "result": “”
 }
 ```

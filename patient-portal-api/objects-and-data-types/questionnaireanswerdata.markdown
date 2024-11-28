@@ -19,14 +19,12 @@ Answer for the questionnaire question.
 
 ## JSON Example
 
-```
+```json
 {
-
-"QuestionId": 236,
-
-"Answer": "Yes",
-
-"Answers": \["Yes"\]
-
+    "QuestionId": 236,
+    "Answer": "Yes",
+    "Answers": [
+        "Yes"
+    ]
 }
 ```

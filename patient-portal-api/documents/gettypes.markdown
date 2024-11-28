@@ -23,4 +23,4 @@ patientportal.documents.getTypes();
 
 ## Returns
 
-DocumentType
+[DocumentType](../objects-and-data-types/documenttype)

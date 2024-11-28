@@ -18,12 +18,9 @@ Type of the payer.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "PA",
-
-"Name": "Patient"
-
+    "Key": "PA",
+    "Name": "Patient"
 }
 ```

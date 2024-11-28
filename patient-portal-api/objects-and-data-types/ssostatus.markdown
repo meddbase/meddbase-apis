@@ -19,14 +19,10 @@ Provides information about the single sign on
 
 ## JSON Example
 
-```
+```json
 {
-
-"Identifier": "shiny",
-
-"Enabled": true,
-
-"IsOH": true
-
+    "Identifier": "shiny",
+    "Enabled": true,
+    "IsOH": true
 }
 ```

@@ -33,53 +33,30 @@ patientportal.anonBooking.bookProposedTimeSlot({
 
 ## POST data example
 
-```
+```json
 {
-
-"proposedTimeSlot": {
-
-"Location": {
-
-"Key": 214
-
-},
-
-"Modules": \[
-
-{
-
-"Key": 10382
-
-}
-
-\],
-
-"PayerType": "example",
-
-"Services": [],
-
-"Site": {
-
-"Key": 1123
-
-},
-
-"Start":"2025-01-01T09:30:00",
-
-"Type": {
-
-"Key": "00000000fc0af8e9"
-
-}
-
-},
-
-"clinicianSex": 1,
-
-"method": 0,
-
-"price": 100
-
+    "proposedTimeSlot": {
+        "Location": {
+            "Key": 214
+        },
+        "Modules": [
+            {
+                "Key": 10382
+            }
+        ],
+        "PayerType": "example",
+        "Services": [],
+        "Site": {
+            "Key": 1123
+        },
+        "Start": "2025-01-01T09:30:00",
+        "Type": {
+            "Key": "00000000fc0af8e9"
+        }
+    },
+    "clinicianSex": 1,
+    "method": 0,
+    "price": 100
 }
 ```
 

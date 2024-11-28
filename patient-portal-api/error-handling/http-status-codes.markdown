@@ -9,8 +9,9 @@ parent: Error handling
 
 In general, the Meddbase API can generate these codes:
 
+| Code | Status | Notes       |
+|:-----|:-------|:------------|
 | 200 | OK  |     |
-| --- | --- | --- |
 | 201 | Created (Saved) |     |
 | 204 | No Content. | Request was successful and does not need to return a response. |
 | 400 | Bad request | Bad parameter format, missing parameter etc. |

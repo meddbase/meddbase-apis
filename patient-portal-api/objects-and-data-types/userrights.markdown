@@ -19,14 +19,10 @@ Provides information about the user rights.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "0f0f8997-a161-455e-a498-96138096f539",
-
-"Name": "Case management"
-
-"Description": "The user can refer patients and manage the referrals."
-
+    "Key": "0f0f8997-a161-455e-a498-96138096f539",
+    "Name": "Case management",
+    "Description": "The user can refer patients and manage the referrals."
 }
 ```

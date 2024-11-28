@@ -18,12 +18,9 @@ Information about the Service Type.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": 84,
-
-"Name": "Blood profile"
-
+    "Key": 84,
+    "Name": "Blood profile"
 }
 ```

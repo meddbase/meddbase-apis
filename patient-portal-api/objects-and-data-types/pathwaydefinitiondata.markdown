@@ -21,18 +21,12 @@ An overview of a pathway definition
 
 ## JSON Example
 
-```
+```json
 {
-
-Description: ""
-
-Key: 1
-
-Name: "Patient Document Upload"
-
-Path: "Patient Document Upload"
-
-Prompt: "Patient Document Upload"
-
+    "Description": "",
+    "Key": 1,
+    "Name": "Patient Document Upload",
+    "Path": "Patient Document Upload",
+    "Prompt": "Patient Document Upload"
 }
 ```

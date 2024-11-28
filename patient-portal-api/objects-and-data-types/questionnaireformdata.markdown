@@ -20,16 +20,11 @@ Provides information about a questionnaire form.
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "3bdd966cf6f9c0c6872ee0551da74c4d",
-
-"Category": "ppq",
-
-"Name": "Test",
-
-"Description": “Longer description”,
-
+    "Key": "3bdd966cf6f9c0c6872ee0551da74c4d",
+    "Category": "ppq",
+    "Name": "Test",
+    "Description": "Longer description"
 }
 ```

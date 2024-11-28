@@ -16,12 +16,9 @@ parent: Objects and data types
 
 ## JSON Example
 
-```
+```json
 {
-
-"Code": "GBP",
-
-"Symbol": "£"
-
+    "Code": "GBP",
+    "Symbol": "£"
 }
 ```

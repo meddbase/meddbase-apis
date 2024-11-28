@@ -31,6 +31,6 @@ patientportal.finance.sendInvoiceByEmail({invoiceNumber: <invoice-number>});
 
 The client should show a warning message that sending an invoice over email isn't encrypted and that the patient should use this feature at their own risk. If online payment is active, the email contains a link to the portal to pay online for unpaid invoices. The link is in the following format:
 
-https://{portal}/pay?invoiceKey={encrypted invoice key}
+`https://{portal}/pay?invoiceKey={encrypted invoice key}`
 
 The invoice key can be used in logged-in or anonymous mode to process payment using [ProvidePayment](#_ProvidePayment).

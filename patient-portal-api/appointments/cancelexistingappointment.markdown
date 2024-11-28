@@ -29,7 +29,7 @@ patientportal.appointment.cancelExistingAppointment({appointment: <appointment>}
 
 ## Return
 
-InvoiceData
+[InvoiceData](../objects-and-data-types/invoicedata)
 
 ## Remarks
 

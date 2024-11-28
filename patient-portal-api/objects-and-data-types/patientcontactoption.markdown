@@ -20,16 +20,11 @@ Contains the information about a permission the patient has given to the company
 
 ## JSON Example
 
-```
+```json
 {
-
-"Key": "Email.General",
-
-"Subject": "General human contact",
-
-"Email": true,
-
-"SMS": "true"
-
+    "Key": "Email.General",
+    "Subject": "General human contact",
+    "Email": true,
+    "SMS": "true
 }
 ```

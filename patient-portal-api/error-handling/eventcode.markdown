@@ -7,10 +7,11 @@ parent: Error handling
 
 # EventCode
 
-The client can use the EventCode property of the ServiceExceptionData object to identify the concrete type of the exception. Next table shows generally used codes but you can find another codes that can be thrown (these codes are described usually within Remakrs section of the API methods).
+The client can use the EventCode property of the ServiceExceptionData object to identify the concrete type of the exception. Next table shows generally used codes but you can find another codes that can be thrown (these codes are described usually within Remarks section of the API methods).
 
+| EventCode | Description       |
+|:----------|:------------------|
 | 0   | Not specified exception |
-| --- | --- |
 | 1   | Parameter is missing |
 | 2   | Parameter has incorrect format (usually when integer contains letters or when date-time format is not valid) |
 | 3   | Client authentication key is missing. |

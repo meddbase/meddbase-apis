@@ -13,7 +13,7 @@ Cancels the referral.
 
 ```javascript
 patientportal.referrals.cancel({
-    referral: <referral>,
+    referral: <referral>
 });
 ```
 
