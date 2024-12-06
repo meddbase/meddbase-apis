@@ -17,5 +17,5 @@ Returns list of payer accounts:
 | Last4Digits | string | Last4digits of the card |
 | ExpiryDate | DateTime | ExpiryDate of the card |
 | LastUsed | DateTime | Last used date time |
-| PaymentType | String | Payment Type: Visa, Master Card, etc. |
-| PayType | String | PayType |
+| PaymentType | string | Payment Type: Visa, Master Card, etc. |
+| PayType | string | PayType |

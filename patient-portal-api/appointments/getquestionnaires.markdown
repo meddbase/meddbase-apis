@@ -34,7 +34,89 @@ patientportal.appointment.getQuestionnaires({
 
 ## URL Parameters
 
-<table><tbody><tr><th><p>patient</p></th><th><p>string (optional)</p></th><th><p>The key of the patient provided by the API upon section Patients.</p><p>Default is undefined which returns questionnaires for all patients.</p></th></tr><tr><td><p>questionnaire-type-name</p></td><td><p>string (optional)</p></td><td><p>The questionnaire type name filter. Optional if appointment id is provided</p></td></tr><tr><td><p>expiration-from</p></td><td><p>DateTime (optional)</p></td><td><p>The questionnaire start date filter.</p></td></tr><tr><td><p>expiration-to</p></td><td><p>DateTime (optional)</p></td><td><p>The questionnaire start date filter.</p></td></tr><tr><td><p>status</p></td><td><p>int (optional)</p></td><td><p>Status code of the questionnaire:</p><ul><li>0 = Incomplete</li><li>1 = Complete</li><li>2 = Partially Complete</li><li>-1 = all</li></ul><p>Default: -1</p></td></tr><tr><td><p>appointment</p></td><td><p>Int<br>(optional)</p></td><td><p>Appointment id to get questionnaires of a booked appointment. Optional if questionnaire name is provided.</p></td></tr><tr><td><p>page-sort-column</p></td><td><p>int (optional)</p></td><td><p>The column index to sort the result:</p><ul><li>0 –Expiration date</li><li>1 – Status</li></ul><p>Default: 0</p></td></tr><tr><td><p>page-sort-descending</p></td><td><p>int (optional)</p></td><td><p>True to sort result descending. Default false.</p></td></tr><tr><td><p>page-number</p></td><td><p>int (optional)</p></td><td><p>Required page number. Default 1.</p></td></tr><tr><td><p>page-size</p></td><td><p>int (optional)</p></td><td><p>Required page size. Default 10. Minimum 5. Maximum 50.</p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: left">Parameter</th>
+            <th style="text-align: left">Type</th>
+            <th style="text-align: left">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>patient</td>
+            <td>string (optional)</td>
+            <td>
+                <p>The key of the patient provided by the API upon section Patients.</p>
+                <p>Default is undefined which returns questionnaires for all patients.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>questionnaire-type-name</td>
+            <td>string (optional)</td>
+            <td>The questionnaire type name filter. Optional if appointment id is provided</td>
+        </tr>
+        <tr>
+            <td>expiration-from</td>
+            <td><a href="../objects-and-data-types/datetime">DateTime</a> (optional)</td>
+            <td>The questionnaire start date filter.</td>
+        </tr>
+        <tr>
+            <td>expiration-to</td>
+            <td><a href="../objects-and-data-types/datetime">DateTime</a> (optional)</td>
+            <td>The questionnaire start date filter.</td>
+        </tr>
+        <tr>
+            <td>status</td>
+            <td>int (optional)</td>
+            <td>
+                <p>Status code of the questionnaire:</p>
+                <ul>
+                    <li>0 = Incomplete</li>
+                    <li>1 = Complete</li>
+                    <li>2 = Partially Complete</li>
+                    <li>-1 = all</li>
+                </ul>
+                <p>Default: -1</p>
+            </td>
+        </tr>
+        <tr>
+            <td>appointment</td>
+            <td>int (optional)</td>
+            <td>
+                <p>Appointment id to get questionnaires of a booked appointment. Optional if questionnaire name is
+                    provided.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>page-sort-column</td>
+            <td>int (optional)</td>
+            <td>
+                <p>The column index to sort the result:</p>
+                <ul>
+                    <li>0 –Expiration date</li>
+                    <li>1 – Status</li>
+                </ul>
+                <p>Default: 0</p>
+            </td>
+        </tr>
+        <tr>
+            <td>page-sort-descending</td>
+            <td>int (optional)</td>
+            <td>True to sort result descending. Default false.</td>
+        </tr>
+        <tr>
+            <td>page-number</td>
+            <td>int (optional)</td>
+            <td>Required page number. Default 1.</td>
+        </tr>
+        <tr>
+            <td>page-size</td>
+            <td>int (optional)</td>
+            <td>Required page size. Default 10. Minimum 5. Maximum 50.</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Returns
 

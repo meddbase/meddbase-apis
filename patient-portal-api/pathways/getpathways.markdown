@@ -28,7 +28,46 @@ patientportal.pathways.getPathways({
 
 ## URL Parameters
 
-<table><tbody><tr><th><p>page-sort-column</p></th><th><p>int (optional)</p></th><th><p>The column index to sort the result:</p><ul><li>0 – Last modified</li><li>1 – Pathway ID</li><li>3 – Due date</li><li>4 – Pathway name</li></ul><p>Default: 0</p></th></tr><tr><td><p>page-sort-descending</p></td><td><p>int (optional)</p></td><td><p>True to sort result descending.</p></td></tr><tr><td><p>page-number</p></td><td><p>int (optional)</p></td><td><p>Page number. Default 1.</p></td></tr><tr><td><p>page-size</p></td><td><p>int (optional)</p></td><td><p>Page size. Default 10. Minimum 5. Maximum 50.</p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: left">Parameter</th>
+            <th style="text-align: left">Type</th>
+            <th style="text-align: left">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>page-sort-column</td>
+            <td>int (optional)</td>
+            <td>
+                <p>The column index to sort the result:</p>
+                <ul>
+                    <li>0 – Last modified</li>
+                    <li>1 – Pathway ID</li>
+                    <li>3 – Due date</li>
+                    <li>4 – Pathway name</li>
+                </ul>
+                <p>Default: 0</p>
+            </td>
+        </tr>
+        <tr>
+            <td>page-sort-descending</td>
+            <td>int (optional)</td>
+            <td>True to sort result descending.</td>
+        </tr>
+        <tr>
+            <td>page-number</td>
+            <td>int (optional)</td>
+            <td>Page number. Default 1.</td>
+        </tr>
+        <tr>
+            <td>page-size</td>
+            <td>int (optional)</td>
+            <td>Page size. Default 10. Minimum 5. Maximum 50.</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Returns
 

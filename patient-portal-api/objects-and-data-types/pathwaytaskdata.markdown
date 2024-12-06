@@ -11,7 +11,89 @@ A full task description within a pathway.
 
 ## Properties
 
-<table><tbody><tr><th><p>Key</p></th><th><p>string</p></th><th><p>The key of the task.</p></th></tr><tr><td><p>Name</p></td><td><p>string</p></td><td><p>The name of the task.</p></td></tr><tr><td><p>ActionType</p></td><td><p>string</p></td><td><p>The type of the task. See Pathway structure and task types.</p></td></tr><tr><td><p>ActionTypeName</p></td><td><p>string</p></td><td><p>The user-friendly name of the action type.</p></td></tr><tr><td><p>Description</p></td><td><p>string</p></td><td><p>The description of the task.</p></td></tr><tr><td><p>StateType</p></td><td><p>string</p></td><td><p>The state of the task.</p><ul><li>FT – Future pending task, not-started yet</li><li>ST – Started task</li><li>IP – Task in progress</li><li>CP – Task completed</li><li>SK – Task has been skipped</li><li>FL – Task failed</li></ul><p>Note that even if the task is in ST (Started) state the client need to check CanProcess field to allow any action.</p></td></tr><tr><td><p>StateName</p></td><td><p>string</p></td><td><p>The user-friendly name of the state.</p></td></tr><tr><td><p>CanProcess</p></td><td><p>bool</p></td><td><p>True if the task and the logged-in user has rights to process the task.</p></td></tr><tr><td><p>AppointmentTask</p></td><td><p>AppointmentTaskData</p></td><td><p>The details about the book/arrive appointment task.</p></td></tr><tr><td><p>AttachDocumentTask</p></td><td><p>AttachDocumentTaskData</p></td><td><p>The details about the attach document task.</p></td></tr><tr><td><p>ChoiceTask</p></td><td><p>ChoiceTaskData</p></td><td><p>The details about the choice task.</p></td></tr><tr><td><p>QuestionnaireTask</p></td><td><p>QuestionnaireTaskData</p></td><td><p>The details about the questionnaire task.</p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: left">Parameter</th>
+            <th style="text-align: left">Type</th>
+            <th style="text-align: left">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Key</td>
+            <td>string</td>
+            <td>The key of the task.</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>string</td>
+            <td>The name of the task.</td>
+        </tr>
+        <tr>
+            <td>ActionType</td>
+            <td>string</td>
+            <td>The type of the task. See Pathway structure and task types.</td>
+        </tr>
+        <tr>
+            <td>ActionTypeName</td>
+            <td>string</td>
+            <td>The user-friendly name of the action type.</td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td>string</td>
+            <td>The description of the task.</td>
+        </tr>
+        <tr>
+            <td>StateType</td>
+            <td>string</td>
+            <td>
+                <p>The state of the task.</p>
+                <ul>
+                    <li>FT – Future pending task, not-started yet</li>
+                    <li>ST – Started task</li>
+                    <li>IP – Task in progress</li>
+                    <li>CP – Task completed</li>
+                    <li>SK – Task has been skipped</li>
+                    <li>FL – Task failed</li>
+                </ul>
+                <p>Note that even if the task is in ST (Started) state the client need to check CanProcess field to
+                    allow any action.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>StateName</td>
+            <td>string</td>
+            <td>The user-friendly name of the state.</td>
+        </tr>
+        <tr>
+            <td>CanProcess</td>
+            <td>bool</td>
+            <td>True if the task and the logged-in user has rights to process the task.</td>
+        </tr>
+        <tr>
+            <td>AppointmentTask</td>
+            <td><a href="../objects-and-data-types/appointmenttaskdata">AppointmentTaskData</a></td>
+            <td>The details about the book/arrive appointment task.</td>
+        </tr>
+        <tr>
+            <td>AttachDocumentTask</td>
+            <td><a href="../objects-and-data-types/attachdocumenttaskdata">AttachDocumentTaskData</a></td>
+            <td>The details about the attach document task.</td>
+        </tr>
+        <tr>
+            <td>ChoiceTask</td>
+            <td><a href="../objects-and-data-types/choicetaskdata">ChoiceTaskData</a></td>
+            <td>The details about the choice task.</td>
+        </tr>
+        <tr>
+            <td>QuestionnaireTask</td>
+            <td><a href="../objects-and-data-types/questionnairetaskdata">QuestionnaireTaskData</a></td>
+            <td>The details about the questionnaire task.</td>
+        </tr>
+    </tbody>
+</table>
 
 ## JSON Example
 

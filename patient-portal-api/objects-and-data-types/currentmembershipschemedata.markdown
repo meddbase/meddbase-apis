@@ -27,7 +27,7 @@ Provides information about the current membership scheme of the patient.
 | NextInvoiceDateTime | DateTime | Date of next billing cycle |
 | OnlinePaymentMethod | string | Associated online payment method (formatted string) |
 | LastInvoiceBalance | decimal | Balance on the last invoice for the memberhsip |
-| LastInvoiceKey | String | Encrypted key of the last invoice. |
+| LastInvoiceKey | string | Encrypted key of the last invoice. |
 
 ## JSON Example
 

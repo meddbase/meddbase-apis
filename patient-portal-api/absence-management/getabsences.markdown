@@ -35,7 +35,88 @@ patientportal.absences.getAbsences({
 
 ## URL Parameters
 
-<table><tbody><tr><th><p>patient</p></th><th><p>string (optional)</p></th><th><p>The absentee’s key id.</p></th></tr><tr><td><p>date-from</p></td><td><p><a href="../objects-and-data-types/datetime">DateTime</a> (optional)</p></td><td><p>The earliest date to look for absences.</p></td></tr><tr><td><p>date-to</p></td><td><p><a href="../objects-and-data-types/datetime">DateTime</a> (optional)</p></td><td><p>The latest date to look for absences.</p></td></tr><tr><td><p>status</p></td><td><p>int (optional)</p></td><td><p>Open = 0, Closed = 2 (Deleted absences are not shown in the API, so cannot be filtered for).</p></td></tr><tr><td><p>text</p></td><td><p>string (optional)</p></td><td><p>Checks if any of the following attributes of the absentee starts with the specified text: Surname, Name, WorkEmail, Email, LegacyNr.</p></td></tr><tr><td><p>department</p></td><td><p>string (optional)</p></td><td><p>Key of the department provided by the API upon GetDepartments.</p></td></tr><tr><td><p>division</p></td><td><p>string (optional)</p></td><td><p>Key of the division provided by the API upon GetDepartments.</p></td></tr><tr><td><p>questionnaireStatus</p></td><td><p>Int (optional)</p></td><td><p>0 = Not Sent, 1 = Sent, 2 = Completed.</p></td></tr><tr><td><p>page-sort-column</p></td><td><p>int (optional)</p></td><td><p>The column index to sort the result:</p><ul><li>0 – From date</li><li>1 – To date</li><li>2– Reason</li></ul><p>Default: 0</p></td></tr><tr><td><p>page-sort-descending</p></td><td><p>int (optional)</p></td><td><p>True to sort result descending.</p></td></tr><tr><td><p>page-number</p></td><td><p>int (optional)</p></td><td><p>Page number. Default 1.</p></td></tr><tr><td><p>page-size</p></td><td><p>int (optional)</p></td><td><p>Page size. Default 5. Minimum 5. Maximum 50.</p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: left">Parameter</th>
+            <th style="text-align: left">Type</th>
+            <th style="text-align: left">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>patient</td>
+            <td>string (optional)</td>
+            <td>The absentee’s key id.</td>
+        </tr>
+        <tr>
+            <td>date-from</td>
+            <td><a href="../objects-and-data-types/datetime">DateTime</a> (optional)</td>
+            <td>The earliest date to look for absences.</td>
+        </tr>
+        <tr>
+            <td>date-to</td>
+            <td><a href="../objects-and-data-types/datetime">DateTime</a> (optional)</td>
+            <td>The latest date to look for absences.</td>
+        </tr>
+        <tr>
+            <td>status</td>
+            <td>int (optional)</td>
+            <td>Open = 0, Closed = 2 (Deleted absences are not shown in the API, so cannot be filtered for).</td>
+        </tr>
+        <tr>
+            <td>text</td>
+            <td>string (optional)</td>
+            <td>
+                <p>Checks if any of the following attributes of the absentee starts with the specified text: Surname,
+                    Name, WorkEmail, Email, LegacyNr.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>department</td>
+            <td>string (optional)</td>
+            <td>Key of the department provided by the API upon GetDepartments.</td>
+        </tr>
+        <tr>
+            <td>division</td>
+            <td>string (optional)</td>
+            <td>Key of the division provided by the API upon GetDepartments.</td>
+        </tr>
+        <tr>
+            <td>questionnaireStatus</td>
+            <td>int (optional)</td>
+            <td>0 = Not Sent, 1 = Sent, 2 = Completed.</td>
+        </tr>
+        <tr>
+            <td>page-sort-column</td>
+            <td>int (optional)</td>
+            <td>
+                <p>The column index to sort the result:</p>
+                <ul>
+                    <li>0 – From date</li>
+                    <li>1 – To date</li>
+                    <li>2– Reason</li>
+                </ul>
+                <p>Default: 0</p>
+            </td>
+        </tr>
+        <tr>
+            <td>page-sort-descending</td>
+            <td>int (optional)</td>
+            <td>True to sort result descending.</td>
+        </tr>
+        <tr>
+            <td>page-number</td>
+            <td>int (optional)</td>
+            <td>Page number. Default 1.</td>
+        </tr>
+        <tr>
+            <td>page-size</td>
+            <td>int (optional)</td>
+            <td>Page size. Default 5. Minimum 5. Maximum 50.</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Returns
 

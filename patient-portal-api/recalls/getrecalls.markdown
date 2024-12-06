@@ -31,7 +31,61 @@ patientportal.recalls.getRecalls({
 
 ## URL Parameters
 
-<table><tbody><tr><th><p>patient</p></th><th><p>string (optional)</p></th><th><p>The key of the patient provided by the API upon GetPatients.</p></th></tr><tr><td><p>due-from</p></td><td><p>DateTime (optional)</p></td><td><p>Due date filter..</p></td></tr><tr><td><p>due-to</p></td><td><p>DateTime (optional)</p></td><td><p>Due date filter.</p></td></tr><tr><td><p>page-sort-column</p></td><td><p>int (optional)</p></td><td><p>The column index to sort the result:</p><ul><li>0 – Due date</li><li>1 – Created date</li><li>2 – Reminder date</li><li>3 – Appointment type name</li></ul><p>Default: 0</p></td></tr><tr><td><p>page-sort-descending</p></td><td><p>int (optional)</p></td><td><p>True to sort result descending.</p></td></tr><tr><td><p>page-number</p></td><td><p>int (optional)</p></td><td><p>Required page number. Default 1.</p></td></tr><tr><td><p>page-size</p></td><td><p>int (optional)</p></td><td><p>Required page size. Default 10. Minimum 5. Maximum 50.</p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: left">Parameter</th>
+            <th style="text-align: left">Type</th>
+            <th style="text-align: left">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>patient</td>
+            <td>string (optional)</td>
+            <td>The key of the patient provided by the API upon GetPatients.</td>
+        </tr>
+        <tr>
+            <td>due-from</td>
+            <td><a href="../objects-and-data-types/datetime">DateTime</a> (optional)</td>
+            <td>Due date filter..</td>
+        </tr>
+        <tr>
+            <td>due-to</td>
+            <td><a href="../objects-and-data-types/datetime">DateTime</a> (optional)</td>
+            <td>Due date filter.</td>
+        </tr>
+        <tr>
+            <td>page-sort-column</td>
+            <td>int (optional)</td>
+            <td>
+                <p>The column index to sort the result:</p>
+                <ul>
+                    <li>0 – Due date</li>
+                    <li>1 – Created date</li>
+                    <li>2 – Reminder date</li>
+                    <li>3 – Appointment type name</li>
+                </ul>
+                <p>Default: 0</p>
+            </td>
+        </tr>
+        <tr>
+            <td>page-sort-descending</td>
+            <td>int (optional)</td>
+            <td>True to sort result descending.</td>
+        </tr>
+        <tr>
+            <td>page-number</td>
+            <td>int (optional)</td>
+            <td>Required page number. Default 1.</td>
+        </tr>
+        <tr>
+            <td>page-size</td>
+            <td>int (optional)</td>
+            <td>Required page size. Default 10. Minimum 5. Maximum 50.</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Returns
 

@@ -11,7 +11,127 @@ Provides overview information about the referral.
 
 ## Properties
 
-<table><tbody><tr><th><p>Key</p></th><th><p>string</p></th><th><p>The key of the referral.</p></th></tr><tr><td><p>PatientName</p></td><td><p>string</p></td><td><p>The name of the patient.</p></td></tr><tr><td><p>PatientKey</p></td><td><p>string</p></td><td><p>The key of the patient.</p></td></tr><tr><td><p>ReferredBy</p></td><td><p>string</p></td><td><p>The name of the referrer.</p></td></tr><tr><td><p>CreatedDate</p></td><td><p>string</p></td><td><p>Created date.</p></td></tr><tr><td><p>ModifiedDate</p></td><td><p>string</p></td><td><p>Last modification date.</p></td></tr><tr><td><p>State</p></td><td><p>string</p></td><td><p>The state of the referral:</p><ul><li>QuestionnaireRequired – the referral questionnaire hasn’t been finished.</li><li>AttachDocuments – the referral hasn’t been sent. The user may attach documents and send the referral.</li><li>InProgress – the referral in progress. No user action is needed.</li><li>Completed – the referral is completed.</li></ul><p>The list of states is not complete. There may be also another states.</p></td></tr><tr><td><p>StateDisplayName</p></td><td><p>string</p></td><td><p>The friendly name of the state.</p></td></tr><tr><td><p>StateColor</p></td><td><p>string</p></td><td><p>The color of the state.</p></td></tr><tr><td><p>IsFollowUp</p></td><td><p>bool</p></td><td><p>The referral is a follow up for the previous referral.</p></td></tr><tr><td><p>HasFollowUp</p></td><td><p>bool</p></td><td><p>The referral has a follow up referral.</p></td></tr><tr><td><p>PreviousReferralKey</p></td><td><p>bool</p></td><td><p>The key of the previous referral if IsFollowUp is true.</p></td></tr><tr><td><p>NextReferralKey</p></td><td><p>bool</p></td><td><p>The key of the next referral if HasFollowUp is true.</p></td></tr><tr><td><p>SLARequired</p></td><td><p>bool</p></td><td><p>True if the SLA has been required for the referral.</p></td></tr><tr><td><p>SLAFailed</p></td><td><p>bool</p></td><td><p>True if the SLA has failed for this referral.</p></td></tr><tr><td><p>SLAFailedReason</p></td><td><p>string</p></td><td><p>The reason why SLA failed.</p></td></tr><tr><td><p>ReferralNumber</p></td><td><p>string</p></td><td><p>The number of the referral.</p></td></tr><tr><td><p>AppointmentType</p></td><td><p>AppointmentTypeData</p></td><td><p>The type of the referral.</p></td></tr><tr><td><p>AbsenceRecordKey</p></td><td><p>string</p></td><td><p>The key of the absence record the referral is joined to.</p></td></tr><tr><td><p>DaysToReviewDischargeLetterByPatient</p></td><td><p>int</p></td><td><p>The number of days a patient has to review the referral discharge letter.</p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: left">Parameter</th>
+            <th style="text-align: left">Type</th>
+            <th style="text-align: left">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Key</td>
+            <td>string</td>
+            <td>The key of the referral.</td>
+        </tr>
+        <tr>
+            <td>PatientName</td>
+            <td>string</td>
+            <td>The name of the patient.</td>
+        </tr>
+        <tr>
+            <td>PatientKey</td>
+            <td>string</td>
+            <td>The key of the patient.</td>
+        </tr>
+        <tr>
+            <td>ReferredBy</td>
+            <td>string</td>
+            <td>The name of the referrer.</td>
+        </tr>
+        <tr>
+            <td>CreatedDate</td>
+            <td>string</td>
+            <td>Created date.</td>
+        </tr>
+        <tr>
+            <td>ModifiedDate</td>
+            <td>string</td>
+            <td>Last modification date.</td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td>string</td>
+            <td>
+                <p>The state of the referral:</p>
+                <ul>
+                    <li>QuestionnaireRequired – the referral questionnaire hasn’t been finished.</li>
+                    <li>AttachDocuments – the referral hasn’t been sent. The user may attach documents and send the
+                        referral.</li>
+                    <li>InProgress – the referral in progress. No user action is needed.</li>
+                    <li>Completed – the referral is completed.</li>
+                </ul>
+                <p>The list of states is not complete. There may be also another states.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>StateDisplayName</td>
+            <td>string</td>
+            <td>The friendly name of the state.</td>
+        </tr>
+        <tr>
+            <td>StateColor</td>
+            <td>string</td>
+            <td>The color of the state.</td>
+        </tr>
+        <tr>
+            <td>IsFollowUp</td>
+            <td>bool</td>
+            <td>The referral is a follow up for the previous referral.</td>
+        </tr>
+        <tr>
+            <td>HasFollowUp</td>
+            <td>bool</td>
+            <td>The referral has a follow up referral.</td>
+        </tr>
+        <tr>
+            <td>PreviousReferralKey</td>
+            <td>bool</td>
+            <td>The key of the previous referral if IsFollowUp is true.</td>
+        </tr>
+        <tr>
+            <td>NextReferralKey</td>
+            <td>bool</td>
+            <td>The key of the next referral if HasFollowUp is true.</td>
+        </tr>
+        <tr>
+            <td>SLARequired</td>
+            <td>bool</td>
+            <td>True if the SLA has been required for the referral.</td>
+        </tr>
+        <tr>
+            <td>SLAFailed</td>
+            <td>bool</td>
+            <td>True if the SLA has failed for this referral.</td>
+        </tr>
+        <tr>
+            <td>SLAFailedReason</td>
+            <td>string</td>
+            <td>The reason why SLA failed.</td>
+        </tr>
+        <tr>
+            <td>ReferralNumber</td>
+            <td>string</td>
+            <td>The number of the referral.</td>
+        </tr>
+        <tr>
+            <td>AppointmentType</td>
+            <td><a href="../objects-and-data-types/appointmenttypedata">AppointmentTypeData</a></td>
+            <td>The type of the referral.</td>
+        </tr>
+        <tr>
+            <td>AbsenceRecordKey</td>
+            <td>string</td>
+            <td>The key of the absence record the referral is joined to.</td>
+        </tr>
+        <tr>
+            <td>DaysToReviewDischargeLetterByPatient</td>
+            <td>int</td>
+            <td>The number of days a patient has to review the referral discharge letter.</td>
+        </tr>
+    </tbody>
+</table>
 
 ## JSON Example
 

@@ -11,7 +11,108 @@ A full absence record data object which includes the patient’s full name.
 
 ## Properties
 
-<table><tbody><tr><th colspan="2"><p>Key</p></th><th colspan="2"><p>string</p></th><th><p>The key of the absence record.</p></th></tr><tr><td colspan="2"><p>PatientName</p></td><td colspan="2"><p>string</p></td><td><p>The name of the patient.</p></td></tr><tr><td colspan="2"><p>StartDate</p></td><td colspan="2"><p><a href="../objects-and-data-types/datetime">DateTime</a></p></td><td><p>The date that the absence started.</p></td></tr><tr><td colspan="2"><p>EstimatedEndDate</p></td><td colspan="2"><p><a href="../objects-and-data-types/datetime">DateTime</a></p></td><td><p>The estimated return-to-work date.</p></td></tr><tr><td colspan="2"><p>EndDate</p></td><td colspan="2"><p><a href="../objects-and-data-types/datetime">DateTime</a> (optional)</p></td><td><p>The actual return-to-work date.</p></td></tr><tr><td colspan="2"><p>AbsenceStatusCode</p></td><td colspan="2"><p>int</p></td><td><p>The status code of the absence record.</p><ul><li>0 – Open</li><li>2– Closed</li></ul></td></tr><tr><td colspan="2"><p>AbsenceStatusName</p></td><td colspan="2"><p>string</p></td><td><p>The name of the status code of the absence record, as specified in the AbsenceStatusCode.</p></td></tr><tr><td colspan="2"><p>QuestionnaireStatusCode</p></td><td colspan="2"><p>int</p></td><td><p>The status code of the absence.</p><ul><li>0 – Not Sent</li><li>1 – Sent</li><li>2– Completed</li></ul></td></tr><tr><td><p>QuestionnaireStatusName</p></td><td colspan="2"><p>string</p></td><td colspan="2"><p>The name of the status code of the absence record’s questionnaire request, as specified in the QuestionnaireStatusCode.</p></td></tr><tr><td colspan="2"><p>LostWork</p></td><td colspan="2"><p><a href="../objects-and-data-types/lostwork">LostWork</a></p></td><td><p>The details about the amount of work lost due to the absence.</p></td></tr><tr><td colspan="2"><p>Reason</p></td><td colspan="2"><p>string</p></td><td><p>The name of the reason for the absence.</p></td></tr><tr><td colspan="2"><p>AccidentAtWork</p></td><td colspan="2"><p>bool</p></td><td><p>Whether the absence was a result of an accident in the workplace.</p></td></tr><tr><td colspan="2"><p>ReasonSharedWithEmployer</p></td><td colspan="2"><p>bool</p></td><td><p>Whether the reason for the absence is to be shared with the employer.</p></td></tr><tr><td colspan="2"><p>DepartmentName</p></td><td colspan="2"><p>string</p></td><td><p>The name of the employee department that the patient belongs to.</p></td></tr><tr><td colspan="2"><p>DivisionName</p></td><td colspan="2"><p>string</p></td><td><p>The name of the employee division that the patient belongs to.</p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: left">Parameter</th>
+            <th style="text-align: left">Type</th>
+            <th style="text-align: left">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Key</td>
+            <td>string</td>
+            <td>The key of the absence record.</td>
+        </tr>
+        <tr>
+            <td>PatientName</td>
+            <td>string</td>
+            <td>The name of the patient.</td>
+        </tr>
+        <tr>
+            <td>StartDate</td>
+            <td><a href="../objects-and-data-types/datetime">DateTime</a></td>
+            <td>The date that the absence started.</td>
+        </tr>
+        <tr>
+            <td>EstimatedEndDate</td>
+            <td><a href="../objects-and-data-types/datetime">DateTime</a></td>
+            <td>The estimated return-to-work date.</td>
+        </tr>
+        <tr>
+            <td>EndDate</td>
+            <td><a href="../objects-and-data-types/datetime">DateTime</a> (optional)</td>
+            <td>The actual return-to-work date.</td>
+        </tr>
+        <tr>
+            <td>AbsenceStatusCode</td>
+            <td>int</td>
+            <td>
+                <p>The status code of the absence record.</p>
+                <ul>
+                    <li>0 – Open</li>
+                    <li>2– Closed</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>AbsenceStatusName</td>
+            <td>string</td>
+            <td>The name of the status code of the absence record, as specified in the AbsenceStatusCode.</td>
+        </tr>
+        <tr>
+            <td>QuestionnaireStatusCode</td>
+            <td>int</td>
+            <td>
+                <p>The status code of the absence.</p>
+                <ul>
+                    <li>0 – Not Sent</li>
+                    <li>1 – Sent</li>
+                    <li>2– Completed</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>QuestionnaireStatusName</td>
+            <td>string</td>
+            <td>
+                <p>The name of the status code of the absence record’s questionnaire request, as specified in the
+                    QuestionnaireStatusCode.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>LostWork</td>
+            <td><a href="../objects-and-data-types/lostwork">LostWork</a></td>
+            <td>The details about the amount of work lost due to the absence.</td>
+        </tr>
+        <tr>
+            <td>Reason</td>
+            <td>string</td>
+            <td>The name of the reason for the absence.</td>
+        </tr>
+        <tr>
+            <td>AccidentAtWork</td>
+            <td>bool</td>
+            <td>Whether the absence was a result of an accident in the workplace.</td>
+        </tr>
+        <tr>
+            <td>ReasonSharedWithEmployer</td>
+            <td>bool</td>
+            <td>Whether the reason for the absence is to be shared with the employer.</td>
+        </tr>
+        <tr>
+            <td>DepartmentName</td>
+            <td>string</td>
+            <td>The name of the employee department that the patient belongs to.</td>
+        </tr>
+        <tr>
+            <td>DivisionName</td>
+            <td>string</td>
+            <td>The name of the employee division that the patient belongs to.</td>
+        </tr>
+    </tbody>
+</table>
 
 ## JSON Example
 

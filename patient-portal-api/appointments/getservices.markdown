@@ -36,7 +36,104 @@ patientportal.appointment.getServices({
 
 ## URL Parameters
 
-<table><tbody><tr><th><p>payer-type</p></th><th colspan="2"><p>string</p></th><th><p>Type of the payer provided by the API upon GetPayerTypes.</p></th></tr><tr><td><p>appointment-type</p></td><td colspan="2"><p>string</p></td><td><p>Type of the appointment provided by the API upon <a href="#_GetAppointmentTypes">GetAppointmentTypes</a></p></td></tr><tr><td><p>service-type</p></td><td colspan="2"><p>string</p><p>(optional)</p></td><td><p>Key of the service type to filter services by, provided by <a href="#_GetServiceTypes">GetServiceTypes</a></p></td></tr><tr><td><p>service-name</p></td><td colspan="2"><p>string</p><p>(optional)</p></td><td><p>Name of service to filter services by.</p></td></tr><tr><td><p>referral-types</p></td><td colspan="2"><p>bool (optional)</p></td><td><p>The key of the referral provided by the API upon GetReferrals.</p><p>Used to get service types for a specific referral.</p></td></tr><tr><td><p>patient</p></td><td colspan="2"><p>string (optional)</p></td><td><p>The key of the patient provided by the API upon section Patients.</p><p>Get the services specific for the patient. Default is the logged in patient.</p></td></tr><tr><td><p>referral</p></td><td colspan="2"><p>string (optional)</p></td><td><p>The key of the referral provided by the API upon GetReferrals.</p><p>Used to book an appointment for a specific referral.</p></td></tr><tr><td><p>recall</p></td><td colspan="2"><p>string (optional)</p></td><td><p>The key of the recall provided by the API upon method GetRecalls.</p><p>Used get service types for a specific recall.</p></td></tr><tr><td><p>page-sort-column</p></td><td><p>int (optional)</p></td><td colspan="2"><p>The column index to sort the result:</p><ul><li>0 – Name</li><li>1 – Code</li><li>2- Service Type</li><li>3- ServiceId</li></ul><p>Default: 0,2</p></td></tr><tr><td><p>page-sort-descending</p></td><td><p>int (optional)</p></td><td colspan="2"><p>True to sort result descending. Default false.</p></td></tr><tr><td><p>page-number</p></td><td><p>int (optional)</p></td><td colspan="2"><p>Required page number. Default 1.</p></td></tr><tr><td><p>page-size</p></td><td><p>int (optional)</p></td><td colspan="2"><p>Required page size. Default 10. Minimum 5. Maximum 50.</p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: left">Parameter</th>
+            <th style="text-align: left">Type</th>
+            <th style="text-align: left">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>payer-type</td>
+            <td>string</td>
+            <td>Type of the payer provided by the API upon GetPayerTypes.</td>
+        </tr>
+        <tr>
+            <td>appointment-type</td>
+            <td>string</td>
+            <td>
+                <p>Type of the appointment provided by the API upon <a
+                        href="#_GetAppointmentTypes">GetAppointmentTypes</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td>service-type</td>
+            <td>string (optional)</td>
+            <td>
+                <p>Key of the service type to filter services by, provided by <a
+                        href="#_GetServiceTypes">GetServiceTypes</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td>service-name</td>
+            <td>string (optional)</td>
+            <td>Name of service to filter services by.</td>
+        </tr>
+        <tr>
+            <td>referral-types</td>
+            <td>bool (optional)</td>
+            <td>
+                <p>The key of the referral provided by the API upon GetReferrals.</p>
+                <p>Used to get service types for a specific referral.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>patient</td>
+            <td>string (optional)</td>
+            <td>
+                <p>The key of the patient provided by the API upon section Patients.</p>
+                <p>Get the services specific for the patient. Default is the logged in patient.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>referral</td>
+            <td>string (optional)</td>
+            <td>
+                <p>The key of the referral provided by the API upon GetReferrals.</p>
+                <p>Used to book an appointment for a specific referral.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>recall</td>
+            <td>string (optional)</td>
+            <td>
+                <p>The key of the recall provided by the API upon method GetRecalls.</p>
+                <p>Used get service types for a specific recall.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>page-sort-column</td>
+            <td>int (optional)</td>
+            <td>
+                <p>The column index to sort the result:</p>
+                <ul>
+                    <li>0 – Name</li>
+                    <li>1 – Code</li>
+                    <li>2- Service Type</li>
+                    <li>3- ServiceId</li>
+                </ul>
+                <p>Default: 0,2</p>
+            </td>
+        </tr>
+        <tr>
+            <td>page-sort-descending</td>
+            <td>int (optional)</td>
+            <td>True to sort result descending. Default false.</td>
+        </tr>
+        <tr>
+            <td>page-number</td>
+            <td>int (optional)</td>
+            <td>Required page number. Default 1.</td>
+        </tr>
+        <tr>
+            <td>page-size</td>
+            <td>int (optional)</td>
+            <td>Required page size. Default 10. Minimum 5. Maximum 50.</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Returns
 

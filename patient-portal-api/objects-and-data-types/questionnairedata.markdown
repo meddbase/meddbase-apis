@@ -11,7 +11,69 @@ Contains the information about the questionnaire including questions and answers
 
 ## Properties
 
-<table><tbody><tr><th><p>Key</p></th><th><p>string</p></th><th><p>Key of the questionnaire.</p></th></tr><tr><td><p>Name</p></td><td><p>string</p></td><td><p>Name of the questionnaire.</p></td></tr><tr><td><p>Description</p></td><td><p>string</p></td><td><p>Description of the questionnaire.</p></td></tr><tr><td><p>StatusCode</p></td><td><p>int</p></td><td><p>Status code of the questionnaire:</p><ul><li>0 = Incomplete</li><li>1 = Complete</li><li>2 = Partially Complete</li></ul></td></tr><tr><td><p>Status</p></td><td><p>string</p></td><td><p>String representation of the status code.</p></td></tr><tr><td><p>AppointmentKey</p></td><td><p>string</p></td><td><p>The appointment the questionnaire is created for.</p></td></tr><tr><td><p>Expiration</p></td><td><p>DateTime</p></td><td><p>When the questionnaire expires.</p></td></tr><tr><td><p>Answers</p></td><td><p>QuestionnaireAnswerData[]</p></td><td><p>All saved answers for this questionnaire.</p></td></tr><tr><td><p>Markup</p></td><td><p>string</p></td><td><p>XML contains questions. See Questionnaire markup.</p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: left">Parameter</th>
+            <th style="text-align: left">Type</th>
+            <th style="text-align: left">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Key</td>
+            <td>string</td>
+            <td>Key of the questionnaire.</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>string</td>
+            <td>Name of the questionnaire.</td>
+        </tr>
+        <tr>
+            <td>Description</td>
+            <td>string</td>
+            <td>Description of the questionnaire.</td>
+        </tr>
+        <tr>
+            <td>StatusCode</td>
+            <td>int</td>
+            <td>
+                <p>Status code of the questionnaire:</p>
+                <ul>
+                    <li>0 = Incomplete</li>
+                    <li>1 = Complete</li>
+                    <li>2 = Partially Complete</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Status</td>
+            <td>string</td>
+            <td>String representation of the status code.</td>
+        </tr>
+        <tr>
+            <td>AppointmentKey</td>
+            <td>string</td>
+            <td>The appointment the questionnaire is created for.</td>
+        </tr>
+        <tr>
+            <td>Expiration</td>
+            <td><a href="../objects-and-data-types/datetime">DateTime</a></td>
+            <td>When the questionnaire expires.</td>
+        </tr>
+        <tr>
+            <td>Answers</td>
+            <td><a href="../objects-and-data-types/questionnaireanswerdata">QuestionnaireAnswerData</a>[]</td>
+            <td>All saved answers for this questionnaire.</td>
+        </tr>
+        <tr>
+            <td>Markup</td>
+            <td>string</td>
+            <td>XML contains questions. See Questionnaire markup.</td>
+        </tr>
+    </tbody>
+</table>
 
 ## JSON Example
 

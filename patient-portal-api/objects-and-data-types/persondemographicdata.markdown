@@ -11,7 +11,193 @@ Contains the person’s demographic information (e.g. patient’s demographic da
 
 ## Properties
 
-<table><tbody><tr><th><p>Key</p></th><th><p>string</p></th><th><p>Key of the person.</p></th></tr><tr><td><p>Title</p></td><td><p>string</p></td><td></td></tr><tr><td><p>Name</p></td><td><p>string</p></td><td></td></tr><tr><td><p>Surname</p></td><td><p>string</p></td><td></td></tr><tr><td><p>SexType</p></td><td><p>int</p></td><td><p>Biological sex at birth:</p><ul><li>0 = any</li><li>1 = male</li><li>2 = female</li></ul></td></tr><tr><td><p>Gender</p></td><td><p>GenderData</p></td><td><p>The person’s gender identity.</p></td></tr><tr><td><p>Pronoun</p></td><td><p>PronounData</p></td><td><p>The person’s preferred pronouns.</p></td></tr><tr><td><p>Initials</p></td><td><p>string</p></td><td></td></tr><tr><td><p>DateOfBirth</p></td><td><p>DateTime</p></td><td></td></tr><tr><td><p>Mobile</p></td><td><p>string</p></td><td></td></tr><tr><td><p>Telephone</p></td><td><p>string</p></td><td></td></tr><tr><td><p>EmailAddress</p></td><td><p>string</p></td><td><p>Personal email address. This address is used to log into the patient portal.</p></td></tr><tr><td><p>WorkTelephone</p></td><td><p>string</p></td><td></td></tr><tr><td><p>WorkEmailAddress</p></td><td><p>string</p></td><td><p>Work email address. This address is used to log into the referral portal.</p></td></tr><tr><td><p>Password</p></td><td><p>string</p></td><td><p>Used only for registration. Should be at least 8 characters long and should contain at least 1 numbers, 1 capital letter and 1 small letter. API never returns the password. It is for submitting only.</p></td></tr><tr><td><p>Address</p></td><td><p>AddressData</p></td><td></td></tr><tr><td><p>NextOfKin</p></td><td><p>NextOfKinDemographicData</p></td><td></td></tr><tr><td><p>ContactOptions</p></td><td><p>PatientContactOption[]</p></td><td></td></tr><tr><td><p>TermsAndConditionsAccepted</p></td><td><p>bool</p></td><td></td></tr><tr><td><p>StatisticalProcessingAccepted</p></td><td><p>bool</p></td><td></td></tr><tr><td><p>EmployeeNumber</p></td><td><p>string</p></td><td><p>The employee number.</p></td></tr><tr><td><p>EmployeeDepartment</p></td><td><p>DepartmentData</p></td><td><p>The department the employee belongs to. Could be null.</p></td></tr><tr><td><p>EmployeeDivision</p></td><td><p>DivisionData</p></td><td><p>The division the employee belongs to. Could be null.</p></td></tr><tr><td><p>EmployeeStatus</p></td><td><p>EmployeeStatus</p></td><td><p>The status of the employee.</p></td></tr><tr><td><p>Permissions</p></td><td><p>object</p><p>See GetConfig for details.</p></td><td><p>The permissions of the logged-in user for this person. This could be different to the permissions provided upon GetConfig.</p></td></tr><tr><td><p>Insurer</p></td><td><p><a href="../objects-and-data-types/insurerdata">InsurerData</a></p></td><td><p>Insurer Data for the patient. Only available for patient portal. When setting patient demographics, only public company key’s can be used to set the Insurer.</p></td></tr><tr><td><p>EmployerName</p></td><td><p>String</p></td><td><p>The name of the employer.</p></td></tr><tr><td><p>EmployerAddress</p></td><td><p>AddressData</p></td><td><p>The employer address.</p></td></tr><tr><td><p>ReferrerKey</p></td><td><p>string</p></td><td><p>Encrypted key of the referrer. The set of valid values are obtained by call to <a href="#_Referrers">getReferrers</a>. Can be null.</p></td></tr><tr><td><p>EthnicityKey</p></td><td><p>string</p></td><td><p>Encrypted key of the person’s ethnicity. The set of valid values are obtained by call to <a href="#_Ethnicities">getEthnicities</a>. Can be null.</p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: left">Parameter</th>
+            <th style="text-align: left">Type</th>
+            <th style="text-align: left">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Key</td>
+            <td>string</td>
+            <td>Key of the person.</td>
+        </tr>
+        <tr>
+            <td>Title</td>
+            <td>string</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>string</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Surname</td>
+            <td>string</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SexType</td>
+            <td>int</td>
+            <td>
+                <p>Biological sex at birth:</p>
+                <ul>
+                    <li>0 = any</li>
+                    <li>1 = male</li>
+                    <li>2 = female</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><a href="../objects-and-data-types/genderdata">GenderData</a></td>
+            <td>The person’s gender identity.</td>
+        </tr>
+        <tr>
+            <td>Pronoun</td>
+            <td><a href="../objects-and-data-types/pronoundata">PronounData</a></td>
+            <td>The person’s preferred pronouns.</td>
+        </tr>
+        <tr>
+            <td>Initials</td>
+            <td>string</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DateOfBirth</td>
+            <td><a href="../objects-and-data-types/datetime">DateTime</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Mobile</td>
+            <td>string</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Telephone</td>
+            <td>string</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>EmailAddress</td>
+            <td>string</td>
+            <td>Personal email address. This address is used to log into the patient portal.</td>
+        </tr>
+        <tr>
+            <td>WorkTelephone</td>
+            <td>string</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>WorkEmailAddress</td>
+            <td>string</td>
+            <td>Work email address. This address is used to log into the referral portal.</td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>string</td>
+            <td>
+                <p>Used only for registration. Should be at least 8 characters long and should contain at least 1
+                    numbers, 1 capital letter and 1 small letter. API never returns the password. It is for submitting
+                    only.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><a href="../objects-and-data-types/addressdata">AddressData</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>NextOfKin</td>
+            <td><a href="../objects-and-data-types/nextofkindemographicdata">NextOfKinDemographicData</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>ContactOptions</td>
+            <td><a href="../objects-and-data-types/patientcontactoption">PatientContactOption</a>[]</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>TermsAndConditionsAccepted</td>
+            <td>bool</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>StatisticalProcessingAccepted</td>
+            <td>bool</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>EmployeeNumber</td>
+            <td>string</td>
+            <td>The employee number.</td>
+        </tr>
+        <tr>
+            <td>EmployeeDepartment</td>
+            <td><a href="../objects-and-data-types/departmentdata">DepartmentData</a></td>
+            <td>The department the employee belongs to. Could be null.</td>
+        </tr>
+        <tr>
+            <td>EmployeeDivision</td>
+            <td><a href="../objects-and-data-types/divisiondata">DivisionData</a></td>
+            <td>The division the employee belongs to. Could be null.</td>
+        </tr>
+        <tr>
+            <td>EmployeeStatus</td>
+            <td><a href="../objects-and-data-types/employeestatus">EmployeeStatus</a></td>
+            <td>The status of the employee.</td>
+        </tr>
+        <tr>
+            <td>Permissions</td>
+            <td>
+                <p>object</p>
+                <p>See GetConfig for details.</p>
+            </td>
+            <td>
+                <p>The permissions of the logged-in user for this person. This could be different to the permissions
+                    provided upon GetConfig.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>Insurer</td>
+            <td><a href="../objects-and-data-types/insurerdata">InsurerData</a></td>
+            <td>
+                <p>Insurer Data for the patient. Only available for patient portal. When setting patient demographics,
+                    only public company key’s can be used to set the Insurer.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>EmployerName</td>
+            <td>string</td>
+            <td>The name of the employer.</td>
+        </tr>
+        <tr>
+            <td>EmployerAddress</td>
+            <td><a href="../objects-and-data-types/addressdata">AddressData</a></td>
+            <td>The employer address.</td>
+        </tr>
+        <tr>
+            <td>ReferrerKey</td>
+            <td>string</td>
+            <td>
+                <p>Encrypted key of the referrer. The set of valid values are obtained by call to <a
+                        href="#_Referrers">getReferrers</a>. Can be null.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>EthnicityKey</td>
+            <td>string</td>
+            <td>
+                <p>Encrypted key of the person’s ethnicity. The set of valid values are obtained by call to <a
+                        href="#_Ethnicities">getEthnicities</a>. Can be null.</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## JSON Example
 

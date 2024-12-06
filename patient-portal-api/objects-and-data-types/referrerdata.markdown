@@ -14,4 +14,4 @@ Data returned in response to the [getReferrer](#_Referrers) method
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
 | Key | string | Encrypted key of the referrer |
-| Name | String | The name of the referrer |
+| Name | string | The name of the referrer |
