@@ -46,6 +46,6 @@ patientportal.auth.login({
 
 If authentication is successful, a new session for the client is created and a new key ASP.NET_SessionId is added to the cookie. The client must ensure that this cookie will be sent in all further requests that needs to use the person’s security context.
 
-If 2FA is required, the profile will be marked as awaiting 2FA and will not be logged in. Once marked as awaiting 2FA, [Submit2faCode](#_Submit2faCode) must be completed successfully for the profile to be logged in.
+If 2FA is required, the profile will be marked as awaiting 2FA and will not be logged in. Once marked as awaiting 2FA, [Submit2faCode](../authentication/submit2facode) must be completed successfully for the profile to be logged in.
 
-The SessionID can expire, so the client must use the ValidateLogin method to ensure that the security context is still created and the SessionID is still valid. If not, the client must login again.
+The SessionID can expire, so the client must use the [ValidateLogin](../authentication/validatelogin) method to ensure that the security context is still created and the SessionID is still valid. If not, the client must login again.

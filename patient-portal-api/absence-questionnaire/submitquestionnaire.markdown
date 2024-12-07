@@ -7,7 +7,7 @@ parent: Absence questionnaire
 
 # SubmitQuestionnaire
 
-Checks whether the code sent to the patient because of a request to the [SendValidationSMS](#_SendValidationSMS_1) method is still valid.
+Checks whether the code sent to the patient because of a request to the [SendValidationSMS](../absence-questionnaire/sendvalidationsms) method is still valid.
 
 ## JavaScript library method
 
@@ -27,7 +27,7 @@ patientportal.rtwQuestionnaire.submitQuestionnaire({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| rtw-questionnaire-data | [AbsenceRTWQuestionnaireData](../objects-and-data-types/absencertwquestionnairedata) | An [AbsenceRTWQuestionnaireData](../objects-and-data-types/absencertwquestionnairedata) object, as received from the [SubmitValidationCode](#_SubmitValidationCode) method. |
+| rtw-questionnaire-data | [AbsenceRTWQuestionnaireData](../objects-and-data-types/absencertwquestionnairedata) | An [AbsenceRTWQuestionnaireData](../objects-and-data-types/absencertwquestionnairedata) object, as received from the [SubmitValidationCode](../absence-questionnaire/submitvalidationcode) method. |
 
 ## Returned JSON
 

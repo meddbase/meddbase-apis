@@ -28,8 +28,8 @@ patientportal.anonAppointment.getServiceTypes({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| payer-type | string | Type of the payer provided by the API upon GetPayerTypes. |
-| appointment-type | string | Type of the appointment provided by the API upon [GetAppointmentTypes](#_GetAppointmentTypes) |
+| payer-type | string | The signup code of a chargeband, that will provide eligibility and price information for the search. |
+| appointment-type | string | Type of the appointment provided by the API upon [GetAppointmentTypes](../anonymous-appointment-search/getappointmenttypes) |
 
 ## Returns
 

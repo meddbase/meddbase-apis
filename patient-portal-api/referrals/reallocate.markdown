@@ -28,8 +28,8 @@ patientportal.referrals.reallocate({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| referral | string | The key of the referral provided by the API upon GetReferrals. |
-| user | string | The key of the user provided by the API upon FindUserToReallocate. |
+| referral | string | The key of the referral provided by the API upon [GetReferrals](../referrals/getreferrals). |
+| user | string | The key of the user provided by the API upon [FindUserToReallocate](../referrals/findusertoreallocate). |
 
 ## Returns
 

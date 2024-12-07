@@ -28,8 +28,8 @@ patientportal.feed.getFeed({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| feed | string | Key of the feed provided by the API upon GetFeeds. |
-| referral | string (optional) | The key of the referral provided by the API upon GetReferrals. |
+| feed | string | Key of the feed provided by the API upon [GetFeeds](../feeds/getfeeds). |
+| referral | string (optional) | The key of the referral provided by the API upon [GetReferrals](../referrals/getreferrals). |
 
 ## Returns
 

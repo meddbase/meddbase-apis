@@ -25,10 +25,10 @@ patientportal.appointment.submitQuestionnaire({questionnaire: <questionnaire>});
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| questionnaire | string | The key of the questionnaire provided by the API upon GetQuestionnaires. |
+| questionnaire | string | The key of the questionnaire provided by the API upon [GetQuestionnaires](../appointments/getquestionnaires). |
 
 ## Remarks
 
-The client calls this method when all required questions are answered. After submitting the questionnaire the status will change to Complete. The questionnaire is still accessible using GetQuestionnaires until the appointment starts (in real-life).
+The client calls this method when all required questions are answered. After submitting the questionnaire the status will change to Complete. The questionnaire is still accessible using [GetQuestionnaires](../appointments/getquestionnaires) until the appointment starts (in real-life).
 
-When any required question is not answered the exception with event code 40001 is thrown (see Error handling).
+When any required question is not answered the exception with event code 40001 is thrown (see [Error handling](../error-handling/error-handling)).

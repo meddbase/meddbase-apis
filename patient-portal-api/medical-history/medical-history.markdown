@@ -30,4 +30,4 @@ Each node can consist from one or more another nodes. The tree is dynamically cr
 
 The client can split history-item paths on the forward-slash character to aid parent-node navigation.
 
-Each method in this section needs the client to provide the ASP.NET_SessionId key in a cookie (see Login).
+Each method in this section needs the client to provide the ASP.NET_SessionId key in a cookie (see [Login](../authentication/login)).

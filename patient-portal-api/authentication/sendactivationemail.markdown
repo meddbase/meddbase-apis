@@ -31,6 +31,6 @@ patientportal.auth.sendActivationEmail({isOH: <is-oh>});
 
 Sometimes the patient needs to send the activation email again because (for example) she deletes it before activating her account or the last validation email was marked as a spam and it was deleted automatically.
 
-The client needs to submit confirmation key from the URL by calling SubmitActivationEmail.
+The client needs to submit confirmation key from the URL by calling [SubmitActivationEmail](../authentication/submitactivationemail).
 
 Remember the method needs the session ID to be set.

@@ -9,7 +9,7 @@ parent: Patient Medical Report Review
 
 Returns the medical report data.
 
-The method is only valid if the current temporary security context is valid (see SubmitValidationCode).
+The method is only valid if the current temporary security context is valid (see [SubmitValidationCode](../patient-medical-report-review/submitvalidationcode)).
 
 ## JavaScript library method
 
@@ -37,4 +37,4 @@ patientportal.patientReportReview.getMedicalReportData({
 
 ## Remarks
 
-If something goes wrong please check exception (see Error handling).
+If something goes wrong please check exception (see [Error handling](../error-handling/error-handling)).

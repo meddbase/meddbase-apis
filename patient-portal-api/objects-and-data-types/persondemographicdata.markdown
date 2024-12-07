@@ -153,13 +153,10 @@ Contains the person’s demographic information (e.g. patient’s demographic da
         </tr>
         <tr>
             <td>Permissions</td>
-            <td>
-                <p>object</p>
-                <p>See GetConfig for details.</p>
-            </td>
+            <td>object (see <a href="../authentication/getconfig">GetConfig</a> for details.)</td>
             <td>
                 <p>The permissions of the logged-in user for this person. This could be different to the permissions
-                    provided upon GetConfig.</p>
+                    provided upon <a href="../authentication/getconfig">GetConfig</a>.</p>
             </td>
         </tr>
         <tr>
@@ -183,18 +180,12 @@ Contains the person’s demographic information (e.g. patient’s demographic da
         <tr>
             <td>ReferrerKey</td>
             <td>string</td>
-            <td>
-                <p>Encrypted key of the referrer. The set of valid values are obtained by call to <a
-                        href="#_Referrers">getReferrers</a>. Can be null.</p>
-            </td>
+            <td>Encrypted key of the referrer. The set of valid values are obtained by call to <a href="#_Referrers">getReferrers</a>. Can be null.</td>
         </tr>
         <tr>
             <td>EthnicityKey</td>
             <td>string</td>
-            <td>
-                <p>Encrypted key of the person’s ethnicity. The set of valid values are obtained by call to <a
-                        href="#_Ethnicities">getEthnicities</a>. Can be null.</p>
-            </td>
+            <td>Encrypted key of the person’s ethnicity. The set of valid values are obtained by call to <a href="(../ethnicities/ethnicities)">getEthnicities</a>. Can be null.</td>
         </tr>
     </tbody>
 </table>

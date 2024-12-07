@@ -65,12 +65,12 @@ patientportal.patients.getPatients({
         <tr>
             <td>department</td>
             <td>string (optional)</td>
-            <td>Key of the department provided by the API upon GetDepartments.</td>
+            <td>Key of the department provided by the API upon <a href="../patient/getdepartmentsanddivisions">GetDepartmentsAndDivisions</a>.</td>
         </tr>
         <tr>
             <td>division</td>
             <td>string (optional)</td>
-            <td>Key of the division provided by the API upon GetDepartments.</td>
+            <td>Key of the division provided by the API upon <a href="../patient/getdepartmentsanddivisions">GetDepartmentsAndDivisions</a>.</td>
         </tr>
         <tr>
             <td>personal-email</td>
@@ -105,8 +105,7 @@ patientportal.patients.getPatients({
                 <ul>
                     <li>0 – Patient’s name</li>
                     <li>1 – Email address</li>
-                    <li>2 - <ignored>
-                    </li>
+                    <li>2 - &lt;ignored&gt;</li>
                     <li>3 – Employee number</li>
                 </ul>
                 <p>By default the result is sorted by the user name.</p>

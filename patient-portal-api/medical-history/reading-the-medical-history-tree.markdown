@@ -7,9 +7,9 @@ parent: Medical history
 
 # Reading the Medical History tree
 
-The client needs to call GetMedicalHistoryTreeNode first time without parameters to get a root node. The root node may or may not contains all nodes of tree. It always contains top level nodes and may contains children of some nodes.
+The client needs to call [GetMedicalHistoryTreeNode](../medical-history/getmedicalhistorytreenode) first time without parameters to get a root node. The root node may or may not contains all nodes of tree. It always contains top level nodes and may contains children of some nodes.
 
-The server doesn’t always return all nodes fully loaded to ensure the response is not excessively large or for performance reasons. If the client needs to show any nodes that is not fully loaded the client needs to call GetMedicalHistoryTreeNode with requested node path.
+The server doesn’t always return all nodes fully loaded to ensure the response is not excessively large or for performance reasons. If the client needs to show any nodes that is not fully loaded the client needs to call [GetMedicalHistoryTreeNode](../medical-history/getmedicalhistorytreenode) with requested node path.
 
 ## Example
 

@@ -47,7 +47,7 @@ patientportal.appointment.getSites({
         <tr>
             <td>appointment-type</td>
             <td>string</td>
-            <td>Type of the appointment provided by the API upon GetAppointmentTypes.</td>
+            <td>Type of the appointment provided by the API upon <a href="../appointments/getappointmenttypes">GetAppointmentTypes</a>.</td>
         </tr>
         <tr>
             <td>lat</td>
@@ -79,13 +79,13 @@ patientportal.appointment.getSites({
         <tr>
             <td>payer-type</td>
             <td>string</td>
-            <td>Type of the payer provided by the API upon GetPayerTypes.</td>
+            <td>Type of the payer provided by the API upon <a href="../appointments/getpayertypes">GetPayerTypes</a>.</td>
         </tr>
         <tr>
             <td>patient</td>
             <td>string (optional)</td>
             <td>
-                <p>The key of the patient provided by the API upon section Patients.</p>
+                <p>The key of the patient provided by the API upon section <a href="../patients/patients">Patients</a>.</p>
                 <p>Used to book an appointment for a different patient within your company. Default is the logged in
                     patient.</p>
             </td>
@@ -94,7 +94,7 @@ patientportal.appointment.getSites({
             <td>referral</td>
             <td>string (optional)</td>
             <td>
-                <p>The key of the referral provided by the API upon GetReferrals.</p>
+                <p>The key of the referral provided by the API upon <a href="../referrals/getreferrals">GetReferrals</a>.</p>
                 <p>Used to book an appointment for a specific referral.</p>
             </td>
         </tr>
@@ -102,7 +102,7 @@ patientportal.appointment.getSites({
             <td>recall</td>
             <td>string (optional)</td>
             <td>
-                <p>The key of the recall provided by the API upon method GetRecalls.</p>
+                <p>The key of the recall provided by the API upon method <a href="../recalls/getrecalls">GetRecalls</a>.</p>
                 <p>Used to book an appointment for a specific recall.</p>
             </td>
         </tr>
@@ -113,8 +113,8 @@ patientportal.appointment.getSites({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| clinicians | int[] (optional) | Clinicians filter. Array of identifiers provide by the API upon GetClinicians. Null or empty for any clinicians. |
-| modules | [AppointmentModuleData](../objects-and-data-types/appointmentmoduledata)[] (optional) | Selection of modules and additional services provided by the API upon GetAppointmentTypes. Available sites will be filtered according to availability of the specified modules. |
+| clinicians | int[] (optional) | Clinicians filter. Array of identifiers provide by the API upon [GetClinicians](../appointments/getclinicians). Null or empty for any clinicians. |
+| modules | [AppointmentModuleData](../objects-and-data-types/appointmentmoduledata)[] (optional) | Selection of modules and additional services provided by the API upon [GetAppointmentTypes](../appointments/getappointmenttypes). Available sites will be filtered according to availability of the specified modules. |
 
 ## Returns
 

@@ -7,7 +7,7 @@ parent: Questionnaires
 
 # CreateRequest
 
-Create a new questionnaire request. Either a module or a list of ad-hoc questionnaire forms can be requested. One or the other must be specified. Returns the key of the request, the same keys that are returned by [GetQuestionnaires](#_GetQuestionnaires).
+Create a new questionnaire request. Either a module or a list of ad-hoc questionnaire forms can be requested. One or the other must be specified. Returns the key of the request, the same keys that are returned by [GetQuestionnaires](../questionnaires/getquestionnaires).
 
 ## JavaScript library method
 
@@ -29,14 +29,14 @@ patientportal.questionnaires.createRequest({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| patient | string (optional) | The key of the patient provided by the API upon GetPatients. |
-| module-key | string (optional) | The key of the module provided by the API upon [GetModules](#_GetModules) or a previous call to SaveModule. If not specified, a new module will be created. |
+| patient | string (optional) | The key of the patient provided by the API upon [GetPatients](../patients/getpatients). |
+| module-key | string (optional) | The key of the module provided by the API upon [GetModules](../questionnaires/getmodules) or a previous call to [SaveModule](../questionnaires/savemodule). If not specified, a new module will be created. |
 
 ## POST Parameters
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| form-keys | string[] (optional) | List of form keys returned from [GetQuestionnaireForms](#_GetQuestionnaireForms). |
+| form-keys | string[] (optional) | List of form keys returned from [GetQuestionnaireForms](../questionnaires/getquestionnaireforms). |
 
 ## Returned JSON
 

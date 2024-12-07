@@ -15,8 +15,8 @@ Contains the information about current authenticated security context.
 |:----------|:-------|:------------------------------------------------------------|
 | SessionID | string | Identifies the existing security context. |
 | Config | ConfigData | Defines that the patient should be forced to set up their contact options. |
-| Token | string | The current token. See Authentication Token. |
-| Require2FA | bool | True if the profile requires 2FA (see Send2faCode). False if the profile does not require 2FA. |
+| Token | string | The current token. See [Authentication Token](../authentication/authentication-token). |
+| Require2FA | bool | True if the profile requires 2FA (see [Send2faCode](../authentication/send2facode)). False if the profile does not require 2FA. |
 
 ## JSON Example
 

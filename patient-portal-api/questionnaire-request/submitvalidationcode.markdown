@@ -39,6 +39,6 @@ patientportal.questionnaireRequest.submitValidationCode({
 
 Submitting the validation code creates a temporary security context which is valid for 30 minutes. Within this time frame the patient needs to complete the questionnaire and save/submit it.
 
-The client may use ValidateKey to verify whether the security context runs out and request new validation code to create a new security context.
+The client may use [ValidateKey](../questionnaire-request/validatekey) to verify whether the security context runs out and request new validation code to create a new security context.
 
-If something goes wrong please check exception (see Error handling).
+If something goes wrong please check exception (see [Error handling](../error-handling/error-handling)).

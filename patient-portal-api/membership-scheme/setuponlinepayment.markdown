@@ -7,7 +7,7 @@ parent: Membership scheme
 
 # SetupOnlinePayment
 
-Sets up an online recurring payment for the current membership scheme of the patient. Loads a payment frame within the provide iframediv to process the payment. The current membership of the patient [GetCurrent](#_GetCurrent) should have the [OnlinePaymentAllowed](#_Properties_1) parameter set and Online Payments enabled for the chamber. If the membership’s last invoice has a balance associated, the user is made to pay that invoice and the details of that transaction are used for future recurring payments. If the last invoice associated with the membership scheme does not have a balance, a penny transaction is performed which is immediately refunded. Details of this transaction are used for future recurring payments.
+Sets up an online recurring payment for the current membership scheme of the patient. Loads a payment frame within the provide iframediv to process the payment. The current membership of the patient [GetCurrent](../membership-scheme/getcurrent) should have the `OnlinePaymentAllowed` parameter set and Online Payments enabled for the chamber. If the membership’s last invoice has a balance associated, the user is made to pay that invoice and the details of that transaction are used for future recurring payments. If the last invoice associated with the membership scheme does not have a balance, a penny transaction is performed which is immediately refunded. Details of this transaction are used for future recurring payments.
 
 ## JavaScript library method
 
@@ -36,8 +36,9 @@ patientportal.membershipScheme.setupOnlinePayment({
 
 ## URL Parameters
 
-| payer-accountid | int | Id of the existing card details for the patient retrieved using [PayerAccounts](#_PayerAccounts). 0 if new card details are to be used. |
-| --- | --- | --- |
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
+| payer-accountid | int | Id of the existing card details for the patient retrieved using [PayerAccounts](../finance/payeraccounts). 0 if new card details are to be used. |
 | save-payment-details | bool | If the user wants to save the card details for future use. |
 | iframediv | string | Control id for the div to load iframe in. The javascript will load create the iframe control and append it to the provided div. |
 | PayerAccountData | [PayerAccountInputData](../objects-and-data-types/payeraccountdata) | This data is not required if the system provides a valid ‘payer-account-id’. These are only used if the ‘payer-account-id’ is ‘0’. |

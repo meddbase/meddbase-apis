@@ -22,7 +22,7 @@ The client can use the EventCode property of the ServiceExceptionData object to 
 | 8   | User is not logged in. |
 | 9   | Company name is missing. |
 | 10  | Application is starting. Please wait and send the request later. |
-| 11  | Invalid token. See Authentication Token. |
+| 11  | Invalid token. See [Authentication Token](../authentication/authentication-token). |
 | 12  | Input includes HTML markup. |
 | 13  | The client IP address is not in the allowed range specified in the employer settings. |
 | 14  | User has been blocked because of too many failed login attempts. |

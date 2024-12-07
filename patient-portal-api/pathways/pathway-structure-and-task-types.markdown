@@ -15,9 +15,9 @@ The pathway is a set of nested tasks. A task could be either a simple action or 
 | SQ  | Sequence | The sequence is a container of tasks that runs in order like the workflow but does not represent a big standalone unit like a workflow. The sequence is used for small sequence tasks within a workflow. |
 | ST  | Step | A container of parallel tasks. |
 | PL  | Parallel | A container of parallel tasks. |
-| BA  | Book an appointment | The task to book an appointment. The task provides the appointment type and optional services that are required to be booked. To book the appointment see Appointments section. |
+| BA  | Book an appointment | The task to book an appointment. The task provides the appointment type and optional services that are required to be booked. To book the appointment see [Appointments](../appointments/appointments) section. |
 | AA  | Arrive an appointment | The purpose of this task is to wait for the appointment. However if the booked appointment has been cancelled in the meantime the IsBooked field of AppointmentTaskData is false and the patient needs to book an appointment again in the same way as with the Book an appointment task. |
-| QR  | Questionnaire | The patient questionnaire to complete. Use Key field from QuestionnaireTaskData to get the questionnaire details and complete the questionnaire (see GetQuestionnaireDetail). |
-| AD  | Attach document | A task to attach a document. The document can be attached via AttachDocument API method. |
-| GT  | General task | The general task provides some text (task Description) that needs to be accepted via GetTask API metnod. |
-| CH  | Choice<br><br>_(Make a decision pathway task)_ | The choice provides a different list of options and the patient needs to choose one of them. You can submit the selected option via ChooseOption API method. |
+| QR  | Questionnaire | The patient questionnaire to complete. Use Key field from QuestionnaireTaskData to get the questionnaire details and complete the questionnaire (see [GetQuestionnaireDetail](../appointments/getquestionnairedetail)). |
+| AD  | Attach document | A task to attach a document. The document can be attached via [AttachDocument](../pathways/attachdocument) API method. |
+| GT  | General task | The general task provides some text (task Description) that needs to be accepted via [GetTask](../pathways/gettask) API method. |
+| CH  | Choice<br><br>_(Make a decision pathway task)_ | The choice provides a different list of options and the patient needs to choose one of them. You can submit the selected option via [ChooseOption](../pathways/chooseoption) API method. |

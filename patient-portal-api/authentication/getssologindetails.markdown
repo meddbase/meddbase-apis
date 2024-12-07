@@ -12,7 +12,7 @@ Returns unique URL to initiate a service provider initiated single sign on
 ## JavaScript library method
 
 ```javascript
-patientportal.auth. getSSOLoginDetails({companyIdentifier: <company-identifier>});
+patientportal.auth.getSSOLoginDetails({companyIdentifier: <company-identifier>});
 ```
 
 ## HTTP Method
@@ -33,4 +33,4 @@ URL to be redirected to login through an identity provider
 
 ## Remarks
 
-This method is allowed only for the referral portal. Please see [Single sign on](#_Single_sign-on) for more details.
+This method is allowed only for the referral portal. Please see [Single sign-on](../single-sign-on/single-sign-on) for more details.

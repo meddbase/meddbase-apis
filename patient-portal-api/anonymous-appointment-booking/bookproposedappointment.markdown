@@ -27,7 +27,7 @@ patientportal.anonBooking.bookProposedAppointment({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| proposedAppointment | [AppointmentData](../objects-and-data-types/appointmentdata) | The proposed appointment provided by the API upon GetProposedAppointments |
+| proposedAppointment | [AppointmentData](../objects-and-data-types/appointmentdata) | The proposed appointment provided by the API upon [GetProposedAppointments](../anonymous-appointment-search/getproposedappointments) |
 
 ## Returns
 
@@ -35,4 +35,4 @@ patientportal.anonBooking.bookProposedAppointment({
 
 ## Remarks
 
-If the appropriate appointment is taken by another user in the meantime then an exception is thrown. See Error handling.
+If the appropriate appointment is taken by another user in the meantime then an exception is thrown. See [Error handling](../error-handling/error-handling).

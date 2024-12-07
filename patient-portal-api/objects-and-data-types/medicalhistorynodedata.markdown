@@ -58,19 +58,18 @@ Provide information about one node of the Medical History tree.
             <td>bool</td>
             <td>
                 <p>True if Data and Children properties are fully loaded.</p>
-                <p>The server doesn’t always return a Children and Data properties fully loaded. It happens when the
+                <p>
+                    The server doesn’t always return a Children and Data properties fully loaded. It happens when the
                     response would be excessively large or for performance reasons. The server doesn’t return it so the
                     client has a faster response. If the patient wants to see it the client must request the specific
-                    node using GetMedicalHistoryTreeNode and pass the Path property as the NodePath.</p>
+                    node using <a href="../medical-history/getmedicalhistorytreenode">GetMedicalHistoryTreeNode</a> and pass the Path property as the NodePath.
+                </p>
             </td>
         </tr>
         <tr>
             <td>Data</td>
             <td>object</td>
-            <td>
-                <p>Contains data of the node. Specific for every DataType. See all examples below to find out how data
-                    looks.</p>
-            </td>
+            <td>Contains data of the node. Specific for every DataType. See all examples below to find out how data looks.</td>
         </tr>
         <tr>
             <td>Children</td>

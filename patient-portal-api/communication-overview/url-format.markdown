@@ -11,7 +11,7 @@ All URL requests follow the following form:
 
 `https://api.meddbase.com/patientportalapi/{section}/{method}?{param1}={value1}&{param2}={value2}&token={token}`
 
-For example, the Login method of the Authentication section that requests two parameters: the 'username' and the 'password':
+For example, the [Login](../authentication/login) method of the Authentication section that requests two parameters: the 'username' and the 'password':
 
 `https://api.meddbase.com/patientportalapi/auth/address-lookup?postcode=&postcode&house=house&token=token`
 

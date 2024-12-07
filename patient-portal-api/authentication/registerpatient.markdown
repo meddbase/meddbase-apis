@@ -32,7 +32,7 @@ patientportal.auth.registerPatient({
 |:----------|:-------|:------------------------------------------------------------|
 | regCode | string (partially optional) | Online sign up access code that is provided to the patient. |
 | demog | [PersonDemographicData](../objects-and-data-types/persondemographicdata) | Defines person’s details. |
-| membershipCode | string (partially optional) | Membership scheme code that is provided by Medical Management Systems to the client.<br><br>See Membership scheme |
+| membershipCode | string (partially optional) | Membership scheme code that is provided by Medical Management Systems to the client.<br><br>See [Membership scheme](../membership-scheme/membership-scheme) |
 | is-oh | bool | True for the referral portal. False for the patient portal. |
 
 ## Returns
@@ -45,7 +45,7 @@ One of the optional parameter regCode or membershipCode must be provided. If mem
 
 The client is responsible for making sure T&C is provided and accepted and the patient also accepts statistical processing of data.
 
-If the registration process is successful, HTTP status code is 2xx. Otherwise check the exception (see Error handling). If the account already exists on our system the client gets exception where event code is 10001.
+If the registration process is successful, HTTP status code is 2xx. Otherwise check the exception (see [Error handling](../error-handling/error-handling)). If the account already exists on our system the client gets exception where event code is 10001.
 
 The Meddbase system sends the activation email with an activation link to the patient’s email address or it sends the activation SMS with an activation code to the patient’s mobile number or it sends both (use returned PatientRegistrationResultData to find out what activation is used). The user must activate her account first before being able to log-on. If the email activation is used the client should give the user advice that the confirmation email may be in their junk/spam folder.
 

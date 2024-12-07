@@ -27,7 +27,7 @@ patientportal.users.getUser({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| user | string | The key of the user provided by the API upon GetUsers. |
+| user | string | The key of the user provided by the API upon [GetUsers](../users/getusers). |
 
 ## Returns
 

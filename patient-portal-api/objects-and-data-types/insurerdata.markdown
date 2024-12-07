@@ -7,7 +7,7 @@ parent: Objects and data types
 
 # InsurerData
 
-Data returned in response to call to Insurers. Only companies marked as ‘Public’ are returned.
+Data returned in response to call to [Insurers](../companies/insurers). Only companies marked as ‘Public’ are returned.
 
 ## Properties
 

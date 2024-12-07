@@ -27,4 +27,4 @@ patientportal.appointment.getQuestionnairesForFutureAppointments();
 
 ## Remarks
 
-Overview data doesn’t contain definitions of questionnaires (questionnaire markup). The client has to call GetQuestionnaireDetail to retrieve it.
+Overview data doesn’t contain definitions of questionnaires (questionnaire markup). The client has to call [GetQuestionnaireDetail](../appointments/getquestionnairedetail) to retrieve it.

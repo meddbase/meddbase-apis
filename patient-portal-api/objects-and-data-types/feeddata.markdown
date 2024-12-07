@@ -18,7 +18,7 @@ Feed of the feeds system.
 | AuthorName | string | Name of the author who created this feed. |
 | LastMessage | [FeedMessageData](../objects-and-data-types/feedmessagedata) | The last message only. |
 | Messages | [FeedMessageData](../objects-and-data-types/feedmessagedata)[] | All messages sorted by date descending. The message on the first position is the latest message of the feed. |
-| OutstandingMessageNotification | [NotificationData](../objects-and-data-types/notificationdata) | Outstanding message notification is present if there is a new message in the feed. Property is null or undefined if there is no new message in the feed.<br><br>Use ConfirmNotification provided by the API to confirm this notification. |
+| OutstandingMessageNotification | [NotificationData](../objects-and-data-types/notificationdata) | Outstanding message notification is present if there is a new message in the feed. Property is null or undefined if there is no new message in the feed.<br><br>Use [ConfirmNotification](../notifications/confirmnotification) provided by the API to confirm this notification. |
 
 ## JSON Example
 

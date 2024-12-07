@@ -41,12 +41,12 @@ patientportal.anonBooking.bookProposedTimeSlot({
         <tr>
             <td>proposedTimeSlot</td>
             <td><a href="../objects-and-data-types/appointmentdata">AppointmentData</a></td>
-            <td>The proposed time slot data, which can be constructed using the data provided by the <a href="#_GetProposedTimeSlots">GetProposedTimeSlots</a>.</td>
+            <td>The proposed time slot data, which can be constructed using the data provided by the <a href="../anonymous-appointment-search/getproposedtimeslots">GetProposedTimeSlots</a>.</td>
         </tr>
         <tr>
             <td>clinician</td>
             <td>int (optional)</td>
-            <td>Clinician filter. Identifier provide by the API upon GetClinicians. Allow 0 for any clinician.</td>
+            <td>Clinician filter. Identifier provided by the API upon <a href="../anonymous-appointment-search/getclinicians">GetClinicians</a>. Allow 0 for any clinician.</td>
         </tr>
         <tr>
             <td>clinicianSex</td>
@@ -114,4 +114,4 @@ patientportal.anonBooking.bookProposedTimeSlot({
 
 ## Remarks
 
-If no appropriate slot can be found for the proposed time slot, for example it was booked in the meantime, then an error is returned, see Error handling.
+If no appropriate slot can be found for the proposed time slot, for example it was booked in the meantime, then an error is returned, see [Error handling](../error-handling/error-handling).

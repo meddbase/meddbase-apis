@@ -41,7 +41,7 @@ patientportal.anonBooking.registerPatient({
             <td>
                 <p>The signup code of a chargeband, that will provide eligibility and price information for the search.
                 </p>
-                <p>This is the same payer type like the one provided into the slot search GetProposedAppointments</p>
+                <p>This is the same payer type like the one provided into the slot search <a href="../anonymous-appointment-search/getproposedappointments">GetProposedAppointments</a></p>
             </td>
         </tr>
         <tr>
@@ -57,7 +57,7 @@ patientportal.anonBooking.registerPatient({
                     <li>
                         DateOfBirth
                         <ul>
-                            <li>based on DateOfBirthRequiredForPatients in GetConfig</li>
+                            <li>based on <code>DateOfBirthRequiredForPatients</code> in <a href="../authentication/getconfig">GetConfig</a></li>
                         </ul>
                     </li>
                 </ul>

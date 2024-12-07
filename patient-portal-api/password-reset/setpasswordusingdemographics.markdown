@@ -1,6 +1,6 @@
 ---
 layout: page
-title: \[OBSOLETE\] SetPasswordUsingDemographics
+title: ［OBSOLETE］ SetPasswordUsingDemographics
 nav_order: 6
 parent: Password reset
 ---

@@ -16,7 +16,7 @@ Type of the appointment.
 | Key | string |     |
 | Name | string |     |
 | Notes | string |     |
-| CancellationPolicy | string | The cancellation policy message. This cancellation policy will apply within cancellation the existing appointment.<br><br>Use the GetAppointmentCancellationInfo to retrieve exact cancellation message and fee for the concrete appointment at certain time. |
+| CancellationPolicy | string | The cancellation policy message. This cancellation policy will apply within cancellation the existing appointment.<br><br>Use the [GetAppointmentCancellationInfo](../appointments/getappointmentcancellationinfo) to retrieve exact cancellation message and fee for the concrete appointment at certain time. |
 | Modules | [AppointmentModuleData](../objects-and-data-types/appointmentmoduledata)[] | Possible modules for the appointment type. If no modules are provided the appointment type doesn’t contains modules. |
 | CanBookAppointment | bool | Defines whether the logged in patient is allowed to book an appointment for this appointment type. |
 | CanReferPatient | bool | Defines whether the logged in patient is allowed to refer patient for this appointment type. |

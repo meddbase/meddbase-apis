@@ -7,7 +7,7 @@ parent: Patient Portal API
 
 # Questionnaire Request
 
-This section provides methods for a patient to complete a questionnaire without having to register with the portal or use a password. The client has to provide the client key only (see Client authentication).
+This section provides methods for a patient to complete a questionnaire without having to register with the portal or use a password. The client has to provide the client key only (see [Client authentication](../communication-overview/client-authentication)).
 
 Workflow: The patient gets the email which includes URL address to the online portal and the validation key (URL get parameter). The client needs to provide validation key within each request in this section.
 

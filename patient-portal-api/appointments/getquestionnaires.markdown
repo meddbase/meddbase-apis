@@ -47,7 +47,7 @@ patientportal.appointment.getQuestionnaires({
             <td>patient</td>
             <td>string (optional)</td>
             <td>
-                <p>The key of the patient provided by the API upon section Patients.</p>
+                <p>The key of the patient provided by the API upon section <a href="../patients/patients">Patients</a>.</p>
                 <p>Default is undefined which returns questionnaires for all patients.</p>
             </td>
         </tr>
@@ -150,4 +150,4 @@ patientportal.appointment.getQuestionnaires({
 
 ## Remarks
 
-Overview data doesn’t contain definitions of questionnaires (questionnaire markup). The client has to call GetQuestionnaireDetail to retrieve it.
+Overview data doesn’t contain definitions of questionnaires (questionnaire markup). The client has to call [GetQuestionnaireDetail](../appointments/getquestionnairedetail) to retrieve it.

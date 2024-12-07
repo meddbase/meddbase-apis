@@ -30,7 +30,7 @@ patientportal.auth.getAllowedTitles({
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
 | reg-code | string (optional) | Online sign up access code that is provided to the patient. |
-| membership-code | string (optional) | Membership scheme code that is provided by Medical Management Systems to the client.<br><br>See Membership scheme |
+| membership-code | string (optional) | Membership scheme code that is provided by Medical Management Systems to the client.<br><br>See [Membership scheme](../membership-scheme/membership-scheme) |
 | is-oh | bool | True for the referral portal. False for the patient portal. |
 
 ## Returns

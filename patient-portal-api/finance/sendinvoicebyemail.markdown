@@ -25,7 +25,7 @@ patientportal.finance.sendInvoiceByEmail({invoiceNumber: <invoice-number>});
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| invoice-number | string | The invoice number provided by the API upon GetInvoices. |
+| invoice-number | string | The invoice number provided by the API upon [GetInvoices](../finance/getinvoices). |
 
 ## Remarks
 
@@ -33,4 +33,4 @@ The client should show a warning message that sending an invoice over email isn'
 
 `https://{portal}/pay?invoiceKey={encrypted invoice key}`
 
-The invoice key can be used in logged-in or anonymous mode to process payment using [ProvidePayment](#_ProvidePayment).
+The invoice key can be used in logged-in or anonymous mode to process payment using [ProvidePayment](../finance/providepayment).

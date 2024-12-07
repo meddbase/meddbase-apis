@@ -37,4 +37,4 @@ The client can call this method as many time as it needs. Only answers attached 
 
 After the first call of this method the questionnaire’s status changes to Partially Complete.
 
-The client must call [SubmitQuestionnaire](#_SubmitQuestionnaire) after all required questions are answered.
+The client must call [SubmitQuestionnaire](../questionnaire-request/submitquestionnaire) after all required questions are answered.

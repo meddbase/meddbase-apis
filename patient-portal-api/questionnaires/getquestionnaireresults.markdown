@@ -12,7 +12,7 @@ Get the results of a questionnaire request. The result of this call is an array 
 ## JavaScript library method
 
 ```javascript
-patientportal.questionnaires. getQuestionnaireResults({
+patientportal.questionnaires.getQuestionnaireResults({
     questionnaireRequest: <questionnaire-request>
 });
 ```
@@ -27,7 +27,7 @@ patientportal.questionnaires. getQuestionnaireResults({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| questionnaire-request | string | The key of the questionnaire request returned by [CreateRequest](#_CreateRequest) or [GetQuestionnaires](#_GetQuestionnaires) |
+| questionnaire-request | string | The key of the questionnaire request returned by [CreateRequest](../questionnaires/createrequest) or [GetQuestionnaires](../questionnaires/getquestionnaires) |
 
 ## Returns
 

@@ -27,7 +27,7 @@ patientportal.finance.removePayerAccount({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| payer-account-key | int | Payer Account Key of the account to be disabled as retrieved from [PayerAccounts](#_PayerAccounts) |
+| payer-account-key | int | Payer Account Key of the account to be disabled as retrieved from [PayerAccounts](../finance/payeraccounts) |
 
 ## Returns
 

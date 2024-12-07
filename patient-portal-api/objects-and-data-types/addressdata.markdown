@@ -20,7 +20,7 @@ Address of the patient/company.
 | County | string |     |
 | PostCode | string |     |
 | Country | string |     |
-| Distance | decimal | Distance in miles from another geographical coordinate. Used within GetSites to provide distance from patient’s home/work address or GPS coordinate. |
+| Distance | decimal | Distance in miles from another geographical coordinate. Used within [GetSites](../appointments/getsites) to provide distance from patient’s home/work address or GPS coordinate. |
 
 ## JSON Example
 

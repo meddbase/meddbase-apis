@@ -7,7 +7,7 @@ parent: Objects and data types
 
 # AbsenceRTWQuestionnaireData
 
-The data returned in the response of a call to the [SubmitValidationCode](#_SubmitValidationCode) method, to be modified if necessary and posted back to the API in a request to the [SubmitQuestionnaire](#_SubmitQuestionnaire_1) method.
+The data returned in the response of a call to the [SubmitValidationCode](../absence-questionnaire/submitvalidationcode) method, to be modified if necessary and posted back to the API in a request to the [SubmitQuestionnaire](../absence-questionnaire/submitquestionnaire) method.
 
 ## Properties
 

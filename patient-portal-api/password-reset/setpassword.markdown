@@ -36,4 +36,4 @@ patientportal.passwordReset.setPassword({ key: <key>, newPassword: <newPassword>
 
 ## Remarks
 
-Please remember to provide ASP.NET_SessionId cookie with the session ID provided provided upon SubmitValidationCode.
+Please remember to provide ASP.NET_SessionId cookie with the session ID provided provided upon [SubmitValidationCode](../password-reset/submitvalidationcode).

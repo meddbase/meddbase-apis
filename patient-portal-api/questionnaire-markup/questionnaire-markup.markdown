@@ -68,12 +68,12 @@ Every `Page` can contain tags:
 
 - `Information` – Plain text that guides the patient and describes/explains the following questions.
 - `Field` – Free-text field. The value of this tag contains the field label.
-  - The client must use the `id` attribute to submit answers (see SaveQuestionnaire).
+  - The client must use the `id` attribute to submit answers (see [SaveQuestionnaire](../questionnaire-request/savequestionnaire)).
   - If the `required` attribute isn't present, then the answer is required. Only if `required="false"` the answer is not required.
 - `Question` – question with more answers.
   - The `Text` element contains the question-text.
   - The `Answers` element contains possible answers.
   - The initial state of the UI must be un-set (no answer is selected).
   - Only one answer can be selected.
-  - The client must use the `id` attribute to submit answer (see SaveQuestionnaire).
+  - The client must use the `id` attribute to submit answer (see [SaveQuestionnaire](../questionnaire-request/savequestionnaire)).
   - If the `required` attribute isn't present, then the answer is required. Only if `required="false"` the answer is not required.

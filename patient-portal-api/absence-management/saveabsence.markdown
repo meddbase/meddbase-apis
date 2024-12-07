@@ -32,7 +32,7 @@ patientportal.absences.saveAbsence({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| absence-data | [AbsenceData](../objects-and-data-types/absencedata) | The [AbsenceData](../objects-and-data-types/absencedata) object received from a call to the [GetAbsence](#_GetAbsence) method. |
+| absence-data | [AbsenceData](../objects-and-data-types/absencedata) | The [AbsenceData](../objects-and-data-types/absencedata) object received from a call to the [GetAbsence](../absence-management/getabsence) method. |
 
 ## Returns
 

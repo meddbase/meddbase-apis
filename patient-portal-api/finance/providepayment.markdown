@@ -7,7 +7,7 @@ parent: Finance
 
 # ProvidePayment
 
-Provides online payment for the patient. Loads a payment frame within the provide iframediv to process the payment. The invoice corresponding to invoice key should have the ‘PayableOnline’ parameter true (retrieved through [GetInvoiceDetail](#_GetInvoiceDetail) function.)
+Provides online payment for the patient. Loads a payment frame within the provide iframediv to process the payment. The invoice corresponding to invoice key should have the ‘PayableOnline’ parameter true (retrieved through [GetInvoiceDetail](../finance/getinvoicedetail) function.)
 
 ## JavaScript library method
 
@@ -41,7 +41,7 @@ patientportal.finance.providePayment({
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
 | invoice-key | int | Encrypted Key of the invoice provided by the API. |
-| payer-accountid | int | Id of the existing card details for the patient retrieved using [PayerAccounts](#_PayerAccounts). 0 if new card details are to be used. This is only valid for logged in sessions. |
+| payer-accountid | int | Id of the existing card details for the patient retrieved using [PayerAccounts](../finance/payeraccounts). 0 if new card details are to be used. This is only valid for logged in sessions. |
 | save-payment-details | bool | If the user wants to save the card details for future use, only considered if the user is logged-in. |
 | description | string | Description of the payment: 100 characters |
 | iframediv | string | Control id for the div to load iframe in. The javascript will load create the iframe control and append it to the provided div. |

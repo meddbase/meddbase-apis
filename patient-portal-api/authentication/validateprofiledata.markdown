@@ -32,14 +32,14 @@ patientportal.auth.validateProfileData({
 |:----------|:-------|:------------------------------------------------------------|
 | regCode | string (partially optional) | Online sign up access code that is provided to the patient. |
 | demog | [PersonDemographicData](../objects-and-data-types/persondemographicdata) | Defines person’s details. |
-| membershipCode | string (partially optional) | Membership scheme code that is provided by Medical Management Systems to the client.<br><br>See Membership scheme |
+| membershipCode | string (partially optional) | Membership scheme code that is provided by Medical Management Systems to the client.<br><br>See [Membership scheme](../membership-scheme/membership-scheme) |
 | is-oh | bool | True for the referral portal. False for the patient portal. |
 
 ## Remarks
 
 One of the optional parameter regCode or membershipCode must be provided. If membership code is provided, regCode is ignored.
 
-If the validation process is successful HTTP status code is 2xx. Otherwise check the exception (see Error handling).
+If the validation process is successful HTTP status code is 2xx. Otherwise check the exception (see [Error handling](../error-handling/error-handling)).
 
 Valid registration data:
 

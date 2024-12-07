@@ -28,7 +28,7 @@ patientportal.appointment.saveQuestionnaire({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| questionnaire | string | The key of the questionnaire provided by the API upon GetQuestionnaires. |
+| questionnaire | string | The key of the questionnaire provided by the API upon [GetQuestionnaires](../appointments/getquestionnaires). |
 | answers | [QuestionnaireAnswerData](../objects-and-data-types/questionnaireanswerdata)[] | Collection of answers. |
 
 ## Remarks
@@ -37,4 +37,4 @@ The client can call this method as many time as it needs. Only answers attached 
 
 After the first call of this method the questionnaire’s status changes to Partially Complete.
 
-The client must call SubmitQuestionnaire after all required questions are answered.
+The client must call [SubmitQuestionnaire](../appointments/submitquestionnaire) after all required questions are answered.

@@ -7,7 +7,7 @@ parent: Notifications
 
 # ConfirmNotification
 
-Confirms notification so the notification will not be returned by GetNotifications further.
+Confirms notification so the notification will not be returned by [GetNotifications](../notifications/getnotifications) further.
 
 ## JavaScript library method
 
@@ -25,7 +25,7 @@ patientportal.notification.confirm({notification: <notification>});
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| notification | string | Key of the notification provided by the API upon GetNotifications. |
+| notification | string | Key of the notification provided by the API upon [GetNotifications](../notifications/getnotifications). |
 
 ## Remarks
 

@@ -15,7 +15,7 @@ In general, the Meddbase API can generate these codes:
 | 201 | Created (Saved) |     |
 | 204 | No Content. | Request was successful and does not need to return a response. |
 | 400 | Bad request | Bad parameter format, missing parameter etc. |
-| 401 | Unauthorised | You are not authorised (If a session ID was provided then an Unauthorised exception indicates session expiry). See Login to find out more about authorization. |
+| 401 | Unauthorised | You are not authorised (If a session ID was provided then an Unauthorised exception indicates session expiry). See [Login](../authentication/login) to find out more about authorization. |
 | 403 | Forbidden | You don’t have rights to perform current operation. |
 | 404 | Not found |     |
 | 405 | Method not allowed | For example when you use GET instead of POST. |

@@ -52,12 +52,12 @@ patientportal.appointment.getProposedAppointments({
         <tr>
             <td>appointment-type</td>
             <td>string</td>
-            <td>Type of the appointment provided by the API upon GetAppointmentTypes.</td>
+            <td>Type of the appointment provided by the API upon <a href="../appointments/getappointmenttypes">GetAppointmentTypes</a>.</td>
         </tr>
         <tr>
             <td>clinician</td>
             <td>int (optional)</td>
-            <td>Clinician filter. Identifier provide by the API upon GetClinicians. Allow 0 for any clinician.</td>
+            <td>Clinician filter. Identifier provide by the API upon <a href="../appointments/getclinicians">GetClinicians</a>. Allow 0 for any clinician.</td>
         </tr>
         <tr>
             <td>clinician-sex</td>
@@ -74,12 +74,12 @@ patientportal.appointment.getProposedAppointments({
         <tr>
             <td>site</td>
             <td>int (optional)</td>
-            <td>Site filter. Identifier provide by the API upon GetSites. Allow 0 for any site.</td>
+            <td>Site filter. Identifier provide by the API upon <a href="../appointments/getsites">GetSites</a>. Allow 0 for any site.</td>
         </tr>
         <tr>
             <td>location</td>
             <td>int (optional)</td>
-            <td>Location filter. Identifier provide by the API upon GetSites. Allow 0 for any location.</td>
+            <td>Location filter. Identifier provide by the API upon <a href="../appointments/getsites">GetSites</a>. Allow 0 for any location.</td>
         </tr>
         <tr>
             <td>from-date</td>
@@ -129,13 +129,13 @@ patientportal.appointment.getProposedAppointments({
         <tr>
             <td>payer-type</td>
             <td>string (optional)</td>
-            <td>Type of the payer provided by the API upon GetPayerTypes.</td>
+            <td>Type of the payer provided by the API upon <a href="../appointments/getpayertypes">GetPayerTypes</a>.</td>
         </tr>
         <tr>
             <td>patient</td>
             <td>string (optional)</td>
             <td>
-                <p>The key of the patient provided by the API upon section Patients.</p>
+                <p>The key of the patient provided by the API upon section <a href="../patients/patients">Patients</a>.</p>
                 <p>Used to book an appointment for a different patient within your company. Default is the logged in patient.</p>
             </td>
         </tr>
@@ -143,7 +143,7 @@ patientportal.appointment.getProposedAppointments({
             <td>referral</td>
             <td>string (optional)</td>
             <td>
-                <p>The key of the referral provided by the API upon GetReferrals.</p>
+                <p>The key of the referral provided by the API upon <a href="../referrals/getreferrals">GetReferrals</a>.</p>
                 <p>Used to book an appointment for a specific referral.</p>
             </td>
         </tr>
@@ -151,7 +151,7 @@ patientportal.appointment.getProposedAppointments({
             <td>recall</td>
             <td>string (optional)</td>
             <td>
-                <p>The key of the recall provided by the API upon method GetRecalls.</p>
+                <p>The key of the recall provided by the API upon method <a href="../recalls/getrecalls">GetRecalls</a>.</p>
                 <p>Used to book an appointment for a specific recall.</p>
             </td>
         </tr>
@@ -167,8 +167,8 @@ patientportal.appointment.getProposedAppointments({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| modules | [AppointmentModuleData](../objects-and-data-types/appointmentmoduledata)[] (optional) | Selection of modules and additional services provided by the API upon GetAppointmentTypes. |
-| services | [ServiceData](../objects-and-data-types/servicedata)[] (optional) | Selection of services provided by [GetServices](#_GetServices) |
+| modules | [AppointmentModuleData](../objects-and-data-types/appointmentmoduledata)[] (optional) | Selection of modules and additional services provided by the API upon [GetAppointmentTypes](../appointments/getappointmenttypes). |
+| services | [ServiceData](../objects-and-data-types/servicedata)[] (optional) | Selection of services provided by [GetServices](../appointments/getservices) |
 
 ## Returns
 

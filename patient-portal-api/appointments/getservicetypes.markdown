@@ -32,12 +32,12 @@ patientportal.appointment.getServiceTypes({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| payer-type | string | Type of the payer provided by the API upon GetPayerTypes. |
-| appointment-type | string | Type of the appointment provided by the API upon [GetAppointmentTypes](#_GetAppointmentTypes) |
-| referral-types | bool (optional) | The key of the referral provided by the API upon GetReferrals.<br><br>Used to get service types for a specific referral. |
-| patient | string (optional) | The key of the patient provided by the API upon section Patients.<br><br>Get the services specific for the patient. Default is the logged in patient. |
-| referral | string (optional) | The key of the referral provided by the API upon GetReferrals.<br><br>Used to book an appointment for a specific referral. |
-| recall | string (optional) | The key of the recall provided by the API upon method GetRecalls.<br><br>Used get service types for a specific recall. |
+| payer-type | string | Type of the payer provided by the API upon [GetPayerTypes](../appointments/getpayertypes). |
+| appointment-type | string | Type of the appointment provided by the API upon [GetAppointmentTypes](../appointments/getappointmenttypes) |
+| referral-types | bool (optional) | The key of the referral provided by the API upon [GetReferrals](../referrals/getreferrals).<br><br>Used to get service types for a specific referral. |
+| patient | string (optional) | The key of the patient provided by the API upon section [Patients](../patients/patients).<br><br>Get the services specific for the patient. Default is the logged in patient. |
+| referral | string (optional) | The key of the referral provided by the API upon [GetReferrals](../referrals/getreferrals).<br><br>Used to book an appointment for a specific referral. |
+| recall | string (optional) | The key of the recall provided by the API upon method [GetRecalls](../recalls/getrecalls).<br><br>Used get service types for a specific recall. |
 
 ## Returns
 

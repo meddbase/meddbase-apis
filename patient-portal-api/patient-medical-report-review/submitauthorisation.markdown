@@ -9,7 +9,7 @@ parent: Patient Medical Report Review
 
 Release or refuse the medical report and stores patient’s comments and requested factual changes.
 
-The method is only valid if the current temporary security context is valid (see SubmitValidationCode).
+The method is only valid if the current temporary security context is valid (see [SubmitValidationCode](../patient-medical-report-review/submitvalidationcode)).
 
 ## JavaScript library method
 
@@ -45,7 +45,7 @@ patientportal.patientReportReview.submitAuthorisation({
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
 | comments | string | Comments provided by the patient. |
-| factualChanges | \[<br><br>{<br><br>Subject: string,<br><br>Comments: string<br><br>} ,…<br><br>\] | List of factual changes requested by the patient.<br><br>Subject – Subject of possible factual changes provided by the API (see PatientReportReviewData)<br><br>Comments – Patient’s comments |
+| factualChanges | \[<br><br>{<br><br>Subject: string,<br><br>Comments: string<br><br>} ,…<br><br>\] | List of factual changes requested by the patient.<br><br>Subject – Subject of possible factual changes provided by the API (see [PatientReportReviewData](../objects-and-data-types/patientreportreviewdata))<br><br>Comments – Patient’s comments |
 
 ## Returns
 
@@ -53,4 +53,4 @@ patientportal.patientReportReview.submitAuthorisation({
 
 ## Remarks
 
-Calling this method removes the security context so no other command (GetMedicalReportData, SubmitAuthorisation) is allowed without new validation. If something goes wrong please check exception (see Error handling).
+Calling this method removes the security context so no other command ([GetMedicalReportData](../patient-medical-report-review/getmedicalreportdata), [SubmitAuthorisation](../patient-medical-report-review/submitauthorisation)) is allowed without new validation. If something goes wrong please check exception (see [Error handling](../error-handling/error-handling)).

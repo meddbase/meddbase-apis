@@ -37,4 +37,4 @@ patientportal.auth.validateRegCode({
 
 ## Remarks
 
-If the registration code is invalid, check the exception (see Error handling).
+If the registration code is invalid, check the exception (see [Error handling](../error-handling/error-handling)).
