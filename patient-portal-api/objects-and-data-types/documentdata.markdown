@@ -21,7 +21,7 @@ Provides information about the document.
 | MIMEType | string | MIME type of the document. |
 | Size | long | Size in bytes. Can be null. |
 | PatientKey | string | The key of the patient. |
-| DocumentTypeName | string | The name of the document type the document belongs to.<br><br>Provided only if the DocumentTypeSecurityEnable flag is set (see GetConfig) |
+| DocumentTypeName | string | The name of the document type the document belongs to.<br><br>Provided only if the DocumentTypeSecurityEnable flag is set (see [GetConfig](../authentication/getconfig)) |
 
 ## JSON Example
 

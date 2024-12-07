@@ -29,4 +29,4 @@ patientportal.membershipScheme.join({code: <code>});
 
 ## Remarks
 
-If the patient is joined successfully then the HTTP status code is 2xx. Otherwise check the exception (see Error handling).
+If the patient is joined successfully then the HTTP status code is 2xx. Otherwise check the exception (see [Error handling](../error-handling/error-handling)).

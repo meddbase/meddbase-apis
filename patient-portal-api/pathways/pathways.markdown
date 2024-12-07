@@ -8,4 +8,4 @@ parent: Patient Portal API
 # Pathways
 
 
-This section provides methods to work with pathways – getting a list of pathways and completing pathways tasks. Pathways feature may be disabled or enabled for a chamber and can be checked through the [GetConfig](#_GetConfig) function.
+This section provides methods to work with pathways – getting a list of pathways and completing pathways tasks. Pathways feature may be disabled or enabled for a chamber and can be checked through the [GetConfig](../authentication/getconfig) function.

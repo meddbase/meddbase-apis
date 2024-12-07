@@ -51,12 +51,12 @@ patientportal.anonAppointment.getProposedTimeSlots({
         <tr>
             <td>appointment-type</td>
             <td>string</td>
-            <td>Type of the appointment provided by the API upon GetAppointmentTypes.</td>
+            <td>Type of the appointment provided by the API upon <a href="../anonymous-appointment-search/getappointmenttypes">GetAppointmentTypes</a>.</td>
         </tr>
         <tr>
             <td>clinician</td>
             <td>int (optional)</td>
-            <td>Clinician filter. Identifier provide by the API upon GetClinicians. Allow 0 for any clinician.</td>
+            <td>Clinician filter. Identifier provide by the API upon <a href="../anonymous-appointment-search/getclinicians">GetClinicians</a>. Allow 0 for any clinician.</td>
         </tr>
         <tr>
             <td>clinician-sex</td>
@@ -73,12 +73,12 @@ patientportal.anonAppointment.getProposedTimeSlots({
         <tr>
             <td>site</td>
             <td>int (optional)</td>
-            <td>Site filter. Identifier provide by the API upon GetSites. Allow 0 for any site.</td>
+            <td>Site filter. Identifier provide by the API upon <a href="../anonymous-appointment-search/getsites">GetSites</a>. Allow 0 for any site.</td>
         </tr>
         <tr>
             <td>location</td>
             <td>int (optional)</td>
-            <td>Location filter. Identifier provide by the API upon GetSites. Allow 0 for any location.</td>
+            <td>Location filter. Identifier provide by the API upon <a href="../anonymous-appointment-search/getsites">GetSites</a>. Allow 0 for any location.</td>
         </tr>
         <tr>
             <td>from-date</td>
@@ -129,7 +129,7 @@ patientportal.anonAppointment.getProposedTimeSlots({
             <td>patient</td>
             <td>string (optional)</td>
             <td>
-                <p>The key of the patient provided by the API upon section Patients.</p>
+                <p>The key of the patient provided by the API upon section <a href="../patients/patients">Patients</a>.</p>
                 <p>Used to book an appointment for a different patient within your company. Default is the logged in
                     patient.</p>
             </td>
@@ -138,7 +138,7 @@ patientportal.anonAppointment.getProposedTimeSlots({
             <td>referral</td>
             <td>string (optional)</td>
             <td>
-                <p>The key of the referral provided by the API upon GetReferrals.</p>
+                <p>The key of the referral provided by the API upon <a href="../referrals/getreferrals">GetReferrals</a>.</p>
                 <p>Used to book an appointment for a specific referral.</p>
             </td>
         </tr>
@@ -146,7 +146,7 @@ patientportal.anonAppointment.getProposedTimeSlots({
             <td>recall</td>
             <td>string (optional)</td>
             <td>
-                <p>The key of the recall provided by the API upon method GetRecalls.</p>
+                <p>The key of the recall provided by the API upon method <a href="../recalls/getrecalls">GetRecalls</a>.</p>
                 <p>Used to book an appointment for a specific recall.</p>
             </td>
         </tr>
@@ -157,8 +157,8 @@ patientportal.anonAppointment.getProposedTimeSlots({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| modules | [AppointmentModuleData](../objects-and-data-types/appointmentmoduledata)[] (optional) | Selection of modules and additional services provided by the API upon GetAppointmentTypes. |
-| services | [ServiceData](../objects-and-data-types/servicedata)[] (optional) | Selection of services provided by [GetServices](#_GetServices) |
+| modules | [AppointmentModuleData](../objects-and-data-types/appointmentmoduledata)[] (optional) | Selection of modules and additional services provided by the API upon [GetAppointmentTypes](../anonymous-appointment-search/getappointmenttypes). |
+| services | [ServiceData](../objects-and-data-types/servicedata)[] (optional) | Selection of services provided by [GetServices](../anonymous-appointment-search/getservices) |
 
 ## Returns
 

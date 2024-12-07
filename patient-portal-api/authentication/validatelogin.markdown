@@ -32,6 +32,6 @@ patientportal.auth.validateLogin();
 
 ## Remarks
 
-If the actual security context is valid, HTTP status code is 2xx. Otherwise check the exception (see Error handling) and use Login to create a new security context.
+If the actual security context is valid, HTTP status code is 2xx. Otherwise check the exception (see [Error handling](../error-handling/error-handling)) and use Login to create a new security context.
 
 The client must provide the ASP.NET_SessionId key in the cookie.

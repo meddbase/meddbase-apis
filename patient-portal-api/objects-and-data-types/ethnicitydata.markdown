@@ -7,7 +7,7 @@ parent: Objects and data types
 
 # EthnicityData
 
-Data returned in response to the [getEthnicity](#_Ethnicities) method
+Data returned in response to the [getEthnicity](../ethnicities/ethnicities) method
 
 ## Properties
 

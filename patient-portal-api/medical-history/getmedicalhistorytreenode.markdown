@@ -7,7 +7,7 @@ parent: Medical history
 
 # GetMedicalHistoryTreeNode
 
-Return node from the Medical History tree. To understand how to read the patient’s medical history read chapter Reading the Medical History tree.
+Return node from the Medical History tree. To understand how to read the patient’s medical history read chapter [Reading the Medical History tree](../medical-history/reading-the-medical-history-tree).
 
 ## JavaScript library method
 
@@ -28,7 +28,7 @@ patientportal.medicalHistory.getMedicalHistoryTreeNode({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| node-path | string | The path of the node provided by the API upon GetMedicalHistoryTreeNode. If the path is specific the requested node is always fully loaded. If the path is empty the server returns root node.<br><br>This parameter is not a query parameter. It is a part of the URL path.<br><br>For example: The URL for the node ‘numeric-data/weight’:<br><br>/patientportalapi/medical-history/node/numeric-data/weight |
+| node-path | string | The path of the node provided by the API upon [GetMedicalHistoryTreeNode](../medical-history/getmedicalhistorytreenode). If the path is specific the requested node is always fully loaded. If the path is empty the server returns root node.<br><br>This parameter is not a query parameter. It is a part of the URL path.<br><br>For example: The URL for the node ‘numeric-data/weight’:<br><br>/patientportalapi/medical-history/node/numeric-data/weight |
 
 ## URL Parameters
 

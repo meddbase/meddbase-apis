@@ -49,7 +49,7 @@ Provides information about the exception.
         <tr>
             <td>HttpStatusCode</td>
             <td>int</td>
-            <td>Same like HTTP status code. See Error handling</td>
+            <td>Same like HTTP status code. See <a href="../error-handling/error-handling">Error handling</a></td>
         </tr>
         <tr>
             <td>Description</td>

@@ -43,7 +43,7 @@ patientportal.recalls.getRecalls({
         <tr>
             <td>patient</td>
             <td>string (optional)</td>
-            <td>The key of the patient provided by the API upon GetPatients.</td>
+            <td>The key of the patient provided by the API upon <a href="../patients/getpatients">GetPatients</a>.</td>
         </tr>
         <tr>
             <td>due-from</td>

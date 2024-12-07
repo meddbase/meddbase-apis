@@ -28,8 +28,8 @@ patientportal.finance.getInvoiceDetail({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| invoice | string (partially optional) | The key of the invoice provided by the API upon GetInvoices. |
-| invoice-number | string (partially optional) | The invoice number provided by the API upon GetInvoices. |
+| invoice | string (partially optional) | The key of the invoice provided by the API upon [GetInvoices](../finance/getinvoices). |
+| invoice-number | string (partially optional) | The invoice number provided by the API upon [GetInvoices](../finance/getinvoices). |
 
 ## Returns
 

@@ -39,6 +39,6 @@ patientportal.patientReportReview.submitValidationCode({
 
 Submitting the validation code creates a temporary security context which is valid for 30 minutes. Within this time frame the patient needs to review the medical report and submit the authorisation.
 
-The client may use ValidateKey to verify whether the security context runs out and request new validation code to create a new security context.
+The client may use [ValidateKey](../patient-medical-report-review/validatekey) to verify whether the security context runs out and request new validation code to create a new security context.
 
-If something goes wrong please check exception (see Error handling).
+If something goes wrong please check exception (see [Error handling](../error-handling/error-handling)).

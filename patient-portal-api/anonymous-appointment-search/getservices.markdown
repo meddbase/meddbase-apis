@@ -44,17 +44,17 @@ patientportal.anonappointment.getServices({
         <tr>
             <td>payer-type</td>
             <td>string</td>
-            <td>Type of the payer provided by the API upon GetPayerTypes.</td>
+            <td>The signup code of a chargeband, that will provide eligibility and price information for the search.</td>
         </tr>
         <tr>
             <td>appointment-type</td>
             <td>string</td>
-            <td>Type of the appointment provided by the API upon <a href="#_GetAppointmentTypes">GetAppointmentTypes</a></td>
+            <td>Type of the appointment provided by the API upon <a href="../anonymous-appointment-search/getappointmenttypes">GetAppointmentTypes</a></td>
         </tr>
         <tr>
             <td>service-type</td>
             <td>string (optional)</td>
-            <td>Key of the service type to filter services by, provided by <a href="#_GetServiceTypes">GetServiceTypes</a></td>
+            <td>Key of the service type to filter services by, provided by <a href="../anonymous-appointment-search/getservicetypes">GetServiceTypes</a></td>
         </tr>
         <tr>
             <td>service-name</td>

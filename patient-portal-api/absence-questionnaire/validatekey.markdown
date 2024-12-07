@@ -7,7 +7,7 @@ parent: Absence questionnaire
 
 # ValidateKey
 
-Checks whether the code sent to the patient because of a request to the [SendValidationSMS](#_SendValidationSMS_1) method is still valid.
+Checks whether the code sent to the patient because of a request to the [SendValidationSMS](../absence-questionnaire/sendvalidationsms) method is still valid.
 
 ## JavaScript library method
 

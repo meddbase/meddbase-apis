@@ -48,23 +48,17 @@ patientportal.appointment.getServices({
         <tr>
             <td>payer-type</td>
             <td>string</td>
-            <td>Type of the payer provided by the API upon GetPayerTypes.</td>
+            <td>Type of the payer provided by the API upon <a href="../appointments/getpayertypes">GetPayerTypes</a>.</td>
         </tr>
         <tr>
             <td>appointment-type</td>
             <td>string</td>
-            <td>
-                <p>Type of the appointment provided by the API upon <a
-                        href="#_GetAppointmentTypes">GetAppointmentTypes</a></p>
-            </td>
+            <td>Type of the appointment provided by the API upon <a href="../appointments/getappointmenttypes">GetAppointmentTypes</a></td>
         </tr>
         <tr>
             <td>service-type</td>
             <td>string (optional)</td>
-            <td>
-                <p>Key of the service type to filter services by, provided by <a
-                        href="#_GetServiceTypes">GetServiceTypes</a></p>
-            </td>
+            <td>Key of the service type to filter services by, provided by <a href="../appointments/getservicetypes">GetServiceTypes</a></td>
         </tr>
         <tr>
             <td>service-name</td>
@@ -75,7 +69,7 @@ patientportal.appointment.getServices({
             <td>referral-types</td>
             <td>bool (optional)</td>
             <td>
-                <p>The key of the referral provided by the API upon GetReferrals.</p>
+                <p>The key of the referral provided by the API upon <a href="../referrals/getreferrals">GetReferrals</a>.</p>
                 <p>Used to get service types for a specific referral.</p>
             </td>
         </tr>
@@ -83,7 +77,7 @@ patientportal.appointment.getServices({
             <td>patient</td>
             <td>string (optional)</td>
             <td>
-                <p>The key of the patient provided by the API upon section Patients.</p>
+                <p>The key of the patient provided by the API upon section <a href="../patients/patients">Patients</a>.</p>
                 <p>Get the services specific for the patient. Default is the logged in patient.</p>
             </td>
         </tr>
@@ -91,7 +85,7 @@ patientportal.appointment.getServices({
             <td>referral</td>
             <td>string (optional)</td>
             <td>
-                <p>The key of the referral provided by the API upon GetReferrals.</p>
+                <p>The key of the referral provided by the API upon <a href="../referrals/getreferrals">GetReferrals</a>.</p>
                 <p>Used to book an appointment for a specific referral.</p>
             </td>
         </tr>
@@ -99,7 +93,7 @@ patientportal.appointment.getServices({
             <td>recall</td>
             <td>string (optional)</td>
             <td>
-                <p>The key of the recall provided by the API upon method GetRecalls.</p>
+                <p>The key of the recall provided by the API upon method <a href="../recalls/getrecalls">GetRecalls</a>.</p>
                 <p>Used get service types for a specific recall.</p>
             </td>
         </tr>

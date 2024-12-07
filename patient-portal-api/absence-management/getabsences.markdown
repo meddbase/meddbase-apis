@@ -75,12 +75,12 @@ patientportal.absences.getAbsences({
         <tr>
             <td>department</td>
             <td>string (optional)</td>
-            <td>Key of the department provided by the API upon GetDepartments.</td>
+            <td>Key of the department provided by the API upon <a href="../authentication/getdepartmentsanddivisions">GetDepartmentsAndDivisions</a>.</td>
         </tr>
         <tr>
             <td>division</td>
             <td>string (optional)</td>
-            <td>Key of the division provided by the API upon GetDepartments.</td>
+            <td>Key of the division provided by the API upon <a href="../authentication/getdepartmentsanddivisions">GetDepartmentsAndDivisions</a>.</td>
         </tr>
         <tr>
             <td>questionnaireStatus</td>

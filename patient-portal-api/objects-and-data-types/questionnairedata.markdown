@@ -70,7 +70,7 @@ Contains the information about the questionnaire including questions and answers
         <tr>
             <td>Markup</td>
             <td>string</td>
-            <td>XML contains questions. See Questionnaire markup.</td>
+            <td>XML contains questions. See [Questionnaire markup](../questionnaire-markup/questionnaire-markup).</td>
         </tr>
     </tbody>
 </table>

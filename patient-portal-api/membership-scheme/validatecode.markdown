@@ -29,4 +29,4 @@ patientportal.membershipScheme.validateCode({code: <code>});
 
 ## Remarks
 
-If the code is valid, HTTP status code is 2xx. Otherwise check exception (see Error handling).
+If the code is valid, HTTP status code is 2xx. Otherwise check exception (see [Error handling](../error-handling/error-handling)).

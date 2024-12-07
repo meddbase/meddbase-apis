@@ -33,7 +33,7 @@ An overview of a single task within a pathway.
         <tr>
             <td>ActionType</td>
             <td>string</td>
-            <td>The type of the task. See Pathway structure and task types.</td>
+            <td>The type of the task. See <a href="../pathways/pathway-structure-and-task-types">Pathway structure and task types</a>.</td>
         </tr>
         <tr>
             <td>ActionTypeName</td>

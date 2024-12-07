@@ -7,7 +7,7 @@ parent: Questionnaire Request
 
 # SaveAndSubmitQuestionnaire
 
-Combination of SaveQuestionnaire and SubmitQuestionnaire. This method can be used on the latest questionnaire page where you may save the answers on the latest page and submit the questionnaire at once.
+Combination of [SaveQuestionnaire](../questionnaire-request/savequestionnaire) and [SubmitQuestionnaire](../questionnaire-request/submitquestionnaire). This method can be used on the latest questionnaire page where you may save the answers on the latest page and submit the questionnaire at once.
 
 ## JavaScript library method
 
@@ -35,4 +35,4 @@ patientportal.questionnaireRequest.saveAndSubmitQuestionnaire({
 
 The client calls this method when all required questions are answered. After submitting the questionnaire the status will change to Complete.
 
-When any required question is not answered the exception with event code 40001 is thrown (see Error handling).
+When any required question is not answered the exception with event code 40001 is thrown (see [Error handling](../error-handling/error-handling)).

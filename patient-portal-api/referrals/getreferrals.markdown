@@ -49,7 +49,7 @@ patientportal.referrals.getReferrals({
         <tr>
             <td>patient</td>
             <td>string (optional)</td>
-            <td>The key of the patient provided by the API upon GetPatients.</td>
+            <td>The key of the patient provided by the API upon <a href="../patients/getpatients">GetPatients</a>.</td>
         </tr>
         <tr>
             <td>text</td>
@@ -92,12 +92,12 @@ patientportal.referrals.getReferrals({
         <tr>
             <td>department</td>
             <td>string (optional)</td>
-            <td>Key of the department provided by the API upon GetDepartments.</td>
+            <td>Key of the department provided by the API upon <a href="../patient/getdepartmentsanddivisions">GetDepartmentsAndDivisions</a>.</td>
         </tr>
         <tr>
             <td>division</td>
             <td>string (optional)</td>
-            <td>Key of the division provided by the API upon GetDepartments.</td>
+            <td>Key of the division provided by the API upon <a href="../patient/getdepartmentsanddivisions">GetDepartmentsAndDivisions</a>.</td>
         </tr>
         <tr>
             <td>case</td>

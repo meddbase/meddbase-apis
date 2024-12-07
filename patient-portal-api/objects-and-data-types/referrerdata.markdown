@@ -7,7 +7,7 @@ parent: Objects and data types
 
 # ReferrerData
 
-Data returned in response to the [getReferrer](#_Referrers) method
+Data returned in response to the [getReferrer](../referrers/referrers) method
 
 ## Properties
 

@@ -27,7 +27,7 @@ patientportal.patients.getManagers({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| patient | string | The key of the patient provided by the API upon GetPatients. |
+| patient | string | The key of the patient provided by the API upon [GetPatients](../patients/getpatients). |
 
 ## Returns
 

@@ -33,8 +33,8 @@ patientportal.auth.directLogin({loginToken: <sslogin-token>});
 
 ## Remarks
 
-This is used for [Single Sign-on](#_Single_sign-on).
+This is used for [Single sign-on](../single-sign-on/single-sign-on).
 
 If authentication is successful, a new session for the client is created and a new key ASP.NET_SessionId is added to the cookie. The client must ensure that this cookie will be sent in all further requests that needs to use the person’s security context.
 
-The SessionID can expire, so the client must use the ValidateLogin method to ensure that the security context is still created and the SessionID is still valid. If not, the client must login again.
+The SessionID can expire, so the client must use the [ValidateLogin](../authentication/validatelogin) method to ensure that the security context is still created and the SessionID is still valid. If not, the client must login again.

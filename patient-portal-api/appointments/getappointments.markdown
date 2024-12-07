@@ -46,7 +46,7 @@ patientportal.appointment.getAppointments({
             <td>patient</td>
             <td>string (optional)</td>
             <td>
-                <p>The key of the patient provided by the API upon section Patients.</p>
+                <p>The key of the patient provided by the API upon section <a href="../patients/patients">Patients</a>.</p>
                 <p>Default is undefined which returns appointments for all patients.</p>
             </td>
         </tr>

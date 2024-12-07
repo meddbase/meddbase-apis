@@ -31,4 +31,4 @@ patientportal.questionnaireRequest.sendValidationEmail({
 
 ## Remarks
 
-Method does not return any data. If something goes wrong please check exception (see Error handling).
+Method does not return any data. If something goes wrong please check exception (see [Error handling](../error-handling/error-handling)).

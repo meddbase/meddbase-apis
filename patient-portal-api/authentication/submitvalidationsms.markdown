@@ -45,4 +45,4 @@ patientportal.auth.submitValidationSMS({
 [ActivationConfirmation](../objects-and-data-types/activationconfirmation)
 
 {: .note }
-> If the activation is completed successfully the API returns the confirmation object. The confirmation may include the outstanding invoice (usually the membership fee) that should be paid. To pay for the invoice the client needs to call ProvidePayment method.
+> If the activation is completed successfully the API returns the confirmation object. The confirmation may include the outstanding invoice (usually the membership fee) that should be paid. To pay for the invoice the client needs to call [ProvidePayment](../finance/providepayment) method.

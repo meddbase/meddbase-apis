@@ -34,9 +34,9 @@ patientportal.appointment.bookProposedTimeSlot({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| patient | string (optional) | The key of the patient provided by the API upon section Patients.<br><br>Used to book an appointment for a different patient within your company. Default is the logged in patient. |
-| referral | string (optional) | The key of the referral provided by the API upon GetReferrals.<br><br>Used to book an appointment for a specific referral. |
-| recall | string (optional) | The key of the recall provided by the API upon method GetRecalls.<br><br>Used to book an appointment for a specific recall. |
+| patient | string (optional) | The key of the patient provided by the API upon section [Patients](../patients/patients).<br><br>Used to book an appointment for a different patient within your company. Default is the logged in patient. |
+| referral | string (optional) | The key of the referral provided by the API upon [GetReferrals](../referrals/getreferrals).<br><br>Used to book an appointment for a specific referral. |
+| recall | string (optional) | The key of the recall provided by the API upon method [GetRecalls](../recalls/getrecalls).<br><br>Used to book an appointment for a specific recall. |
 
 ## POST Parameters
 
@@ -52,12 +52,12 @@ patientportal.appointment.bookProposedTimeSlot({
         <tr>
             <td>proposedTimeSlot</td>
             <td>AppointmentData</td>
-            <td>The proposed time slot data, which can be constructed using the data provided by the <a href="#_GetProposedTimeSlots">GetProposedTimeSlots</a>.</td>
+            <td>The proposed time slot data, which can be constructed using the data provided by the <a href="../appointments/getproposedtimeslots">GetProposedTimeSlots</a>.</td>
         </tr>
         <tr>
             <td>clinician</td>
             <td>int (optional)</td>
-            <td>Clinician filter. Identifier provide by the API upon GetClinicians. Allow 0 for any clinician.</td>
+            <td>Clinician filter. Identifier provide by the API upon <a href="../appointments/getclinicians">GetClinicians</a>. Allow 0 for any clinician.</td>
         </tr>
         <tr>
             <td>clinicianSex</td>
@@ -126,4 +126,4 @@ patientportal.appointment.bookProposedTimeSlot({
 
 ## Remarks
 
-If no appropriate slot can be found for the proposed time slot, for example it was booked in the meantime, then an error is returned, see Error handling.
+If no appropriate slot can be found for the proposed time slot, for example it was booked in the meantime, then an error is returned, see [Error handling](../error-handling/error-handling).

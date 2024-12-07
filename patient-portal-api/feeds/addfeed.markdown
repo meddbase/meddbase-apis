@@ -29,7 +29,7 @@ patientportal.feed.addFeed({
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
 | messageText | string | Text of the first message within a new feed. Text can be formatted as HTML or plain text. |
-| referral | string (optional) | The key of the referral provided by the API upon GetReferrals. |
+| referral | string (optional) | The key of the referral provided by the API upon [GetReferrals](../referrals/getreferrals). |
 
 ## Returns
 

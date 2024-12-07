@@ -31,6 +31,6 @@ patientportal.managerReportReview.validateKey({
 
 ## Remarks
 
-Method does not return any data. If something goes wrong please check exception (see Error handling).
+Method does not return any data. If something goes wrong please check exception (see [Error handling](../error-handling/error-handling)).
 
 If the security context runs out the manager may request another validation code and submit it to create new security context.

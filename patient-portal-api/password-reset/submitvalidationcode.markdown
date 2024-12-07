@@ -40,7 +40,7 @@ Submitting the validation code creates a temporary security context which is val
 
 The client may use ValidateKey to verify whether the security context runs out and request new validation code to create a new security context.
 
-If something goes wrong please check exception (see Error handling).
+If something goes wrong please check exception (see [Error handling](../error-handling/error-handling)).
 
 ## Returns
 

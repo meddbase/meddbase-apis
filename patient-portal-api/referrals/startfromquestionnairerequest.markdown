@@ -27,7 +27,7 @@ patientportal.referrals.startFromQuestionnaireRequest({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| questionnaire-request | string | The key of the questionnaire request returned by [CreateRequest](#_CreateRequest) or [GetQuestionnaires](#_GetQuestionnaires) |
+| questionnaire-request | string | The key of the questionnaire request returned by [CreateRequest](../questionnaires/createrequest) or [GetQuestionnaires](../questionnaires/getquestionnaires) |
 
 ## Returns
 

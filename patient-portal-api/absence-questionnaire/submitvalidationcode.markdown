@@ -7,12 +7,12 @@ parent: Absence questionnaire
 
 # SubmitValidationCode
 
-Validates the patient using the code sent to them via a SMS message received because of a request sent to the [SendValidationSMS](#_SendValidationSMS) method.
+Validates the patient using the code sent to them via a SMS message received because of a request sent to the [SendValidationSMS](../absence-questionnaire/sendvalidationsms) method.
 
 ## JavaScript library method
 
 ```javascript
-patientportal.rtwQuestionnaire.submitValidationCode ({
+patientportal.rtwQuestionnaire.submitValidationCode({
     key: <key>.
     code: <code>
 });
@@ -29,7 +29,7 @@ patientportal.rtwQuestionnaire.submitValidationCode ({
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
 | key | string | The absence key. |
-| code | string | The code sent to the patient via a SMS message received because of a request sent to the [SendValidationSMS](#_SendValidationSMS) method. |
+| code | string | The code sent to the patient via a SMS message received because of a request sent to the [SendValidationSMS](../absence-questionnaire/sendvalidationsms) method. |
 
 ## Returns
 

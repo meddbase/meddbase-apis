@@ -31,11 +31,11 @@ patientportal.appointment.getAppointmentTypes({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| payer-type | string (optional) | Type of the payer provided by the API upon GetPayerTypes. |
+| payer-type | string (optional) | Type of the payer provided by the API upon [GetPayerTypes](../appointments/getpayertypes). |
 | referral-types | bool (optional) | True to return the list of appointment types the patient can be referred for. Otherwise false. Default false. |
-| patient | string (optional) | The key of the patient provided by the API upon section Patients.<br><br>Used to book an appointment for a different patient within your company. Default is the logged in patient. |
-| referral | string (optional) | The key of the referral provided by the API upon GetReferrals.<br><br>Used to book an appointment for a specific referral. |
-| recall | string (optional) | The key of the recall provided by the API upon method GetRecalls.<br><br>Used to book an appointment for a specific recall. |
+| patient | string (optional) | The key of the patient provided by the API upon section [Patients](../patients/patients).<br><br>Used to book an appointment for a different patient within your company. Default is the logged in patient. |
+| referral | string (optional) | The key of the referral provided by the API upon [GetReferrals](../referrals/getreferrals).<br><br>Used to book an appointment for a specific referral. |
+| recall | string (optional) | The key of the recall provided by the API upon method [GetRecalls](../recalls/getrecalls).<br><br>Used to book an appointment for a specific recall. |
 
 ## Returns
 

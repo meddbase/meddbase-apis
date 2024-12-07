@@ -28,7 +28,7 @@ patientportal.referrals.followUp({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| referral | string | The key of the referral provided by the API upon GetReferrals. |
+| referral | string | The key of the referral provided by the API upon [GetReferrals](../referrals/getreferrals). |
 
 ## POST Parameters
 

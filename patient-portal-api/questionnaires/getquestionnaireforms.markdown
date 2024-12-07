@@ -12,7 +12,7 @@ Returns the list of questionnaire forms that can be requested for any patient. I
 ## JavaScript library method
 
 ```javascript
-patientportal.questionnaires. getQuestionnaireForms({
+patientportal.questionnaires.getQuestionnaireForms({
     moduleKey: <module-key>,
     category: ’ppq’,
     formName: <form-name>,
@@ -31,7 +31,7 @@ patientportal.questionnaires. getQuestionnaireForms({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| module-key | string (optional) | The key of the module provided by the API upon GetModules. |
+| module-key | string (optional) | The key of the module provided by the API upon [GetModules](../questionnaires/getmodules). |
 | category | string (required) | Always ‘ppq’. |
 | form-name | string (optional) | Filter for form name. |
 | page-number | int (optional) | Page number. Default 1. |

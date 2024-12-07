@@ -19,4 +19,4 @@ The Referral Portal API extends the Patient Portal API with three new sections:
 - Patients – provides methods to find patients or create new patients
 - Referrals – provides methods to start a new referral, work with referral and read reports
 
-The Referral Portal API also extends the existing Patient Portal API methods with new parameters (usually parameter referral and patient within sections Appointments and Feeds).
+The Referral Portal API also extends the existing Patient Portal API methods with new parameters (usually parameter referral and patient within sections [Appointments](../appointments/appointments) and [Feeds](../feeds/feeds)).
