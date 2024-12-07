@@ -29,7 +29,55 @@ patientportal.anonBooking.bookProposedTimeSlot({
 
 ## POST Parameters
 
-<table><tbody><tr><th><p>proposedTimeSlot</p></th><th><p>AppointmentData</p></th><th><p>The proposed time slot data, which can be constructed using the data provided by the <a href="#_GetProposedTimeSlots">GetProposedTimeSlots</a>.</p></th></tr><tr><td><p>clinician</p></td><td><p>int (optional)</p></td><td><p>Clinician filter. Identifier provide by the API upon GetClinicians. Allow 0 for any clinician.</p></td></tr><tr><td><p>clinicianSex</p></td><td><p>int (optional)</p></td><td><p>Clinician’s gender filter:</p><ul><li>0 = any sex</li><li>1 = male</li><li>2 = female</li></ul></td></tr><tr><td><p>method</p></td><td><p>int (optional)</p></td><td><p>The method that will be used to determine which slot to select if multiple are found that match the given input criteria:</p><ul><li>0 = random</li></ul></td></tr><tr><td><p>price</p></td><td><p>decimal (optional)</p></td><td><p>Limit the bookable slots to only those that match the given price exactly</p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: left">Parameter</th>
+            <th style="text-align: left">Type</th>
+            <th style="text-align: left">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>proposedTimeSlot</td>
+            <td><a href="../objects-and-data-types/appointmentdata">AppointmentData</a></td>
+            <td>The proposed time slot data, which can be constructed using the data provided by the <a href="#_GetProposedTimeSlots">GetProposedTimeSlots</a>.</td>
+        </tr>
+        <tr>
+            <td>clinician</td>
+            <td>int (optional)</td>
+            <td>Clinician filter. Identifier provide by the API upon GetClinicians. Allow 0 for any clinician.</td>
+        </tr>
+        <tr>
+            <td>clinicianSex</td>
+            <td>int (optional)</td>
+            <td>
+                <p>Clinician’s gender filter:</p>
+                <ul>
+                    <li>0 = any sex</li>
+                    <li>1 = male</li>
+                    <li>2 = female</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>method</td>
+            <td>int (optional)</td>
+            <td>
+                <p>The method that will be used to determine which slot to select if multiple are found that match the
+                    given input criteria:</p>
+                <ul>
+                    <li>0 = random</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>price</td>
+            <td>decimal (optional)</td>
+            <td>Limit the bookable slots to only those that match the given price exactly</td>
+        </tr>
+    </tbody>
+</table>
 
 ## POST data example
 

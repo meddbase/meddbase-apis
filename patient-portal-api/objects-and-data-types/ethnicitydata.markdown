@@ -14,4 +14,4 @@ Data returned in response to the [getEthnicity](#_Ethnicities) method
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
 | Key | string | Encrypted key of the ethnicity |
-| Name | String | The name of the ethnicity |
+| Name | string | The name of the ethnicity |

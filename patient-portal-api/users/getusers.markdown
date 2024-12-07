@@ -34,7 +34,76 @@ patientportal.users.getUsers({
 
 ## URL Parameters
 
-<table><tbody><tr><th><p>text</p></th><th><p>string (optional)</p></th><th><p>Any text the API will try to filter by name, email or employee number.</p></th></tr><tr><td><p>name</p></td><td><p>string (optional)</p></td><td><p>Name filter.</p></td></tr><tr><td><p>department</p></td><td><p>string (optional)</p></td><td><p>Key of the department provided by the API upon GetDepartments.</p></td></tr><tr><td><p>division</p></td><td><p>string (optional)</p></td><td><p>Key of the division provided by the API upon GetDepartments.</p></td></tr><tr><td><p>email</p></td><td><p>string (optional)</p></td><td><p>Email filter.</p></td></tr><tr><td><p>employee-number</p></td><td><p>string (optional)</p></td><td><p>Employee number filter.</p></td></tr><tr><td><p>page-sort-column</p></td><td><p>int (optional)</p></td><td><p>The column index to sort the result:</p><ul><li>0 – User’s name</li><li>1 – Email address</li><li>2 – Account type</li><li>3 – Employee number</li></ul><p>By default the result is sorted by the user name.</p></td></tr><tr><td><p>page-sort-descending</p></td><td><p>int (optional)</p></td><td><p>True to sort result descending.</p></td></tr><tr><td><p>page-number</p></td><td><p>int (optional)</p></td><td><p>Required page number. Default 1.</p></td></tr><tr><td><p>page-size</p></td><td><p>int (optional)</p></td><td><p>Required page size. Default 10. Minimum 5. Maximum 50.</p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: left">Parameter</th>
+            <th style="text-align: left">Type</th>
+            <th style="text-align: left">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>text</td>
+            <td>string (optional)</td>
+            <td>Any text the API will try to filter by name, email or employee number.</td>
+        </tr>
+        <tr>
+            <td>name</td>
+            <td>string (optional)</td>
+            <td>Name filter.</td>
+        </tr>
+        <tr>
+            <td>department</td>
+            <td>string (optional)</td>
+            <td>Key of the department provided by the API upon GetDepartments.</td>
+        </tr>
+        <tr>
+            <td>division</td>
+            <td>string (optional)</td>
+            <td>Key of the division provided by the API upon GetDepartments.</td>
+        </tr>
+        <tr>
+            <td>email</td>
+            <td>string (optional)</td>
+            <td>Email filter.</td>
+        </tr>
+        <tr>
+            <td>employee-number</td>
+            <td>string (optional)</td>
+            <td>Employee number filter.</td>
+        </tr>
+        <tr>
+            <td>page-sort-column</td>
+            <td>int (optional)</td>
+            <td>
+                <p>The column index to sort the result:</p>
+                <ul>
+                    <li>0 – User’s name</li>
+                    <li>1 – Email address</li>
+                    <li>2 – Account type</li>
+                    <li>3 – Employee number</li>
+                </ul>
+                <p>By default the result is sorted by the user name.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>page-sort-descending</td>
+            <td>int (optional)</td>
+            <td>True to sort result descending.</td>
+        </tr>
+        <tr>
+            <td>page-number</td>
+            <td>int (optional)</td>
+            <td>Required page number. Default 1.</td>
+        </tr>
+        <tr>
+            <td>page-size</td>
+            <td>int (optional)</td>
+            <td>Required page size. Default 10. Minimum 5. Maximum 50.</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Returns
 

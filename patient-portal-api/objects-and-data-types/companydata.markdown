@@ -15,8 +15,8 @@ Data returned in response to call to Insurers. Only companies marked as ‘Publi
 |:----------|:-------|:------------------------------------------------------------|
 | Key | string | Encrypted key of the company |
 | Name | string | Public name of the company |
-| Type | String | Type of the company: Insurer, etc. |
-| IsPublic | Bool | True: Only public companies are returned |
+| Type | string | Type of the company: Insurer, etc. |
+| IsPublic | bool | True: Only public companies are returned |
 
 ## JSON Example
 

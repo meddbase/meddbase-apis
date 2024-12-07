@@ -35,7 +35,79 @@ patientportal.appointment.getSites({
 
 ## URL Parameters
 
-<table><tbody><tr><th><p>appointment-type</p></th><th><p>string</p></th><th><p>Type of the appointment provided by the API upon GetAppointmentTypes.</p></th></tr><tr><td><p>lat</p><p>long</p></td><td><p>decimal (optional)</p></td><td><p>Latitude and Longitude from GPS so server can sort sites by distance.</p><p>Latitudes and Longitudes are defined using numerals that have a precision to 6 decimal places. For example, “lat=51.541743&amp;long=-0.13715" is a valid value.</p></td></tr><tr><td><p>address-type</p></td><td><p>int (optional)</p></td><td><p>Parameter specifies how the response should be sorted:</p><ul><li>1 = Home address</li><li>2 = Work address</li></ul><p>The server uses this value only if the GPS coordinate is not provided.</p></td></tr><tr><td><p>payer-type</p></td><td><p>string</p></td><td><p>Type of the payer provided by the API upon GetPayerTypes.</p></td></tr><tr><td><p>patient</p></td><td><p>string (optional)</p></td><td><p>The key of the patient provided by the API upon section Patients.</p><p>Used to book an appointment for a different patient within your company. Default is the logged in patient.</p></td></tr><tr><td><p>referral</p></td><td><p>string (optional)</p></td><td><p>The key of the referral provided by the API upon GetReferrals.</p><p>Used to book an appointment for a specific referral.</p></td></tr><tr><td><p>recall</p></td><td><p>string (optional)</p></td><td><p>The key of the recall provided by the API upon method GetRecalls.</p><p>Used to book an appointment for a specific recall.</p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: left">Parameter</th>
+            <th style="text-align: left">Type</th>
+            <th style="text-align: left">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>appointment-type</td>
+            <td>string</td>
+            <td>Type of the appointment provided by the API upon GetAppointmentTypes.</td>
+        </tr>
+        <tr>
+            <td>lat</td>
+            <td rowspan="2">
+                <p>decimal (optional)</p>
+            </td>
+            <td rowspan="2">
+                <p>Latitude and Longitude from GPS so server can sort sites by distance.</p>
+                <p>
+                    Latitudes and Longitudes are defined using numerals that have a precision to 6 decimal places.
+                    For example, <code>lat=51.541743&amp;long=-0.13715</code> is a valid value.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>long</td>
+        </tr>
+        <tr>
+            <td>address-type</td>
+            <td>int (optional)</td>
+            <td>
+                <p>Parameter specifies how the response should be sorted:</p>
+                <ul>
+                    <li>1 = Home address</li>
+                    <li>2 = Work address</li>
+                </ul>
+                <p>The server uses this value only if the GPS coordinate is not provided.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>payer-type</td>
+            <td>string</td>
+            <td>Type of the payer provided by the API upon GetPayerTypes.</td>
+        </tr>
+        <tr>
+            <td>patient</td>
+            <td>string (optional)</td>
+            <td>
+                <p>The key of the patient provided by the API upon section Patients.</p>
+                <p>Used to book an appointment for a different patient within your company. Default is the logged in
+                    patient.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>referral</td>
+            <td>string (optional)</td>
+            <td>
+                <p>The key of the referral provided by the API upon GetReferrals.</p>
+                <p>Used to book an appointment for a specific referral.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>recall</td>
+            <td>string (optional)</td>
+            <td>
+                <p>The key of the recall provided by the API upon method GetRecalls.</p>
+                <p>Used to book an appointment for a specific recall.</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ## POST Parameters
 

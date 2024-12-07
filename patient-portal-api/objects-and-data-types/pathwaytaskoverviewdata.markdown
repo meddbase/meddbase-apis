@@ -11,7 +11,69 @@ An overview of a single task within a pathway.
 
 ## Properties
 
-<table><tbody><tr><th colspan="2"><p>Key</p></th><th colspan="2"><p>string</p></th><th><p>The key of the task.</p></th></tr><tr><td colspan="2"><p>Name</p></td><td colspan="2"><p>string</p></td><td><p>The name of the task.</p></td></tr><tr><td colspan="2"><p>ActionType</p></td><td colspan="2"><p>string</p></td><td><p>The type of the task. See Pathway structure and task types.</p></td></tr><tr><td colspan="2"><p>ActionTypeName</p></td><td colspan="2"><p>string</p></td><td><p>The user-friendly name of the action type.</p></td></tr><tr><td colspan="2"><p>StateType</p></td><td colspan="2"><p>string</p></td><td><p>The state of the task.</p><ul><li>FT – Future pending task, not-started yet</li><li>ST – Started task</li><li>IP – Task in progress</li><li>CP – Task completed</li><li>SK – Task has been skipped</li><li>FL – Task failed</li></ul><p>Note that even if the task is in ST (Started) state the client need to check CanProcess field to allow any action.</p></td></tr><tr><td colspan="2"><p>StateName</p></td><td colspan="2"><p>string</p></td><td><p>The user-friendly name of the state.</p></td></tr><tr><td colspan="2"><p>CanProcess</p></td><td colspan="2"><p>bool</p></td><td><p>True if the task and the logged-in user has rights to process the task.</p></td></tr><tr><td><p>Tasks</p></td><td colspan="2"><p>PathwayTaskOverviewData[]</p></td><td colspan="2"><p>The list of nested tasks.</p></td></tr></tbody></table>
+<table>
+    <thead>
+        <tr>
+            <th style="text-align: left">Parameter</th>
+            <th style="text-align: left">Type</th>
+            <th style="text-align: left">Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Key</td>
+            <td>string</td>
+            <td>The key of the task.</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>string</td>
+            <td>The name of the task.</td>
+        </tr>
+        <tr>
+            <td>ActionType</td>
+            <td>string</td>
+            <td>The type of the task. See Pathway structure and task types.</td>
+        </tr>
+        <tr>
+            <td>ActionTypeName</td>
+            <td>string</td>
+            <td>The user-friendly name of the action type.</td>
+        </tr>
+        <tr>
+            <td>StateType</td>
+            <td>string</td>
+            <td>
+                <p>The state of the task.</p>
+                <ul>
+                    <li>FT – Future pending task, not-started yet</li>
+                    <li>ST – Started task</li>
+                    <li>IP – Task in progress</li>
+                    <li>CP – Task completed</li>
+                    <li>SK – Task has been skipped</li>
+                    <li>FL – Task failed</li>
+                </ul>
+                <p>Note that even if the task is in ST (Started) state the client need to check CanProcess field to
+                    allow any action.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>StateName</td>
+            <td>string</td>
+            <td>The user-friendly name of the state.</td>
+        </tr>
+        <tr>
+            <td>CanProcess</td>
+            <td>bool</td>
+            <td>True if the task and the logged-in user has rights to process the task.</td>
+        </tr>
+        <tr>
+            <td>Tasks</td>
+            <td><a href="../objects-and-data-types/pathwaytaskoverviewdata">PathwayTaskOverviewData</a>[]</td>
+            <td>The list of nested tasks.</td>
+        </tr>
+    </tbody>
+</table>
 
 ## JSON Example
 
