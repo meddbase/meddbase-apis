@@ -24,12 +24,30 @@ patientportal.appointment.saveAndSubmitQuestionnaire({
 |:-----|:--------------------------------------------------|
 | POST | `/patientportalapi/appointment/save-submit-questionnaire` |
 
-## URL Parameters
+## POST Parameters
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
 | questionnaire | string | The key of the questionnaire provided by the API upon [GetQuestionnaires](../appointments/getquestionnaires). |
 | answers | [QuestionnaireAnswerData](../objects-and-data-types/questionnaireanswerdata)[] | Collection of answers. |
+
+## POST data example
+
+```json
+{
+    "questionnaire": "q13788",
+    "answers": [
+        {
+            "QuestionId": 236,
+            "Answer": "Yes"
+        },
+        {
+            "QuestionId": 237,
+            "Answer": "No"
+        }
+    ]
+}
+```
 
 ## Remarks
 

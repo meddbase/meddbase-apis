@@ -28,8 +28,30 @@ patientportal.questionnaireRequest.saveAndSubmitQuestionnaire({
 
 | Parameter | Type   | Description                                                 |
 |:----------|:-------|:------------------------------------------------------------|
-| key |     | string | The validation key provided in the URL. |
+| key | string | The validation key provided in the URL. |
+
+## POST Parameters
+
+| Parameter | Type   | Description                                                 |
+|:----------|:-------|:------------------------------------------------------------|
 | answers | [QuestionnaireAnswerData](../objects-and-data-types/questionnaireanswerdata)[] | Collection of answers. |
+
+## POST data example
+
+```json
+{
+    "answers": [
+        {
+            "QuestionId": 236,
+            "Answer": "Yes"
+        },
+        {
+            "QuestionId": 237,
+            "Answer": "No"
+        }
+    ]
+}
+```
 
 ## Remarks
 
