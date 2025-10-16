@@ -1,11 +1,11 @@
 ---
 layout: page
-title: GetMedialReportData
+title: GetMedicalReportData
 nav_order: 5
 parent: Manager Medical Report Review
 ---
 
-# GetMedialReportData
+# GetMedicalReportData
 
 Returns the medical report data.
 
