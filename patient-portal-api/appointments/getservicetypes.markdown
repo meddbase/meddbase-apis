@@ -18,7 +18,8 @@ patientportal.appointment.getServiceTypes({
     referralTypes: <referral-types>,
     patient: <patient>,
     referral: <referral>,
-    recall: <recall>
+    recall: <recall>,
+    patientCourse: <patient-course>
 });
 ```
 
@@ -38,6 +39,7 @@ patientportal.appointment.getServiceTypes({
 | patient | string (optional) | The key of the patient provided by the API upon section [Patients](../patients/patients).<br><br>Get the services specific for the patient. Default is the logged in patient. |
 | referral | string (optional) | The key of the referral provided by the API upon [GetReferrals](../referrals/getreferrals).<br><br>Used to book an appointment for a specific referral. |
 | recall | string (optional) | The key of the recall provided by the API upon method [GetRecalls](../recalls/getrecalls).<br><br>Used get service types for a specific recall. |
+| patient-course | string (optional) | The key of the patient course provided by the API upon [GetPatientCourses](../courses/getpatientcourses).<br><br>Used to book an appointment under a course that the patient has bought. The course sets the payer and the prices, so `payer-type` is not used. Cannot be used with `referral`, `referral-types` or `recall`. See [Courses](../courses/courses). |
 
 ## Returns
 
