@@ -154,7 +154,7 @@ patientportal.appointment.getProposedTimeSlots({
             <td>string (optional)</td>
             <td>
                 <p>The key of the patient course provided by the API upon <a href="../courses/getpatientcourses">GetPatientCourses</a>.</p>
-                <p>Used to book an appointment under a course that the patient has bought. The course sets the payer and the prices, so <code>payer-type</code> is not used. Cannot be used with <code>referral</code>, <code>referral-types</code> or <code>recall</code>. See <a href="../courses/courses">Courses</a>.</p>
+                <p>Used to get proposed time slots that can be booked under a specific course. The course sets the payer and the prices, so <code>payer-type</code> is not used. Cannot be used with <code>referral</code>, <code>referral-types</code> or <code>recall</code>. See <a href="../courses/courses">Courses</a>.</p>
             </td>
         </tr>
     </tbody>

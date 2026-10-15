@@ -37,7 +37,7 @@ patientportal.appointment.getAppointmentTypes({
 | patient | string (optional) | The key of the patient provided by the API upon section [Patients](../patients/patients).<br><br>Used to book an appointment for a different patient within your company. Default is the logged in patient. |
 | referral | string (optional) | The key of the referral provided by the API upon [GetReferrals](../referrals/getreferrals).<br><br>Used to book an appointment for a specific referral. |
 | recall | string (optional) | The key of the recall provided by the API upon method [GetRecalls](../recalls/getrecalls).<br><br>Used to book an appointment for a specific recall. |
-| patient-course | string (optional) | The key of the patient course provided by the API upon [GetPatientCourses](../courses/getpatientcourses).<br><br>Used to book an appointment under a course that the patient has bought. The course sets the payer and the prices, so `payer-type` is not used. Cannot be used with `referral`, `referral-types` or `recall`. See [Courses](../courses/courses). |
+| patient-course | string (optional) | The key of the patient course provided by the API upon [GetPatientCourses](../courses/getpatientcourses).<br><br>Used to get appointment types that can be booked under a specific course. The course sets the payer and the prices, so `payer-type` is not used. Cannot be used with `referral`, `referral-types` or `recall`. See [Courses](../courses/courses). |
 
 ## Returns
 
