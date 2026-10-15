@@ -23,7 +23,8 @@ patientportal.appointment.getSites({
     payerType: <payer-type>,
     patient: <patient>,
     referral: <referral>,
-    recall: <recall>
+    recall: <recall>,
+    patientCourse: <patient-course>
 });
 ```
 
@@ -104,6 +105,14 @@ patientportal.appointment.getSites({
             <td>
                 <p>The key of the recall provided by the API upon method <a href="../recalls/getrecalls">GetRecalls</a>.</p>
                 <p>Used to book an appointment for a specific recall.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>patient-course</td>
+            <td>string (optional)</td>
+            <td>
+                <p>The key of the patient course provided by the API upon <a href="../courses/getpatientcourses">GetPatientCourses</a>.</p>
+                <p>Used to get sites where appointments can be booked under a specific course. The course sets the payer and the prices, so <code>payer-type</code> is not needed. Cannot be used with <code>referral</code>, <code>referral-types</code> or <code>recall</code>. See <a href="../courses/courses">Courses</a>.</p>
             </td>
         </tr>
     </tbody>

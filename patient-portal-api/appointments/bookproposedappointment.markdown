@@ -16,7 +16,8 @@ patientportal.appointment.bookProposedAppointment({
     proposedAppointment: <proposedAppointment> ,
     patient: <patient>,
     referral: <referral>,
-    recall: <recall>
+    recall: <recall>,
+    patientCourse: <patient-course>
 });
 ```
 
@@ -33,6 +34,7 @@ patientportal.appointment.bookProposedAppointment({
 | patient | string (optional) | The key of the patient provided by the API upon section [Patients](../patients/patients).<br><br>Used to book an appointment for a different patient within your company. Default is the logged in patient. |
 | referral | string (optional) | The key of the referral provided by the API upon [GetReferrals](../referrals/getreferrals).<br><br>Used to book an appointment for a specific referral. |
 | recall | string (optional) | The key of the recall provided by the API upon method [GetRecalls](../recalls/getrecalls).<br><br>Used to book an appointment for a specific recall. |
+| patient-course | string (optional) | The key of the patient course provided by the API upon [GetPatientCourses](../courses/getpatientcourses).<br><br>Used to book the appointment under a course that the patient has bought. The course must be active and the appointment must be inside its dates. Cannot be used with `referral` or `recall`. See [Courses](../courses/courses). |
 
 ## POST Parameters
 
